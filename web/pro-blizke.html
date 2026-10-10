@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMS pro blízké – Dojedeme</title>
+<meta name="description" content="Nastavte svému blízkému bez chytrého telefonu spoje k lékaři přes obyčejnou SMS.">
+<link rel="icon" href="/static/img/dojedeme-mark-light.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
+<meta name="theme-color" content="#14574A">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dojedeme">
+<meta property="og:title" content="SMS pro blízké – Dojedeme">
+<meta property="og:description" content="Nastavte svému blízkému bez chytrého telefonu spoje k lékaři přes obyčejnou SMS.">
+<meta property="og:url" content="https://dojedeme.cz/pro-blizke">
+<meta property="og:image" content="https://dojedeme.cz/static/img/sdileni.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="cs_CZ">
+<meta name="twitter:card" content="summary_large_image">
+<script src="/static/js/vzhled.js"></script>
+<link rel="stylesheet" href="/static/css/tokens.css">
+<link rel="stylesheet" href="/static/css/dojedeme.css">
+<link rel="stylesheet" href="/static/css/pro-blizke.css">
+<link rel="stylesheet" href="/static/css/sms-pro-blizke.css">
+<!-- ikony: Phosphor (BRAND.md) -->
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css">
+</head>
+<body>
+<a class="preskocit" href="#obsah">Přeskočit na obsah</a>
+<header class="web-hlavicka">
+  <div class="obal">
+    <a class="znacka" href="/"><span class="tecka" aria-hidden="true"></span>Dojedeme</a>
+    <nav class="web-nav" aria-label="Hlavní navigace">
+      <a href="/aplikace">Najít spoj</a>
+      <a href="/pro-blizke" aria-current="page">SMS pro blízké</a>
+      <a href="/pro-obce">Letáky pro obce</a>
+      <a href="/mapa">Data a mapy</a>
+    </nav>
+  </div>
+</header>
+
+<main id="obsah" class="blizci pb" tabindex="-1">
+  <!-- úvod: co služba dělá + ukázka konverzace v telefonu -->
+  <header class="pb-hero">
+    <div class="obal pb-hero-mrizka">
+      <div class="pb-hero-text">
+        <p class="pb-stitek"><i class="ph-bold ph-chat-text" aria-hidden="true"></i>SMS služba Dojedeme</p>
+        <h1>SMS pro blízké</h1>
+        <p class="pb-lead">Senior bez chytrého telefonu pošle obyčejnou SMS a přijde mu spoj k lékaři <b>i zpátky domů</b>. Vy mu službu jednou nastavíte v systému.</p>
+        <div class="pb-akce">
+          <a class="tlacitko velke" href="/system"><i class="ph-bold ph-user-plus" aria-hidden="true"></i>Nastavit službu blízkému</a>
+          <a class="odkaz-akce" href="#jak">Jak to funguje</a>
+        </div>
+        <ul class="pb-vyhody">
+          <li><i class="ph-bold ph-check-circle" aria-hidden="true"></i>Stačí obyčejný tlačítkový telefon</li>
+          <li><i class="ph-bold ph-check-circle" aria-hidden="true"></i>Spoje podle jízdních řádů celého kraje</li>
+          <li><i class="ph-bold ph-check-circle" aria-hidden="true"></i>Vždy i poslední spoj domů</li>
+        </ul>
+      </div>
+      <figure class="pb-telefon" aria-label="Ukázka: senior pošle SMS a služba mu odpoví">
+        <div class="pb-telefon-ram">
+          <div class="pb-telefon-hlava"><span class="pb-avatar" aria-hidden="true">D</span><span><b>Dojedeme</b><span class="pb-maly">SMS služba</span></span></div>
+          <div class="pb-chat">
+            <p class="pb-bublina ja"><span class="sr">Senior napíše: </span>*11</p>
+            <p class="pb-bublina"><span class="sr">Dojedeme odpoví: </span>Nemocnice Karlovy Vary: Po 12.10. odj. 6:25 Abertamy -&gt; 7:29. Zpet 8:49, 10:46, 12:44, 20:53 (posledni).</p>
+            <p class="pb-bublina ja"><span class="sr">Senior napíše: </span>*0</p>
+            <p class="pb-bublina"><span class="sr">Dojedeme odpoví: </span>Domu z Nemocnice KV: 10:46 -&gt; Abertamy 11:50. Dalsi 12:44, posledni 20:53.</p>
+          </div>
+        </div>
+        <figcaption class="pb-maly">Ukázka konverzace. Předvolbu 11 má senior nastavenou na nemocnici.</figcaption>
+      </figure>
+    </div>
+  </header>
+
+  <!-- jak to funguje: tři kroky -->
+  <section class="oddil pb-oddil" id="jak" aria-labelledby="jak-nadpis">
+    <div class="obal">
+      <div class="pb-hlava">
+        <h2 id="jak-nadpis">Jak to funguje</h2>
+        <p>Nastavení zabere pár minut. Senior pak nic dalšího nastavovat nemusí.</p>
+      </div>
+      <ol class="pb-kroky">
+        <li>
+          <span class="pb-krok-ikona" aria-hidden="true"><i class="ph-bold ph-user-plus"></i></span>
+          <h3><span class="pb-krok-cislo">1.</span> Přidáte seniora</h3>
+          <p>V systému si založíte účet a zadáte číslo jeho mobilu, bydliště a místa, kam jezdí: lékař, nemocnice, úřad.</p>
+        </li>
+        <li>
+          <span class="pb-krok-ikona" aria-hidden="true"><i class="ph-bold ph-key"></i></span>
+          <h3><span class="pb-krok-cislo">2.</span> Senior potvrdí číslo</h3>
+          <p>Jednou pošle SMS s kódem, který vám ukážeme. Tím službu zapne a souhlasí s ní.</p>
+        </li>
+        <li>
+          <span class="pb-krok-ikona" aria-hidden="true"><i class="ph-bold ph-chat-text"></i></span>
+          <h3><span class="pb-krok-cislo">3.</span> Píše a jezdí</h3>
+          <p>Napíše <b>*11</b> a přijde mu spoj tam i zpátky. Spoj mu můžete poslat i vy přímo ze systému.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- co senior píše -->
+  <section class="oddil pb-oddil pb-svetle" aria-labelledby="prikazy-nadpis">
+    <div class="obal">
+      <div class="pb-hlava">
+        <h2 id="prikazy-nadpis">Co senior píše</h2>
+        <p>Stačí pár znaků s hvězdičkou. Diakritika ani velká písmena nevadí.</p>
+      </div>
+      <ul class="pb-prikazy">
+        <li class="hlavni"><p class="pb-kod">*11</p><h3>Spoj k lékaři</h3><p>Spoj na místo s předvolbou 11 i spoje zpátky. Předvolby nastavíte v systému.</p></li>
+        <li class="hlavni"><p class="pb-kod">*11 zitra</p><h3>Jiný den</h3><p>Spoj na zítra. Funguje i <b>*11 patek</b> nebo <b>*11 15.10.</b>, s časem <b>*11 zitra 9:00</b>.</p></li>
+        <li class="hlavni"><p class="pb-kod">*0</p><h3>Jedu domů</h3><p>Senior je u lékaře a chce domů. Přijdou nejbližší spoje zpátky a poslední spoj toho dne.</p></li>
+        <li><p class="pb-kod">*SEZNAM</p><h3>Seznam předvoleb</h3><p>Přijde přehled čísel, aby si senior nemusel nic pamatovat.</p></li>
+        <li><p class="pb-kod">*ZRUSIT</p><h3>Odebrat blízkého</h3><p>Blízký už nemůže měnit nastavení. Služba běží dál.</p></li>
+        <li><p class="pb-kod">*STOP</p><h3>Vypnout službu</h3><p>Služba přestane odpovídat. Znovu ji zapne <b>*START</b>.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- co blízký udělá v systému -->
+  <section class="oddil pb-oddil" aria-labelledby="system-nadpis">
+    <div class="obal">
+      <div class="pb-hlava">
+        <h2 id="system-nadpis">Co uděláte v systému</h2>
+        <p>Pod jedním účtem můžete mít víc seniorů, třeba rodiče i prarodiče.</p>
+      </div>
+      <ul class="pb-funkce">
+        <li><i class="ph-bold ph-list-numbers" aria-hidden="true"></i><h3>Předvolby</h3><p>Každé místo dostane číslo: 11 nemocnice, 12 praktik. Čísla i popisy kdykoli změníte.</p></li>
+        <li><i class="ph-bold ph-paper-plane-tilt" aria-hidden="true"></i><h3>Poslat spoj</h3><p>Najdete spoj z domova seniora nebo odjinud a jedním tlačítkem mu ho pošlete SMS.</p></li>
+        <li><i class="ph-bold ph-calendar-check" aria-hidden="true"></i><h3>Termíny u lékaře</h3><p>Zadáte termín a den předem v 18:00 mu přijde SMS, kdy vyjet, aby tam byl včas.</p></li>
+        <li><i class="ph-bold ph-identification-card" aria-hidden="true"></i><h3>Kartička k telefonu</h3><p>Vytisknete kartičku s číslem služby a předvolbami velkým písmem.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- bezpečí a soukromí -->
+  <section class="oddil pb-oddil pb-svetle" aria-labelledby="bezpeci-nadpis">
+    <div class="obal pb-bezpeci">
+      <div class="pb-hlava">
+        <h2 id="bezpeci-nadpis">Bezpečí a soukromí</h2>
+        <p>Senior má službu pod kontrolou. Nic se nezapne bez něj.</p>
+      </div>
+      <ul class="pb-body">
+        <li><i class="ph-bold ph-shield-check" aria-hidden="true"></i><p><b>Číslo potvrzuje senior.</b> Službu zapne až SMS s kódem z jeho vlastního telefonu.</p></li>
+        <li><i class="ph-bold ph-hand" aria-hidden="true"></i><p><b>Kdykoli může skončit.</b> <b>*STOP</b> službu vypne, <b>*ZRUSIT</b> odebere blízkému právo měnit nastavení.</p></li>
+        <li><i class="ph-bold ph-lock-simple" aria-hidden="true"></i><p><b>Jen nutné údaje.</b> Číslo, bydliště a předvolby ukládáme jen kvůli SMS službě. Smazáním se smaže i historie SMS.</p></li>
+        <li><i class="ph-bold ph-coins" aria-hidden="true"></i><p><b>Žádné drahé SMS.</b> Senior platí jen běžnou SMS podle svého tarifu.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="oddil pb-vyzva" aria-labelledby="vyzva-nadpis">
+    <div class="obal pb-vyzva-obsah">
+      <div>
+        <h2 id="vyzva-nadpis">Nastavte službu svému blízkému</h2>
+        <p>Zabere to pár minut. Pak už stačí, když senior napíše SMS.</p>
+      </div>
+      <a class="tlacitko velke pb-tlacitko-svetle" href="/system"><i class="ph-bold ph-arrow-right" aria-hidden="true"></i>Přejít do systému</a>
+    </div>
+  </section>
+</main>
+
+<footer class="web-paticka">
+  <div class="obal">
+    <div>
+      <h2>Dojedeme</h2>
+      <p>K lékaři a zase domů. Spoje veřejné dopravy pro lidi bez auta v Karlovarském kraji.</p>
+    </div>
+    <div>
+      <h2>Stránky</h2>
+      <ul><li><a href="/aplikace">Najít spoj</a></li><li><a href="/pro-blizke">SMS služba pro blízké</a></li><li><a href="/pro-obce">Letáky pro obce</a></li><li><a href="/mapa">Data a mapy</a></li></ul>
+    </div>
+    <div>
+      <h2>Data</h2>
+      <p>Otevřená data Karlovarského kraje (DATA ZÁPAD), jízdní řády CIS JŘ, registr poskytovatelů zdravotních služeb (ÚZIS), ČSÚ, RÚIAN.</p>
+    </div>
+  </div>
+</footer>
+<script src="/static/js/dojedeme.js"></script>
+</body>
+</html>

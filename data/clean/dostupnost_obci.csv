@@ -1,0 +1,805 @@
+kod_obce,obec,kategorie,nejblizsi_vzdusne,nejblizsi_vzdusne_km,stav,cil_vhd,cil_vhd_obec,cil_vhd_id,cil_vhd_vzdusne_km,cesta_min,odjezd,prijezd,pocet_spoju,prestupy,zpet_prijezd,zpet_mozne,zpet_cesta_min,obyvatel,obyvatel_65plus,podil_65plus,hlavni_zastavka,odjezdu_za_den,doba_mimo_domov_min,nejblizsi_neni_nejdostupnejsi,klame_km
+500101,Bražec,praktik,Ordinace Bochov s.r.o.,3.8,ok,Ordinace Bochov s.r.o.,Bochov,lek-178310-praktik,3.8,13.0,6:33,6:46,2.0,1.0,7:53,True,8.0,264,41,15.53,Bražec,18,80.0,False,False
+500101,Bražec,zubar,MDDr. David Irman,3.8,ok,MDDr. David Irman,Bochov,lek-240511-zubar,3.8,13.0,6:33,6:46,2.0,1.0,7:53,True,8.0,264,41,15.53,Bražec,18,80.0,False,False
+500101,Bražec,gynekolog,Medipoint s.r.o.,11.1,ok,PRONATAL Spa s.r.o.,Karlovy Vary,lek-205969-gynekolog,16.1,31.0,8:30,9:01,2.0,1.0,12:23,True,144.0,264,41,15.53,Bražec,18,233.0,True,False
+500101,Bražec,ocni,MUDr.Kloz - Oční privátní praxe,15.8,ok,"Karlovarská krajská nemocnice a.s., Nemocnice Karlovy Vary, odborná ambulance",Karlovy Vary,lek-135521-ocni,16.2,31.0,8:30,9:01,2.0,1.0,12:23,True,143.0,264,41,15.53,Bražec,18,233.0,True,False
+500101,Bražec,nemocnice,Nemocnice v Karlových Varech,16.2,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,16.2,30.0,8:30,9:00,2.0,1.0,12:23,True,153.0,264,41,15.53,Bražec,18,233.0,False,False
+500101,Bražec,urad_orp,Úřad ORP Karlovy Vary,16.6,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,16.6,36.0,8:30,9:06,2.0,1.0,12:23,True,113.0,264,41,15.53,Bražec,18,233.0,False,False
+500127,Doupovské Hradiště,praktik,Aesculap Kyselka s.r.o.,3.2,ok,Aesculap Kyselka s.r.o.,Kyselka,lek-192625-praktik,3.2,24.0,6:39,7:03,2.0,1.0,10:29,True,157.0,172,28,16.28,"Doupovské Hradiště,Lučiny,dolní",6,230.0,False,True
+500127,Doupovské Hradiště,zubar,MUDr. Ivona Plávková,3.2,ok,MUDr. Ivona Plávková,Kyselka,lek-136052-zubar,3.2,24.0,6:39,7:03,2.0,1.0,10:29,True,157.0,172,28,16.28,"Doupovské Hradiště,Lučiny,dolní",6,230.0,False,True
+500127,Doupovské Hradiště,gynekolog,MUDr. Tomáš Martykán,8.8,ok,Medipoint s.r.o.,Karlovy Vary,lek-135016-gynekolog,10.0,48.0,6:39,7:27,3.0,2.0,10:29,True,133.0,172,28,16.28,"Doupovské Hradiště,Lučiny,dolní",6,230.0,True,True
+500127,Doupovské Hradiště,ocni,MUDr.Kloz - Oční privátní praxe,8.3,ok,MUDr. Hana Plachá,Karlovy Vary,lek-135008-ocni,9.9,49.0,6:39,7:28,3.0,2.0,10:29,True,128.0,172,28,16.28,"Doupovské Hradiště,Lučiny,dolní",6,230.0,True,True
+500127,Doupovské Hradiště,nemocnice,Nemocnice Ostrov s.r.o.,9.2,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,9.6,48.0,6:39,7:27,3.0,2.0,10:29,True,132.0,172,28,16.28,"Doupovské Hradiště,Lučiny,dolní",6,230.0,True,True
+500127,Doupovské Hradiště,urad_orp,Úřad ORP Ostrov,9.0,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,10.3,54.0,6:39,7:33,3.0,2.0,10:29,True,119.0,172,28,16.28,"Doupovské Hradiště,Lučiny,dolní",6,230.0,True,True
+579360,Těšovice,praktik,Petr Vilím - praktický lékař s.r.o.,1.0,ok,Saniga s.r.o.,Sokolov,lek-135951-praktik,1.0,3.0,6:18,6:21,1.0,0.0,7:17,True,0.0,265,43,16.23,"Těšovice,obecní úřad",26,59.0,True,False
+579360,Těšovice,zubar,MUDr. Ivan Pázral ,1.0,ok,MUDr. Ivan Pázral ,Sokolov,lek-135885-zubar,1.0,3.0,6:18,6:21,1.0,0.0,7:17,True,0.0,265,43,16.23,"Těšovice,obecní úřad",26,59.0,False,False
+579360,Těšovice,gynekolog,MUDr. Vladimír Velický,2.3,ok,Dao Gyn s.r.o.,Sokolov,lek-193320-gynekolog,2.7,8.0,6:18,6:26,1.0,0.0,7:39,True,20.0,265,43,16.23,"Těšovice,obecní úřad",26,81.0,True,False
+579360,Těšovice,ocni,"OČNÍ AMBULANCE MUDr. Tomanová, s.r.o.",1.4,ok,Cornea Lexum s.r.o.,Sokolov,lek-248780-ocni,2.7,8.0,6:18,6:26,1.0,0.0,7:39,True,20.0,265,43,16.23,"Těšovice,obecní úřad",26,81.0,True,False
+579360,Těšovice,nemocnice,Nemocnice Sokolov s.r.o.,2.3,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,2.3,12.0,6:18,6:30,1.0,0.0,7:39,True,18.0,265,43,16.23,"Těšovice,obecní úřad",26,81.0,False,False
+579360,Těšovice,urad_orp,Úřad ORP Sokolov,2.7,ok,Úřad ORP Sokolov,Sokolov,orp-671,2.7,12.0,6:18,6:30,1.0,0.0,7:39,True,13.0,265,43,16.23,"Těšovice,obecní úřad",26,81.0,False,False
+554961,Karlovy Vary,praktik,Electrolyte s.r.o.,0.5,ok,Electrolyte s.r.o.,Karlovy Vary,lek-238709-praktik,0.5,4.0,6:07,6:11,1.0,0.0,7:06,True,6.0,48788,12240,25.09,"Karlovy Vary,Tržnice",701,59.0,False,False
+554961,Karlovy Vary,zubar,MUDr. Milan Petrisko,0.3,ok,MDDr. Adam Vrána,Karlovy Vary,lek-194321-zubar,0.5,3.0,8:05,8:08,1.0,0.0,9:05,True,7.0,48788,12240,25.09,"Karlovy Vary,Tržnice",701,60.0,True,False
+554961,Karlovy Vary,gynekolog,VivaFem s.r.o.,0.2,ok,Medipoint s.r.o.,Karlovy Vary,lek-135016-gynekolog,0.4,3.0,6:00,6:03,0.0,0.0,6:51,True,0.0,48788,12240,25.09,"Karlovy Vary,Tržnice",701,51.0,True,False
+554961,Karlovy Vary,ocni,MUDr. Václava Lišková ,0.3,ok,MUDr. Hana Plachá,Karlovy Vary,lek-135008-ocni,0.4,4.0,6:00,6:04,0.0,0.0,6:53,True,0.0,48788,12240,25.09,"Karlovy Vary,Tržnice",701,53.0,True,False
+554961,Karlovy Vary,nemocnice,Nemocnice v Karlových Varech,0.7,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,0.7,7.0,6:05,6:12,1.0,0.0,7:06,True,4.0,48788,12240,25.09,"Karlovy Vary,Tržnice",701,61.0,False,False
+554961,Karlovy Vary,urad_orp,Úřad ORP Karlovy Vary,0.5,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,0.5,5.0,6:06,6:11,1.0,0.0,7:05,True,0.0,48788,12240,25.09,"Karlovy Vary,Tržnice",701,59.0,False,False
+555614,Šemnice,praktik,Aesculap Kyselka s.r.o.,3.4,ok,Aesculap Kyselka s.r.o.,Kyselka,lek-192625-praktik,3.4,9.0,10:20,10:29,1.0,0.0,11:23,True,5.0,659,117,17.75,"Šemnice,Dubina",28,63.0,False,False
+555614,Šemnice,zubar,MUDr. Ivona Plávková,3.4,ok,MUDr. Ivona Plávková,Kyselka,lek-136052-zubar,3.4,9.0,10:20,10:29,1.0,0.0,11:23,True,5.0,659,117,17.75,"Šemnice,Dubina",28,63.0,False,False
+555614,Šemnice,gynekolog,MUDr. Tomáš Martykán,6.0,ok,Medipoint s.r.o.,Karlovy Vary,lek-135016-gynekolog,7.0,23.0,8:31,8:54,1.0,0.0,10:20,True,35.0,659,117,17.75,"Šemnice,Dubina",28,109.0,True,False
+555614,Šemnice,ocni,MUDr.Kloz - Oční privátní praxe,5.2,ok,MUDr. Hana Plachá,Karlovy Vary,lek-135008-ocni,6.9,24.0,8:31,8:55,1.0,0.0,10:20,True,35.0,659,117,17.75,"Šemnice,Dubina",28,109.0,True,False
+555614,Šemnice,nemocnice,Nemocnice v Karlových Varech,6.5,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,6.5,23.0,8:31,8:54,1.0,0.0,10:20,True,37.0,659,117,17.75,"Šemnice,Dubina",28,109.0,False,False
+555614,Šemnice,urad_orp,Úřad ORP Ostrov,7.3,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,7.3,25.0,8:31,8:56,2.0,1.0,10:20,True,20.0,659,117,17.75,"Šemnice,Dubina",28,109.0,True,False
+578029,Vysoká Pec,praktik,Ambulance Penta s.r.o.,4.9,ok,Ambulance Penta s.r.o.,Nejdek,lek-207662-praktik,5.2,28.0,10:33,11:01,1.0,0.0,13:08,True,8.0,340,88,25.88,"Vysoká Pec,hotel Sport",8,155.0,False,False
+578029,Vysoká Pec,zubar,MUDr.Jiří Kronhoffmann ,4.9,ok,MUDr. Marcela Křečková,Nejdek,lek-136048-zubar,5.0,26.0,10:33,10:59,1.0,0.0,13:08,True,66.0,340,88,25.88,"Vysoká Pec,hotel Sport",8,155.0,True,False
+578029,Vysoká Pec,gynekolog,Arias-Stella s.r.o.,5.1,ok,Arias-Stella s.r.o.,Nejdek,lek-135688-gynekolog,5.1,31.0,10:33,11:04,1.0,0.0,13:08,True,8.0,340,88,25.88,"Vysoká Pec,hotel Sport",8,155.0,False,False
+578029,Vysoká Pec,ocni,MUDr. Eva Poustková,4.9,ok,MUDr. Eva Poustková,Nejdek,lek-135072-ocni,4.9,29.0,10:33,11:02,1.0,0.0,13:08,True,66.0,340,88,25.88,"Vysoká Pec,hotel Sport",8,155.0,False,False
+578029,Vysoká Pec,nemocnice,Nemocnice v Karlových Varech,19.5,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,19.5,87.0,6:18,7:45,3.0,2.0,10:33,True,110.0,340,88,25.88,"Vysoká Pec,hotel Sport",8,255.0,False,False
+578029,Vysoká Pec,urad_orp,Úřad ORP Kraslice,12.7,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,19.3,99.0,7:02,8:41,3.0,2.0,10:33,True,48.0,340,88,25.88,"Vysoká Pec,hotel Sport",8,211.0,True,False
+555398,Nová Role,praktik,MUDr. Barbora Majkusová,1.8,ok,MUDr. Barbora Majkusová,Nová Role,lek-135111-praktik,1.8,9.0,6:00,6:09,1.0,0.0,7:05,True,5.0,4298,982,22.85,"Nová Role,Mezirolí,rozc.",94,65.0,False,False
+555398,Nová Role,zubar,MDDr. Kateřina Bůžková,1.8,ok,MDDr. Kateřina Bůžková,Nová Role,lek-228444-zubar,1.8,9.0,6:00,6:09,1.0,0.0,7:05,True,5.0,4298,982,22.85,"Nová Role,Mezirolí,rozc.",94,65.0,False,False
+555398,Nová Role,gynekolog,Ambulance Penta s.r.o.,1.8,ok,Ambulance Penta s.r.o.,Nová Role,lek-224189-gynekolog,1.8,9.0,6:00,6:09,1.0,0.0,7:05,True,5.0,4298,982,22.85,"Nová Role,Mezirolí,rozc.",94,65.0,False,False
+555398,Nová Role,ocni,Optissima s.r.o.,4.8,ok,Optissima s.r.o.,Karlovy Vary,lek-262399-ocni,4.8,17.0,7:05,7:22,2.0,1.0,8:32,True,12.0,4298,982,22.85,"Nová Role,Mezirolí,rozc.",94,87.0,False,False
+555398,Nová Role,nemocnice,Nemocnice v Karlových Varech,6.3,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,6.3,38.0,9:05,9:43,2.0,1.0,11:15,True,35.0,4298,982,22.85,"Nová Role,Mezirolí,rozc.",94,130.0,False,False
+555398,Nová Role,urad_orp,Úřad ORP Karlovy Vary,6.1,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,6.1,21.0,8:20,8:41,2.0,1.0,10:02,True,17.0,4298,982,22.85,"Nová Role,Mezirolí,rozc.",94,102.0,False,False
+560545,Lomnice,praktik,MUDr. Miroslav Makovec,0.5,ok,MUDr. Miroslav Makovec,Lomnice,lek-135006-praktik,0.5,5.0,7:04,7:09,1.0,0.0,8:01,True,0.0,1344,229,17.04,"Lomnice,rozc.",47,57.0,False,False
+560545,Lomnice,zubar,JaKlDent s.r.o.,3.6,ok,JaKlDent s.r.o.,Sokolov,lek-211050-zubar,3.6,16.0,6:03,6:19,2.0,1.0,7:43,True,13.0,1344,229,17.04,"Lomnice,rozc.",47,100.0,False,False
+560545,Lomnice,gynekolog,GYNESTET s.r.o.,3.8,ok,GYNESTET s.r.o.,Sokolov,lek-135955-gynekolog,3.8,20.0,6:03,6:23,2.0,1.0,7:43,True,13.0,1344,229,17.04,"Lomnice,rozc.",47,100.0,False,False
+560545,Lomnice,ocni,Cornea Lexum s.r.o.,4.0,ok,Cornea Lexum s.r.o.,Sokolov,lek-248780-ocni,4.0,24.0,6:03,6:27,2.0,1.0,7:43,True,13.0,1344,229,17.04,"Lomnice,rozc.",47,100.0,False,False
+560545,Lomnice,nemocnice,Nemocnice Sokolov s.r.o.,4.5,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,4.5,28.0,6:03,6:31,3.0,2.0,7:43,True,18.0,1344,229,17.04,"Lomnice,rozc.",47,100.0,False,False
+560545,Lomnice,urad_orp,Úřad ORP Sokolov,4.1,ok,Úřad ORP Sokolov,Sokolov,orp-671,4.1,25.0,6:03,6:28,3.0,2.0,7:43,True,25.0,1344,229,17.04,"Lomnice,rozc.",47,100.0,False,False
+554596,Křižovatka,praktik,West Art Medica s.r.o.,3.8,ok,Ordinace všeobecného praktického lékařství s.r.o.,Plesná,lek-224556-praktik,5.6,8.0,6:21,6:29,1.0,0.0,7:34,True,7.0,261,59,22.61,Křižovatka,45,73.0,True,False
+554596,Křižovatka,zubar,MUDr. Jana Přibylová,3.7,ok,MUDr. Jana Přibylová,Skalná,lek-193909-zubar,3.7,8.0,8:29,8:37,1.0,0.0,9:57,True,11.0,261,59,22.61,Křižovatka,45,88.0,False,False
+554596,Křižovatka,gynekolog,MUDr. Vratislav Matoušek,7.7,ok,MUDr. Vratislav Matoušek,Františkovy Lázně,lek-193840-gynekolog,7.7,22.0,9:09,9:31,1.0,0.0,11:23,True,53.0,261,59,22.61,Křižovatka,45,134.0,False,False
+554596,Křižovatka,ocni,MUDr. LADISLAVA KOLIÁŠOVÁ,9.8,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,12.0,36.0,9:09,9:45,1.0,0.0,11:23,True,38.0,261,59,22.61,Křižovatka,45,134.0,True,False
+554596,Křižovatka,nemocnice,Nemocnice v Chebu,12.8,ok,Nemocnice v Chebu,Cheb,nem-26365804,12.8,69.0,7:05,8:14,2.0,1.0,9:57,True,52.0,261,59,22.61,Křižovatka,45,172.0,False,False
+554596,Křižovatka,urad_orp,Úřad ORP Cheb,11.7,ok,Úřad ORP Cheb,Cheb,orp-515,11.7,40.0,9:09,9:49,1.0,0.0,11:23,True,41.0,261,59,22.61,Křižovatka,45,134.0,False,False
+560383,Chodov (u Sokolova),praktik,PRAKTIK CHODOV s.r.o.,1.4,ok,"Lékař Chodov, s.r.o.",Chodov,lek-222956-praktik,1.4,3.0,6:00,6:03,0.0,0.0,6:51,True,0.0,12451,2769,22.24,"Chodov,aut.nádr.",261,51.0,True,False
+560383,Chodov (u Sokolova),zubar,PRAKTIDENT s.r.o.,1.4,ok,PRAKTIDENT s.r.o.,Chodov,lek-242695-zubar,1.4,3.0,7:00,7:03,0.0,0.0,7:51,True,0.0,12451,2769,22.24,"Chodov,aut.nádr.",261,51.0,False,False
+560383,Chodov (u Sokolova),gynekolog,GAP - AP BELLA VITA s.r.o. ,0.7,ok,MUDr. JAN DUDA,Chodov,lek-210098-gynekolog,1.4,3.0,6:00,6:03,0.0,0.0,6:51,True,0.0,12451,2769,22.24,"Chodov,aut.nádr.",261,51.0,True,False
+560383,Chodov (u Sokolova),ocni,MUDr. Romana Ševčíková,1.4,ok,MUDr. Romana Ševčíková,Chodov,lek-134946-ocni,1.4,3.0,6:00,6:03,0.0,0.0,6:51,True,0.0,12451,2769,22.24,"Chodov,aut.nádr.",261,51.0,False,False
+560383,Chodov (u Sokolova),nemocnice,Nemocnice v Karlových Varech,9.9,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,9.9,34.0,6:02,6:36,2.0,1.0,8:04,True,38.0,12451,2769,22.24,"Chodov,aut.nádr.",261,122.0,False,False
+560383,Chodov (u Sokolova),urad_orp,Úřad ORP Karlovy Vary,9.3,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,9.3,29.0,7:05,7:34,1.0,0.0,8:54,True,24.0,12451,2769,22.24,"Chodov,aut.nádr.",261,109.0,False,False
+560685,Vintířov,praktik,Ambulance Penta s.r.o.,1.8,ok,Ambulance Penta s.r.o.,Vintířov,lek-223910-praktik,1.8,3.0,6:00,6:03,0.0,0.0,6:51,True,0.0,1245,153,12.29,Vintířov,66,51.0,False,False
+560685,Vintířov,zubar,PRAKTIDENT s.r.o.,3.9,ok,MDDr. Petra Tomášková,Chodov,lek-105123-zubar,4.0,12.0,6:07,6:19,2.0,1.0,7:20,True,12.0,1245,153,12.29,Vintířov,66,73.0,True,False
+560685,Vintířov,gynekolog,GAP - AP BELLA VITA s.r.o. ,3.7,ok,MUDr. JAN DUDA,Chodov,lek-210098-gynekolog,3.9,16.0,6:07,6:23,2.0,1.0,7:22,True,7.0,1245,153,12.29,Vintířov,66,75.0,True,False
+560685,Vintířov,ocni,MUDr. Romana Ševčíková,3.9,ok,MUDr. Romana Ševčíková,Chodov,lek-134946-ocni,3.9,16.0,6:07,6:23,2.0,1.0,7:22,True,7.0,1245,153,12.29,Vintířov,66,75.0,False,False
+560685,Vintířov,nemocnice,Nemocnice Sokolov s.r.o.,7.0,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,7.0,47.0,6:07,6:54,4.0,3.0,8:47,True,62.0,1245,153,12.29,Vintířov,66,160.0,False,False
+560685,Vintířov,urad_orp,Úřad ORP Sokolov,7.1,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,12.5,38.0,8:23,9:01,2.0,1.0,10:50,True,50.0,1245,153,12.29,Vintířov,66,147.0,True,False
+554855,Trstěnice,praktik,MED. PRAKTIK s.r.o.,4.1,ok,MUDr. Jana Klukavá,Velká Hleďsebe,lek-87869-praktik,5.4,22.0,10:36,10:58,2.0,1.0,13:36,True,72.0,407,74,18.18,Trstěnice,16,180.0,True,True
+554855,Trstěnice,zubar,SB Dent spol. s r. o.,4.5,ok,MUDr.Stanislav Kopejtko,Mariánské Lázně,lek-135419-zubar,5.8,23.0,10:36,10:59,2.0,1.0,13:36,True,16.0,407,74,18.18,Trstěnice,16,180.0,True,True
+554855,Trstěnice,gynekolog,Dao Gyn s.r.o.,4.5,ok,GaP SPA MUDr. Seifert s.r.o.,Mariánské Lázně,lek-135593-gynekolog,5.8,23.0,10:36,10:59,2.0,1.0,13:36,True,16.0,407,74,18.18,Trstěnice,16,180.0,True,True
+554855,Trstěnice,ocni,UVEA s.r.o.,4.5,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,5.9,25.0,10:36,11:01,2.0,1.0,13:36,True,16.0,407,74,18.18,Trstěnice,16,180.0,True,True
+554855,Trstěnice,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",5.5,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,5.5,30.0,10:36,11:06,2.0,1.0,13:36,True,16.0,407,74,18.18,Trstěnice,16,180.0,False,True
+554855,Trstěnice,urad_orp,Úřad ORP Mariánské Lázně,7.1,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,7.1,37.0,10:36,11:13,3.0,2.0,13:36,True,89.0,407,74,18.18,Trstěnice,16,180.0,False,True
+555452,Pernink,praktik,Bergdoktor s.r.o.,1.0,ok,Bergdoktor s.r.o.,Pernink,lek-244795-praktik,1.0,3.0,6:00,6:03,0.0,0.0,6:51,True,0.0,581,155,26.68,"Pernink,škola",29,51.0,False,False
+555452,Pernink,zubar,MUDr. Marcela Křečková,6.8,ok,OLI dent s.r.o.,Jáchymov,lek-248372-zubar,9.2,28.0,6:25,6:53,1.0,0.0,9:45,True,115.0,581,155,26.68,"Pernink,škola",29,200.0,True,True
+555452,Pernink,gynekolog,Arias-Stella s.r.o.,7.1,ok,FEMINOS s.r.o,Ostrov,lek-167537-gynekolog,12.8,47.0,6:25,7:12,2.0,1.0,9:45,True,93.0,581,155,26.68,"Pernink,škola",29,200.0,True,True
+555452,Pernink,ocni,MUDr. Eva Poustková,6.6,ok,Optissima s.r.o.,Ostrov,lek-244637-ocni,12.8,47.0,6:25,7:12,2.0,1.0,9:45,True,93.0,581,155,26.68,"Pernink,škola",29,200.0,True,True
+555452,Pernink,nemocnice,Nemocnice Ostrov s.r.o.,14.1,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,16.9,56.0,6:30,7:26,2.0,1.0,9:45,True,88.0,581,155,26.68,"Pernink,škola",29,195.0,True,False
+555452,Pernink,urad_orp,Úřad ORP Ostrov,13.3,ok,Úřad ORP Ostrov,Ostrov,orp-540,13.3,43.0,6:25,7:08,2.0,1.0,9:45,True,106.0,581,155,26.68,"Pernink,škola",29,200.0,False,False
+554995,Bečov nad Teplou,praktik,"Městská společnost Bečov, s.r.o.",0.9,ok,MUDr. Iva Marko,Toužim,lek-134885-praktik,10.4,19.0,6:13,6:32,1.0,0.0,8:10,True,21.0,911,225,24.7,Bečov n.Teplou,50,117.0,True,False
+554995,Bečov nad Teplou,zubar,MUDr. Hulešová Olga,7.0,ok,Nas. S. Dental Clinic s.r.o.,Březová,lek-135935-zubar,12.7,25.0,8:10,8:35,1.0,0.0,9:54,True,29.0,911,225,24.7,Bečov n.Teplou,50,104.0,True,False
+554995,Bečov nad Teplou,gynekolog,MUDr. Jan Malimánek,0.9,ok,MUDr.Pavel Jančík - gynekologie a porodnictví,Toužim,lek-134952-gynekolog,10.3,18.0,6:13,6:31,1.0,0.0,8:10,True,21.0,911,225,24.7,Bečov n.Teplou,50,117.0,True,False
+554995,Bečov nad Teplou,ocni,Cornea Lexum s.r.o.,15.2,ok,Corneaxi s.r.o.,Karlovy Vary,lek-263030-ocni,16.5,40.0,8:10,8:50,1.0,0.0,10:28,True,49.0,911,225,24.7,Bečov n.Teplou,50,138.0,True,False
+554995,Bečov nad Teplou,nemocnice,Nemocnice v Karlových Varech,16.7,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,16.7,42.0,8:10,8:52,1.0,0.0,10:28,True,45.0,911,225,24.7,Bečov n.Teplou,50,138.0,False,False
+554995,Bečov nad Teplou,urad_orp,Úřad ORP Mariánské Lázně,15.7,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,16.2,46.0,8:10,8:56,2.0,1.0,10:28,True,23.0,911,225,24.7,Bečov n.Teplou,50,138.0,True,False
+560570,Nové Sedlo,praktik,PRVNÍ KARLOVARSKÁ ORDINACE s.r.o.,0.1,ok,PRVNÍ KARLOVARSKÁ ORDINACE s.r.o.,Nové Sedlo,lek-167636-praktik,0.1,10.0,6:34,6:44,1.0,0.0,8:00,True,20.0,2527,467,18.48,"Nové Sedlo,Chranišov",66,86.0,False,False
+560570,Nové Sedlo,zubar,MUDr. Miroslav Černý,0.0,ok,MUDr. Miroslav Černý,Nové Sedlo,lek-135918-zubar,0.0,11.0,6:34,6:45,1.0,0.0,8:00,True,20.0,2527,467,18.48,"Nové Sedlo,Chranišov",66,86.0,False,False
+560570,Nové Sedlo,gynekolog,GAP - AP BELLA VITA s.r.o. ,0.0,ok,GAP - AP BELLA VITA s.r.o. ,Nové Sedlo,lek-98882-gynekolog,0.0,11.0,6:34,6:45,1.0,0.0,8:00,True,20.0,2527,467,18.48,"Nové Sedlo,Chranišov",66,86.0,False,False
+560570,Nové Sedlo,ocni,MUDr. Romana Ševčíková,3.4,ok,MUDr. Romana Ševčíková,Chodov,lek-134946-ocni,3.4,22.0,6:21,6:43,3.0,2.0,7:48,True,16.0,2527,467,18.48,"Nové Sedlo,Chranišov",66,87.0,False,False
+560570,Nové Sedlo,nemocnice,Nemocnice Sokolov s.r.o.,7.1,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,7.1,39.0,6:21,7:00,3.0,2.0,8:25,True,28.0,2527,467,18.48,"Nové Sedlo,Chranišov",66,124.0,False,False
+560570,Nové Sedlo,urad_orp,Úřad ORP Sokolov,7.5,ok,Úřad ORP Sokolov,Sokolov,orp-671,7.5,33.0,6:21,6:54,3.0,2.0,8:25,True,41.0,2527,467,18.48,"Nové Sedlo,Chranišov",66,124.0,False,False
+555690,Valeč,praktik,Miroslava Girod Schreinerová,7.0,ok,Ordinace Bochov s.r.o.,Bochov,lek-178310-praktik,14.7,50.0,10:05,10:55,1.0,0.0,13:43,True,38.0,320,93,29.06,Valeč,16,218.0,True,True
+555690,Valeč,zubar,MUDr. Hana Hnyková,11.0,ok,MDDr. David Irman,Bochov,lek-240511-zubar,14.7,50.0,10:05,10:55,1.0,0.0,13:43,True,38.0,320,93,29.06,Valeč,16,218.0,True,False
+555690,Valeč,gynekolog,Medipoint s.r.o.,11.0,ok,PRONATAL Spa s.r.o.,Karlovy Vary,lek-205969-gynekolog,27.4,82.0,10:05,11:27,2.0,1.0,13:43,True,69.0,320,93,29.06,Valeč,16,218.0,True,False
+555690,Valeč,ocni,MUDr.Kloz - Oční privátní praxe,26.7,ok,"Karlovarská krajská nemocnice a.s., Nemocnice Karlovy Vary, odborná ambulance",Karlovy Vary,lek-135521-ocni,27.6,82.0,10:05,11:27,2.0,1.0,13:43,True,69.0,320,93,29.06,Valeč,16,218.0,True,False
+555690,Valeč,nemocnice,Nemocnice Ostrov s.r.o.,25.9,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,27.5,81.0,10:05,11:26,2.0,1.0,13:43,True,86.0,320,93,29.06,Valeč,16,218.0,True,False
+555690,Valeč,urad_orp,Úřad ORP Ostrov,26.6,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,28.1,87.0,10:05,11:32,2.0,1.0,13:43,True,73.0,320,93,29.06,Valeč,16,218.0,True,False
+554651,Milhostov,praktik,MUDr. František Uhlík,6.7,ok,Recovery Clinic a.s.,Františkovy Lázně,lek-261731-praktik,8.9,25.0,8:17,8:42,1.0,0.0,10:33,True,45.0,311,41,13.18,"Milhostov,Vackovec",15,136.0,True,False
+554651,Milhostov,zubar,MUDr. Eva Stráská,6.6,ok,MUDr. Pavlína Nováčková,Františkovy Lázně,lek-135034-zubar,8.9,25.0,8:17,8:42,1.0,0.0,10:33,True,45.0,311,41,13.18,"Milhostov,Vackovec",15,136.0,True,False
+554651,Milhostov,gynekolog,MUDr. Vratislav Matoušek,8.9,ok,MUDr. Vratislav Matoušek,Františkovy Lázně,lek-193840-gynekolog,8.9,25.0,8:17,8:42,1.0,0.0,10:33,True,64.0,311,41,13.18,"Milhostov,Vackovec",15,136.0,False,False
+554651,Milhostov,ocni,Oční ambulance Kynšperk s.r.o.,6.8,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,11.0,34.0,8:17,8:51,1.0,0.0,10:33,True,33.0,311,41,13.18,"Milhostov,Vackovec",15,136.0,True,False
+554651,Milhostov,nemocnice,Nemocnice v Chebu,11.8,ok,Nemocnice v Chebu,Cheb,nem-26365804,11.8,52.0,8:17,9:09,2.0,1.0,11:37,True,95.0,311,41,13.18,"Milhostov,Vackovec",15,200.0,False,False
+554651,Milhostov,urad_orp,Úřad ORP Cheb,10.8,ok,Úřad ORP Cheb,Cheb,orp-515,10.8,39.0,8:17,8:56,1.0,0.0,10:33,True,42.0,311,41,13.18,"Milhostov,Vackovec",15,136.0,False,False
+539473,Ovesné Kladruby,praktik,MUDr. Věra Veselá,5.5,ok,Moje Zdraví s.r.o.,Mariánské Lázně,lek-135045-praktik,6.3,21.0,7:21,7:42,1.0,0.0,8:54,True,11.0,149,33,22.15,Ovesné Kladruby,9,93.0,True,False
+539473,Ovesné Kladruby,zubar,SB Dent spol. s r. o.,5.5,ok,MUDr. Tomáš Foustka,Mariánské Lázně,lek-205431-zubar,6.7,21.0,7:21,7:42,1.0,0.0,8:54,True,14.0,149,33,22.15,Ovesné Kladruby,9,93.0,True,False
+539473,Ovesné Kladruby,gynekolog,Dao Gyn s.r.o.,5.4,ok,MUDr. Jaroslav Křepela,Mariánské Lázně,lek-194182-gynekolog,6.0,17.0,7:21,7:38,1.0,0.0,8:54,True,11.0,149,33,22.15,Ovesné Kladruby,9,93.0,True,False
+539473,Ovesné Kladruby,ocni,UVEA s.r.o.,5.5,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,6.5,19.0,7:21,7:40,2.0,1.0,8:54,True,23.0,149,33,22.15,Ovesné Kladruby,9,93.0,True,False
+539473,Ovesné Kladruby,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",6.1,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,6.1,17.0,7:21,7:38,1.0,0.0,8:54,True,21.0,149,33,22.15,Ovesné Kladruby,9,93.0,False,False
+539473,Ovesné Kladruby,urad_orp,Úřad ORP Mariánské Lázně,6.6,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,6.6,35.0,9:56,10:31,2.0,1.0,12:52,True,87.0,149,33,22.15,Ovesné Kladruby,9,176.0,False,False
+555711,Verušičky,praktik,Ordinace Bochov s.r.o.,7.3,ok,Ordinace Bochov s.r.o.,Bochov,lek-178310-praktik,7.3,13.0,9:40,9:53,1.0,0.0,11:11,True,11.0,456,87,19.08,Verušičky,40,91.0,False,False
+555711,Verušičky,zubar,MDDr. David Irman,7.3,ok,MDDr. David Irman,Bochov,lek-240511-zubar,7.3,13.0,9:40,9:53,1.0,0.0,11:11,True,11.0,456,87,19.08,Verušičky,40,91.0,False,False
+555711,Verušičky,gynekolog,Medipoint s.r.o.,7.8,ok,PRONATAL Spa s.r.o.,Karlovy Vary,lek-205969-gynekolog,20.9,46.0,8:15,9:01,2.0,1.0,11:11,True,72.0,456,87,19.08,Verušičky,40,176.0,True,False
+555711,Verušičky,ocni,MUDr.Kloz - Oční privátní praxe,20.6,ok,"Karlovarská krajská nemocnice a.s., Nemocnice Karlovy Vary, odborná ambulance",Karlovy Vary,lek-135521-ocni,21.0,46.0,8:15,9:01,2.0,1.0,11:11,True,71.0,456,87,19.08,Verušičky,40,176.0,True,False
+555711,Verušičky,nemocnice,Nemocnice v Karlových Varech,21.0,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,21.0,45.0,8:15,9:00,2.0,1.0,11:11,True,81.0,456,87,19.08,Verušičky,40,176.0,False,False
+555711,Verušičky,urad_orp,Úřad ORP Karlovy Vary,21.5,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,21.5,51.0,8:15,9:06,2.0,1.0,11:11,True,41.0,456,87,19.08,Verušičky,40,176.0,False,False
+560341,Dolní Nivy,praktik,MUDr. Miroslav Makovec,3.7,ok,MUDr. Oldřich Rozsíval,Jindřichovice,lek-135907-praktik,4.5,11.0,7:11,7:22,1.0,0.0,8:28,True,8.0,368,48,13.04,Dolní Nivy,40,77.0,True,False
+560341,Dolní Nivy,zubar,JaKlDent s.r.o.,6.8,ok,JaKlDent s.r.o.,Sokolov,lek-211050-zubar,6.8,21.0,8:13,8:34,1.0,0.0,9:46,True,16.0,368,48,13.04,Dolní Nivy,40,93.0,False,False
+560341,Dolní Nivy,gynekolog,GYNESTET s.r.o.,6.9,ok,GYNESTET s.r.o.,Sokolov,lek-135955-gynekolog,6.9,24.0,8:13,8:37,2.0,1.0,9:46,True,16.0,368,48,13.04,Dolní Nivy,40,93.0,False,False
+560341,Dolní Nivy,ocni,Cornea Lexum s.r.o.,7.1,ok,Sanokulus s.r.o.,Sokolov,lek-248079-ocni,7.5,25.0,8:13,8:38,2.0,1.0,10:31,True,56.0,368,48,13.04,Dolní Nivy,40,138.0,True,False
+560341,Dolní Nivy,nemocnice,Nemocnice Sokolov s.r.o.,7.6,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,7.6,28.0,7:09,7:37,2.0,1.0,9:06,True,35.0,368,48,13.04,Dolní Nivy,40,117.0,False,False
+560341,Dolní Nivy,urad_orp,Úřad ORP Sokolov,7.3,ok,Úřad ORP Sokolov,Sokolov,orp-671,7.3,28.0,7:09,7:37,2.0,1.0,9:06,True,35.0,368,48,13.04,Dolní Nivy,40,117.0,False,False
+560588,Oloví,praktik,MUDr. Oldřich Rozsíval,2.1,ok,MUDr. Oldřich Rozsíval,Oloví,lek-135908-praktik,2.1,12.0,6:00,6:12,0.0,0.0,7:09,True,0.0,1618,348,21.51,Oloví,18,69.0,False,False
+560588,Oloví,zubar,MUDr. Jindra Janů,7.3,ok,JaKlDent s.r.o.,Sokolov,lek-211050-zubar,11.3,29.0,7:11,7:40,1.0,0.0,8:51,True,19.0,1618,348,21.51,Oloví,18,100.0,True,False
+560588,Oloví,gynekolog,GAFISI s.r.o.,7.8,ok,GYNESTET s.r.o.,Sokolov,lek-135955-gynekolog,11.5,29.0,8:07,8:36,1.0,0.0,9:51,True,19.0,1618,348,21.51,Oloví,18,104.0,True,False
+560588,Oloví,ocni,MUDr. LADISLAVA KOLIÁŠOVÁ,5.1,ok,Sanokulus s.r.o.,Sokolov,lek-248079-ocni,11.9,36.0,7:11,7:47,2.0,1.0,9:51,True,68.0,1618,348,21.51,Oloví,18,160.0,True,False
+560588,Oloví,nemocnice,Nemocnice Sokolov s.r.o.,12.2,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,12.2,41.0,7:11,7:52,2.0,1.0,9:51,True,69.0,1618,348,21.51,Oloví,18,160.0,False,False
+560588,Oloví,urad_orp,Úřad ORP Kraslice,7.8,ok,Úřad ORP Kraslice,Kraslice,orp-663,7.8,30.0,7:12,7:42,1.0,0.0,9:06,True,16.0,1618,348,21.51,Oloví,18,114.0,False,False
+554740,Plesná,praktik,Ordinace všeobecného praktického lékařství s.r.o.,1.4,ok,Ordinace všeobecného praktického lékařství s.r.o.,Plesná,lek-224556-praktik,1.4,1.0,6:00,6:01,0.0,0.0,6:47,True,0.0,1890,398,21.06,"Plesná,Šneky",43,47.0,False,False
+554740,Plesná,zubar,MUDr. Jana Přibylová,5.6,ok,MUDr. Jana Přibylová,Skalná,lek-193909-zubar,5.6,15.0,8:22,8:37,1.0,0.0,10:05,True,19.0,1890,398,21.06,"Plesná,Šneky",43,103.0,False,False
+554740,Plesná,gynekolog,MUDr. Vratislav Matoušek,10.7,ok,MUDr. Vratislav Matoušek,Františkovy Lázně,lek-193840-gynekolog,10.7,29.0,9:02,9:31,1.0,0.0,11:33,True,63.0,1890,398,21.06,"Plesná,Šneky",43,151.0,False,False
+554740,Plesná,ocni,MUDr. LADISLAVA KOLIÁŠOVÁ,11.9,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,16.1,43.0,9:02,9:45,1.0,0.0,11:33,True,48.0,1890,398,21.06,"Plesná,Šneky",43,151.0,True,False
+554740,Plesná,nemocnice,Nemocnice v Chebu,16.8,ok,Nemocnice v Chebu,Cheb,nem-26365804,16.8,71.0,8:22,9:33,2.0,1.0,11:33,True,67.0,1890,398,21.06,"Plesná,Šneky",43,191.0,False,False
+554740,Plesná,urad_orp,Úřad ORP Aš,12.7,ok,Úřad ORP Cheb,Cheb,orp-515,15.8,47.0,9:02,9:49,1.0,0.0,11:33,True,51.0,1890,398,21.06,"Plesná,Šneky",43,151.0,True,False
+555533,Sadov,praktik,SofisMed s.r.o.,3.3,ok,Praktik Otovice s.r.o.,Otovice,lek-260826-praktik,4.0,9.0,9:34,9:43,1.0,0.0,10:45,True,15.0,1298,259,19.95,Sadov,85,71.0,True,False
+555533,Sadov,zubar,PremiumDentioClinic s.r.o.,4.1,ok,"Clinic for Smile, s.r.o.",Karlovy Vary,lek-241300-zubar,4.5,11.0,9:34,9:45,1.0,0.0,10:45,True,4.0,1298,259,19.95,Sadov,85,71.0,True,False
+555533,Sadov,gynekolog,PRONATAL Spa s.r.o.,5.1,ok,FEMINOS s.r.o,Ostrov,lek-167537-gynekolog,5.5,15.0,8:10,8:25,2.0,1.0,9:34,True,10.0,1298,259,19.95,Sadov,85,84.0,True,False
+555533,Sadov,ocni,MUDr.Kloz - Oční privátní praxe,3.2,ok,Optissima s.r.o.,Ostrov,lek-244637-ocni,5.5,15.0,8:10,8:25,2.0,1.0,9:34,True,10.0,1298,259,19.95,Sadov,85,84.0,True,False
+555533,Sadov,nemocnice,Nemocnice v Karlových Varech,5.2,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,5.2,19.0,9:34,9:53,2.0,1.0,11:02,True,13.0,1298,259,19.95,Sadov,85,88.0,False,False
+555533,Sadov,urad_orp,Úřad ORP Ostrov,5.0,ok,Úřad ORP Ostrov,Ostrov,orp-540,5.0,11.0,7:16,7:27,1.0,0.0,8:33,True,10.0,1298,259,19.95,Sadov,85,77.0,False,False
+538906,Milíkov,praktik,MUDr. RADKA VŮCHOVÁ,5.0,ok,MUDr. RADKA VŮCHOVÁ,Dolní Žandov,lek-222036-praktik,5.0,6.0,9:44,9:50,1.0,0.0,11:45,True,8.0,293,60,20.48,"Dolní Žandov,Ždírnice",18,121.0,False,False
+538906,Milíkov,zubar,MUDr.Jana Valentová,5.0,ok,MUDr.Jana Valentová,Dolní Žandov,lek-194241-zubar,5.0,6.0,9:44,9:50,1.0,0.0,11:45,True,8.0,293,60,20.48,"Dolní Žandov,Ždírnice",18,121.0,False,False
+538906,Milíkov,gynekolog,GaP SPA MUDr. Seifert s.r.o.,5.0,ok,GaP SPA MUDr. Seifert s.r.o.,Dolní Žandov,lek-135594-gynekolog,5.0,6.0,9:44,9:50,1.0,0.0,11:45,True,8.0,293,60,20.48,"Dolní Žandov,Ždírnice",18,121.0,False,False
+538906,Milíkov,ocni,Oční ambulance Kynšperk s.r.o.,5.8,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,15.7,28.0,9:44,10:12,1.0,0.0,11:45,True,44.0,293,60,20.48,"Dolní Žandov,Ždírnice",18,121.0,True,False
+538906,Milíkov,nemocnice,Nemocnice v Chebu,12.5,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,16.3,33.0,9:44,10:17,1.0,0.0,11:45,True,28.0,293,60,20.48,"Dolní Žandov,Ždírnice",18,121.0,True,False
+538906,Milíkov,urad_orp,Úřad ORP Cheb,12.4,ok,Úřad ORP Cheb,Cheb,orp-515,12.4,31.0,7:15,7:46,1.0,0.0,9:44,True,61.0,293,60,20.48,"Dolní Žandov,Ždírnice",18,149.0,False,False
+560359,Habartov,praktik,MUDr. Jaroslav Málek s.r.o.,1.0,ok,MUDr. Jaroslav Málek s.r.o.,Habartov,lek-135405-praktik,2.2,8.0,7:00,7:08,0.0,0.0,8:01,True,0.0,4614,932,20.2,"Habartov,Kluč",55,61.0,False,False
+560359,Habartov,zubar,MUDr. Eva Stráská,6.1,ok,JaKlDent s.r.o.,Sokolov,lek-211050-zubar,6.4,19.0,6:00,6:19,1.0,0.0,8:05,True,15.0,4614,932,20.2,"Habartov,Kluč",55,125.0,True,False
+560359,Habartov,gynekolog,Léčebně preventivní zařízení s. r. o.,6.3,ok,GYNESTET s.r.o.,Sokolov,lek-135955-gynekolog,6.4,23.0,6:00,6:23,1.0,0.0,8:05,True,15.0,4614,932,20.2,"Habartov,Kluč",55,125.0,True,False
+560359,Habartov,ocni,MUDr. LADISLAVA KOLIÁŠOVÁ,4.7,ok,Cornea Lexum s.r.o.,Sokolov,lek-248780-ocni,6.4,27.0,6:00,6:27,1.0,0.0,8:05,True,15.0,4614,932,20.2,"Habartov,Kluč",55,125.0,True,False
+560359,Habartov,nemocnice,Nemocnice Sokolov s.r.o.,6.9,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,6.9,31.0,6:00,6:31,2.0,1.0,8:05,True,40.0,4614,932,20.2,"Habartov,Kluč",55,125.0,False,False
+560359,Habartov,urad_orp,Úřad ORP Sokolov,6.4,ok,Úřad ORP Sokolov,Sokolov,orp-671,6.4,28.0,6:00,6:28,2.0,1.0,8:05,True,47.0,4614,932,20.2,"Habartov,Kluč",55,125.0,False,False
+539023,Třebeň,praktik,Purify Clinic s.r.o.,4.0,ok,Recovery Clinic a.s.,Františkovy Lázně,lek-261731-praktik,4.2,12.0,8:30,8:42,1.0,0.0,10:21,True,33.0,484,92,19.01,Třebeň,19,111.0,True,False
+539023,Třebeň,zubar,MEDICA GR s.r.o.,4.0,ok,MUDr. Pavlína Nováčková,Františkovy Lázně,lek-135034-zubar,4.2,12.0,8:30,8:42,1.0,0.0,10:21,True,33.0,484,92,19.01,Třebeň,19,111.0,True,False
+539023,Třebeň,gynekolog,MUDr. Vratislav Matoušek,4.2,ok,MUDr. Vratislav Matoušek,Františkovy Lázně,lek-193840-gynekolog,4.2,12.0,8:30,8:42,1.0,0.0,10:21,True,52.0,484,92,19.01,Třebeň,19,111.0,False,False
+539023,Třebeň,ocni,MUDr. Olga Matoušková,6.1,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,6.1,21.0,8:30,8:51,1.0,0.0,10:21,True,21.0,484,92,19.01,Třebeň,19,111.0,False,False
+539023,Třebeň,nemocnice,Nemocnice v Chebu,6.9,ok,Nemocnice v Chebu,Cheb,nem-26365804,6.9,39.0,8:30,9:09,2.0,1.0,11:25,True,83.0,484,92,19.01,Třebeň,19,175.0,False,False
+539023,Třebeň,urad_orp,Úřad ORP Cheb,5.8,ok,Úřad ORP Cheb,Cheb,orp-515,5.8,26.0,8:30,8:56,1.0,0.0,10:21,True,30.0,484,92,19.01,Třebeň,19,111.0,False,False
+538795,Krásná,praktik,MEDITAIR s.r.o.,3.8,ok,MEDITAIR s.r.o.,Aš,lek-135811-praktik,3.8,10.0,6:04,6:14,1.0,0.0,7:25,True,3.0,632,115,18.2,"Krásná,rozc.",60,81.0,False,False
+538795,Krásná,zubar,Dental Academy s.r.o.,4.9,ok,Dental Academy s.r.o.,Aš,lek-242989-zubar,4.9,10.0,6:04,6:14,1.0,0.0,7:25,True,5.0,632,115,18.2,"Krásná,rozc.",60,81.0,False,False
+538795,Krásná,gynekolog,GYNCARE-Aš s.r.o.,4.7,ok,GYNCARE-Aš s.r.o.,Aš,lek-135298-gynekolog,4.7,10.0,6:04,6:14,1.0,0.0,7:25,True,5.0,632,115,18.2,"Krásná,rozc.",60,81.0,False,False
+538795,Krásná,ocni,MUDr. Václav Ouřada,5.5,ok,MUDr. Václav Ouřada,Aš,lek-135776-ocni,5.5,12.0,6:04,6:16,1.0,0.0,7:25,True,7.0,632,115,18.2,"Krásná,rozc.",60,81.0,False,False
+538795,Krásná,nemocnice,Nemocnice v Chebu,25.7,ok,Nemocnice v Chebu,Cheb,nem-26365804,25.7,65.0,9:28,10:33,3.0,2.0,12:47,True,85.0,632,115,18.2,"Krásná,rozc.",60,199.0,False,False
+538795,Krásná,urad_orp,Úřad ORP Aš,4.7,ok,Úřad ORP Aš,Aš,orp-507,4.7,11.0,6:04,6:15,1.0,0.0,7:25,True,5.0,632,115,18.2,"Krásná,rozc.",60,81.0,False,False
+560286,Sokolov,praktik,Centrum zdravotní péče Melissa s.r.o.,1.5,ok,"Zdravotnická záchranná služba Karlovarského kraje, příspěvková organizace, záchytná stanice",Sokolov,lek-134970-praktik,3.0,3.0,7:07,7:10,1.0,0.0,8:00,True,1.0,21908,4815,21.98,"Sokolov,ul.Jednoty drogerie",297,53.0,True,False
+560286,Sokolov,zubar,Nargiza Nikolajeva,1.9,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-zubar,3.5,5.0,6:13,6:18,1.0,0.0,7:11,True,3.0,21908,4815,21.98,"Sokolov,ul.Jednoty drogerie",297,58.0,True,False
+560286,Sokolov,gynekolog,MUDr. Vladimír Velický,2.9,ok,Dao Gyn s.r.o.,Sokolov,lek-193320-gynekolog,3.5,5.0,6:00,6:05,0.0,0.0,6:55,True,0.0,21908,4815,21.98,"Sokolov,ul.Jednoty drogerie",297,55.0,True,False
+560286,Sokolov,ocni,"OČNÍ AMBULANCE MUDr. Tomanová, s.r.o.",1.9,ok,Ambulance Penta s.r.o.,Sokolov,lek-240213-ocni,3.0,3.0,7:07,7:10,1.0,0.0,8:00,True,1.0,21908,4815,21.98,"Sokolov,ul.Jednoty drogerie",297,53.0,True,False
+560286,Sokolov,nemocnice,Nemocnice Sokolov s.r.o.,2.9,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,2.9,7.0,6:00,6:07,1.0,0.0,6:58,True,1.0,21908,4815,21.98,"Sokolov,ul.Jednoty drogerie",297,58.0,False,False
+560286,Sokolov,urad_orp,Úřad ORP Sokolov,3.4,ok,Úřad ORP Sokolov,Sokolov,orp-671,3.4,4.0,6:13,6:17,1.0,0.0,7:08,True,0.0,21908,4815,21.98,"Sokolov,ul.Jednoty drogerie",297,55.0,False,False
+578045,Krásný Les,praktik,Ordinace Jáchymov s.r.o.,4.7,ok,MEDHYNEK s.r.o.,Ostrov,lek-134992-praktik,7.0,26.0,8:16,8:42,1.0,0.0,13:11,True,201.0,361,57,15.79,"Krásný Les,Damice",13,295.0,True,True
+578045,Krásný Les,zubar,OLI dent s.r.o.,5.8,ok,GALLERYDENT s.r.o.,Ostrov,lek-261157-zubar,7.2,24.0,8:16,8:40,1.0,0.0,13:11,True,201.0,361,57,15.79,"Krásný Les,Damice",13,295.0,True,True
+578045,Krásný Les,gynekolog,FEMINOS s.r.o,6.8,ok,FEMINOS s.r.o,Ostrov,lek-167537-gynekolog,6.8,29.0,8:16,8:45,1.0,0.0,13:11,True,201.0,361,57,15.79,"Krásný Les,Damice",13,295.0,False,True
+578045,Krásný Les,ocni,Optissima s.r.o.,6.8,ok,Optissima s.r.o.,Ostrov,lek-244637-ocni,6.8,29.0,8:16,8:45,1.0,0.0,13:11,True,201.0,361,57,15.79,"Krásný Les,Damice",13,295.0,False,True
+578045,Krásný Les,nemocnice,Nemocnice Ostrov s.r.o.,5.4,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,16.2,38.0,8:16,8:54,2.0,1.0,13:11,True,208.0,361,57,15.79,"Krásný Les,Damice",13,295.0,True,True
+578045,Krásný Les,urad_orp,Úřad ORP Ostrov,7.1,ok,Úřad ORP Ostrov,Ostrov,orp-540,7.1,24.0,8:16,8:40,1.0,0.0,13:11,True,201.0,361,57,15.79,"Krásný Les,Damice",13,295.0,False,True
+560499,Kynšperk nad Ohří,praktik,MUDr. František Uhlík,0.2,ok,MUDr. František Uhlík,Kynšperk nad Ohří,lek-136011-praktik,0.2,7.0,6:09,6:16,1.0,0.0,7:06,True,1.0,4537,1034,22.79,"Kynšperk n.Ohří,U pivovaru",55,57.0,False,False
+560499,Kynšperk nad Ohří,zubar,MUDr. Marie Emmichová,0.5,ok,MUDr. Eva Stráská,Kynšperk nad Ohří,lek-134914-zubar,0.8,9.0,6:00,6:09,0.0,0.0,7:03,True,0.0,4537,1034,22.79,"Kynšperk n.Ohří,U pivovaru",55,63.0,True,False
+560499,Kynšperk nad Ohří,gynekolog,GAFISI s.r.o.,9.3,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-gynekolog,10.6,22.0,8:23,8:45,1.0,0.0,10:38,True,62.0,4537,1034,22.79,"Kynšperk n.Ohří,U pivovaru",55,135.0,True,False
+560499,Kynšperk nad Ohří,ocni,Oční ambulance Kynšperk s.r.o.,0.1,ok,Oční ambulance Kynšperk s.r.o.,Kynšperk nad Ohří,lek-261401-ocni,0.1,9.0,6:09,6:18,1.0,0.0,7:12,True,2.0,4537,1034,22.79,"Kynšperk n.Ohří,U pivovaru",55,63.0,False,False
+560499,Kynšperk nad Ohří,nemocnice,Nemocnice Sokolov s.r.o.,11.1,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,11.1,34.0,8:23,8:57,2.0,1.0,10:38,True,51.0,4537,1034,22.79,"Kynšperk n.Ohří,U pivovaru",55,135.0,False,False
+560499,Kynšperk nad Ohří,urad_orp,Úřad ORP Sokolov,10.9,ok,Úřad ORP Sokolov,Sokolov,orp-671,10.9,26.0,8:23,8:49,1.0,0.0,10:38,True,58.0,4537,1034,22.79,"Kynšperk n.Ohří,U pivovaru",55,135.0,False,False
+555363,Merklín,praktik,MUDr. Jan Jedelský,1.6,ok,MUDr. Jan Jedelský,Merklín,lek-205399-praktik,1.6,4.0,9:31,9:35,1.0,0.0,10:26,True,0.0,888,211,23.76,"Merklín,náves",34,55.0,False,False
+555363,Merklín,zubar,Zubní ordinace Hroznětín s.r.o.,3.9,ok,Zubní ordinace Hroznětín s.r.o.,Hroznětín,lek-247874-zubar,3.9,12.0,7:20,7:32,1.0,0.0,8:38,True,5.0,888,211,23.76,"Merklín,náves",34,78.0,False,False
+555363,Merklín,gynekolog,FEMINOS s.r.o,7.5,ok,FEMINOS s.r.o,Ostrov,lek-167537-gynekolog,7.5,17.0,7:20,7:37,1.0,0.0,8:38,True,14.0,888,211,23.76,"Merklín,náves",34,78.0,False,False
+555363,Merklín,ocni,Optissima s.r.o.,7.5,ok,Optissima s.r.o.,Ostrov,lek-244637-ocni,7.5,17.0,7:20,7:37,1.0,0.0,8:38,True,14.0,888,211,23.76,"Merklín,náves",34,78.0,False,False
+555363,Merklín,nemocnice,Nemocnice Ostrov s.r.o.,9.0,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,12.0,39.0,6:05,6:44,2.0,1.0,8:38,True,56.0,888,211,23.76,"Merklín,náves",34,153.0,True,False
+555363,Merklín,urad_orp,Úřad ORP Ostrov,7.9,ok,Úřad ORP Ostrov,Ostrov,orp-540,7.9,20.0,7:20,7:40,1.0,0.0,9:31,True,52.0,888,211,23.76,"Merklín,náves",34,131.0,False,False
+554812,Skalná,praktik,West Art Medica s.r.o.,0.6,ok,West Art Medica s.r.o.,Skalná,lek-136027-praktik,0.6,13.0,6:00,6:13,0.0,0.0,7:11,True,0.0,1875,379,20.21,"Skalná,zdrav.stř.",41,71.0,False,False
+554812,Skalná,zubar,MUDr. Jana Přibylová,0.4,ok,MUDr. Jana Přibylová,Skalná,lek-193909-zubar,0.4,8.0,6:00,6:08,0.0,0.0,7:01,True,0.0,1875,379,20.21,"Skalná,zdrav.stř.",41,61.0,False,False
+554812,Skalná,gynekolog,MUDr. Vratislav Matoušek,5.4,ok,MUDr. Vratislav Matoušek,Františkovy Lázně,lek-193840-gynekolog,5.4,11.0,6:02,6:13,1.0,0.0,7:38,True,27.0,1875,379,20.21,"Skalná,zdrav.stř.",41,96.0,False,False
+554812,Skalná,ocni,OFTA s.r.o.,10.7,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,10.7,27.0,9:18,9:45,1.0,0.0,11:13,True,28.0,1875,379,20.21,"Skalná,zdrav.stř.",41,115.0,True,False
+554812,Skalná,nemocnice,Nemocnice v Chebu,11.4,ok,Nemocnice v Chebu,Cheb,nem-26365804,11.4,55.0,8:38,9:33,2.0,1.0,11:13,True,47.0,1875,379,20.21,"Skalná,zdrav.stř.",41,155.0,False,False
+554812,Skalná,urad_orp,Úřad ORP Cheb,10.4,ok,Úřad ORP Cheb,Cheb,orp-515,10.4,31.0,9:18,9:49,1.0,0.0,11:13,True,31.0,1875,379,20.21,"Skalná,zdrav.stř.",41,115.0,False,False
+555185,Hroznětín,praktik,MUDr. Jan Jedelský,0.3,ok,MUDr. Jan Jedelský,Hroznětín,lek-205398-praktik,0.3,6.0,6:00,6:06,0.0,0.0,6:57,True,0.0,2179,435,19.96,"Hroznětín,nám.",56,57.0,False,False
+555185,Hroznětín,zubar,Zubní ordinace Hroznětín s.r.o.,0.3,ok,Zubní ordinace Hroznětín s.r.o.,Hroznětín,lek-247874-zubar,0.3,6.0,6:00,6:06,0.0,0.0,6:57,True,0.0,2179,435,19.96,"Hroznětín,nám.",56,57.0,False,False
+555185,Hroznětín,gynekolog,FEMINOS s.r.o,5.1,ok,FEMINOS s.r.o,Ostrov,lek-167537-gynekolog,5.1,11.0,7:22,7:33,1.0,0.0,8:33,True,9.0,2179,435,19.96,"Hroznětín,nám.",56,71.0,False,False
+555185,Hroznětín,ocni,Optissima s.r.o.,5.1,ok,Optissima s.r.o.,Ostrov,lek-244637-ocni,5.1,11.0,7:22,7:33,1.0,0.0,8:33,True,9.0,2179,435,19.96,"Hroznětín,nám.",56,71.0,False,False
+555185,Hroznětín,nemocnice,Nemocnice Ostrov s.r.o.,7.0,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,8.2,35.0,8:08,8:43,1.0,0.0,10:15,True,37.0,2179,435,19.96,"Hroznětín,nám.",56,127.0,True,False
+555185,Hroznětín,urad_orp,Úřad ORP Ostrov,5.3,ok,Úřad ORP Ostrov,Ostrov,orp-540,5.3,13.0,7:22,7:35,1.0,0.0,8:33,True,11.0,2179,435,19.96,"Hroznětín,nám.",56,71.0,False,False
+539538,Prameny,praktik,MUDr. Hana Holendová,4.9,ok,MUDr. Jaroslava Slavíková,Mariánské Lázně,lek-135911-praktik,9.3,37.0,10:53,11:30,2.0,1.0,14:33,True,126.0,89,25,28.09,"Prameny,křiž.",8,220.0,True,True
+539538,Prameny,zubar,M.L.I.O.D. s.r.o.,8.5,ok,MUDr.Stanislav Kopejtko,Mariánské Lázně,lek-135419-zubar,9.3,37.0,10:53,11:30,2.0,1.0,14:33,True,126.0,89,25,28.09,"Prameny,křiž.",8,220.0,True,True
+539538,Prameny,gynekolog,OMEGA CENTRUM s.r.o.,9.0,ok,GaP SPA MUDr. Seifert s.r.o.,Mariánské Lázně,lek-135593-gynekolog,9.3,37.0,10:53,11:30,2.0,1.0,14:33,True,126.0,89,25,28.09,"Prameny,křiž.",8,220.0,True,True
+539538,Prameny,ocni,ELEN OPTIK s.r.o.,9.2,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,9.2,39.0,10:53,11:32,2.0,1.0,14:33,True,135.0,89,25,28.09,"Prameny,křiž.",8,220.0,False,True
+539538,Prameny,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",9.6,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,9.6,44.0,10:53,11:37,2.0,1.0,14:33,True,26.0,89,25,28.09,"Prameny,křiž.",8,220.0,False,True
+539538,Prameny,urad_orp,Úřad ORP Mariánské Lázně,8.0,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,8.0,39.0,10:53,11:32,2.0,1.0,14:33,True,128.0,89,25,28.09,"Prameny,křiž.",8,220.0,False,True
+506494,Nové Hamry,praktik,Bergdoktor s.r.o.,5.9,ok,Ambulance Penta s.r.o.,Nejdek,lek-207662-praktik,7.0,14.0,10:05,10:19,1.0,0.0,11:47,True,10.0,354,102,28.81,Nové Hamry,12,102.0,True,False
+506494,Nové Hamry,zubar,MUDr.Jiří Kronhoffmann ,6.6,ok,MDDr. Kateřina Bůžková,Nová Role,lek-228444-zubar,13.3,27.0,10:05,10:32,1.0,0.0,11:47,True,21.0,354,102,28.81,Nové Hamry,12,102.0,True,False
+506494,Nové Hamry,gynekolog,Arias-Stella s.r.o.,6.9,ok,Arias-Stella s.r.o.,Nejdek,lek-135688-gynekolog,6.9,19.0,10:05,10:24,1.0,0.0,11:47,True,10.0,354,102,28.81,Nové Hamry,12,102.0,False,False
+506494,Nové Hamry,ocni,MUDr. Eva Poustková,6.4,ok,OFTALMO s.r.o.,Karlovy Vary,lek-207660-ocni,20.4,52.0,8:06,8:58,2.0,1.0,10:49,True,46.0,354,102,28.81,Nové Hamry,12,163.0,True,False
+506494,Nové Hamry,nemocnice,Nemocnice Ostrov s.r.o.,20.0,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,20.6,62.0,6:00,7:02,2.0,1.0,8:49,True,49.0,354,102,28.81,Nové Hamry,12,169.0,True,False
+506494,Nové Hamry,urad_orp,Úřad ORP Kraslice,14.8,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,20.6,56.0,8:06,9:02,2.0,1.0,10:49,True,46.0,354,102,28.81,Nové Hamry,12,163.0,True,False
+538337,Krásno,praktik,Ambulance Penta s.r.o.,3.1,ok,Ambulance Penta s.r.o.,Horní Slavkov,lek-242457-praktik,3.1,15.0,7:21,7:36,2.0,1.0,8:48,True,8.0,712,131,18.4,"Krásno,rozc.",39,87.0,False,False
+538337,Krásno,zubar,MUDr. Hulešová Olga,3.3,ok,MUDr. Hulešová Olga,Horní Slavkov,lek-135750-zubar,3.3,17.0,7:21,7:38,2.0,1.0,8:48,True,8.0,712,131,18.4,"Krásno,rozc.",39,87.0,False,False
+538337,Krásno,gynekolog,MUDr. Jan Malimánek,3.8,ok,MUDr. Vladimír Velický,Sokolov,lek-222005-gynekolog,12.9,45.0,6:17,7:02,1.0,0.0,9:01,True,62.0,712,131,18.4,"Krásno,rozc.",39,164.0,True,False
+538337,Krásno,ocni,"OČNÍ AMBULANCE MUDr. Tomanová, s.r.o.",12.0,ok,Ambulance Penta s.r.o.,Sokolov,lek-240213-ocni,12.9,42.0,6:17,6:59,1.0,0.0,9:01,True,75.0,712,131,18.4,"Krásno,rozc.",39,164.0,True,False
+538337,Krásno,nemocnice,Nemocnice Sokolov s.r.o.,12.9,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,12.9,45.0,6:17,7:02,1.0,0.0,9:01,True,65.0,712,131,18.4,"Krásno,rozc.",39,164.0,False,False
+538337,Krásno,urad_orp,Úřad ORP Sokolov,13.4,ok,Úřad ORP Sokolov,Sokolov,orp-671,13.4,47.0,6:17,7:04,1.0,0.0,9:01,True,65.0,712,131,18.4,"Krásno,rozc.",39,164.0,False,False
+554529,Františkovy Lázně,praktik,Recovery Clinic a.s.,0.9,ok,Recovery Clinic a.s.,Františkovy Lázně,lek-261731-praktik,0.9,5.0,6:01,6:06,1.0,0.0,6:58,True,1.0,5648,1266,22.42,"Františkovy Lázně,městské sady",218,57.0,False,False
+554529,Františkovy Lázně,zubar,MUDr. Pavlína Nováčková,0.9,ok,MUDr. Ivana Škrdlantová,Františkovy Lázně,lek-239544-zubar,1.1,4.0,6:00,6:04,0.0,0.0,6:53,True,0.0,5648,1266,22.42,"Františkovy Lázně,městské sady",218,53.0,True,False
+554529,Františkovy Lázně,gynekolog,MUDr. Vratislav Matoušek,0.9,ok,MUDr. Vratislav Matoušek,Františkovy Lázně,lek-193840-gynekolog,0.9,3.0,6:01,6:04,1.0,0.0,6:58,True,1.0,5648,1266,22.42,"Františkovy Lázně,městské sady",218,57.0,False,False
+554529,Františkovy Lázně,ocni,OFTA s.r.o.,6.1,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,6.2,15.0,9:00,9:15,1.0,0.0,10:22,True,14.0,5648,1266,22.42,"Františkovy Lázně,městské sady",218,82.0,True,False
+554529,Františkovy Lázně,nemocnice,Nemocnice v Chebu,6.6,ok,Nemocnice v Chebu,Cheb,nem-26365804,6.6,32.0,6:01,6:33,3.0,2.0,7:54,True,30.0,5648,1266,22.42,"Františkovy Lázně,městské sady",218,113.0,False,False
+554529,Františkovy Lázně,urad_orp,Úřad ORP Cheb,5.8,ok,Úřad ORP Cheb,Cheb,orp-515,5.8,21.0,7:15,7:36,1.0,0.0,8:47,True,14.0,5648,1266,22.42,"Františkovy Lázně,městské sady",218,92.0,False,False
+554618,Libá,praktik,MEDICA GR s.r.o.,1.4,ok,MEDICA GR s.r.o.,Libá,lek-135227-praktik,1.4,6.0,6:30,6:36,1.0,0.0,7:32,True,0.0,817,149,18.24,"Libá,garáže",18,62.0,False,False
+554618,Libá,zubar,MEDICA GR s.r.o.,4.5,ok,MEDICA GR s.r.o.,Hazlov,lek-135228-zubar,4.5,22.0,6:30,6:52,1.0,0.0,8:25,True,13.0,817,149,18.24,"Libá,garáže",18,115.0,False,False
+554618,Libá,gynekolog,MUDr. Vratislav Matoušek,7.1,ok,Labela - gynekologie s. r. o.,Cheb,lek-178203-gynekolog,10.1,30.0,7:12,7:42,1.0,0.0,9:37,True,22.0,817,149,18.24,"Libá,garáže",18,145.0,True,False
+554618,Libá,ocni,OFTA s.r.o.,10.0,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,10.2,26.0,7:12,7:38,1.0,0.0,9:37,True,22.0,817,149,18.24,"Libá,garáže",18,145.0,True,False
+554618,Libá,nemocnice,Nemocnice v Chebu,10.2,ok,Nemocnice v Chebu,Cheb,nem-26365804,10.2,62.0,7:12,8:14,3.0,2.0,9:37,True,32.0,817,149,18.24,"Libá,garáže",18,145.0,False,False
+554618,Libá,urad_orp,Úřad ORP Cheb,9.9,ok,Úřad ORP Cheb,Cheb,orp-515,9.9,31.0,7:12,7:43,1.0,0.0,9:37,True,60.0,817,149,18.24,"Libá,garáže",18,145.0,False,False
+560537,Loket,praktik,Lokmed s.r.o.,1.9,ok,PRVNÍ KARLOVARSKÁ ORDINACE s.r.o.,Loket,lek-209099-praktik,3.1,8.0,6:12,6:20,1.0,0.0,7:18,True,1.0,2990,546,18.26,Loket,73,66.0,True,False
+560537,Loket,zubar,Loket Dental s.r.o.,1.9,ok,Loket Dental s.r.o.,Loket,lek-210067-zubar,1.9,10.0,6:00,6:10,0.0,0.0,7:05,True,0.0,2990,546,18.26,Loket,73,65.0,False,False
+560537,Loket,gynekolog,GAP - AP BELLA VITA s.r.o. ,4.5,ok,MUDr. Vladimír Velický,Sokolov,lek-222005-gynekolog,8.5,19.0,8:05,8:24,1.0,0.0,9:33,True,10.0,2990,546,18.26,Loket,73,88.0,True,False
+560537,Loket,ocni,Cornea Lexum s.r.o.,6.6,ok,"OČNÍ AMBULANCE MUDr. Tomanová, s.r.o.",Sokolov,lek-135095-ocni,7.4,14.0,7:20,7:34,2.0,1.0,8:33,True,8.0,2990,546,18.26,Loket,73,73.0,True,False
+560537,Loket,nemocnice,Nemocnice Sokolov s.r.o.,8.5,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,8.5,19.0,8:05,8:24,1.0,0.0,9:33,True,11.0,2990,546,18.26,Loket,73,88.0,False,False
+560537,Loket,urad_orp,Úřad ORP Sokolov,9.0,ok,Úřad ORP Sokolov,Sokolov,orp-671,9.0,21.0,8:05,8:26,1.0,0.0,9:33,True,11.0,2990,546,18.26,Loket,73,88.0,False,False
+560561,Nová Ves,praktik,MUDr. Hana Holendová,3.2,ok,"Městská společnost Bečov, s.r.o.",Bečov nad Teplou,lek-244106-praktik,3.6,13.0,9:17,9:30,1.0,0.0,11:34,True,7.0,229,39,17.03,Louka u Mariánských Lázní,18,137.0,True,False
+560561,Nová Ves,zubar,MUDr. Hulešová Olga,8.0,ok,MUDr. Odvody Tomáš,Karlovy Vary,lek-135868-zubar,16.4,41.0,9:17,9:58,1.0,0.0,11:34,True,32.0,229,39,17.03,Louka u Mariánských Lázní,18,137.0,True,False
+560561,Nová Ves,gynekolog,MUDr. Jan Malimánek,3.6,ok,MUDr. Jan Malimánek,Bečov nad Teplou,lek-135836-gynekolog,3.6,13.0,9:17,9:30,1.0,0.0,11:34,True,7.0,229,39,17.03,Louka u Mariánských Lázní,18,137.0,False,False
+560561,Nová Ves,ocni,ELEN OPTIK s.r.o.,13.0,ok,OFTALMO s.r.o.,Karlovy Vary,lek-207660-ocni,18.9,42.0,9:17,9:59,1.0,0.0,11:34,True,36.0,229,39,17.03,Louka u Mariánských Lázní,18,137.0,True,False
+560561,Nová Ves,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",13.2,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,19.5,55.0,6:41,7:36,2.0,1.0,9:34,True,62.0,229,39,17.03,Louka u Mariánských Lázní,18,173.0,True,False
+560561,Nová Ves,urad_orp,Úřad ORP Mariánské Lázně,11.9,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,18.8,46.0,9:17,10:03,1.0,0.0,11:34,True,36.0,229,39,17.03,Louka u Mariánských Lázní,18,137.0,True,False
+554677,Mnichov,praktik,MUDr. Hana Holendová,3.2,ok,MUDr. Hana Holendová,Mnichov,lek-135819-praktik,3.2,17.0,10:52,11:09,1.0,0.0,13:38,True,8.0,409,73,17.85,"Mnichov,Rájov",14,166.0,False,False
+554677,Mnichov,zubar,M.L.I.O.D. s.r.o.,6.5,ok,MUDr.Stanislav Kopejtko,Mariánské Lázně,lek-135419-zubar,7.2,43.0,10:52,11:35,2.0,1.0,13:17,True,50.0,409,73,17.85,"Mnichov,Rájov",14,145.0,True,False
+554677,Mnichov,gynekolog,OMEGA CENTRUM s.r.o.,7.0,ok,GaP SPA MUDr. Seifert s.r.o.,Mariánské Lázně,lek-135593-gynekolog,7.2,43.0,10:52,11:35,2.0,1.0,13:17,True,50.0,409,73,17.85,"Mnichov,Rájov",14,145.0,True,False
+554677,Mnichov,ocni,ELEN OPTIK s.r.o.,7.1,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,7.1,45.0,10:52,11:37,2.0,1.0,13:17,True,50.0,409,73,17.85,"Mnichov,Rájov",14,145.0,False,False
+554677,Mnichov,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",7.4,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,7.4,50.0,10:52,11:42,2.0,1.0,13:17,True,17.0,409,73,17.85,"Mnichov,Rájov",14,145.0,False,False
+554677,Mnichov,urad_orp,Úřad ORP Mariánské Lázně,6.0,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,6.0,47.0,10:52,11:39,2.0,1.0,13:17,True,45.0,409,73,17.85,"Mnichov,Rájov",14,145.0,False,False
+554545,Hazlov,praktik,MEDICA GR s.r.o.,1.7,ok,MEDICA GR s.r.o.,Hazlov,lek-135228-praktik,1.7,7.0,6:00,6:07,0.0,0.0,6:59,True,0.0,1507,312,20.7,Hazlov,48,59.0,False,False
+554545,Hazlov,zubar,MEDICA GR s.r.o.,1.7,ok,MEDICA GR s.r.o.,Hazlov,lek-135228-zubar,1.7,7.0,6:00,6:07,0.0,0.0,6:59,True,0.0,1507,312,20.7,Hazlov,48,59.0,False,False
+554545,Hazlov,gynekolog,MUDr. Vratislav Matoušek,7.4,ok,GYNCARE-Aš s.r.o.,Aš,lek-135298-gynekolog,8.2,18.0,7:05,7:23,1.0,0.0,8:25,True,13.0,1507,312,20.7,Hazlov,48,80.0,True,False
+554545,Hazlov,ocni,MUDr. Václav Ouřada,7.3,ok,MUDr. Václav Ouřada,Aš,lek-135776-ocni,7.3,17.0,7:05,7:22,1.0,0.0,8:25,True,11.0,1507,312,20.7,Hazlov,48,80.0,False,False
+554545,Hazlov,nemocnice,Nemocnice v Chebu,13.1,ok,Nemocnice v Chebu,Cheb,nem-26365804,13.1,27.0,6:06,6:33,3.0,2.0,8:05,True,41.0,1507,312,20.7,Hazlov,48,119.0,False,False
+554545,Hazlov,urad_orp,Úřad ORP Aš,8.1,ok,Úřad ORP Aš,Aš,orp-507,8.1,19.0,7:05,7:24,1.0,0.0,8:49,True,29.0,1507,312,20.7,Hazlov,48,104.0,False,False
+555207,Chyše,praktik,Miroslava Girod Schreinerová,2.3,ok,MUDr. Iva Weilguny,Štědrá,lek-134886-praktik,12.3,60.0,6:31,7:31,2.0,1.0,10:40,True,124.0,586,135,23.04,Chyše,27,249.0,True,True
+555207,Chyše,zubar,MUDr. Hana Hnyková,8.2,ok,MUDr. Hana Hnyková,Žlutice,lek-135673-zubar,8.2,17.0,6:31,6:48,1.0,0.0,7:54,True,9.0,586,135,23.04,Chyše,27,83.0,False,False
+555207,Chyše,gynekolog,Medipoint s.r.o.,8.2,ok,Medipoint s.r.o.,Žlutice,lek-135017-gynekolog,8.2,17.0,6:31,6:48,1.0,0.0,7:54,True,9.0,586,135,23.04,Chyše,27,83.0,False,False
+555207,Chyše,ocni,MUDr.Kloz - Oční privátní praxe,32.0,ok,"Karlovarská krajská nemocnice a.s., Nemocnice Karlovy Vary, odborná ambulance",Karlovy Vary,lek-135521-ocni,32.4,131.0,9:16,11:27,2.0,1.0,14:39,True,137.0,586,135,23.04,Chyše,27,323.0,True,False
+555207,Chyše,nemocnice,Nemocnice v Karlových Varech,32.3,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,32.3,141.0,6:31,8:52,3.0,2.0,10:40,True,55.0,586,135,23.04,Chyše,27,249.0,False,False
+555207,Chyše,urad_orp,Úřad ORP Karlovy Vary,32.7,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,32.7,136.0,9:16,11:32,2.0,1.0,14:39,True,103.0,586,135,23.04,Chyše,27,323.0,False,False
+555584,Stráž nad Ohří,praktik,Ambulance Penta s.r.o.,8.6,ok,Praktik Otovice s.r.o.,Otovice,lek-260826-praktik,17.2,40.0,9:04,9:44,1.0,0.0,12:52,True,142.0,565,145,25.66,Boč,22,228.0,True,True
+555584,Stráž nad Ohří,zubar,SADENT dentální centrum s.r.o.,9.8,ok,W DENT s.r.o.,Ostrov,lek-193059-zubar,10.2,30.0,9:04,9:34,1.0,0.0,10:49,True,17.0,565,145,25.66,Boč,22,105.0,True,False
+555584,Stráž nad Ohří,gynekolog,FEMINOS s.r.o,10.5,ok,Medipoint s.r.o.,Karlovy Vary,lek-135016-gynekolog,19.8,44.0,9:04,9:48,2.0,1.0,12:52,True,136.0,565,145,25.66,Boč,22,228.0,True,False
+555584,Stráž nad Ohří,ocni,Optissima s.r.o.,10.5,ok,MUDr. Hana Plachá,Karlovy Vary,lek-135008-ocni,19.7,45.0,9:04,9:49,2.0,1.0,12:52,True,127.0,565,145,25.66,Boč,22,228.0,True,False
+555584,Stráž nad Ohří,nemocnice,Nemocnice Ostrov s.r.o.,8.7,ok,Nemocnice Ostrov s.r.o.,Ostrov,nem-47714913,8.7,41.0,7:00,7:41,3.0,2.0,10:49,True,131.0,565,145,25.66,Boč,22,229.0,False,True
+555584,Stráž nad Ohří,urad_orp,Úřad ORP Ostrov,10.6,ok,Úřad ORP Ostrov,Ostrov,orp-540,10.6,43.0,7:00,7:43,3.0,2.0,10:49,True,130.0,565,145,25.66,Boč,22,229.0,False,False
+560596,Přebuz,praktik,Ambulance Penta s.r.o.,9.8,ok,MUDr. Oldřich Rozsíval,Jindřichovice,lek-135907-praktik,11.6,24.0,6:35,6:59,2.0,1.0,9:45,True,100.0,67,17,25.37,Přebuz,7,190.0,True,True
+560596,Přebuz,zubar,MUDr.Jiří Kronhoffmann ,9.8,ok,MUDr. Jindra Janů,Kraslice,lek-135997-zubar,10.4,48.0,6:35,7:23,1.0,0.0,9:45,True,38.0,67,17,25.37,Přebuz,7,190.0,True,True
+560596,Přebuz,gynekolog,Arias-Stella s.r.o.,10.0,ok,GAFISI s.r.o.,Kraslice,lek-135615-gynekolog,10.5,47.0,6:35,7:22,1.0,0.0,9:45,True,45.0,67,17,25.37,Přebuz,7,190.0,True,True
+560596,Přebuz,ocni,MUDr. Eva Poustková,9.8,ok,Cornea Lexum s.r.o.,Kraslice,lek-248779-ocni,10.1,49.0,6:35,7:24,1.0,0.0,9:45,True,40.0,67,17,25.37,Přebuz,7,190.0,True,True
+560596,Přebuz,nemocnice,Nemocnice Sokolov s.r.o.,23.0,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,23.0,62.0,6:35,7:37,3.0,2.0,9:45,True,74.0,67,17,25.37,Přebuz,7,190.0,False,False
+560596,Přebuz,urad_orp,Úřad ORP Kraslice,10.4,ok,Úřad ORP Kraslice,Kraslice,orp-663,10.4,46.0,6:35,7:21,1.0,0.0,9:45,True,45.0,67,17,25.37,Přebuz,7,190.0,False,False
+554634,Luby,praktik,Ordinace všeobecného praktického lékařství s.r.o.,6.2,ok,Ordinace všeobecného praktického lékařství s.r.o.,Plesná,lek-224556-praktik,6.2,101.0,11:02,12:43,2.0,1.0,14:28,True,13.0,2147,531,24.73,"Luby,školka",35,206.0,False,True
+554634,Luby,zubar,MUDr. Jana Přibylová,10.1,ok,MUDr. Jana Přibylová,Skalná,lek-193909-zubar,10.1,114.0,11:02,12:56,2.0,1.0,14:28,True,42.0,2147,531,24.73,"Luby,školka",35,206.0,False,False
+554634,Luby,gynekolog,GAFISI s.r.o.,10.8,ok,MUDr. Vratislav Matoušek,Františkovy Lázně,lek-193840-gynekolog,15.3,50.0,8:01,8:51,2.0,1.0,11:02,True,62.0,2147,531,24.73,"Luby,školka",35,181.0,True,False
+554634,Luby,ocni,MUDr. LADISLAVA KOLIÁŠOVÁ,10.1,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,20.3,65.0,8:01,9:06,2.0,1.0,11:02,True,62.0,2147,531,24.73,"Luby,školka",35,181.0,True,False
+554634,Luby,nemocnice,Nemocnice Sokolov s.r.o.,19.3,ok,Nemocnice v Chebu,Cheb,nem-26365804,21.0,90.0,6:44,8:14,3.0,2.0,11:02,True,117.0,2147,531,24.73,"Luby,školka",35,258.0,True,False
+554634,Luby,urad_orp,Úřad ORP Kraslice,10.8,ok,Úřad ORP Cheb,Cheb,orp-515,20.0,82.0,7:34,8:56,2.0,1.0,11:02,True,71.0,2147,531,24.73,"Luby,školka",35,208.0,True,False
+555550,Stanovice,praktik,MUDr. Jaroslava Švandrlíková,3.3,ok,Electrolyte s.r.o.,Karlovy Vary,lek-238709-praktik,8.7,27.0,8:22,8:49,1.0,0.0,11:12,True,93.0,652,116,17.79,"Stanovice,Dražov",24,170.0,True,False
+555550,Stanovice,zubar,Nas. S. Dental Clinic s.r.o.,5.1,ok,Nas. S. Dental Clinic s.r.o.,Březová,lek-135935-zubar,5.1,13.0,8:22,8:35,1.0,0.0,9:42,True,17.0,652,116,17.79,"Stanovice,Dražov",24,80.0,False,False
+555550,Stanovice,gynekolog,MUDr. Tomáš Martykán,7.4,ok,MUDr. Tomáš Martykán,Karlovy Vary,lek-136002-gynekolog,7.4,23.0,6:53,7:16,1.0,0.0,9:42,True,92.0,652,116,17.79,"Stanovice,Dražov",24,169.0,False,False
+555550,Stanovice,ocni,MUDr. Václava Lišková ,8.6,ok,Corneaxi s.r.o.,Karlovy Vary,lek-263030-ocni,8.7,28.0,8:22,8:50,1.0,0.0,11:12,True,93.0,652,116,17.79,"Stanovice,Dražov",24,170.0,True,False
+555550,Stanovice,nemocnice,Nemocnice v Karlových Varech,8.9,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,8.9,30.0,8:22,8:52,1.0,0.0,11:12,True,89.0,652,116,17.79,"Stanovice,Dražov",24,170.0,False,False
+555550,Stanovice,urad_orp,Úřad ORP Karlovy Vary,8.5,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,8.5,34.0,8:22,8:56,2.0,1.0,11:12,True,32.0,652,116,17.79,"Stanovice,Dražov",24,170.0,False,False
+554553,Hranice,praktik,MEDITAIR s.r.o.,6.7,ok,MEDITAIR s.r.o.,Aš,lek-135811-praktik,6.7,19.0,6:17,6:36,2.0,1.0,7:38,True,11.0,2070,420,20.29,"Hranice,Studánka,návrší",37,81.0,False,False
+554553,Hranice,zubar,Dental Academy s.r.o.,7.8,ok,Dental Academy s.r.o.,Aš,lek-242989-zubar,7.8,18.0,6:17,6:35,2.0,1.0,7:38,True,14.0,2070,420,20.29,"Hranice,Studánka,návrší",37,81.0,False,False
+554553,Hranice,gynekolog,GYNCARE-Aš s.r.o.,7.6,ok,GYNCARE-Aš s.r.o.,Aš,lek-135298-gynekolog,7.6,18.0,6:17,6:35,2.0,1.0,7:38,True,14.0,2070,420,20.29,"Hranice,Studánka,návrší",37,81.0,False,False
+554553,Hranice,ocni,MUDr. Václav Ouřada,8.5,ok,MUDr. Václav Ouřada,Aš,lek-135776-ocni,8.5,17.0,8:01,8:18,1.0,0.0,10:01,True,28.0,2070,420,20.29,"Hranice,Studánka,návrší",37,120.0,False,False
+554553,Hranice,nemocnice,Nemocnice v Chebu,28.3,ok,Nemocnice v Chebu,Cheb,nem-26365804,28.3,72.0,9:21,10:33,3.0,2.0,12:53,True,91.0,2070,420,20.29,"Hranice,Studánka,návrší",37,212.0,False,False
+554553,Hranice,urad_orp,Úřad ORP Aš,7.6,ok,Úřad ORP Aš,Aš,orp-507,7.6,15.0,8:01,8:16,1.0,0.0,10:01,True,31.0,2070,420,20.29,"Hranice,Studánka,návrší",37,120.0,False,False
+555479,Potůčky,praktik,Bergdoktor s.r.o.,5.8,ok,Bergdoktor s.r.o.,Pernink,lek-244795-praktik,5.8,44.0,12:06,12:50,2.0,1.0,14:06,True,27.0,405,69,17.04,Potůčky zastávka,16,120.0,False,False
+555479,Potůčky,zubar,MUDr. Marcela Křečková,10.4,ok,MDDr. Kateřina Bůžková,Nová Role,lek-228444-zubar,16.1,76.0,9:16,10:32,2.0,1.0,14:06,True,150.0,405,69,17.04,Potůčky zastávka,16,290.0,True,False
+555479,Potůčky,gynekolog,Arias-Stella s.r.o.,10.8,ok,Arias-Stella s.r.o.,Nejdek,lek-135688-gynekolog,10.8,49.0,6:20,7:09,1.0,0.0,9:16,True,59.0,405,69,17.04,Potůčky zastávka,16,176.0,False,False
+555479,Potůčky,ocni,MUDr. Eva Poustková,10.2,ok,Optissima s.r.o.,Ostrov,lek-244637-ocni,17.3,79.0,7:06,8:25,5.0,4.0,11:16,True,112.0,405,69,17.04,Potůčky zastávka,16,250.0,True,False
+555479,Potůčky,nemocnice,Nemocnice Ostrov s.r.o.,18.3,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,22.0,97.0,7:06,8:43,3.0,2.0,11:16,True,104.0,405,69,17.04,Potůčky zastávka,16,250.0,True,False
+555479,Potůčky,urad_orp,Úřad ORP Ostrov,17.8,ok,Úřad ORP Ostrov,Ostrov,orp-540,17.8,78.0,7:06,8:24,5.0,4.0,11:16,True,124.0,405,69,17.04,Potůčky zastávka,16,250.0,False,False
+554600,Lázně Kynžvart,praktik,MUDr. RADKA VŮCHOVÁ,2.4,ok,MUDr. RADKA VŮCHOVÁ,Lázně Kynžvart,lek-222034-praktik,2.4,9.0,6:10,6:19,1.0,0.0,7:29,True,4.0,1403,368,26.23,"Lázně Kynžvart,žel.st.",33,79.0,False,False
+554600,Lázně Kynžvart,zubar,MUDr.Jana Valentová,5.0,ok,MUDr. Tomáš Foustka,Mariánské Lázně,lek-205431-zubar,9.7,15.0,6:14,6:29,2.0,1.0,8:03,True,18.0,1403,368,26.23,"Lázně Kynžvart,žel.st.",33,109.0,True,False
+554600,Lázně Kynžvart,gynekolog,GaP SPA MUDr. Seifert s.r.o.,5.0,ok,MUDr. František Černý,Mariánské Lázně,lek-136094-gynekolog,9.6,16.0,6:14,6:30,2.0,1.0,8:03,True,18.0,1403,368,26.23,"Lázně Kynžvart,žel.st.",33,109.0,True,False
+554600,Lázně Kynžvart,ocni,ELEN OPTIK s.r.o.,9.4,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,9.4,29.0,8:03,8:32,2.0,1.0,9:41,True,23.0,1403,368,26.23,"Lázně Kynžvart,žel.st.",33,98.0,False,False
+554600,Lázně Kynžvart,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",9.9,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,9.9,26.0,6:14,6:40,2.0,1.0,8:03,True,18.0,1403,368,26.23,"Lázně Kynžvart,žel.st.",33,109.0,False,False
+554600,Lázně Kynžvart,urad_orp,Úřad ORP Mariánské Lázně,8.6,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,8.6,24.0,6:14,6:38,2.0,1.0,8:03,True,33.0,1403,368,26.23,"Lázně Kynžvart,žel.st.",33,109.0,False,False
+560651,Stříbrná,praktik,PL Kraslice s.r.o.,3.8,ok,PL Kraslice s.r.o.,Kraslice,lek-134980-praktik,3.8,15.0,7:29,7:44,2.0,1.0,8:58,True,5.0,449,119,26.5,"Stříbrná,čistírna",15,89.0,False,False
+560651,Stříbrná,zubar,MUDr. Mikuláš Zoubek,3.5,ok,MUDr. Jiří Henzl,Kraslice,lek-135617-zubar,3.7,13.0,7:29,7:42,2.0,1.0,8:58,True,4.0,449,119,26.5,"Stříbrná,čistírna",15,89.0,True,False
+560651,Stříbrná,gynekolog,GAFISI s.r.o.,4.0,ok,GAFISI s.r.o.,Kraslice,lek-135615-gynekolog,4.0,17.0,7:29,7:46,2.0,1.0,8:58,True,8.0,449,119,26.5,"Stříbrná,čistírna",15,89.0,False,False
+560651,Stříbrná,ocni,Cornea Lexum s.r.o.,3.8,ok,Cornea Lexum s.r.o.,Kraslice,lek-248779-ocni,3.8,15.0,7:29,7:44,2.0,1.0,8:58,True,5.0,449,119,26.5,"Stříbrná,čistírna",15,89.0,False,False
+560651,Stříbrná,nemocnice,Nemocnice Sokolov s.r.o.,21.5,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,21.5,94.0,10:58,12:32,3.0,2.0,15:16,True,112.0,449,119,26.5,"Stříbrná,čistírna",15,258.0,False,False
+560651,Stříbrná,urad_orp,Úřad ORP Kraslice,4.0,ok,Úřad ORP Kraslice,Kraslice,orp-663,4.0,16.0,7:29,7:45,2.0,1.0,8:58,True,8.0,449,119,26.5,"Stříbrná,čistírna",15,89.0,False,False
+560456,Krajková,praktik,MUDr. Oldřich Rozsíval,3.9,ok,MUDr. Jaroslav Málek s.r.o.,Habartov,lek-135405-praktik,4.6,16.0,7:03,7:19,2.0,1.0,11:23,True,178.0,920,149,16.2,"Krajková,hotel Lípa",24,260.0,True,True
+560456,Krajková,zubar,JaKlDent s.r.o.,9.1,ok,JaKlDent s.r.o.,Sokolov,lek-211050-zubar,9.1,36.0,7:03,7:39,2.0,1.0,11:23,True,18.0,920,149,16.2,"Krajková,hotel Lípa",24,260.0,False,True
+560456,Krajková,gynekolog,GYNESTET s.r.o.,9.3,ok,GYNESTET s.r.o.,Sokolov,lek-135955-gynekolog,9.3,40.0,7:03,7:43,2.0,1.0,11:23,True,18.0,920,149,16.2,"Krajková,hotel Lípa",24,260.0,False,True
+560456,Krajková,ocni,MUDr. LADISLAVA KOLIÁŠOVÁ,1.0,ok,MUDr. LADISLAVA KOLIÁŠOVÁ,Krajková,lek-241532-ocni,1.0,6.0,7:03,7:09,1.0,0.0,8:08,True,0.0,920,149,16.2,"Krajková,hotel Lípa",24,65.0,False,False
+560456,Krajková,nemocnice,Nemocnice Sokolov s.r.o.,10.0,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,10.0,49.0,7:03,7:52,3.0,2.0,11:23,True,161.0,920,149,16.2,"Krajková,hotel Lípa",24,260.0,False,True
+560456,Krajková,urad_orp,Úřad ORP Sokolov,9.5,ok,Úřad ORP Sokolov,Sokolov,orp-671,9.5,43.0,7:03,7:46,3.0,2.0,11:23,True,160.0,920,149,16.2,"Krajková,hotel Lípa",24,260.0,False,True
+555444,Otročín,praktik,MED. PRAKTIK s.r.o.,6.4,ok,"Městská společnost Bečov, s.r.o.",Bečov nad Teplou,lek-244106-praktik,6.6,24.0,11:40,12:04,1.0,0.0,13:12,True,17.0,438,111,25.34,"Otročín,Měchov,rozc.",10,92.0,True,False
+555444,Otročín,zubar,MUDr. Jana Kreuzová,6.6,ok,Nas. S. Dental Clinic s.r.o.,Březová,lek-135935-zubar,17.9,63.0,7:32,8:35,3.0,2.0,11:40,True,135.0,438,111,25.34,"Otročín,Měchov,rozc.",10,248.0,True,True
+555444,Otročín,gynekolog,MUDr. Jan Malimánek,6.6,ok,MUDr. Jan Malimánek,Bečov nad Teplou,lek-135836-gynekolog,6.6,24.0,11:40,12:04,1.0,0.0,13:12,True,17.0,438,111,25.34,"Otročín,Měchov,rozc.",10,92.0,False,False
+555444,Otročín,ocni,ELEN OPTIK s.r.o.,15.4,ok,OFTALMO s.r.o.,Karlovy Vary,lek-207660-ocni,21.5,77.0,7:32,8:49,2.0,1.0,11:40,True,120.0,438,111,25.34,"Otročín,Měchov,rozc.",10,248.0,True,False
+555444,Otročín,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",15.4,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,21.9,80.0,7:32,8:52,3.0,2.0,11:40,True,115.0,438,111,25.34,"Otročín,Měchov,rozc.",10,248.0,True,False
+555444,Otročín,urad_orp,Úřad ORP Mariánské Lázně,14.7,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,21.4,81.0,7:32,8:53,2.0,1.0,11:40,True,95.0,438,111,25.34,"Otročín,Měchov,rozc.",10,248.0,True,False
+555622,Štědrá,praktik,MUDr. Iva Weilguny,1.2,ok,MUDr. Iva Weilguny,Štědrá,lek-134886-praktik,1.2,4.0,11:43,11:47,1.0,0.0,13:04,True,1.0,543,130,23.94,"Štědrá,Lažany",16,81.0,False,False
+555622,Štědrá,zubar,MUDr. Hana Hnyková,5.8,ok,MDDr. David Irman,Bochov,lek-240511-zubar,11.9,66.0,8:37,9:43,2.0,1.0,11:43,True,33.0,543,130,23.94,"Štědrá,Lažany",16,186.0,True,True
+555622,Štědrá,gynekolog,Medipoint s.r.o.,5.8,ok,MUDr.Pavel Jančík - gynekologie a porodnictví,Toužim,lek-134952-gynekolog,8.6,17.0,8:37,8:54,1.0,0.0,11:43,True,18.0,543,130,23.94,"Štědrá,Lažany",16,186.0,True,True
+555622,Štědrá,ocni,Corneaxi s.r.o.,25.9,ok,OFTALMO s.r.o.,Karlovy Vary,lek-207660-ocni,26.3,77.0,8:37,9:54,3.0,2.0,13:04,True,89.0,543,130,23.94,"Štědrá,Lažany",16,267.0,True,False
+555622,Štědrá,nemocnice,Nemocnice v Karlových Varech,26.0,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,26.0,85.0,8:37,10:02,4.0,3.0,13:04,True,124.0,543,130,23.94,"Štědrá,Lažany",16,267.0,False,False
+555622,Štědrá,urad_orp,Úřad ORP Karlovy Vary,26.1,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,26.1,81.0,8:37,9:58,2.0,1.0,13:04,True,89.0,543,130,23.94,"Štědrá,Lažany",16,267.0,False,False
+560367,Horní Slavkov,praktik,MUDr. Jiří Švejda,0.8,ok,Ambulance Penta s.r.o.,Horní Slavkov,lek-242457-praktik,1.1,7.0,9:56,10:03,1.0,0.0,11:01,True,1.0,5071,1103,21.75,"Horní Slavkov,nám.",86,65.0,True,False
+560367,Horní Slavkov,zubar,"HS-DENT, s.r.o.",0.8,ok,MUDr. Hulešová Olga,Horní Slavkov,lek-135750-zubar,0.9,9.0,9:56,10:05,1.0,0.0,11:01,True,1.0,5071,1103,21.75,"Horní Slavkov,nám.",86,65.0,True,False
+560367,Horní Slavkov,gynekolog,MUDr. Jan Malimánek,7.1,ok,MUDr. Vladimír Velický,Sokolov,lek-222005-gynekolog,11.3,30.0,9:08,9:38,1.0,0.0,11:14,True,44.0,5071,1103,21.75,"Horní Slavkov,nám.",86,126.0,True,False
+560367,Horní Slavkov,ocni,Cornea Lexum s.r.o.,8.4,ok,"OČNÍ AMBULANCE MUDr. Tomanová, s.r.o.",Sokolov,lek-135095-ocni,10.3,31.0,7:03,7:34,3.0,2.0,8:50,True,25.0,5071,1103,21.75,"Horní Slavkov,nám.",86,107.0,True,False
+560367,Horní Slavkov,nemocnice,Nemocnice v Karlových Varech,11.1,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,11.3,30.0,9:08,9:38,1.0,0.0,11:14,True,44.0,5071,1103,21.75,"Horní Slavkov,nám.",86,126.0,True,False
+560367,Horní Slavkov,urad_orp,Úřad ORP Karlovy Vary,10.3,ok,Úřad ORP Sokolov,Sokolov,orp-671,11.8,32.0,9:08,9:40,1.0,0.0,11:14,True,43.0,5071,1103,21.75,"Horní Slavkov,nám.",86,126.0,True,False
+555681,Útvina,praktik,Ordinace Toužim s.r.o.,3.1,ok,MUDr. Iva Marko,Toužim,lek-134885-praktik,3.4,8.0,8:03,8:11,1.0,0.0,9:16,True,7.0,590,120,20.34,Útvina,52,73.0,True,False
+555681,Útvina,zubar,MDDr. David Irman,9.4,ok,MDDr. David Irman,Bochov,lek-240511-zubar,9.4,29.0,6:24,6:53,2.0,1.0,8:55,True,35.0,590,120,20.34,Útvina,52,151.0,False,False
+555681,Útvina,gynekolog,SICHERNSAD s.r.o.,3.2,ok,MUDr.Pavel Jančík - gynekologie a porodnictví,Toužim,lek-134952-gynekolog,3.4,7.0,8:03,8:10,1.0,0.0,9:16,True,7.0,590,120,20.34,Útvina,52,73.0,True,False
+555681,Útvina,ocni,MUDr. Václava Lišková ,17.3,ok,OFTALMO s.r.o.,Karlovy Vary,lek-207660-ocni,17.4,38.0,9:16,9:54,2.0,1.0,12:08,True,58.0,590,120,20.34,Útvina,52,172.0,True,False
+555681,Útvina,nemocnice,Nemocnice v Karlových Varech,17.5,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,17.5,46.0,9:16,10:02,3.0,2.0,12:08,True,68.0,590,120,20.34,Útvina,52,172.0,False,False
+555681,Útvina,urad_orp,Úřad ORP Karlovy Vary,17.3,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,17.3,42.0,9:16,9:58,1.0,0.0,12:08,True,58.0,590,120,20.34,Útvina,52,172.0,False,False
+506486,Boží Dar,praktik,Bergdoktor s.r.o.,8.3,ok,MUDr. Erika Handrychová,Jáchymov,lek-135902-praktik,8.5,56.0,9:51,10:47,2.0,1.0,12:25,True,40.0,250,42,16.8,"Boží Dar,u kostela",22,154.0,True,False
+506486,Boží Dar,zubar,OLI dent s.r.o.,8.5,ok,OLI dent s.r.o.,Jáchymov,lek-248372-zubar,8.5,56.0,9:51,10:47,2.0,1.0,12:25,True,40.0,250,42,16.8,"Boží Dar,u kostela",22,154.0,False,False
+506486,Boží Dar,gynekolog,Arias-Stella s.r.o.,14.4,ok,FEMINOS s.r.o,Ostrov,lek-167537-gynekolog,14.8,39.0,7:08,7:47,2.0,1.0,9:51,True,31.0,250,42,16.8,"Boží Dar,u kostela",22,163.0,True,False
+506486,Boží Dar,ocni,MUDr. Eva Poustková,13.9,ok,Optissima s.r.o.,Ostrov,lek-244637-ocni,14.8,39.0,7:08,7:47,2.0,1.0,9:51,True,31.0,250,42,16.8,"Boží Dar,u kostela",22,163.0,True,False
+506486,Boží Dar,nemocnice,Nemocnice Ostrov s.r.o.,15.3,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,21.9,59.0,7:08,8:07,2.0,1.0,9:51,True,46.0,250,42,16.8,"Boží Dar,u kostela",22,163.0,True,False
+506486,Boží Dar,urad_orp,Úřad ORP Ostrov,15.4,ok,Úřad ORP Ostrov,Ostrov,orp-540,15.4,35.0,7:08,7:43,1.0,0.0,9:51,True,72.0,250,42,16.8,"Boží Dar,u kostela",22,163.0,False,False
+560677,Šindelová,praktik,MUDr. Oldřich Rozsíval,5.7,ok,Ascala s.r.o.,Rotava,lek-134977-praktik,5.7,22.0,6:27,6:49,1.0,0.0,9:33,True,13.0,296,75,25.34,Šindelová,32,186.0,True,True
+560677,Šindelová,zubar,MUDr. Jiří Henzl,7.6,ok,MUDr. Jindra Janů,Kraslice,lek-135997-zubar,7.6,32.0,6:27,6:59,1.0,0.0,9:33,True,26.0,296,75,25.34,Šindelová,32,186.0,True,True
+560677,Šindelová,gynekolog,Arias-Stella s.r.o.,7.9,ok,GAFISI s.r.o.,Kraslice,lek-135615-gynekolog,7.9,32.0,6:27,6:59,1.0,0.0,9:33,True,33.0,296,75,25.34,Šindelová,32,186.0,True,True
+560677,Šindelová,ocni,Cornea Lexum s.r.o.,7.6,ok,Cornea Lexum s.r.o.,Kraslice,lek-248779-ocni,7.6,34.0,6:27,7:01,1.0,0.0,9:33,True,28.0,296,75,25.34,Šindelová,32,186.0,False,True
+560677,Šindelová,nemocnice,Nemocnice Sokolov s.r.o.,17.2,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,17.2,70.0,6:27,7:37,3.0,2.0,9:33,True,62.0,296,75,25.34,Šindelová,32,186.0,False,False
+560677,Šindelová,urad_orp,Úřad ORP Kraslice,7.9,ok,Úřad ORP Kraslice,Kraslice,orp-663,7.9,31.0,6:27,6:58,1.0,0.0,9:33,True,33.0,296,75,25.34,Šindelová,32,186.0,False,True
+554880,Tři Sekery,praktik,MUDr. Jana Klukavá,2.5,ok,MUDr. Jana Klukavá,Tři Sekery,lek-189851-praktik,2.5,8.0,6:00,6:08,0.0,0.0,7:01,True,0.0,1072,200,18.66,Tři Sekery,21,61.0,False,False
+554880,Tři Sekery,zubar,MUDr. Tomáš Foustka,8.3,ok,MUDr.Stanislav Kopejtko,Mariánské Lázně,lek-135419-zubar,8.9,19.0,7:14,7:33,1.0,0.0,8:37,True,15.0,1072,200,18.66,Tři Sekery,21,83.0,True,False
+554880,Tři Sekery,gynekolog,MUDr. František Černý,8.3,ok,GaP SPA MUDr. Seifert s.r.o.,Mariánské Lázně,lek-135593-gynekolog,8.9,19.0,7:14,7:33,1.0,0.0,8:37,True,15.0,1072,200,18.66,Tři Sekery,21,83.0,True,False
+554880,Tři Sekery,ocni,ELEN OPTIK s.r.o.,8.8,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,8.8,25.0,6:04,6:29,1.0,0.0,8:37,True,75.0,1072,200,18.66,Tři Sekery,21,153.0,False,False
+554880,Tři Sekery,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",8.9,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,8.9,30.0,6:04,6:34,1.0,0.0,8:37,True,17.0,1072,200,18.66,Tři Sekery,21,153.0,False,False
+554880,Tři Sekery,urad_orp,Úřad ORP Mariánské Lázně,9.5,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,9.5,34.0,6:04,6:38,2.0,1.0,8:37,True,67.0,1072,200,18.66,Tři Sekery,21,153.0,False,False
+554502,Dolní Žandov,praktik,MUDr. RADKA VŮCHOVÁ,0.6,ok,MUDr. RADKA VŮCHOVÁ,Dolní Žandov,lek-222036-praktik,0.6,2.0,10:00,10:02,1.0,0.0,11:01,True,0.0,1186,235,19.81,"Dolní Žandov,návrší",29,61.0,False,False
+554502,Dolní Žandov,zubar,MUDr.Jana Valentová,0.6,ok,MUDr.Jana Valentová,Dolní Žandov,lek-194241-zubar,0.6,2.0,10:00,10:02,1.0,0.0,11:01,True,0.0,1186,235,19.81,"Dolní Žandov,návrší",29,61.0,False,False
+554502,Dolní Žandov,gynekolog,GaP SPA MUDr. Seifert s.r.o.,0.6,ok,GaP SPA MUDr. Seifert s.r.o.,Dolní Žandov,lek-135594-gynekolog,0.6,2.0,10:00,10:02,1.0,0.0,11:01,True,0.0,1186,235,19.81,"Dolní Žandov,návrší",29,61.0,False,False
+554502,Dolní Žandov,ocni,Oční ambulance Kynšperk s.r.o.,10.3,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,12.6,22.0,9:50,10:12,1.0,0.0,11:37,True,36.0,1186,235,19.81,"Dolní Žandov,návrší",29,107.0,True,False
+554502,Dolní Žandov,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",13.1,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,13.1,27.0,9:50,10:17,1.0,0.0,11:37,True,20.0,1186,235,19.81,"Dolní Žandov,návrší",29,107.0,False,False
+554502,Dolní Žandov,urad_orp,Úřad ORP Mariánské Lázně,12.1,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,12.1,38.0,7:06,7:44,2.0,1.0,10:00,True,76.0,1186,235,19.81,"Dolní Žandov,návrší",29,174.0,False,False
+554707,Nový Kostel,praktik,Ordinace všeobecného praktického lékařství s.r.o.,7.3,ok,Ordinace všeobecného praktického lékařství s.r.o.,Plesná,lek-224556-praktik,7.3,105.0,10:58,12:43,2.0,1.0,14:24,True,9.0,530,99,18.68,"Nový Kostel,Božetín,rozc.",33,206.0,False,True
+554707,Nový Kostel,zubar,MUDr. Jana Přibylová,7.6,ok,MUDr. Jana Přibylová,Skalná,lek-193909-zubar,7.6,118.0,10:58,12:56,2.0,1.0,14:24,True,38.0,530,99,18.68,"Nový Kostel,Božetín,rozc.",33,206.0,False,True
+554707,Nový Kostel,gynekolog,MUDr. Vratislav Matoušek,11.7,ok,MUDr. Vratislav Matoušek,Františkovy Lázně,lek-193840-gynekolog,11.7,46.0,8:05,8:51,2.0,1.0,10:58,True,58.0,530,99,18.68,"Nový Kostel,Božetín,rozc.",33,173.0,False,False
+554707,Nový Kostel,ocni,MUDr. LADISLAVA KOLIÁŠOVÁ,6.1,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,15.6,61.0,8:05,9:06,2.0,1.0,10:58,True,58.0,530,99,18.68,"Nový Kostel,Božetín,rozc.",33,173.0,True,False
+554707,Nový Kostel,nemocnice,Nemocnice Sokolov s.r.o.,14.4,ok,Nemocnice v Chebu,Cheb,nem-26365804,16.3,93.0,6:41,8:14,3.0,2.0,10:58,True,113.0,530,99,18.68,"Nový Kostel,Božetín,rozc.",33,257.0,True,False
+554707,Nový Kostel,urad_orp,Úřad ORP Sokolov,13.9,ok,Úřad ORP Cheb,Cheb,orp-515,15.3,75.0,7:00,8:15,4.0,3.0,10:58,True,108.0,530,99,18.68,"Nový Kostel,Božetín,rozc.",33,238.0,True,False
+560618,Rovná,praktik,MUDr. Jan Lukeš,6.6,ok,MUDr. Jan Lukeš,Březová,lek-135340-praktik,6.6,65.0,11:25,12:30,2.0,1.0,14:39,True,69.0,338,62,18.34,"Rovná,Bystřina,rozc.",12,194.0,False,True
+560618,Rovná,zubar,"HS-DENT, s.r.o.",6.6,ok,"HS-DENT, s.r.o.",Březová,lek-261814-zubar,6.6,65.0,11:25,12:30,2.0,1.0,14:39,True,69.0,338,62,18.34,"Rovná,Bystřina,rozc.",12,194.0,False,True
+560618,Rovná,gynekolog,GAFISI s.r.o.,6.6,ok,GAFISI s.r.o.,Březová,lek-135300-gynekolog,6.6,65.0,11:25,12:30,2.0,1.0,14:39,True,69.0,338,62,18.34,"Rovná,Bystřina,rozc.",12,194.0,False,True
+560618,Rovná,ocni,"OČNÍ AMBULANCE MUDr. Tomanová, s.r.o.",8.9,ok,"OČNÍ AMBULANCE MUDr. Tomanová, s.r.o.",Sokolov,lek-135095-ocni,8.9,73.0,11:25,12:38,2.0,1.0,14:39,True,65.0,338,62,18.34,"Rovná,Bystřina,rozc.",12,194.0,False,True
+560618,Rovná,nemocnice,Nemocnice Sokolov s.r.o.,9.4,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,9.4,77.0,11:25,12:42,2.0,1.0,14:39,True,63.0,338,62,18.34,"Rovná,Bystřina,rozc.",12,194.0,False,True
+560618,Rovná,urad_orp,Úřad ORP Sokolov,9.7,ok,Úřad ORP Sokolov,Sokolov,orp-671,9.7,82.0,11:25,12:47,2.0,1.0,14:39,True,61.0,338,62,18.34,"Rovná,Bystřina,rozc.",12,194.0,False,True
+560413,Jindřichovice,praktik,MUDr. Oldřich Rozsíval,0.5,ok,MUDr. Oldřich Rozsíval,Jindřichovice,lek-135907-praktik,0.5,3.0,6:00,6:03,0.0,0.0,6:51,True,0.0,543,126,23.2,Jindřichovice,32,51.0,False,False
+560413,Jindřichovice,zubar,MUDr. Jindra Janů,8.5,ok,JaKlDent s.r.o.,Sokolov,lek-211050-zubar,10.8,29.0,8:05,8:34,1.0,0.0,9:54,True,24.0,543,126,23.2,Jindřichovice,32,109.0,True,False
+560413,Jindřichovice,gynekolog,GAFISI s.r.o.,9.0,ok,GYNESTET s.r.o.,Sokolov,lek-135955-gynekolog,11.0,32.0,8:05,8:37,2.0,1.0,9:54,True,24.0,543,126,23.2,Jindřichovice,32,109.0,True,False
+560413,Jindřichovice,ocni,MUDr. LADISLAVA KOLIÁŠOVÁ,8.7,ok,Cornea Lexum s.r.o.,Kraslice,lek-248779-ocni,8.8,33.0,7:19,7:52,1.0,0.0,10:00,True,30.0,543,126,23.2,Jindřichovice,32,161.0,True,False
+560413,Jindřichovice,nemocnice,Nemocnice Sokolov s.r.o.,11.6,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,11.6,41.0,6:56,7:37,2.0,1.0,9:14,True,43.0,543,126,23.2,Jindřichovice,32,138.0,False,False
+560413,Jindřichovice,urad_orp,Úřad ORP Kraslice,9.0,ok,Úřad ORP Kraslice,Kraslice,orp-663,9.0,30.0,7:19,7:49,1.0,0.0,9:54,True,64.0,543,126,23.2,Jindřichovice,32,155.0,False,False
+554626,Lipová,praktik,MUDr. RADKA VŮCHOVÁ,6.8,ok,MUDr. HANA BERKOVCOVÁ,Cheb,lek-244880-praktik,8.6,13.0,7:16,7:29,1.0,0.0,9:41,True,68.0,752,153,20.35,Stebnice,15,145.0,True,False
+554626,Lipová,zubar,MUDr.Jana Valentová,6.8,ok,AXION Dental Dock Cheb s.r.o.,Cheb,lek-240592-zubar,9.1,20.0,7:16,7:36,2.0,1.0,10:06,True,79.0,752,153,20.35,Stebnice,15,170.0,True,False
+554626,Lipová,gynekolog,GaP SPA MUDr. Seifert s.r.o.,6.8,ok,G a P MUDr. RITA MAŠKOVÁ s.r.o.,Cheb,lek-135069-gynekolog,9.0,21.0,7:16,7:37,2.0,1.0,10:06,True,79.0,752,153,20.35,Stebnice,15,170.0,True,False
+554626,Lipová,ocni,MUDr. Naďa Gajarová,8.9,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,8.9,19.0,7:16,7:35,2.0,1.0,9:41,True,68.0,752,153,20.35,Stebnice,15,145.0,True,False
+554626,Lipová,nemocnice,Nemocnice v Chebu,8.7,ok,Nemocnice v Chebu,Cheb,nem-26365804,8.7,33.0,7:16,7:49,2.0,1.0,10:06,True,64.0,752,153,20.35,Stebnice,15,170.0,False,False
+554626,Lipová,urad_orp,Úřad ORP Cheb,9.2,ok,Úřad ORP Cheb,Cheb,orp-515,9.2,24.0,7:16,7:40,2.0,1.0,10:06,True,91.0,752,153,20.35,Stebnice,15,170.0,False,False
+555525,Pšov,praktik,MUDr. Iva Weilguny,7.2,ok,MUDr. Iva Weilguny,Štědrá,lek-134886-praktik,7.2,43.0,6:48,7:31,2.0,1.0,10:24,True,108.0,595,135,22.69,Borek u Žlutic,18,216.0,False,True
+555525,Pšov,zubar,MUDr. Hana Hnyková,6.3,ok,MUDr. Hana Hnyková,Žlutice,lek-135673-zubar,6.3,12.0,8:07,8:19,1.0,0.0,9:32,True,5.0,595,135,22.69,Borek u Žlutic,18,85.0,False,False
+555525,Pšov,gynekolog,Medipoint s.r.o.,6.3,ok,Medipoint s.r.o.,Žlutice,lek-135017-gynekolog,6.3,12.0,8:07,8:19,1.0,0.0,9:32,True,5.0,595,135,22.69,Borek u Žlutic,18,85.0,False,False
+555525,Pšov,ocni,Corneaxi s.r.o.,31.8,ok,OFTALMO s.r.o.,Karlovy Vary,lek-207660-ocni,32.3,142.0,9:33,11:55,2.0,1.0,14:23,True,87.0,595,135,22.69,Borek u Žlutic,18,290.0,True,False
+555525,Pšov,nemocnice,Nemocnice v Karlových Varech,31.9,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,31.9,124.0,6:48,8:52,3.0,2.0,12:13,True,148.0,595,135,22.69,Borek u Žlutic,18,325.0,False,False
+555525,Pšov,urad_orp,Úřad ORP Karlovy Vary,32.1,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,32.1,145.0,9:33,11:58,2.0,1.0,14:23,True,87.0,595,135,22.69,Borek u Žlutic,18,290.0,False,False
+555428,Ostrov,praktik,Ambulance Penta s.r.o.,0.4,ok,MEDHYNEK s.r.o.,Ostrov,lek-134992-praktik,2.3,4.0,6:00,6:04,0.0,0.0,6:53,True,0.0,15615,3662,23.45,"Ostrov,Zámek",201,53.0,True,False
+555428,Ostrov,zubar,SADENT dentální centrum s.r.o.,1.9,ok,GALLERYDENT s.r.o.,Ostrov,lek-261157-zubar,2.6,2.0,6:00,6:02,0.0,0.0,6:49,True,0.0,15615,3662,23.45,"Ostrov,Zámek",201,49.0,True,False
+555428,Ostrov,gynekolog,FEMINOS s.r.o,2.1,ok,FEMINOS s.r.o,Ostrov,lek-167537-gynekolog,2.1,3.0,8:22,8:25,1.0,0.0,9:24,True,0.0,15615,3662,23.45,"Ostrov,Zámek",201,62.0,False,False
+555428,Ostrov,ocni,Optissima s.r.o.,2.1,ok,Optissima s.r.o.,Ostrov,lek-244637-ocni,2.1,3.0,8:22,8:25,1.0,0.0,9:24,True,0.0,15615,3662,23.45,"Ostrov,Zámek",201,62.0,False,False
+555428,Ostrov,nemocnice,Nemocnice Ostrov s.r.o.,1.4,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,11.5,15.0,8:12,8:27,1.0,0.0,9:50,True,33.0,15615,3662,23.45,"Ostrov,Zámek",201,98.0,True,False
+555428,Ostrov,urad_orp,Úřad ORP Ostrov,2.5,ok,Úřad ORP Ostrov,Ostrov,orp-540,2.5,2.0,6:00,6:02,0.0,0.0,6:49,True,0.0,15615,3662,23.45,"Ostrov,Zámek",201,49.0,False,False
+555215,Jáchymov,praktik,MUDr. Erika Handrychová,1.1,ok,Ordinace Jáchymov s.r.o.,Jáchymov,lek-246876-praktik,2.2,3.0,7:15,7:18,1.0,0.0,8:10,True,0.0,2248,496,22.06,"Jáchymov,lázně",70,55.0,True,False
+555215,Jáchymov,zubar,OLI dent s.r.o.,1.1,ok,OLI dent s.r.o.,Jáchymov,lek-248372-zubar,1.1,14.0,6:06,6:20,2.0,1.0,7:23,True,6.0,2248,496,22.06,"Jáchymov,lázně",70,77.0,False,False
+555215,Jáchymov,gynekolog,FEMINOS s.r.o,7.3,ok,FEMINOS s.r.o,Ostrov,lek-167537-gynekolog,7.3,22.0,8:07,8:29,1.0,0.0,9:37,True,12.0,2248,496,22.06,"Jáchymov,lázně",70,90.0,False,False
+555215,Jáchymov,ocni,Optissima s.r.o.,7.3,ok,Optissima s.r.o.,Ostrov,lek-244637-ocni,7.3,22.0,8:07,8:29,1.0,0.0,9:37,True,12.0,2248,496,22.06,"Jáchymov,lázně",70,90.0,False,False
+555215,Jáchymov,nemocnice,Nemocnice Ostrov s.r.o.,7.7,ok,Nemocnice Ostrov s.r.o.,Ostrov,nem-47714913,7.7,31.0,7:10,7:41,2.0,1.0,9:21,True,43.0,2248,496,22.06,"Jáchymov,lázně",70,131.0,False,False
+555215,Jáchymov,urad_orp,Úřad ORP Ostrov,7.9,ok,Úřad ORP Ostrov,Ostrov,orp-540,7.9,20.0,7:10,7:30,1.0,0.0,8:36,True,17.0,2248,496,22.06,"Jáchymov,lázně",70,86.0,False,False
+554642,Mariánské Lázně,praktik,MUDr. Jaroslava Slavíková,2.8,ok,MUDr. Jaroslava Slavíková,Mariánské Lázně,lek-135911-praktik,2.8,2.0,6:00,6:02,0.0,0.0,6:49,True,0.0,13921,3515,25.25,"Mariánské Lázně,tržnice",118,49.0,False,False
+554642,Mariánské Lázně,zubar,M.L.I.O.D. s.r.o.,1.9,ok,MUDr.Stanislav Kopejtko,Mariánské Lázně,lek-135419-zubar,2.8,2.0,6:00,6:02,0.0,0.0,6:49,True,0.0,13921,3515,25.25,"Mariánské Lázně,tržnice",118,49.0,True,False
+554642,Mariánské Lázně,gynekolog,OMEGA CENTRUM s.r.o.,2.4,ok,GaP SPA MUDr. Seifert s.r.o.,Mariánské Lázně,lek-135593-gynekolog,2.8,2.0,6:00,6:02,0.0,0.0,6:49,True,0.0,13921,3515,25.25,"Mariánské Lázně,tržnice",118,49.0,True,False
+554642,Mariánské Lázně,ocni,ELEN OPTIK s.r.o.,2.6,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,2.6,4.0,8:00,8:04,0.0,0.0,8:52,True,2.0,13921,3515,25.25,"Mariánské Lázně,tržnice",118,52.0,False,False
+554642,Mariánské Lázně,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",3.1,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,3.1,7.0,6:01,6:08,1.0,0.0,7:02,True,0.0,13921,3515,25.25,"Mariánské Lázně,tržnice",118,61.0,False,False
+554642,Mariánské Lázně,urad_orp,Úřad ORP Mariánské Lázně,1.4,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,1.4,8.0,8:09,8:17,1.0,0.0,9:18,True,8.0,13921,3515,25.25,"Mariánské Lázně,tržnice",118,69.0,False,False
+555380,Nejdek,praktik,Ambulance Penta s.r.o.,0.2,ok,Ambulance Penta s.r.o.,Nejdek,lek-207662-praktik,0.8,1.0,6:00,6:01,0.0,0.0,6:47,True,0.0,7647,1663,21.75,"Nejdek,aut.st.",61,47.0,False,False
+555380,Nejdek,zubar,MUDr. Marcela Křečková,0.4,ok,MUDr. Marcela Křečková,Nejdek,lek-136048-zubar,0.4,4.0,6:10,6:14,1.0,0.0,7:10,True,3.0,7647,1663,21.75,"Nejdek,aut.st.",61,60.0,False,False
+555380,Nejdek,gynekolog,Arias-Stella s.r.o.,0.6,ok,Arias-Stella s.r.o.,Nejdek,lek-135688-gynekolog,0.6,4.0,6:00,6:04,0.0,0.0,6:53,True,0.0,7647,1663,21.75,"Nejdek,aut.st.",61,53.0,False,False
+555380,Nejdek,ocni,MUDr. Eva Poustková,0.2,ok,MUDr. Eva Poustková,Nejdek,lek-135072-ocni,0.2,7.0,10:25,10:32,1.0,0.0,11:40,True,3.0,7647,1663,21.75,"Nejdek,aut.st.",61,75.0,False,False
+555380,Nejdek,nemocnice,Nemocnice v Karlových Varech,14.4,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,14.4,45.0,7:00,7:45,2.0,1.0,9:30,True,47.0,7647,1663,21.75,"Nejdek,aut.st.",61,150.0,False,False
+555380,Nejdek,urad_orp,Úřad ORP Karlovy Vary,14.3,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,14.3,44.0,9:30,10:14,1.0,0.0,11:40,True,35.0,7647,1663,21.75,"Nejdek,aut.st.",61,130.0,False,False
+555762,Žlutice,praktik,MUDr. Iva Weilguny,5.4,ok,Ordinace Bochov s.r.o.,Bochov,lek-178310-praktik,9.7,33.0,10:27,11:00,1.0,0.0,12:17,True,17.0,2153,521,24.2,"Žlutice,Nádražní",57,110.0,True,False
+555762,Žlutice,zubar,MUDr. Hana Hnyková,1.4,ok,MUDr. Hana Hnyková,Žlutice,lek-135673-zubar,1.4,5.0,6:00,6:05,0.0,0.0,6:55,True,0.0,2153,521,24.2,"Žlutice,Nádražní",57,55.0,False,False
+555762,Žlutice,gynekolog,Medipoint s.r.o.,1.4,ok,Medipoint s.r.o.,Žlutice,lek-135017-gynekolog,1.4,5.0,6:00,6:05,0.0,0.0,6:55,True,0.0,2153,521,24.2,"Žlutice,Nádražní",57,55.0,False,False
+555762,Žlutice,ocni,Corneaxi s.r.o.,24.7,ok,"Karlovarská krajská nemocnice a.s., Nemocnice Karlovy Vary, odborná ambulance",Karlovy Vary,lek-135521-ocni,24.8,60.0,6:03,7:03,1.0,0.0,8:35,True,40.0,2153,521,24.2,"Žlutice,Nádražní",57,152.0,True,False
+555762,Žlutice,nemocnice,Nemocnice v Karlových Varech,24.8,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,24.8,59.0,6:03,7:02,1.0,0.0,8:35,True,40.0,2153,521,24.2,"Žlutice,Nádražní",57,152.0,False,False
+555762,Žlutice,urad_orp,Úřad ORP Karlovy Vary,25.1,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,25.1,65.0,10:27,11:32,1.0,0.0,13:22,True,52.0,2153,521,24.2,"Žlutice,Nádražní",57,175.0,False,False
+539112,Stará Voda,praktik,MUDr. RADKA VŮCHOVÁ,6.1,ok,MUDr. RADKA VŮCHOVÁ,Dolní Žandov,lek-222036-praktik,6.1,6.0,6:07,6:13,1.0,0.0,7:11,True,7.0,494,104,21.05,Stará Voda,34,64.0,False,False
+539112,Stará Voda,zubar,MUDr.Jana Valentová,6.1,ok,MUDr.Jana Valentová,Dolní Žandov,lek-194241-zubar,6.1,6.0,6:07,6:13,1.0,0.0,7:11,True,7.0,494,104,21.05,Stará Voda,34,64.0,False,False
+539112,Stará Voda,gynekolog,GaP SPA MUDr. Seifert s.r.o.,6.1,ok,GaP SPA MUDr. Seifert s.r.o.,Dolní Žandov,lek-135594-gynekolog,6.1,6.0,6:07,6:13,1.0,0.0,7:11,True,7.0,494,104,21.05,Stará Voda,34,64.0,False,False
+539112,Stará Voda,ocni,ELEN OPTIK s.r.o.,11.4,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,11.4,16.0,9:56,10:12,1.0,0.0,11:31,True,30.0,494,104,21.05,Stará Voda,34,95.0,False,False
+539112,Stará Voda,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",11.7,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,11.7,21.0,9:56,10:17,1.0,0.0,11:31,True,14.0,494,104,21.05,Stará Voda,34,95.0,False,False
+539112,Stará Voda,urad_orp,Úřad ORP Mariánské Lázně,11.6,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,11.6,33.0,7:11,7:44,2.0,1.0,9:45,True,61.0,494,104,21.05,Stará Voda,34,154.0,False,False
+554499,Aš,praktik,"Karlovarská krajská nemocnice a.s., Nemocnice Cheb, lékařská pohotovostní služba",1.9,ok,Doktor Mádr s.r.o.,Aš,lek-135651-praktik,2.5,6.0,6:00,6:06,0.0,0.0,6:57,True,0.0,12683,2474,19.51,"Aš,kino",102,57.0,True,False
+554499,Aš,zubar,MEDICA GR s.r.o.,1.9,ok,Dental Academy s.r.o.,Aš,lek-242989-zubar,2.6,3.0,6:00,6:03,0.0,0.0,6:51,True,0.0,12683,2474,19.51,"Aš,kino",102,51.0,True,False
+554499,Aš,gynekolog,GYNCARE-Aš s.r.o.,2.7,ok,GYNCARE-Aš s.r.o.,Aš,lek-135298-gynekolog,2.7,3.0,6:00,6:03,0.0,0.0,6:51,True,0.0,12683,2474,19.51,"Aš,kino",102,51.0,False,False
+554499,Aš,ocni,MUDr. Václav Ouřada,2.4,ok,MUDr. Václav Ouřada,Aš,lek-135776-ocni,2.4,7.0,9:32,9:39,1.0,0.0,10:40,True,1.0,12683,2474,19.51,"Aš,kino",102,68.0,False,False
+554499,Aš,nemocnice,Nemocnice v Chebu,19.3,ok,Nemocnice v Chebu,Cheb,nem-26365804,19.3,61.0,9:32,10:33,4.0,3.0,12:41,True,79.0,12683,2474,19.51,"Aš,kino",102,189.0,False,False
+554499,Aš,urad_orp,Úřad ORP Aš,2.6,ok,Úřad ORP Aš,Aš,orp-507,2.6,4.0,6:00,6:04,0.0,0.0,6:53,True,0.0,12683,2474,19.51,"Aš,kino",102,53.0,False,False
+560294,Březová (u Sokolova),praktik,MUDr. František Uhlík,5.0,ok,MUDr. Jaroslav Nečas s.r.o.,Sokolov,lek-167226-praktik,8.3,10.0,6:00,6:10,1.0,0.0,7:22,True,24.0,2640,553,20.95,"Březová,Tisová,ETI",50,82.0,True,False
+560294,Březová (u Sokolova),zubar,MUDr. Marie Emmichová,5.6,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-zubar,8.3,10.0,6:00,6:10,1.0,0.0,7:22,True,24.0,2640,553,20.95,"Březová,Tisová,ETI",50,82.0,True,False
+560294,Březová (u Sokolova),gynekolog,GAFISI s.r.o.,5.6,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-gynekolog,8.3,10.0,6:00,6:10,1.0,0.0,7:22,True,24.0,2640,553,20.95,"Březová,Tisová,ETI",50,82.0,True,False
+560294,Březová (u Sokolova),ocni,Oční ambulance Kynšperk s.r.o.,5.8,ok,Sanokulus s.r.o.,Sokolov,lek-248079-ocni,8.3,10.0,6:00,6:10,1.0,0.0,7:22,True,24.0,2640,553,20.95,"Březová,Tisová,ETI",50,82.0,True,False
+560294,Březová (u Sokolova),nemocnice,Nemocnice Sokolov s.r.o.,8.6,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,8.6,22.0,8:35,8:57,2.0,1.0,10:28,True,41.0,2640,553,20.95,"Březová,Tisová,ETI",50,113.0,False,False
+560294,Březová (u Sokolova),urad_orp,Úřad ORP Sokolov,8.6,ok,Úřad ORP Sokolov,Sokolov,orp-671,8.6,15.0,6:00,6:15,1.0,0.0,7:22,True,14.0,2640,553,20.95,"Březová,Tisová,ETI",50,82.0,False,False
+560472,Kraslice,praktik,MUDr. Kamil Cháma,3.1,ok,PL Kraslice s.r.o.,Kraslice,lek-134980-praktik,3.7,6.0,6:00,6:06,0.0,0.0,6:57,True,0.0,6369,1546,24.27,"Kraslice,město",79,57.0,True,False
+560472,Kraslice,zubar,MUDr. Jindra Janů,3.5,ok,SokoDent s.r.o.,Kraslice,lek-208300-zubar,3.7,6.0,6:00,6:06,0.0,0.0,6:57,True,0.0,6369,1546,24.27,"Kraslice,město",79,57.0,True,False
+560472,Kraslice,gynekolog,GAFISI s.r.o.,3.4,ok,GAFISI s.r.o.,Kraslice,lek-135615-gynekolog,3.4,4.0,6:00,6:04,0.0,0.0,6:53,True,0.0,6369,1546,24.27,"Kraslice,město",79,53.0,False,False
+560472,Kraslice,ocni,Cornea Lexum s.r.o.,3.7,ok,Cornea Lexum s.r.o.,Kraslice,lek-248779-ocni,3.7,6.0,6:00,6:06,0.0,0.0,6:57,True,0.0,6369,1546,24.27,"Kraslice,město",79,57.0,False,False
+560472,Kraslice,nemocnice,Nemocnice Sokolov s.r.o.,20.1,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,20.1,82.0,6:15,7:37,2.0,1.0,9:45,True,74.0,6369,1546,24.27,"Kraslice,město",79,210.0,False,False
+560472,Kraslice,urad_orp,Úřad ORP Kraslice,3.4,ok,Úřad ORP Kraslice,Kraslice,orp-663,3.4,3.0,6:00,6:03,0.0,0.0,6:51,True,0.0,6369,1546,24.27,"Kraslice,město",79,51.0,False,False
+555029,Bochov,praktik,Ordinace Bochov s.r.o.,3.1,ok,Ordinace Bochov s.r.o.,Bochov,lek-178310-praktik,3.1,3.0,6:02,6:05,1.0,0.0,7:01,True,0.0,1876,391,20.84,"Bochov,SÚS",105,59.0,False,False
+555029,Bochov,zubar,MDDr. David Irman,3.1,ok,MDDr. David Irman,Bochov,lek-240511-zubar,3.1,3.0,6:02,6:05,1.0,0.0,7:01,True,0.0,1876,391,20.84,"Bochov,SÚS",105,59.0,False,False
+555029,Bochov,gynekolog,SICHERNSAD s.r.o.,8.2,ok,MUDr.Pavel Jančík - gynekologie a porodnictví,Toužim,lek-134952-gynekolog,8.5,21.0,6:01,6:22,1.0,0.0,7:41,True,24.0,1876,391,20.84,"Bochov,SÚS",105,100.0,True,False
+555029,Bochov,ocni,Corneaxi s.r.o.,14.4,ok,"Karlovarská krajská nemocnice a.s., Nemocnice Karlovy Vary, odborná ambulance",Karlovy Vary,lek-135521-ocni,14.5,61.0,6:02,7:03,3.0,2.0,8:19,True,24.0,1876,391,20.84,"Bochov,SÚS",105,137.0,True,False
+555029,Bochov,nemocnice,Nemocnice v Karlových Varech,14.5,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,14.5,60.0,6:02,7:02,3.0,2.0,8:19,True,24.0,1876,391,20.84,"Bochov,SÚS",105,137.0,False,False
+555029,Bochov,urad_orp,Úřad ORP Karlovy Vary,14.6,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,14.6,50.0,7:38,8:28,2.0,1.0,10:09,True,29.0,1876,391,20.84,"Bochov,SÚS",105,151.0,False,False
+554481,Cheb,praktik,"MUDr. Radek Měšťan, s.r.o.",1.4,ok,MUDr. HANA BERKOVCOVÁ,Cheb,lek-244880-praktik,1.7,6.0,9:03,9:09,1.0,0.0,10:02,True,2.0,32892,6522,19.83,"Cheb,křiž.",289,59.0,True,False
+554481,Cheb,zubar,Egradent s.r.o.,1.0,ok,MUDr. Konečná Ivana,Cheb,lek-135706-zubar,1.8,7.0,8:00,8:07,0.0,0.0,8:59,True,0.0,32892,6522,19.83,"Cheb,křiž.",289,59.0,True,False
+554481,Cheb,gynekolog,MUDr. Vratislav Matoušek,1.7,ok,Labela - gynekologie s. r. o.,Cheb,lek-178203-gynekolog,1.8,7.0,8:00,8:07,0.0,0.0,8:59,True,0.0,32892,6522,19.83,"Cheb,křiž.",289,59.0,True,False
+554481,Cheb,ocni,MUDr. Naďa Gajarová,1.8,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,1.8,3.0,6:00,6:03,0.0,0.0,6:51,True,0.0,32892,6522,19.83,"Cheb,křiž.",289,51.0,True,False
+554481,Cheb,nemocnice,Nemocnice v Chebu,1.5,ok,Nemocnice v Chebu,Cheb,nem-26365804,1.5,26.0,6:07,6:33,2.0,1.0,7:28,True,4.0,32892,6522,19.83,"Cheb,křiž.",289,81.0,False,False
+554481,Cheb,urad_orp,Úřad ORP Cheb,2.2,ok,Úřad ORP Cheb,Cheb,orp-515,2.2,8.0,6:00,6:08,0.0,0.0,7:01,True,0.0,32892,6522,19.83,"Cheb,křiž.",289,61.0,False,False
+555657,Toužim,praktik,MUDr. Iva Marko,3.6,ok,MUDr. Iva Marko,Toužim,lek-134885-praktik,3.6,5.0,7:05,7:10,1.0,0.0,8:05,True,0.0,3458,821,23.74,"Toužim,aut.st.",73,60.0,False,False
+555657,Toužim,zubar,MUDr. Jana Kreuzová,12.1,ok,MDDr. David Irman,Bochov,lek-240511-zubar,13.3,23.0,6:30,6:53,1.0,0.0,8:41,True,21.0,3458,821,23.74,"Toužim,aut.st.",73,131.0,True,False
+555657,Toužim,gynekolog,MUDr.Pavel Jančík - gynekologie a porodnictví,3.7,ok,MUDr.Pavel Jančík - gynekologie a porodnictví,Toužim,lek-134952-gynekolog,3.7,4.0,7:05,7:09,1.0,0.0,8:05,True,0.0,3458,821,23.74,"Toužim,aut.st.",73,60.0,False,False
+555657,Toužim,ocni,UVEA s.r.o.,23.4,ok,OFTALMO s.r.o.,Karlovy Vary,lek-207660-ocni,24.4,45.0,9:09,9:54,2.0,1.0,12:15,True,65.0,3458,821,23.74,"Toužim,aut.st.",73,186.0,True,False
+555657,Toužim,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",23.5,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,24.4,67.0,7:15,8:22,2.0,1.0,10:15,True,57.0,3458,821,23.74,"Toužim,aut.st.",73,180.0,True,False
+555657,Toužim,urad_orp,Úřad ORP Mariánské Lázně,23.2,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,24.2,49.0,9:09,9:58,1.0,0.0,12:15,True,65.0,3458,821,23.74,"Toužim,aut.st.",73,186.0,True,False
+555631,Teplá,praktik,MED. PRAKTIK s.r.o.,0.8,ok,MED. PRAKTIK s.r.o.,Teplá,lek-225541-praktik,0.8,8.0,7:00,7:08,0.0,0.0,7:58,True,1.0,2909,656,22.55,"Teplá,nám.",32,58.0,False,False
+555631,Teplá,zubar,MUDr. Jana Kreuzová,1.0,ok,MUDr. Jana Kreuzová,Teplá,lek-136049-zubar,1.0,12.0,6:00,6:12,0.0,0.0,7:09,True,0.0,2909,656,22.55,"Teplá,nám.",32,69.0,False,False
+555631,Teplá,gynekolog,Dao Gyn s.r.o.,10.6,ok,MUDr.Pavel Jančík - gynekologie a porodnictví,Toužim,lek-134952-gynekolog,12.7,26.0,7:58,8:24,1.0,0.0,9:32,True,19.0,2909,656,22.55,"Teplá,nám.",32,94.0,True,False
+555631,Teplá,ocni,UVEA s.r.o.,10.7,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,11.2,67.0,9:17,10:24,4.0,3.0,13:13,True,115.0,2909,656,22.55,"Teplá,nám.",32,236.0,True,False
+555631,Teplá,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",11.0,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,11.0,79.0,6:15,7:34,3.0,2.0,9:17,True,46.0,2909,656,22.55,"Teplá,nám.",32,182.0,False,False
+555631,Teplá,urad_orp,Úřad ORP Mariánské Lázně,10.9,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,10.9,74.0,9:17,10:31,4.0,3.0,13:13,True,108.0,2909,656,22.55,"Teplá,nám.",32,236.0,False,False
+555177,Hradiště,praktik,Aesculap Kyselka s.r.o.,9.3,ok,Ordinace Bochov s.r.o.,Bochov,lek-178310-praktik,13.8,14.0,6:25,6:39,1.0,0.0,8:01,True,16.0,0,0,,"Hradiště,Radošov",8,96.0,True,False
+555177,Hradiště,zubar,MUDr. Ivona Plávková,9.3,ok,MDDr. David Irman,Bochov,lek-240511-zubar,13.8,14.0,6:25,6:39,1.0,0.0,8:01,True,16.0,0,0,,"Hradiště,Radošov",8,96.0,True,False
+555177,Hradiště,gynekolog,FEMINOS s.r.o,14.6,ok,PRONATAL Spa s.r.o.,Karlovy Vary,lek-205969-gynekolog,18.2,60.0,8:01,9:01,3.0,2.0,12:31,True,152.0,0,0,,"Hradiště,Radošov",8,270.0,True,False
+555177,Hradiště,ocni,Optissima s.r.o.,14.6,ok,"Karlovarská krajská nemocnice a.s., Nemocnice Karlovy Vary, odborná ambulance",Karlovy Vary,lek-135521-ocni,18.4,60.0,8:01,9:01,3.0,2.0,12:31,True,151.0,0,0,,"Hradiště,Radošov",8,270.0,True,False
+555177,Hradiště,nemocnice,Nemocnice Ostrov s.r.o.,13.1,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,18.3,59.0,8:01,9:00,3.0,2.0,12:31,True,161.0,0,0,,"Hradiště,Radošov",8,270.0,True,False
+555177,Hradiště,urad_orp,Úřad ORP Ostrov,14.3,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,19.1,65.0,8:01,9:06,3.0,2.0,12:31,True,121.0,0,0,,"Hradiště,Radošov",8,270.0,True,False
+537926,Jenišov,praktik,ORDINACE Doubí s.r.o.,2.3,ok,JefaMed s.r.o.,Karlovy Vary,lek-261094-praktik,2.5,9.0,7:02,7:11,1.0,0.0,8:31,True,20.0,1116,191,17.11,"Jenišov,rozc.",59,89.0,True,False
+537926,Jenišov,zubar,SpaDentist s.r.o.,1.1,ok,DENTANEO s.r.o.,Karlovy Vary,lek-245142-zubar,2.5,9.0,7:02,7:11,1.0,0.0,8:31,True,21.0,1116,191,17.11,"Jenišov,rozc.",59,89.0,True,False
+537926,Jenišov,gynekolog,Centrum Pánevního Dna Karlovy Vary s.r.o.,3.2,ok,Ambulance Penta s.r.o.,Karlovy Vary,lek-205125-gynekolog,3.9,13.0,7:02,7:15,2.0,1.0,8:31,True,6.0,1116,191,17.11,"Jenišov,rozc.",59,89.0,True,False
+537926,Jenišov,ocni,Cornea Lexum s.r.o.,1.9,ok,Optissima s.r.o.,Karlovy Vary,lek-262399-ocni,3.9,13.0,7:02,7:15,2.0,1.0,8:31,True,6.0,1116,191,17.11,"Jenišov,rozc.",59,89.0,True,False
+537926,Jenišov,nemocnice,Nemocnice v Karlových Varech,5.5,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,5.5,27.0,6:07,6:34,1.0,0.0,7:56,True,19.0,1116,191,17.11,"Jenišov,rozc.",59,109.0,False,False
+537926,Jenišov,urad_orp,Úřad ORP Karlovy Vary,4.8,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,4.8,21.0,7:02,7:23,2.0,1.0,8:31,True,11.0,1116,191,17.11,"Jenišov,rozc.",59,89.0,False,False
+537870,Březová (u KV),praktik,ORDINACE Doubí s.r.o.,3.6,ok,Electrolyte s.r.o.,Karlovy Vary,lek-238709-praktik,3.9,13.0,8:17,8:30,1.0,0.0,9:28,True,10.0,714,204,28.57,"Březová,U Splavu",53,71.0,True,False
+537870,Březová (u KV),zubar,Nas. S. Dental Clinic s.r.o.,0.1,ok,Nas. S. Dental Clinic s.r.o.,Březová,lek-135935-zubar,0.1,4.0,6:00,6:04,1.0,0.0,7:05,True,3.0,714,204,28.57,"Březová,U Splavu",53,65.0,False,False
+537870,Březová (u KV),gynekolog,MUDr. Tomáš Martykán,3.0,ok,MUDr. Tomáš Martykán,Karlovy Vary,lek-136002-gynekolog,3.0,9.0,8:17,8:26,1.0,0.0,9:28,True,8.0,714,204,28.57,"Březová,U Splavu",53,71.0,False,False
+537870,Březová (u KV),ocni,AUGE-OPTIK s.r.o.,3.7,ok,Corneaxi s.r.o.,Karlovy Vary,lek-263030-ocni,3.9,14.0,8:17,8:31,1.0,0.0,9:28,True,10.0,714,204,28.57,"Březová,U Splavu",53,71.0,True,False
+537870,Březová (u KV),nemocnice,Nemocnice v Karlových Varech,4.1,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,4.1,29.0,9:14,9:43,2.0,1.0,10:45,True,12.0,714,204,28.57,"Březová,U Splavu",53,91.0,False,False
+537870,Březová (u KV),urad_orp,Úřad ORP Karlovy Vary,3.6,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,3.6,25.0,7:05,7:30,1.0,0.0,8:40,True,15.0,714,204,28.57,"Březová,U Splavu",53,95.0,False,False
+560502,Libavské Údolí,praktik,MUDr. František Uhlík,0.9,ok,MUDr. František Uhlík,Libavské Údolí,lek-136012-praktik,0.9,2.0,6:00,6:02,0.0,0.0,6:49,True,0.0,513,114,22.22,Libavské Údolí,37,49.0,False,False
+560502,Libavské Údolí,zubar,MUDr. Eva Stráská,1.1,ok,MUDr. Eva Stráská,Kynšperk nad Ohří,lek-134914-zubar,1.1,13.0,6:05,6:18,1.0,0.0,7:19,True,7.0,513,114,22.22,Libavské Údolí,37,74.0,False,False
+560502,Libavské Údolí,gynekolog,GAFISI s.r.o.,7.6,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-gynekolog,8.9,19.0,6:01,6:20,1.0,0.0,7:30,True,22.0,513,114,22.22,Libavské Údolí,37,89.0,True,False
+560502,Libavské Údolí,ocni,Oční ambulance Kynšperk s.r.o.,1.6,ok,Oční ambulance Kynšperk s.r.o.,Kynšperk nad Ohří,lek-261401-ocni,1.6,13.0,6:05,6:18,1.0,0.0,7:19,True,9.0,513,114,22.22,Libavské Údolí,37,74.0,False,False
+560502,Libavské Údolí,nemocnice,Nemocnice Sokolov s.r.o.,9.4,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,9.4,32.0,8:25,8:57,2.0,1.0,10:35,True,48.0,513,114,22.22,Libavské Údolí,37,130.0,False,False
+560502,Libavské Údolí,urad_orp,Úřad ORP Sokolov,9.2,ok,Úřad ORP Sokolov,Sokolov,orp-671,9.2,23.0,6:01,6:24,1.0,0.0,7:30,True,17.0,513,114,22.22,Libavské Údolí,37,89.0,False,False
+555703,Velichov,praktik,Aesculap Kyselka s.r.o.,2.3,ok,Aesculap Kyselka s.r.o.,Kyselka,lek-192625-praktik,2.3,11.0,8:17,8:28,1.0,0.0,10:35,True,11.0,499,103,20.64,Velichov,33,138.0,False,False
+555703,Velichov,zubar,MUDr. Ivona Plávková,2.3,ok,MUDr. Ivona Plávková,Kyselka,lek-136052-zubar,2.3,11.0,8:17,8:28,1.0,0.0,10:35,True,11.0,499,103,20.64,Velichov,33,138.0,False,False
+555703,Velichov,gynekolog,FEMINOS s.r.o,5.6,ok,Medipoint s.r.o.,Karlovy Vary,lek-135016-gynekolog,11.3,37.0,8:17,8:54,2.0,1.0,10:35,True,50.0,499,103,20.64,Velichov,33,138.0,True,False
+555703,Velichov,ocni,Optissima s.r.o.,5.6,ok,MUDr. Hana Plachá,Karlovy Vary,lek-135008-ocni,11.2,38.0,8:17,8:55,2.0,1.0,10:35,True,50.0,499,103,20.64,Velichov,33,138.0,True,False
+555703,Velichov,nemocnice,Nemocnice Ostrov s.r.o.,4.4,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,10.8,37.0,8:17,8:54,2.0,1.0,10:35,True,52.0,499,103,20.64,Velichov,33,138.0,True,False
+555703,Velichov,urad_orp,Úřad ORP Ostrov,5.2,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,11.6,39.0,8:17,8:56,3.0,2.0,10:35,True,35.0,499,103,20.64,Velichov,33,138.0,True,False
+560316,Bukovany,praktik,MUDr. Věra Blechová,2.2,ok,MUDr. Věra Blechová,Citice,lek-206730-praktik,2.2,21.0,7:15,7:36,1.0,0.0,9:15,True,38.0,1476,290,19.65,"Bukovany,sídliště",49,120.0,False,False
+560316,Bukovany,zubar,SokoDent s.r.o.,4.5,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-zubar,4.6,24.0,7:15,7:39,1.0,0.0,9:15,True,32.0,1476,290,19.65,"Bukovany,sídliště",49,120.0,True,False
+560316,Bukovany,gynekolog,Léčebně preventivní zařízení s. r. o.,4.6,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-gynekolog,4.6,24.0,7:15,7:39,1.0,0.0,9:15,True,32.0,1476,290,19.65,"Bukovany,sídliště",49,120.0,False,False
+560316,Bukovany,ocni,Sanokulus s.r.o.,4.6,ok,Sanokulus s.r.o.,Sokolov,lek-248079-ocni,4.6,24.0,7:15,7:39,1.0,0.0,9:15,True,32.0,1476,290,19.65,"Bukovany,sídliště",49,120.0,False,False
+560316,Bukovany,nemocnice,Nemocnice Sokolov s.r.o.,5.2,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,5.2,37.0,7:15,7:52,2.0,1.0,9:15,True,33.0,1476,290,19.65,"Bukovany,sídliště",49,120.0,False,False
+560316,Bukovany,urad_orp,Úřad ORP Sokolov,4.8,ok,Úřad ORP Sokolov,Sokolov,orp-671,4.8,28.0,7:15,7:43,1.0,0.0,9:15,True,40.0,1476,290,19.65,"Bukovany,sídliště",49,120.0,False,False
+560707,Vřesová,praktik,Ambulance Penta s.r.o.,3.0,ok,"Lékař Chodov, s.r.o.",Chodov,lek-222956-praktik,4.1,11.0,6:09,6:20,2.0,1.0,7:18,True,8.0,430,34,7.91,"Vřesová,rozc.",97,69.0,True,False
+560707,Vřesová,zubar,PRAKTIDENT s.r.o.,4.1,ok,MDDr. Petra Tomášková,Chodov,lek-105123-zubar,4.4,11.0,6:09,6:20,2.0,1.0,7:18,True,10.0,430,34,7.91,"Vřesová,rozc.",97,69.0,True,False
+560707,Vřesová,gynekolog,GAP - AP BELLA VITA s.r.o. ,3.5,ok,MUDr. JAN DUDA,Chodov,lek-210098-gynekolog,4.1,11.0,6:09,6:20,2.0,1.0,7:18,True,8.0,430,34,7.91,"Vřesová,rozc.",97,69.0,True,False
+560707,Vřesová,ocni,MUDr. Romana Ševčíková,4.1,ok,MUDr. Romana Ševčíková,Chodov,lek-134946-ocni,4.1,11.0,6:09,6:20,2.0,1.0,7:18,True,8.0,430,34,7.91,"Vřesová,rozc.",97,69.0,False,False
+560707,Vřesová,nemocnice,Nemocnice Sokolov s.r.o.,9.5,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,9.5,37.0,6:17,6:54,2.0,1.0,8:38,True,53.0,430,34,7.91,"Vřesová,rozc.",97,141.0,False,False
+560707,Vřesová,urad_orp,Úřad ORP Sokolov,9.5,ok,Úřad ORP Sokolov,Sokolov,orp-671,9.5,33.0,6:17,6:50,2.0,1.0,8:38,True,60.0,430,34,7.91,"Vřesová,rozc.",97,141.0,False,False
+537934,Mírová,praktik,PRAKTIK CHODOV s.r.o.,1.7,ok,"Lékař Chodov, s.r.o.",Chodov,lek-222956-praktik,1.9,7.0,8:00,8:07,1.0,0.0,9:05,True,3.0,382,60,15.71,Mírová,137,65.0,True,False
+537934,Mírová,zubar,MDDr. Petra Tomášková,1.8,ok,PRAKTIDENT s.r.o.,Chodov,lek-242695-zubar,1.9,7.0,8:00,8:07,1.0,0.0,9:05,True,3.0,382,60,15.71,Mírová,137,65.0,True,False
+537934,Mírová,gynekolog,MUDr. JAN DUDA,1.9,ok,MUDr. JAN DUDA,Chodov,lek-210098-gynekolog,1.9,7.0,8:00,8:07,1.0,0.0,9:05,True,3.0,382,60,15.71,Mírová,137,65.0,False,False
+537934,Mírová,ocni,MUDr. Romana Ševčíková,1.9,ok,MUDr. Romana Ševčíková,Chodov,lek-134946-ocni,1.9,7.0,8:00,8:07,1.0,0.0,9:05,True,3.0,382,60,15.71,Mírová,137,65.0,False,False
+537934,Mírová,nemocnice,Nemocnice v Karlových Varech,7.4,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,7.4,31.0,6:05,6:36,2.0,1.0,8:00,True,34.0,382,60,15.71,Mírová,137,115.0,False,False
+537934,Mírová,urad_orp,Úřad ORP Karlovy Vary,6.8,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,6.8,26.0,7:08,7:34,1.0,0.0,8:50,True,20.0,382,60,15.71,Mírová,137,102.0,False,False
+560332,Dasnice,praktik,MUDr. František Uhlík,1.9,ok,MUDr. HANA BERKOVCOVÁ,Cheb,lek-244880-praktik,15.6,25.0,10:57,11:22,1.0,0.0,12:57,True,18.0,249,45,18.07,Dasnice,15,120.0,True,False
+560332,Dasnice,zubar,MUDr. Eva Stráská,3.5,ok,AXION Dental Dock Cheb s.r.o.,Cheb,lek-240592-zubar,16.2,29.0,10:57,11:26,2.0,1.0,12:57,True,36.0,249,45,18.07,Dasnice,15,120.0,True,False
+560332,Dasnice,gynekolog,GAFISI s.r.o.,5.7,ok,G a P MUDr. RITA MAŠKOVÁ s.r.o.,Cheb,lek-135069-gynekolog,16.1,30.0,10:57,11:27,2.0,1.0,12:57,True,36.0,249,45,18.07,Dasnice,15,120.0,True,False
+560332,Dasnice,ocni,Oční ambulance Kynšperk s.r.o.,4.2,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,15.9,28.0,10:57,11:25,2.0,1.0,12:57,True,18.0,249,45,18.07,Dasnice,15,120.0,True,False
+560332,Dasnice,nemocnice,Nemocnice Sokolov s.r.o.,6.9,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,6.9,49.0,8:08,8:57,3.0,2.0,10:56,True,69.0,249,45,18.07,Dasnice,15,168.0,False,False
+560332,Dasnice,urad_orp,Úřad ORP Sokolov,6.6,ok,Úřad ORP Cheb,Cheb,orp-515,15.8,33.0,10:57,11:30,2.0,1.0,12:57,True,34.0,249,45,18.07,Dasnice,15,120.0,True,False
+539481,Valy,praktik,MUDr. Jana Klukavá,2.8,ok,MUDr. Jana Klukavá,Velká Hleďsebe,lek-87869-praktik,2.8,8.0,6:01,6:09,1.0,0.0,7:09,True,4.0,468,102,21.79,Valy,27,68.0,False,False
+539481,Valy,zubar,M.L.I.O.D. s.r.o.,3.4,ok,MUDr.Stanislav Kopejtko,Mariánské Lázně,lek-135419-zubar,3.9,9.0,6:01,6:10,1.0,0.0,7:09,True,7.0,468,102,21.79,Valy,27,68.0,True,False
+539481,Valy,gynekolog,OMEGA CENTRUM s.r.o.,3.4,ok,GaP SPA MUDr. Seifert s.r.o.,Mariánské Lázně,lek-135593-gynekolog,3.9,9.0,6:01,6:10,1.0,0.0,7:09,True,7.0,468,102,21.79,Valy,27,68.0,True,False
+539481,Valy,ocni,ELEN OPTIK s.r.o.,3.7,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,3.7,10.0,8:22,8:32,1.0,0.0,9:25,True,7.0,468,102,21.79,Valy,27,63.0,False,False
+539481,Valy,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",4.2,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,4.2,39.0,7:09,7:48,2.0,1.0,9:25,True,10.0,468,102,21.79,Valy,27,136.0,False,False
+539481,Valy,urad_orp,Úřad ORP Mariánské Lázně,3.3,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,3.3,42.0,7:09,7:51,3.0,2.0,9:25,True,41.0,468,102,21.79,Valy,27,136.0,False,False
+537969,Otovice,praktik,Praktik Otovice s.r.o.,0.7,ok,Praktik Otovice s.r.o.,Otovice,lek-260826-praktik,0.7,7.0,6:00,6:07,0.0,0.0,6:59,True,0.0,1061,184,17.34,"Dalovice,nádr.Dalovice",50,59.0,False,False
+537969,Otovice,zubar,MUDr  Viléma Kouřilová,0.4,ok,"Clinic for Smile, s.r.o.",Karlovy Vary,lek-241300-zubar,1.3,9.0,9:36,9:45,1.0,0.0,10:43,True,2.0,1061,184,17.34,"Dalovice,nádr.Dalovice",50,67.0,True,False
+537969,Otovice,gynekolog,PRONATAL Spa s.r.o.,2.8,ok,Medipoint s.r.o.,Karlovy Vary,lek-135016-gynekolog,3.1,12.0,6:13,6:25,1.0,0.0,7:25,True,8.0,1061,184,17.34,"Dalovice,nádr.Dalovice",50,72.0,True,False
+537969,Otovice,ocni,MUDr.Kloz - Oční privátní praxe,2.0,ok,MUDr. Hana Plachá,Karlovy Vary,lek-135008-ocni,3.1,13.0,9:36,9:49,1.0,0.0,11:04,True,24.0,1061,184,17.34,"Dalovice,nádr.Dalovice",50,88.0,True,False
+537969,Otovice,nemocnice,Nemocnice v Karlových Varech,2.8,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,2.8,17.0,9:36,9:53,2.0,1.0,11:04,True,15.0,1061,184,17.34,"Dalovice,nádr.Dalovice",50,88.0,False,False
+537969,Otovice,urad_orp,Úřad ORP Karlovy Vary,3.3,ok,Úřad ORP Ostrov,Ostrov,orp-540,7.0,13.0,7:14,7:27,1.0,0.0,8:39,True,16.0,1061,184,17.34,"Dalovice,nádr.Dalovice",50,85.0,True,False
+578002,Velký Luh,praktik,Ordinace všeobecného praktického lékařství s.r.o.,1.7,ok,Ordinace všeobecného praktického lékařství s.r.o.,Plesná,lek-224556-praktik,1.7,6.0,6:23,6:29,1.0,0.0,7:32,True,5.0,180,33,18.33,Velký Luh,42,69.0,False,False
+578002,Velký Luh,zubar,MUDr. Jana Přibylová,3.7,ok,MUDr. Jana Přibylová,Skalná,lek-193909-zubar,3.7,10.0,8:27,8:37,1.0,0.0,9:59,True,13.0,180,33,18.33,Velký Luh,42,92.0,False,False
+578002,Velký Luh,gynekolog,MUDr. Vratislav Matoušek,8.8,ok,MUDr. Vratislav Matoušek,Františkovy Lázně,lek-193840-gynekolog,8.8,24.0,9:07,9:31,1.0,0.0,11:25,True,55.0,180,33,18.33,Velký Luh,42,138.0,False,False
+578002,Velký Luh,ocni,MUDr. LADISLAVA KOLIÁŠOVÁ,12.2,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,14.2,38.0,9:07,9:45,1.0,0.0,11:25,True,40.0,180,33,18.33,Velký Luh,42,138.0,True,False
+578002,Velký Luh,nemocnice,Nemocnice v Chebu,14.9,ok,Nemocnice v Chebu,Cheb,nem-26365804,14.9,66.0,8:27,9:33,2.0,1.0,11:25,True,59.0,180,33,18.33,Velký Luh,42,178.0,False,False
+578002,Velký Luh,urad_orp,Úřad ORP Aš,12.7,ok,Úřad ORP Cheb,Cheb,orp-515,13.9,42.0,9:07,9:49,1.0,0.0,11:25,True,43.0,180,33,18.33,Velký Luh,42,138.0,True,False
+539279,Velká Hleďsebe,praktik,MUDr. Jana Klukavá,0.4,ok,MUDr. Jaroslava Slavíková,Mariánské Lázně,lek-135911-praktik,2.6,5.0,6:05,6:10,1.0,0.0,7:04,True,2.0,2483,498,20.06,"Velká Hleďsebe,prádelna",88,59.0,True,False
+539279,Velká Hleďsebe,zubar,MUDr. Tomáš Foustka,2.2,ok,MUDr.Stanislav Kopejtko,Mariánské Lázně,lek-135419-zubar,2.6,5.0,6:05,6:10,1.0,0.0,7:04,True,2.0,2483,498,20.06,"Velká Hleďsebe,prádelna",88,59.0,True,False
+539279,Velká Hleďsebe,gynekolog,MUDr. František Černý,2.1,ok,GaP SPA MUDr. Seifert s.r.o.,Mariánské Lázně,lek-135593-gynekolog,2.6,5.0,6:05,6:10,1.0,0.0,7:04,True,2.0,2483,498,20.06,"Velká Hleďsebe,prádelna",88,59.0,True,False
+539279,Velká Hleďsebe,ocni,ELEN OPTIK s.r.o.,2.5,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,2.5,3.0,6:05,6:08,1.0,0.0,7:04,True,2.0,2483,498,20.06,"Velká Hleďsebe,prádelna",88,59.0,False,False
+539279,Velká Hleďsebe,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",2.7,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,2.7,28.0,8:14,8:42,2.0,1.0,9:44,True,4.0,2483,498,20.06,"Velká Hleďsebe,prádelna",88,90.0,False,False
+539279,Velká Hleďsebe,urad_orp,Úřad ORP Mariánské Lázně,3.1,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,3.1,16.0,6:05,6:21,2.0,1.0,7:49,True,26.0,2483,498,20.06,"Velká Hleďsebe,prádelna",88,104.0,False,False
+537845,Teplička,praktik,Ordinace Slavkov s.r.o.,3.8,ok,"Městská společnost Bečov, s.r.o.",Bečov nad Teplou,lek-244106-praktik,6.8,18.0,6:36,6:54,1.0,0.0,8:28,True,11.0,103,19,18.45,Teplička,28,112.0,True,False
+537845,Teplička,zubar,MUDr. Hulešová Olga,4.2,ok,MUDr. Odvody Tomáš,Karlovy Vary,lek-135868-zubar,7.7,20.0,8:28,8:48,1.0,0.0,10:24,True,41.0,103,19,18.45,Teplička,28,116.0,True,False
+537845,Teplička,gynekolog,MUDr. Jan Malimánek,6.8,ok,MUDr. Jan Malimánek,Bečov nad Teplou,lek-135836-gynekolog,6.8,18.0,6:36,6:54,1.0,0.0,8:28,True,11.0,103,19,18.45,Teplička,28,112.0,False,False
+537845,Teplička,ocni,Cornea Lexum s.r.o.,8.5,ok,OFTALMO s.r.o.,Karlovy Vary,lek-207660-ocni,9.4,21.0,8:28,8:49,1.0,0.0,10:24,True,19.0,103,19,18.45,Teplička,28,116.0,True,False
+537845,Teplička,nemocnice,Nemocnice v Karlových Varech,9.9,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,9.9,34.0,7:02,7:36,2.0,1.0,9:14,True,42.0,103,19,18.45,Teplička,28,132.0,False,False
+537845,Teplička,urad_orp,Úřad ORP Karlovy Vary,9.3,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,9.3,25.0,8:28,8:53,1.0,0.0,10:24,True,19.0,103,19,18.45,Teplička,28,116.0,False,False
+560375,Chlum Svaté Maří,praktik,MUDr. František Uhlík,2.4,ok,MUDr. Věra Blechová,Citice,lek-206730-praktik,5.5,27.0,7:09,7:36,1.0,0.0,9:21,True,44.0,314,62,19.75,"Dasnice,rozc.",39,132.0,True,False
+560375,Chlum Svaté Maří,zubar,MUDr. Eva Stráská,3.2,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-zubar,7.9,30.0,7:09,7:39,1.0,0.0,9:21,True,38.0,314,62,19.75,"Dasnice,rozc.",39,132.0,True,False
+560375,Chlum Svaté Maří,gynekolog,GAFISI s.r.o.,7.7,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-gynekolog,7.9,30.0,7:09,7:39,1.0,0.0,9:21,True,38.0,314,62,19.75,"Dasnice,rozc.",39,132.0,True,False
+560375,Chlum Svaté Maří,ocni,Oční ambulance Kynšperk s.r.o.,3.9,ok,Sanokulus s.r.o.,Sokolov,lek-248079-ocni,7.9,30.0,7:09,7:39,1.0,0.0,9:21,True,38.0,314,62,19.75,"Dasnice,rozc.",39,132.0,True,False
+560375,Chlum Svaté Maří,nemocnice,Nemocnice Sokolov s.r.o.,8.5,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,8.5,43.0,7:09,7:52,2.0,1.0,9:21,True,39.0,314,62,19.75,"Dasnice,rozc.",39,132.0,False,False
+560375,Chlum Svaté Maří,urad_orp,Úřad ORP Sokolov,8.1,ok,Úřad ORP Sokolov,Sokolov,orp-671,8.1,34.0,7:09,7:43,1.0,0.0,9:21,True,46.0,314,62,19.75,"Dasnice,rozc.",39,132.0,False,False
+539376,Vlkovice,praktik,MUDr. Věra Veselá,2.1,ok,Moje Zdraví s.r.o.,Mariánské Lázně,lek-135045-praktik,3.3,15.0,7:27,7:42,1.0,0.0,8:48,True,5.0,120,24,20.0,Vlkovice,18,81.0,True,False
+539376,Vlkovice,zubar,SB Dent spol. s r. o.,2.1,ok,MUDr. Tomáš Foustka,Mariánské Lázně,lek-205431-zubar,3.5,15.0,7:27,7:42,1.0,0.0,8:48,True,8.0,120,24,20.0,Vlkovice,18,81.0,True,False
+539376,Vlkovice,gynekolog,Dao Gyn s.r.o.,2.0,ok,MUDr. Jaroslav Křepela,Mariánské Lázně,lek-194182-gynekolog,2.8,11.0,7:27,7:38,1.0,0.0,8:48,True,5.0,120,24,20.0,Vlkovice,18,81.0,True,False
+539376,Vlkovice,ocni,UVEA s.r.o.,2.1,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,3.5,13.0,7:27,7:40,2.0,1.0,8:48,True,17.0,120,24,20.0,Vlkovice,18,81.0,True,False
+539376,Vlkovice,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",3.1,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,3.1,11.0,7:27,7:38,1.0,0.0,8:48,True,15.0,120,24,20.0,Vlkovice,18,81.0,False,False
+539376,Vlkovice,urad_orp,Úřad ORP Mariánské Lázně,4.2,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,4.2,29.0,10:02,10:31,2.0,1.0,12:46,True,81.0,120,24,20.0,Vlkovice,18,164.0,False,False
+538396,Šabina,praktik,MUDr. František Uhlík,1.7,ok,MUDr. František Uhlík,Libavské Údolí,lek-136012-praktik,1.7,6.0,7:26,7:32,1.0,0.0,8:30,True,5.0,394,68,17.26,Šabina,35,64.0,False,False
+538396,Šabina,zubar,MUDr. Eva Stráská,3.1,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-zubar,6.9,15.0,6:05,6:20,1.0,0.0,7:26,True,18.0,394,68,17.26,Šabina,35,81.0,True,False
+538396,Šabina,gynekolog,GAFISI s.r.o.,5.5,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-gynekolog,6.9,15.0,6:05,6:20,1.0,0.0,7:26,True,18.0,394,68,17.26,Šabina,35,81.0,True,False
+538396,Šabina,ocni,Oční ambulance Kynšperk s.r.o.,3.7,ok,Sanokulus s.r.o.,Sokolov,lek-248079-ocni,6.9,15.0,6:05,6:20,1.0,0.0,7:26,True,18.0,394,68,17.26,Šabina,35,81.0,True,False
+538396,Šabina,nemocnice,Nemocnice Sokolov s.r.o.,7.4,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,7.4,27.0,8:30,8:57,2.0,1.0,10:32,True,45.0,394,68,17.26,Šabina,35,122.0,False,False
+538396,Šabina,urad_orp,Úřad ORP Sokolov,7.2,ok,Úřad ORP Sokolov,Sokolov,orp-671,7.2,19.0,6:05,6:24,1.0,0.0,7:26,True,13.0,394,68,17.26,Šabina,35,81.0,False,False
+538591,Dolní Rychnov,praktik,MUDr. Jan Lukeš,1.0,ok,MUDr. Jan Lukeš,Březová,lek-135340-praktik,1.0,7.0,9:25,9:32,1.0,0.0,10:24,True,4.0,1280,237,18.52,"Dolní Rychnov,Sklotas",35,59.0,False,False
+538591,Dolní Rychnov,zubar,"HS-DENT, s.r.o.",1.0,ok,"HS-DENT, s.r.o.",Březová,lek-261814-zubar,1.0,7.0,9:25,9:32,1.0,0.0,10:24,True,4.0,1280,237,18.52,"Dolní Rychnov,Sklotas",35,59.0,False,False
+538591,Dolní Rychnov,gynekolog,GAFISI s.r.o.,1.0,ok,GAFISI s.r.o.,Březová,lek-135300-gynekolog,1.0,7.0,9:25,9:32,1.0,0.0,10:24,True,4.0,1280,237,18.52,"Dolní Rychnov,Sklotas",35,59.0,False,False
+538591,Dolní Rychnov,ocni,Ambulance Penta s.r.o.,2.0,ok,Sanokulus s.r.o.,Sokolov,lek-248079-ocni,2.2,7.0,8:04,8:11,1.0,0.0,9:25,True,24.0,1280,237,18.52,"Dolní Rychnov,Sklotas",35,81.0,True,False
+538591,Dolní Rychnov,nemocnice,Nemocnice Sokolov s.r.o.,2.2,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,2.2,49.0,6:05,6:54,4.0,3.0,8:04,True,19.0,1280,237,18.52,"Dolní Rychnov,Sklotas",35,119.0,False,False
+538591,Dolní Rychnov,urad_orp,Úřad ORP Sokolov,2.4,ok,Úřad ORP Sokolov,Sokolov,orp-671,2.4,12.0,8:04,8:16,1.0,0.0,9:25,True,16.0,1280,237,18.52,"Dolní Rychnov,Sklotas",35,81.0,False,False
+555169,Horní Blatná,praktik,Bergdoktor s.r.o.,2.6,ok,Ambulance Penta s.r.o.,Nejdek,lek-207662-praktik,8.1,37.0,6:27,7:04,1.0,0.0,9:10,True,53.0,350,70,20.0,Horní Blatná,16,163.0,True,False
+555169,Horní Blatná,zubar,MUDr. Marcela Křečková,7.6,ok,MDDr. Kateřina Bůžková,Nová Role,lek-228444-zubar,12.8,50.0,6:27,7:17,1.0,0.0,9:10,True,41.0,350,70,20.0,Horní Blatná,16,163.0,True,False
+555169,Horní Blatná,gynekolog,Arias-Stella s.r.o.,7.9,ok,Arias-Stella s.r.o.,Nejdek,lek-135688-gynekolog,7.9,42.0,6:27,7:09,1.0,0.0,9:10,True,53.0,350,70,20.0,Horní Blatná,16,163.0,False,False
+555169,Horní Blatná,ocni,MUDr. Eva Poustková,7.3,ok,Optissima s.r.o.,Ostrov,lek-244637-ocni,14.7,73.0,7:12,8:25,5.0,4.0,11:10,True,106.0,350,70,20.0,Horní Blatná,16,238.0,True,True
+555169,Horní Blatná,nemocnice,Nemocnice Ostrov s.r.o.,16.0,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,18.8,91.0,7:12,8:43,3.0,2.0,11:10,True,98.0,350,70,20.0,Horní Blatná,16,238.0,True,False
+555169,Horní Blatná,urad_orp,Úřad ORP Ostrov,15.2,ok,Úřad ORP Ostrov,Ostrov,orp-540,15.2,72.0,7:12,8:24,5.0,4.0,11:10,True,118.0,350,70,20.0,Horní Blatná,16,238.0,False,False
+560324,Citice,praktik,MUDr. Věra Blechová,0.8,ok,MUDr. Věra Blechová,Citice,lek-206730-praktik,0.8,8.0,6:00,6:08,0.0,0.0,7:01,True,0.0,838,158,18.85,"Citice,u mostu",105,61.0,False,False
+560324,Citice,zubar,"HS-DENT, s.r.o.",3.1,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-zubar,3.3,8.0,6:02,6:10,1.0,0.0,7:15,True,8.0,838,158,18.85,"Citice,u mostu",105,73.0,True,False
+560324,Citice,gynekolog,GAFISI s.r.o.,3.1,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-gynekolog,3.3,8.0,6:02,6:10,1.0,0.0,7:15,True,8.0,838,158,18.85,"Citice,u mostu",105,73.0,True,False
+560324,Citice,ocni,Sanokulus s.r.o.,3.3,ok,Sanokulus s.r.o.,Sokolov,lek-248079-ocni,3.3,8.0,6:02,6:10,1.0,0.0,7:15,True,8.0,838,158,18.85,"Citice,u mostu",105,73.0,False,False
+560324,Citice,nemocnice,Nemocnice Sokolov s.r.o.,3.9,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,3.9,20.0,8:37,8:57,2.0,1.0,10:09,True,22.0,838,158,18.85,"Citice,u mostu",105,92.0,False,False
+560324,Citice,urad_orp,Úřad ORP Sokolov,3.6,ok,Úřad ORP Sokolov,Sokolov,orp-671,3.6,13.0,6:02,6:15,1.0,0.0,7:15,True,8.0,838,158,18.85,"Citice,u mostu",105,73.0,False,False
+560421,Kaceřov,praktik,MUDr. František Uhlík,3.9,ok,MUDr. František Uhlík,Kynšperk nad Ohří,lek-136011-praktik,3.9,11.0,7:08,7:19,1.0,0.0,8:48,True,8.0,404,84,20.79,"Kaceřov,Horní Pochlovice",19,100.0,False,False
+560421,Kaceřov,zubar,MUDr. Eva Stráská,3.6,ok,MUDr. Marie Emmichová,Kynšperk nad Ohří,lek-135964-zubar,3.8,14.0,7:08,7:22,1.0,0.0,8:48,True,8.0,404,84,20.79,"Kaceřov,Horní Pochlovice",19,100.0,True,False
+560421,Kaceřov,gynekolog,GAFISI s.r.o.,10.3,ok,Labela - gynekologie s. r. o.,Cheb,lek-178203-gynekolog,12.4,46.0,10:33,11:19,2.0,1.0,13:08,True,29.0,404,84,20.79,"Kaceřov,Horní Pochlovice",19,155.0,True,False
+560421,Kaceřov,ocni,Oční ambulance Kynšperk s.r.o.,3.9,ok,Oční ambulance Kynšperk s.r.o.,Kynšperk nad Ohří,lek-261401-ocni,3.9,13.0,7:08,7:21,1.0,0.0,8:48,True,8.0,404,84,20.79,"Kaceřov,Horní Pochlovice",19,100.0,False,False
+560421,Kaceřov,nemocnice,Nemocnice Sokolov s.r.o.,11.0,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,11.0,50.0,7:08,7:58,4.0,3.0,10:33,True,95.0,404,84,20.79,"Kaceřov,Horní Pochlovice",19,205.0,False,False
+560421,Kaceřov,urad_orp,Úřad ORP Sokolov,10.6,ok,Úřad ORP Cheb,Cheb,orp-515,12.1,47.0,10:33,11:20,2.0,1.0,13:08,True,55.0,404,84,20.79,"Kaceřov,Horní Pochlovice",19,155.0,True,False
+539619,Tuřany,praktik,MUDr. František Uhlík,3.3,ok,MUDr. RADKA VŮCHOVÁ,Dolní Žandov,lek-222036-praktik,8.2,14.0,9:36,9:50,1.0,0.0,11:53,True,16.0,137,35,25.55,"Okrouhlá,Jesenice,hráz",20,137.0,True,False
+539619,Tuřany,zubar,MUDr. Marie Emmichová,3.6,ok,MUDr.Jana Valentová,Dolní Žandov,lek-194241-zubar,8.2,14.0,9:36,9:50,1.0,0.0,11:53,True,16.0,137,35,25.55,"Okrouhlá,Jesenice,hráz",20,137.0,True,False
+539619,Tuřany,gynekolog,GaP SPA MUDr. Seifert s.r.o.,8.2,ok,GaP SPA MUDr. Seifert s.r.o.,Dolní Žandov,lek-135594-gynekolog,8.2,14.0,9:36,9:50,1.0,0.0,11:53,True,16.0,137,35,25.55,"Okrouhlá,Jesenice,hráz",20,137.0,False,False
+539619,Tuřany,ocni,Oční ambulance Kynšperk s.r.o.,3.2,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,19.2,36.0,9:36,10:12,1.0,0.0,11:53,True,52.0,137,35,25.55,"Okrouhlá,Jesenice,hráz",20,137.0,True,False
+539619,Tuřany,nemocnice,Nemocnice v Chebu,10.6,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,19.7,41.0,9:36,10:17,1.0,0.0,11:53,True,36.0,137,35,25.55,"Okrouhlá,Jesenice,hráz",20,137.0,True,False
+539619,Tuřany,urad_orp,Úřad ORP Cheb,10.2,ok,Úřad ORP Cheb,Cheb,orp-515,10.2,24.0,7:12,7:36,2.0,1.0,9:36,True,61.0,137,35,25.55,"Okrouhlá,Jesenice,hráz",20,144.0,False,False
+560308,Bublava,praktik,MUDr. Kamil Cháma,5.0,ok,MUDr. Kamil Cháma,Kraslice,lek-135437-praktik,5.0,12.0,7:15,7:27,1.0,0.0,9:15,True,25.0,409,105,25.67,"Bublava,u staré cesty",12,120.0,False,False
+560308,Bublava,zubar,MUDr. Mikuláš Zoubek,4.2,ok,MUDr. Mikuláš Zoubek,Kraslice,lek-135767-zubar,4.2,7.0,7:15,7:22,1.0,0.0,9:15,True,24.0,409,105,25.67,"Bublava,u staré cesty",12,120.0,False,False
+560308,Bublava,gynekolog,GAFISI s.r.o.,5.1,ok,GAFISI s.r.o.,Kraslice,lek-135615-gynekolog,5.1,17.0,7:15,7:32,1.0,0.0,9:15,True,25.0,409,105,25.67,"Bublava,u staré cesty",12,120.0,False,False
+560308,Bublava,ocni,Cornea Lexum s.r.o.,5.1,ok,Cornea Lexum s.r.o.,Kraslice,lek-248779-ocni,5.1,19.0,7:15,7:34,1.0,0.0,9:15,True,22.0,409,105,25.67,"Bublava,u staré cesty",12,120.0,False,False
+560308,Bublava,nemocnice,Nemocnice Sokolov s.r.o.,24.4,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,24.4,92.0,9:15,10:47,3.0,2.0,13:23,True,99.0,409,105,25.67,"Bublava,u staré cesty",12,248.0,False,False
+560308,Bublava,urad_orp,Úřad ORP Kraslice,5.2,ok,Úřad ORP Kraslice,Kraslice,orp-663,5.2,16.0,7:15,7:31,1.0,0.0,9:15,True,25.0,409,105,25.67,"Bublava,u staré cesty",12,120.0,False,False
+537918,Dalovice,praktik,SofisMed s.r.o.,0.7,ok,SofisMed s.r.o.,Dalovice,lek-244645-praktik,0.7,4.0,7:08,7:12,1.0,0.0,8:03,True,2.0,1992,408,20.48,"Dalovice,Všeborovice",80,55.0,False,False
+537918,Dalovice,zubar,PremiumDentioClinic s.r.o.,1.9,ok,MDDr. Kateřina Kasperová,Karlovy Vary,lek-135011-zubar,2.7,5.0,6:07,6:12,1.0,0.0,7:08,True,4.0,1992,408,20.48,"Dalovice,Všeborovice",80,61.0,True,False
+537918,Dalovice,gynekolog,PRONATAL Spa s.r.o.,2.6,ok,Medipoint s.r.o.,Karlovy Vary,lek-135016-gynekolog,3.2,10.0,6:07,6:17,1.0,0.0,7:13,True,6.0,1992,408,20.48,"Dalovice,Všeborovice",80,66.0,True,False
+537918,Dalovice,ocni,MUDr.Kloz - Oční privátní praxe,0.7,ok,MUDr.Kloz - Oční privátní praxe,Dalovice,lek-134990-ocni,0.7,5.0,7:08,7:13,1.0,0.0,8:03,True,2.0,1992,408,20.48,"Dalovice,Všeborovice",80,55.0,False,False
+537918,Dalovice,nemocnice,Nemocnice v Karlových Varech,2.7,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,2.7,9.0,6:07,6:16,1.0,0.0,7:13,True,4.0,1992,408,20.48,"Dalovice,Všeborovice",80,66.0,False,False
+537918,Dalovice,urad_orp,Úřad ORP Karlovy Vary,3.6,ok,Úřad ORP Ostrov,Ostrov,orp-540,6.5,19.0,7:08,7:27,1.0,0.0,8:39,True,16.0,1992,408,20.48,"Dalovice,Všeborovice",80,91.0,True,False
+538817,Podhradí,praktik,MEDITAIR s.r.o.,3.3,ok,MEDITAIR s.r.o.,Aš,lek-135811-praktik,3.3,22.0,6:14,6:36,2.0,1.0,7:35,True,8.0,219,44,20.09,"Podhradí,Smrčina,drůbežárna",35,81.0,False,False
+538817,Podhradí,zubar,Dental Academy s.r.o.,4.1,ok,Dental Academy s.r.o.,Aš,lek-242989-zubar,4.1,21.0,6:14,6:35,2.0,1.0,7:35,True,11.0,219,44,20.09,"Podhradí,Smrčina,drůbežárna",35,81.0,False,False
+538817,Podhradí,gynekolog,GYNCARE-Aš s.r.o.,3.9,ok,GYNCARE-Aš s.r.o.,Aš,lek-135298-gynekolog,3.9,21.0,6:14,6:35,2.0,1.0,7:35,True,11.0,219,44,20.09,"Podhradí,Smrčina,drůbežárna",35,81.0,False,False
+538817,Podhradí,ocni,MUDr. Václav Ouřada,4.8,ok,MUDr. Václav Ouřada,Aš,lek-135776-ocni,4.8,16.0,8:23,8:39,1.0,0.0,9:59,True,24.0,219,44,20.09,"Podhradí,Smrčina,drůbežárna",35,96.0,False,False
+538817,Podhradí,nemocnice,Nemocnice v Chebu,24.0,ok,Nemocnice v Chebu,Cheb,nem-26365804,24.0,69.0,9:24,10:33,3.0,2.0,12:51,True,89.0,219,44,20.09,"Podhradí,Smrčina,drůbežárna",35,207.0,False,False
+538817,Podhradí,urad_orp,Úřad ORP Aš,3.9,ok,Úřad ORP Aš,Aš,orp-507,3.9,13.0,8:23,8:36,1.0,0.0,9:59,True,29.0,219,44,20.09,"Podhradí,Smrčina,drůbežárna",35,96.0,False,False
+539431,Zádub-Závišín,praktik,MUDr. Jaroslava Slavíková,3.0,ok,MUDr. Jaroslava Slavíková,Mariánské Lázně,lek-135911-praktik,3.0,10.0,7:17,7:27,1.0,0.0,8:30,True,8.0,430,82,19.07,"Zádub,Závišín",21,73.0,False,False
+539431,Zádub-Závišín,zubar,MUDr. Iva Solarová,2.9,ok,MUDr.Stanislav Kopejtko,Mariánské Lázně,lek-135419-zubar,3.0,10.0,7:17,7:27,1.0,0.0,8:30,True,8.0,430,82,19.07,"Zádub,Závišín",21,73.0,True,False
+539431,Zádub-Závišín,gynekolog,MUDr. Jaroslav Křepela,3.0,ok,GaP SPA MUDr. Seifert s.r.o.,Mariánské Lázně,lek-135593-gynekolog,3.0,10.0,7:17,7:27,1.0,0.0,8:30,True,8.0,430,82,19.07,"Zádub,Závišín",21,73.0,True,False
+539431,Zádub-Závišín,ocni,ELEN OPTIK s.r.o.,3.2,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,3.2,12.0,7:17,7:29,1.0,0.0,8:30,True,8.0,430,82,19.07,"Zádub,Závišín",21,73.0,False,False
+539431,Zádub-Závišín,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",3.0,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,3.0,18.0,6:15,6:33,1.0,0.0,8:30,True,10.0,430,82,19.07,"Zádub,Závišín",21,135.0,False,False
+539431,Zádub-Závišín,urad_orp,Úřad ORP Mariánské Lázně,3.0,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,3.0,14.0,7:17,7:31,1.0,0.0,8:30,True,6.0,430,82,19.07,"Zádub,Závišín",21,73.0,False,False
+554511,Drmoul,praktik,MUDr. Jana Klukavá,2.3,ok,MUDr. Jana Klukavá,Velká Hleďsebe,lek-87869-praktik,2.3,13.0,7:20,7:33,1.0,0.0,8:30,True,4.0,1046,214,20.46,"Drmoul,nám.",33,70.0,False,False
+554511,Drmoul,zubar,MUDr. Tomáš Foustka,3.3,ok,MUDr. Tomáš Foustka,Mariánské Lázně,lek-205431-zubar,3.3,18.0,7:06,7:24,1.0,0.0,8:30,True,10.0,1046,214,20.46,"Drmoul,nám.",33,84.0,False,False
+554511,Drmoul,gynekolog,MUDr. František Černý,3.4,ok,GaP SPA MUDr. Seifert s.r.o.,Mariánské Lázně,lek-135593-gynekolog,4.0,35.0,8:30,9:05,2.0,1.0,10:31,True,31.0,1046,214,20.46,"Drmoul,nám.",33,121.0,True,False
+554511,Drmoul,ocni,ELEN OPTIK s.r.o.,3.9,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,3.9,19.0,7:06,7:25,1.0,0.0,8:30,True,8.0,1046,214,20.46,"Drmoul,nám.",33,84.0,False,False
+554511,Drmoul,nemocnice,"Nemocnice Mariánské Lázně, s.r.o.",3.9,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,3.9,20.0,7:06,7:26,1.0,0.0,8:30,True,8.0,1046,214,20.46,"Drmoul,nám.",33,84.0,False,False
+554511,Drmoul,urad_orp,Úřad ORP Mariánské Lázně,4.9,ok,Úřad ORP Mariánské Lázně,Mariánské Lázně,orp-523,4.9,29.0,6:07,6:36,2.0,1.0,8:30,True,60.0,1046,214,20.46,"Drmoul,nám.",33,143.0,False,False
+555347,Kyselka,praktik,Aesculap Kyselka s.r.o.,0.6,ok,Aesculap Kyselka s.r.o.,Kyselka,lek-192625-praktik,0.6,4.0,8:24,8:28,1.0,0.0,9:22,True,0.0,820,163,19.88,"Kyselka,škola",30,58.0,False,False
+555347,Kyselka,zubar,MUDr. Ivona Plávková,0.6,ok,MUDr. Ivona Plávková,Kyselka,lek-136052-zubar,0.6,4.0,8:24,8:28,1.0,0.0,9:22,True,0.0,820,163,19.88,"Kyselka,škola",30,58.0,False,False
+555347,Kyselka,gynekolog,FEMINOS s.r.o,6.1,ok,Medipoint s.r.o.,Karlovy Vary,lek-135016-gynekolog,9.5,30.0,8:24,8:54,2.0,1.0,10:28,True,43.0,820,163,19.88,"Kyselka,škola",30,124.0,True,False
+555347,Kyselka,ocni,Optissima s.r.o.,6.1,ok,MUDr. Hana Plachá,Karlovy Vary,lek-135008-ocni,9.4,31.0,8:24,8:55,2.0,1.0,10:28,True,43.0,820,163,19.88,"Kyselka,škola",30,124.0,True,False
+555347,Kyselka,nemocnice,Nemocnice Ostrov s.r.o.,5.6,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,9.0,30.0,8:24,8:54,2.0,1.0,10:28,True,45.0,820,163,19.88,"Kyselka,škola",30,124.0,True,False
+555347,Kyselka,urad_orp,Úřad ORP Ostrov,5.6,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,9.8,32.0,8:24,8:56,3.0,2.0,10:28,True,28.0,820,163,19.88,"Kyselka,škola",30,124.0,True,False
+560642,Staré Sedlo,praktik,PRVNÍ KARLOVARSKÁ ORDINACE s.r.o.,2.4,ok,PRVNÍ KARLOVARSKÁ ORDINACE s.r.o.,Loket,lek-209099-praktik,2.4,9.0,9:20,9:29,1.0,0.0,10:30,True,3.0,785,184,23.44,Staré Sedlo,72,70.0,False,False
+560642,Staré Sedlo,zubar,Loket Dental s.r.o.,3.2,ok,Loket Dental s.r.o.,Loket,lek-210067-zubar,3.2,14.0,6:10,6:24,1.0,0.0,7:25,True,5.0,785,184,23.44,Staré Sedlo,72,75.0,False,False
+560642,Staré Sedlo,gynekolog,GAP - AP BELLA VITA s.r.o. ,3.8,ok,MUDr. Vladimír Velický,Sokolov,lek-222005-gynekolog,4.5,21.0,8:03,8:24,2.0,1.0,9:29,True,6.0,785,184,23.44,Staré Sedlo,72,86.0,True,False
+560642,Staré Sedlo,ocni,"OČNÍ AMBULANCE MUDr. Tomanová, s.r.o.",3.4,ok,Ambulance Penta s.r.o.,Sokolov,lek-240213-ocni,4.7,18.0,8:03,8:21,2.0,1.0,9:20,True,10.0,785,184,23.44,Staré Sedlo,72,77.0,True,False
+560642,Staré Sedlo,nemocnice,Nemocnice Sokolov s.r.o.,4.5,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,4.5,21.0,8:03,8:24,2.0,1.0,9:29,True,7.0,785,184,23.44,Staré Sedlo,72,86.0,False,False
+560642,Staré Sedlo,urad_orp,Úřad ORP Sokolov,5.0,ok,Úřad ORP Sokolov,Sokolov,orp-671,5.0,23.0,8:03,8:26,2.0,1.0,9:29,True,7.0,785,184,23.44,Staré Sedlo,72,86.0,False,False
+538027,Smolné Pece,praktik,MUDr. Barbora Majkusová,2.6,bez zastávky / bez spojů,,,,,,,,,,,,,242,35,14.46,,0,,False,True
+538027,Smolné Pece,zubar,MDDr. Kateřina Bůžková,2.6,bez zastávky / bez spojů,,,,,,,,,,,,,242,35,14.46,,0,,False,True
+538027,Smolné Pece,gynekolog,Ambulance Penta s.r.o.,2.6,bez zastávky / bez spojů,,,,,,,,,,,,,242,35,14.46,,0,,False,True
+538027,Smolné Pece,ocni,MUDr. Eva Poustková,4.5,bez zastávky / bez spojů,,,,,,,,,,,,,242,35,14.46,,0,,False,True
+538027,Smolné Pece,nemocnice,Nemocnice v Karlových Varech,10.1,bez zastávky / bez spojů,,,,,,,,,,,,,242,35,14.46,,0,,False,False
+538027,Smolné Pece,urad_orp,Úřad ORP Karlovy Vary,9.9,bez zastávky / bez spojů,,,,,,,,,,,,,242,35,14.46,,0,,False,True
+577979,Poustka,praktik,MEDICA GR s.r.o.,2.1,ok,MEDICA GR s.r.o.,Hazlov,lek-135228-praktik,2.1,10.0,6:19,6:29,1.0,0.0,7:32,True,4.0,170,29,17.06,"Poustka,rozc.",34,73.0,False,False
+577979,Poustka,zubar,MEDICA GR s.r.o.,2.1,ok,MEDICA GR s.r.o.,Hazlov,lek-135228-zubar,2.1,10.0,6:19,6:29,1.0,0.0,7:32,True,4.0,170,29,17.06,"Poustka,rozc.",34,73.0,False,False
+577979,Poustka,gynekolog,MUDr. Vratislav Matoušek,4.4,ok,MUDr. Vratislav Matoušek,Františkovy Lázně,lek-193840-gynekolog,4.4,8.0,7:32,7:40,1.0,0.0,9:17,True,45.0,170,29,17.06,"Poustka,rozc.",34,105.0,False,False
+577979,Poustka,ocni,OFTA s.r.o.,9.0,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,9.1,23.0,7:32,7:55,1.0,0.0,9:17,True,22.0,170,29,17.06,"Poustka,rozc.",34,105.0,True,False
+577979,Poustka,nemocnice,Nemocnice v Chebu,9.4,ok,Nemocnice v Chebu,Cheb,nem-26365804,9.4,62.0,6:19,7:21,3.0,2.0,9:17,True,67.0,170,29,17.06,"Poustka,rozc.",34,178.0,False,False
+577979,Poustka,urad_orp,Úřad ORP Cheb,8.8,ok,Úřad ORP Cheb,Cheb,orp-515,8.8,28.0,7:32,8:00,1.0,0.0,9:17,True,24.0,170,29,17.06,"Poustka,rozc.",34,105.0,False,False
+555738,Vojkovice,praktik,MEDIPRIL s.r.o.,5.1,ok,Aesculap Kyselka s.r.o.,Kyselka,lek-192625-praktik,5.6,28.0,7:27,7:55,2.0,1.0,10:42,True,18.0,640,117,18.28,"Vojkovice,Jakubov,porcelánka",21,195.0,True,True
+555738,Vojkovice,zubar,SADENT dentální centrum s.r.o.,5.3,ok,MUDr. Ivona Plávková,Kyselka,lek-136052-zubar,5.6,28.0,7:27,7:55,2.0,1.0,10:42,True,18.0,640,117,18.28,"Vojkovice,Jakubov,porcelánka",21,195.0,True,True
+555738,Vojkovice,gynekolog,FEMINOS s.r.o,6.2,ok,Medipoint s.r.o.,Karlovy Vary,lek-135016-gynekolog,14.2,52.0,7:27,8:19,2.0,1.0,10:42,True,94.0,640,117,18.28,"Vojkovice,Jakubov,porcelánka",21,195.0,True,True
+555738,Vojkovice,ocni,Optissima s.r.o.,6.2,ok,MUDr. Hana Plachá,Karlovy Vary,lek-135008-ocni,14.1,53.0,7:27,8:20,2.0,1.0,10:42,True,87.0,640,117,18.28,"Vojkovice,Jakubov,porcelánka",21,195.0,True,True
+555738,Vojkovice,nemocnice,Nemocnice Ostrov s.r.o.,4.3,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,13.7,52.0,7:27,8:19,2.0,1.0,10:42,True,87.0,640,117,18.28,"Vojkovice,Jakubov,porcelánka",21,195.0,True,True
+555738,Vojkovice,urad_orp,Úřad ORP Ostrov,6.1,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,14.6,57.0,7:27,8:24,2.0,1.0,10:42,True,42.0,640,117,18.28,"Vojkovice,Jakubov,porcelánka",21,195.0,True,True
+556947,Pila,praktik,MUDr. Jaroslava Švandrlíková,1.1,ok,MUDr. Jaroslava Švandrlíková,Pila,lek-135051-praktik,1.1,3.0,6:00,6:03,0.0,0.0,6:51,True,0.0,573,118,20.59,"Pila,rozc.",22,51.0,False,False
+556947,Pila,zubar,Nas. S. Dental Clinic s.r.o.,4.9,ok,MDDR. Petr Fomenko,Karlovy Vary,lek-260571-zubar,5.3,23.0,9:03,9:26,1.0,0.0,10:58,True,37.0,573,118,20.59,"Pila,rozc.",22,115.0,True,False
+556947,Pila,gynekolog,MUDr. Tomáš Martykán,5.3,ok,MUDr. Tomáš Martykán,Karlovy Vary,lek-136002-gynekolog,5.3,23.0,9:03,9:26,1.0,0.0,10:58,True,37.0,573,118,20.59,"Pila,rozc.",22,115.0,False,False
+556947,Pila,ocni,Corneaxi s.r.o.,6.8,ok,Corneaxi s.r.o.,Karlovy Vary,lek-263030-ocni,6.8,27.0,9:03,9:30,1.0,0.0,10:58,True,41.0,573,118,20.59,"Pila,rozc.",22,115.0,False,False
+556947,Pila,nemocnice,Nemocnice v Karlových Varech,6.9,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,6.9,29.0,9:03,9:32,1.0,0.0,10:58,True,28.0,573,118,20.59,"Pila,rozc.",22,115.0,False,False
+556947,Pila,urad_orp,Úřad ORP Karlovy Vary,7.0,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,7.0,47.0,6:43,7:30,2.0,1.0,8:53,True,28.0,573,118,20.59,"Pila,rozc.",22,130.0,False,False
+538019,Černava,praktik,Ambulance Penta s.r.o.,4.0,ok,Ambulance Penta s.r.o.,Nejdek,lek-207662-praktik,4.0,15.0,7:17,7:32,1.0,0.0,9:55,True,10.0,308,69,22.4,Černava,20,158.0,False,False
+538019,Černava,zubar,MUDr.Jiří Kronhoffmann ,4.4,ok,MUDr.Jiří Kronhoffmann ,Nejdek,lek-135292-zubar,4.4,24.0,7:17,7:41,1.0,0.0,9:55,True,10.0,308,69,22.4,Černava,20,158.0,False,False
+538019,Černava,gynekolog,Arias-Stella s.r.o.,4.2,ok,Arias-Stella s.r.o.,Nejdek,lek-135688-gynekolog,4.2,18.0,7:17,7:35,1.0,0.0,9:55,True,10.0,308,69,22.4,Černava,20,158.0,False,False
+538019,Černava,ocni,MUDr. Eva Poustková,4.7,ok,MUDr. Eva Poustková,Nejdek,lek-135072-ocni,4.7,55.0,7:17,8:12,2.0,1.0,9:55,True,28.0,308,69,22.4,Černava,20,158.0,False,False
+538019,Černava,nemocnice,Nemocnice v Karlových Varech,12.5,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,12.5,59.0,6:25,7:24,3.0,2.0,9:55,True,101.0,308,69,22.4,Černava,20,210.0,False,False
+538019,Černava,urad_orp,Úřad ORP Karlovy Vary,12.1,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,12.1,54.0,6:25,7:19,2.0,1.0,9:55,True,100.0,308,69,22.4,Černava,20,210.0,False,False
+555258,Kolová,praktik,MUDr. Jaroslava Švandrlíková,2.3,ok,MUDr. Jaroslava Švandrlíková,Pila,lek-135051-praktik,2.3,6.0,8:50,8:56,1.0,0.0,11:50,True,52.0,952,185,19.43,Kolová,19,180.0,False,True
+555258,Kolová,zubar,Nas. S. Dental Clinic s.r.o.,2.0,ok,MDDR. Petr Fomenko,Karlovy Vary,lek-260571-zubar,3.8,36.0,8:50,9:26,2.0,1.0,10:55,True,34.0,952,185,19.43,Kolová,19,125.0,True,False
+555258,Kolová,gynekolog,MUDr. Tomáš Martykán,3.8,ok,MUDr. Tomáš Martykán,Karlovy Vary,lek-136002-gynekolog,3.8,36.0,8:50,9:26,2.0,1.0,10:55,True,34.0,952,185,19.43,Kolová,19,125.0,False,False
+555258,Kolová,ocni,MUDr. Václava Lišková ,5.0,ok,Corneaxi s.r.o.,Karlovy Vary,lek-263030-ocni,5.1,40.0,8:50,9:30,2.0,1.0,10:55,True,38.0,952,185,19.43,Kolová,19,125.0,True,False
+555258,Kolová,nemocnice,Nemocnice v Karlových Varech,5.3,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,5.3,42.0,8:50,9:32,2.0,1.0,10:55,True,25.0,952,185,19.43,Kolová,19,125.0,False,False
+555258,Kolová,urad_orp,Úřad ORP Karlovy Vary,5.0,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,5.0,50.0,6:40,7:30,2.0,1.0,8:50,True,25.0,952,185,19.43,Kolová,19,130.0,False,False
+555045,Božičany,praktik,MUDr. Barbora Majkusová,1.7,ok,MUDr. Barbora Majkusová,Nová Role,lek-135111-praktik,1.7,8.0,6:01,6:09,1.0,0.0,7:04,True,4.0,589,113,19.19,Božičany,63,63.0,False,False
+555045,Božičany,zubar,MDDr. Kateřina Bůžková,1.7,ok,MDDr. Kateřina Bůžková,Nová Role,lek-228444-zubar,1.7,8.0,6:01,6:09,1.0,0.0,7:04,True,4.0,589,113,19.19,Božičany,63,63.0,False,False
+555045,Božičany,gynekolog,Ambulance Penta s.r.o.,1.7,ok,Ambulance Penta s.r.o.,Nová Role,lek-224189-gynekolog,1.7,8.0,6:01,6:09,1.0,0.0,7:04,True,4.0,589,113,19.19,Božičany,63,63.0,False,False
+555045,Božičany,ocni,MUDr. Romana Ševčíková,3.6,ok,MUDr. Romana Ševčíková,Chodov,lek-134946-ocni,3.6,9.0,7:04,7:13,1.0,0.0,8:21,True,6.0,589,113,19.19,Božičany,63,77.0,False,False
+555045,Božičany,nemocnice,Nemocnice v Karlových Varech,9.2,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,9.2,43.0,6:01,6:44,5.0,4.0,8:30,True,48.0,589,113,19.19,Božičany,63,149.0,False,False
+555045,Božičany,urad_orp,Úřad ORP Karlovy Vary,8.8,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,8.8,40.0,6:01,6:41,3.0,2.0,8:21,True,41.0,589,113,19.19,Božičany,63,140.0,False,False
+566675,Vrbice,praktik,Miroslava Girod Schreinerová,4.7,ok,Ordinace Bochov s.r.o.,Bochov,lek-178310-praktik,12.9,34.0,6:23,6:57,2.0,1.0,8:02,True,17.0,202,30,14.85,"Vrbice,Bošov",37,99.0,True,False
+566675,Vrbice,zubar,MUDr. Hana Hnyková,7.9,ok,MDDr. David Irman,Bochov,lek-240511-zubar,12.9,34.0,6:23,6:57,2.0,1.0,8:02,True,17.0,202,30,14.85,"Vrbice,Bošov",37,99.0,True,False
+566675,Vrbice,gynekolog,Medipoint s.r.o.,7.9,ok,Medipoint s.r.o.,Karlovy Vary,lek-135016-gynekolog,27.0,48.0,9:34,10:22,1.0,0.0,13:17,True,122.0,202,30,14.85,"Vrbice,Bošov",37,223.0,False,True
+566675,Vrbice,ocni,MUDr.Kloz - Oční privátní praxe,26.2,ok,MUDr. Hana Plachá,Karlovy Vary,lek-135008-ocni,26.9,49.0,9:34,10:23,1.0,0.0,13:17,True,125.0,202,30,14.85,"Vrbice,Bošov",37,223.0,True,False
+566675,Vrbice,nemocnice,Nemocnice Ostrov s.r.o.,26.4,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,26.7,48.0,9:34,10:22,1.0,0.0,13:17,True,122.0,202,30,14.85,"Vrbice,Bošov",37,223.0,True,False
+566675,Vrbice,urad_orp,Úřad ORP Ostrov,26.9,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,27.2,52.0,9:34,10:26,2.0,1.0,13:17,True,47.0,202,30,14.85,"Vrbice,Bošov",37,223.0,True,False
+551651,Hory,praktik,ORDINACE Doubí s.r.o.,3.1,ok,JefaMed s.r.o.,Karlovy Vary,lek-261094-praktik,4.3,11.0,7:00,7:11,1.0,0.0,8:33,True,22.0,502,66,13.15,Hory,59,93.0,True,False
+551651,Hory,zubar,SpaDentist s.r.o.,1.5,ok,DENTANEO s.r.o.,Karlovy Vary,lek-245142-zubar,4.3,11.0,7:00,7:11,1.0,0.0,8:33,True,23.0,502,66,13.15,Hory,59,93.0,True,False
+551651,Hory,gynekolog,GAP - AP BELLA VITA s.r.o. ,3.2,ok,Ambulance Penta s.r.o.,Karlovy Vary,lek-205125-gynekolog,5.8,15.0,7:00,7:15,2.0,1.0,8:33,True,8.0,502,66,13.15,Hory,59,93.0,True,False
+551651,Hory,ocni,Cornea Lexum s.r.o.,3.2,ok,Optissima s.r.o.,Karlovy Vary,lek-262399-ocni,5.8,15.0,7:00,7:15,2.0,1.0,8:33,True,8.0,502,66,13.15,Hory,59,93.0,True,False
+551651,Hory,nemocnice,Nemocnice v Karlových Varech,7.2,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,7.2,27.0,6:17,6:44,3.0,2.0,8:02,True,20.0,502,66,13.15,Hory,59,105.0,False,False
+551651,Hory,urad_orp,Úřad ORP Karlovy Vary,6.3,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,6.3,23.0,7:00,7:23,2.0,1.0,8:33,True,13.0,502,66,13.15,Hory,59,93.0,False,False
+538001,Andělská Hora,praktik,MUDr. Jaroslava Švandrlíková,3.8,ok,Ordinace Bochov s.r.o.,Bochov,lek-178310-praktik,8.8,15.0,9:55,10:10,1.0,0.0,11:12,True,14.0,408,95,23.28,"Andělská Hora,chaty",46,77.0,True,False
+538001,Andělská Hora,zubar,MDDR. Petr Fomenko,5.1,ok,MDDr. David Irman,Bochov,lek-240511-zubar,8.8,15.0,9:55,10:10,1.0,0.0,11:12,True,14.0,408,95,23.28,"Andělská Hora,chaty",46,77.0,True,False
+538001,Andělská Hora,gynekolog,MUDr. Tomáš Martykán,5.1,ok,Medipoint s.r.o.,Karlovy Vary,lek-135016-gynekolog,6.7,16.0,6:06,6:22,1.0,0.0,7:29,True,19.0,408,95,23.28,"Andělská Hora,chaty",46,83.0,True,False
+538001,Andělská Hora,ocni,Corneaxi s.r.o.,6.4,ok,MUDr. Hana Plachá,Karlovy Vary,lek-135008-ocni,6.6,17.0,7:13,7:30,1.0,0.0,8:59,True,38.0,408,95,23.28,"Andělská Hora,chaty",46,106.0,True,False
+538001,Andělská Hora,nemocnice,Nemocnice v Karlových Varech,6.4,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,6.4,16.0,6:06,6:22,1.0,0.0,7:29,True,10.0,408,95,23.28,"Andělská Hora,chaty",46,83.0,False,False
+538001,Andělská Hora,urad_orp,Úřad ORP Karlovy Vary,6.9,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,6.9,22.0,7:13,7:35,1.0,0.0,8:59,True,14.0,408,95,23.28,"Andělská Hora,chaty",46,106.0,False,False
+578011,Chodov (u Bečova),praktik,"Městská společnost Bečov, s.r.o.",3.5,ok,"Městská společnost Bečov, s.r.o.",Bečov nad Teplou,lek-244106-praktik,3.5,16.0,11:48,12:04,1.0,0.0,13:04,True,9.0,129,28,21.71,"Chodov,host.",6,76.0,False,False
+578011,Chodov (u Bečova),zubar,MUDr. Hulešová Olga,8.8,ok,MDDr. David Irman,Bochov,lek-240511-zubar,14.0,55.0,11:48,12:43,3.0,2.0,15:44,True,115.0,129,28,21.71,"Chodov,host.",6,236.0,True,True
+578011,Chodov (u Bečova),gynekolog,MUDr. Jan Malimánek,3.5,ok,MUDr. Jan Malimánek,Bečov nad Teplou,lek-135836-gynekolog,3.5,16.0,11:48,12:04,1.0,0.0,13:04,True,9.0,129,28,21.71,"Chodov,host.",6,76.0,False,False
+578011,Chodov (u Bečova),ocni,Cornea Lexum s.r.o.,15.9,ok,OFTALMO s.r.o.,Karlovy Vary,lek-207660-ocni,16.6,71.0,7:38,8:49,2.0,1.0,11:48,True,128.0,129,28,21.71,"Chodov,host.",6,250.0,True,False
+578011,Chodov (u Bečova),nemocnice,Nemocnice v Karlových Varech,16.9,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,16.9,74.0,7:38,8:52,3.0,2.0,11:48,True,123.0,129,28,21.71,"Chodov,host.",6,250.0,False,False
+578011,Chodov (u Bečova),urad_orp,Úřad ORP Karlovy Vary,16.4,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,16.4,75.0,7:38,8:53,2.0,1.0,11:48,True,103.0,129,28,21.71,"Chodov,host.",6,250.0,False,False
+511587,Josefov,praktik,MUDr. Jaroslav Málek s.r.o.,2.2,ok,MUDr. Jaroslav Málek s.r.o.,Habartov,lek-135405-praktik,2.2,12.0,8:01,8:13,1.0,0.0,9:11,True,4.0,442,65,14.71,"Josefov,Radvanov",46,70.0,False,False
+511587,Josefov,zubar,JaKlDent s.r.o.,5.3,ok,JaKlDent s.r.o.,Sokolov,lek-211050-zubar,5.3,14.0,6:05,6:19,1.0,0.0,8:01,True,11.0,442,65,14.71,"Josefov,Radvanov",46,116.0,False,False
+511587,Josefov,gynekolog,GYNESTET s.r.o.,5.4,ok,GYNESTET s.r.o.,Sokolov,lek-135955-gynekolog,5.4,18.0,6:05,6:23,1.0,0.0,8:01,True,11.0,442,65,14.71,"Josefov,Radvanov",46,116.0,False,False
+511587,Josefov,ocni,MUDr. LADISLAVA KOLIÁŠOVÁ,3.2,ok,Cornea Lexum s.r.o.,Sokolov,lek-248780-ocni,5.6,22.0,6:05,6:27,1.0,0.0,8:01,True,11.0,442,65,14.71,"Josefov,Radvanov",46,116.0,True,False
+511587,Josefov,nemocnice,Nemocnice Sokolov s.r.o.,6.2,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,6.2,26.0,6:05,6:31,2.0,1.0,8:01,True,36.0,442,65,14.71,"Josefov,Radvanov",46,116.0,False,False
+511587,Josefov,urad_orp,Úřad ORP Sokolov,5.7,ok,Úřad ORP Sokolov,Sokolov,orp-671,5.7,23.0,6:05,6:28,2.0,1.0,8:01,True,43.0,442,65,14.71,"Josefov,Radvanov",46,116.0,False,False
+554979,Abertamy,praktik,Bergdoktor s.r.o.,3.0,ok,Bergdoktor s.r.o.,Pernink,lek-244795-praktik,3.0,8.0,6:25,6:33,1.0,0.0,7:48,True,12.0,817,188,23.01,"Abertamy,nám.",21,83.0,False,False
+554979,Abertamy,zubar,OLI dent s.r.o.,7.0,ok,OLI dent s.r.o.,Jáchymov,lek-248372-zubar,7.0,28.0,6:25,6:53,2.0,1.0,9:49,True,119.0,817,188,23.01,"Abertamy,nám.",21,204.0,False,True
+554979,Abertamy,gynekolog,Arias-Stella s.r.o.,8.9,ok,FEMINOS s.r.o,Ostrov,lek-167537-gynekolog,11.3,47.0,6:25,7:12,3.0,2.0,9:49,True,97.0,817,188,23.01,"Abertamy,nám.",21,204.0,True,True
+554979,Abertamy,ocni,MUDr. Eva Poustková,8.4,ok,Optissima s.r.o.,Ostrov,lek-244637-ocni,11.3,47.0,6:25,7:12,3.0,2.0,9:49,True,97.0,817,188,23.01,"Abertamy,nám.",21,204.0,True,True
+554979,Abertamy,nemocnice,Nemocnice Ostrov s.r.o.,12.5,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,16.6,57.0,6:25,7:22,4.0,3.0,9:49,True,95.0,817,188,23.01,"Abertamy,nám.",21,204.0,True,False
+554979,Abertamy,urad_orp,Úřad ORP Ostrov,11.9,ok,Úřad ORP Ostrov,Ostrov,orp-540,11.9,43.0,6:25,7:08,3.0,2.0,9:49,True,110.0,817,188,23.01,"Abertamy,nám.",21,204.0,False,False
+538159,Hájek,praktik,MEDHYNEK s.r.o.,3.1,ok,MEDHYNEK s.r.o.,Ostrov,lek-134992-praktik,3.1,10.0,6:07,6:17,1.0,0.0,7:14,True,5.0,643,113,17.57,"Hájek,statek",67,67.0,False,False
+538159,Hájek,zubar,GALLERYDENT s.r.o.,2.9,ok,GALLERYDENT s.r.o.,Ostrov,lek-261157-zubar,2.9,8.0,6:07,6:15,1.0,0.0,7:14,True,5.0,643,113,17.57,"Hájek,statek",67,67.0,False,False
+538159,Hájek,gynekolog,FEMINOS s.r.o,3.2,ok,FEMINOS s.r.o,Ostrov,lek-167537-gynekolog,3.2,10.0,8:15,8:25,2.0,1.0,9:29,True,5.0,643,113,17.57,"Hájek,statek",67,74.0,False,False
+538159,Hájek,ocni,Optissima s.r.o.,3.2,ok,Optissima s.r.o.,Ostrov,lek-244637-ocni,3.2,10.0,8:15,8:25,2.0,1.0,9:29,True,5.0,643,113,17.57,"Hájek,statek",67,74.0,False,False
+538159,Hájek,nemocnice,Nemocnice Ostrov s.r.o.,4.8,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,6.2,20.0,7:16,7:36,1.0,0.0,8:50,True,15.0,643,113,17.57,"Hájek,statek",67,94.0,True,False
+538159,Hájek,urad_orp,Úřad ORP Ostrov,2.9,ok,Úřad ORP Ostrov,Ostrov,orp-540,2.9,8.0,6:07,6:15,1.0,0.0,7:14,True,5.0,643,113,17.57,"Hájek,statek",67,67.0,False,False
+555304,Krásné Údolí,praktik,"Městská společnost Bečov, s.r.o.",5.5,ok,MUDr. Iva Marko,Toužim,lek-134885-praktik,5.8,11.0,8:00,8:11,1.0,0.0,9:19,True,10.0,389,79,20.31,Krásné Údolí,48,79.0,True,False
+555304,Krásné Údolí,zubar,MUDr. Hulešová Olga,10.6,ok,Nas. S. Dental Clinic s.r.o.,Březová,lek-135935-zubar,13.7,33.0,8:02,8:35,1.0,0.0,10:04,True,39.0,389,79,20.31,Krásné Údolí,48,122.0,True,False
+555304,Krásné Údolí,gynekolog,MUDr. Jan Malimánek,5.5,ok,MUDr.Pavel Jančík - gynekologie a porodnictví,Toužim,lek-134952-gynekolog,5.7,10.0,8:00,8:10,1.0,0.0,9:19,True,10.0,389,79,20.31,Krásné Údolí,48,79.0,True,False
+555304,Krásné Údolí,ocni,Cornea Lexum s.r.o.,17.0,ok,Corneaxi s.r.o.,Karlovy Vary,lek-263030-ocni,17.4,48.0,8:02,8:50,1.0,0.0,10:36,True,57.0,389,79,20.31,Krásné Údolí,48,154.0,True,False
+555304,Krásné Údolí,nemocnice,Nemocnice v Karlových Varech,17.6,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,17.6,50.0,8:02,8:52,1.0,0.0,10:36,True,53.0,389,79,20.31,Krásné Údolí,48,154.0,False,False
+555304,Krásné Údolí,urad_orp,Úřad ORP Karlovy Vary,17.2,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,17.2,54.0,8:02,8:56,2.0,1.0,10:36,True,31.0,389,79,20.31,Krásné Údolí,48,154.0,False,False
+554693,Nebanice,praktik,MUDr. František Uhlík,4.8,ok,Recovery Clinic a.s.,Františkovy Lázně,lek-261731-praktik,8.5,23.0,8:19,8:42,1.0,0.0,10:31,True,43.0,320,60,18.75,"Nebanice,Hartoušov",15,132.0,True,False
+554693,Nebanice,zubar,MUDr. Marie Emmichová,5.0,ok,MUDr. Pavlína Nováčková,Františkovy Lázně,lek-135034-zubar,8.5,23.0,8:19,8:42,1.0,0.0,10:31,True,43.0,320,60,18.75,"Nebanice,Hartoušov",15,132.0,True,False
+554693,Nebanice,gynekolog,MUDr. Vratislav Matoušek,8.4,ok,MUDr. Vratislav Matoušek,Františkovy Lázně,lek-193840-gynekolog,8.4,23.0,8:19,8:42,1.0,0.0,10:31,True,62.0,320,60,18.75,"Nebanice,Hartoušov",15,132.0,False,False
+554693,Nebanice,ocni,Oční ambulance Kynšperk s.r.o.,4.8,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,8.7,32.0,8:19,8:51,1.0,0.0,10:31,True,31.0,320,60,18.75,"Nebanice,Hartoušov",15,132.0,True,False
+554693,Nebanice,nemocnice,Nemocnice v Chebu,9.5,ok,Nemocnice v Chebu,Cheb,nem-26365804,9.5,50.0,8:19,9:09,2.0,1.0,11:35,True,93.0,320,60,18.75,"Nebanice,Hartoušov",15,196.0,False,True
+554693,Nebanice,urad_orp,Úřad ORP Cheb,8.6,ok,Úřad ORP Cheb,Cheb,orp-515,8.6,37.0,8:19,8:56,1.0,0.0,10:31,True,40.0,320,60,18.75,"Nebanice,Hartoušov",15,132.0,False,False
+538663,Tatrovice,praktik,Ambulance Penta s.r.o.,5.1,ok,Ambulance Penta s.r.o.,Vintířov,lek-223910-praktik,5.1,16.0,8:10,8:26,1.0,0.0,10:25,True,62.0,166,33,19.88,Tatrovice,24,135.0,False,False
+538663,Tatrovice,zubar,PRAKTIDENT s.r.o.,5.6,ok,PRAKTIDENT s.r.o.,Chodov,lek-242695-zubar,5.6,21.0,6:27,6:48,1.0,0.0,8:05,True,10.0,166,33,19.88,Tatrovice,24,98.0,False,False
+538663,Tatrovice,gynekolog,GAP - AP BELLA VITA s.r.o. ,5.0,ok,MUDr. JAN DUDA,Chodov,lek-210098-gynekolog,5.6,23.0,8:10,8:33,1.0,0.0,10:25,True,25.0,166,33,19.88,Tatrovice,24,135.0,True,False
+538663,Tatrovice,ocni,MUDr. Romana Ševčíková,5.6,ok,MUDr. Romana Ševčíková,Chodov,lek-134946-ocni,5.6,21.0,6:27,6:48,1.0,0.0,8:05,True,10.0,166,33,19.88,Tatrovice,24,98.0,False,False
+538663,Tatrovice,nemocnice,Nemocnice Sokolov s.r.o.,11.4,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,13.8,57.0,10:40,11:37,3.0,2.0,13:29,True,59.0,166,33,19.88,Tatrovice,24,169.0,True,False
+538663,Tatrovice,urad_orp,Úřad ORP Sokolov,11.4,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,13.3,45.0,7:16,8:01,3.0,2.0,9:58,True,58.0,166,33,19.88,Tatrovice,24,162.0,True,False
+539074,Vojtanov,praktik,MEDICA GR s.r.o.,2.5,ok,MEDICA GR s.r.o.,Hazlov,lek-135228-praktik,2.5,12.0,6:17,6:29,1.0,0.0,7:34,True,6.0,248,41,16.53,"Vojtanov,Antonínova Výšina",33,77.0,False,False
+539074,Vojtanov,zubar,MEDICA GR s.r.o.,2.5,ok,MEDICA GR s.r.o.,Hazlov,lek-135228-zubar,2.5,12.0,6:17,6:29,1.0,0.0,7:34,True,6.0,248,41,16.53,"Vojtanov,Antonínova Výšina",33,77.0,False,False
+539074,Vojtanov,gynekolog,MUDr. Vratislav Matoušek,4.1,ok,MUDr. Vratislav Matoušek,Františkovy Lázně,lek-193840-gynekolog,4.1,6.0,7:34,7:40,1.0,0.0,9:15,True,43.0,248,41,16.53,"Vojtanov,Antonínova Výšina",33,101.0,False,False
+539074,Vojtanov,ocni,OFTA s.r.o.,9.7,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,9.8,21.0,7:34,7:55,1.0,0.0,9:15,True,20.0,248,41,16.53,"Vojtanov,Antonínova Výšina",33,101.0,True,False
+539074,Vojtanov,nemocnice,Nemocnice v Chebu,10.2,ok,Nemocnice v Chebu,Cheb,nem-26365804,10.2,40.0,8:53,9:33,2.0,1.0,11:14,True,48.0,248,41,16.53,"Vojtanov,Antonínova Výšina",33,141.0,False,False
+539074,Vojtanov,urad_orp,Úřad ORP Cheb,9.4,ok,Úřad ORP Cheb,Cheb,orp-515,9.4,26.0,7:34,8:00,1.0,0.0,9:15,True,22.0,248,41,16.53,"Vojtanov,Antonínova Výšina",33,101.0,False,False
+538922,Okrouhlá,praktik,MUDr. RADKA VŮCHOVÁ,6.3,ok,MUDr. RADKA VŮCHOVÁ,Dolní Žandov,lek-222036-praktik,6.3,10.0,9:40,9:50,1.0,0.0,11:49,True,12.0,266,53,19.92,Okrouhlá,21,129.0,False,False
+538922,Okrouhlá,zubar,MUDr.Jana Valentová,6.3,ok,MUDr.Jana Valentová,Dolní Žandov,lek-194241-zubar,6.3,10.0,9:40,9:50,1.0,0.0,11:49,True,12.0,266,53,19.92,Okrouhlá,21,129.0,False,False
+538922,Okrouhlá,gynekolog,GaP SPA MUDr. Seifert s.r.o.,6.3,ok,GaP SPA MUDr. Seifert s.r.o.,Dolní Žandov,lek-135594-gynekolog,6.3,10.0,9:40,9:50,1.0,0.0,11:49,True,12.0,266,53,19.92,Okrouhlá,21,129.0,False,False
+538922,Okrouhlá,ocni,Oční ambulance Kynšperk s.r.o.,6.3,ok,ELEN OPTIK s.r.o.,Mariánské Lázně,lek-135194-ocni,18.3,32.0,9:40,10:12,1.0,0.0,11:49,True,48.0,266,53,19.92,Okrouhlá,21,129.0,True,False
+538922,Okrouhlá,nemocnice,Nemocnice v Chebu,9.1,ok,"Nemocnice Mariánské Lázně, s.r.o.",Mariánské Lázně,nem-26376709,18.8,37.0,9:40,10:17,1.0,0.0,11:49,True,32.0,266,53,19.92,Okrouhlá,21,129.0,True,False
+538922,Okrouhlá,urad_orp,Úřad ORP Cheb,9.0,ok,Úřad ORP Cheb,Cheb,orp-515,9.0,30.0,7:06,7:36,2.0,1.0,9:40,True,65.0,266,53,19.92,Okrouhlá,21,154.0,False,False
+538868,Pomezí nad Ohří,praktik,MUDr. Jana Malásková,5.0,ok,MUDr. Marie Hálová,Cheb,lek-209442-praktik,5.6,25.0,10:33,10:58,2.0,1.0,13:33,True,102.0,378,40,10.58,"Pomezí n.Ohří,,kostel",16,180.0,True,True
+538868,Pomezí nad Ohří,zubar,MUDr. Daniela Koblenová,4.6,ok,MUDr. Daniela Koblenová,Cheb,lek-193854-zubar,4.6,23.0,10:33,10:56,2.0,1.0,13:33,True,107.0,378,40,10.58,"Pomezí n.Ohří,,kostel",16,180.0,False,True
+538868,Pomezí nad Ohří,gynekolog,PROGAP s.r.o.,5.3,ok,G a P MUDr. RITA MAŠKOVÁ s.r.o.,Cheb,lek-135069-gynekolog,5.7,26.0,10:33,10:59,2.0,1.0,13:33,True,102.0,378,40,10.58,"Pomezí n.Ohří,,kostel",16,180.0,True,True
+538868,Pomezí nad Ohří,ocni,OFTA s.r.o.,5.7,ok,OFTA s.r.o.,Cheb,lek-134962-ocni,5.7,26.0,10:33,10:59,2.0,1.0,13:33,True,102.0,378,40,10.58,"Pomezí n.Ohří,,kostel",16,180.0,False,True
+538868,Pomezí nad Ohří,nemocnice,Nemocnice v Chebu,5.5,ok,Nemocnice v Chebu,Cheb,nem-26365804,5.5,36.0,10:33,11:09,3.0,2.0,13:33,True,91.0,378,40,10.58,"Pomezí n.Ohří,,kostel",16,180.0,False,True
+538868,Pomezí nad Ohří,urad_orp,Úřad ORP Cheb,5.7,ok,Úřad ORP Cheb,Cheb,orp-515,5.7,33.0,10:33,11:06,2.0,1.0,13:33,True,85.0,378,40,10.58,"Pomezí n.Ohří,,kostel",16,180.0,False,True
+538434,Svatava,praktik,MUDr. Monika Rundová,2.2,ok,MUDr. Miroslav Makovec,Sokolov,lek-135005-praktik,2.2,9.0,9:03,9:12,1.0,0.0,10:18,True,3.0,1593,305,19.15,"Svatava,rozc.",146,75.0,True,False
+538434,Svatava,zubar,JaKlDent s.r.o.,2.1,ok,JaKlDent s.r.o.,Sokolov,lek-211050-zubar,2.1,6.0,9:03,9:09,1.0,0.0,10:18,True,3.0,1593,305,19.15,"Svatava,rozc.",146,75.0,False,False
+538434,Svatava,gynekolog,GYNESTET s.r.o.,2.2,ok,GYNESTET s.r.o.,Sokolov,lek-135955-gynekolog,2.2,10.0,9:03,9:13,1.0,0.0,10:18,True,3.0,1593,305,19.15,"Svatava,rozc.",146,75.0,False,False
+538434,Svatava,ocni,Cornea Lexum s.r.o.,2.3,ok,Ambulance Penta s.r.o.,Sokolov,lek-240213-ocni,2.9,9.0,9:03,9:12,2.0,1.0,10:18,True,16.0,1593,305,19.15,"Svatava,rozc.",146,75.0,True,False
+538434,Svatava,nemocnice,Nemocnice Sokolov s.r.o.,2.9,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,2.9,14.0,8:13,8:27,2.0,1.0,9:33,True,11.0,1593,305,19.15,"Svatava,rozc.",146,80.0,False,False
+538434,Svatava,urad_orp,Úřad ORP Sokolov,2.4,ok,Úřad ORP Sokolov,Sokolov,orp-671,2.4,14.0,8:13,8:27,2.0,1.0,9:33,True,11.0,1593,305,19.15,"Svatava,rozc.",146,80.0,False,False
+560600,Rotava,praktik,Ascala s.r.o.,0.4,ok,Ascala s.r.o.,Rotava,lek-134977-praktik,0.4,11.0,9:16,9:27,1.0,0.0,10:32,True,6.0,2753,563,20.45,"Rotava,Zátiší",66,76.0,False,False
+560600,Rotava,zubar,MUDr. Jindra Janů,3.8,ok,MUDr. Jindra Janů,Kraslice,lek-135997-zubar,3.8,40.0,6:06,6:46,2.0,1.0,7:46,True,9.0,2753,563,20.45,"Rotava,Zátiší",66,100.0,False,False
+560600,Rotava,gynekolog,GAFISI s.r.o.,4.4,ok,GAFISI s.r.o.,Kraslice,lek-135615-gynekolog,4.4,40.0,6:06,6:46,2.0,1.0,7:46,True,11.0,2753,563,20.45,"Rotava,Zátiší",66,100.0,False,False
+560600,Rotava,ocni,Cornea Lexum s.r.o.,4.3,ok,Cornea Lexum s.r.o.,Kraslice,lek-248779-ocni,4.3,17.0,7:01,7:18,1.0,0.0,8:46,True,11.0,2753,563,20.45,"Rotava,Zátiší",66,105.0,False,False
+560600,Rotava,nemocnice,Nemocnice Sokolov s.r.o.,15.3,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,15.3,71.0,6:26,7:37,2.0,1.0,9:32,True,61.0,2753,563,20.45,"Rotava,Zátiší",66,186.0,False,False
+560600,Rotava,urad_orp,Úřad ORP Kraslice,4.3,ok,Úřad ORP Kraslice,Kraslice,orp-663,4.3,39.0,6:06,6:45,2.0,1.0,7:46,True,11.0,2753,563,20.45,"Rotava,Zátiší",66,100.0,False,False
+560464,Královské Poříčí,praktik,Petr Vilím - praktický lékař s.r.o.,1.4,ok,Petr Vilím - praktický lékař s.r.o.,Královské Poříčí,lek-193334-praktik,1.4,9.0,6:32,6:41,1.0,0.0,7:37,True,0.0,768,131,17.06,Královské Poříčí,31,65.0,False,False
+560464,Královské Poříčí,zubar,MUDr. Ivan Pázral ,2.8,ok,JaKlDent s.r.o.,Sokolov,lek-211050-zubar,3.7,9.0,6:43,6:52,1.0,0.0,8:13,True,18.0,768,131,17.06,Královské Poříčí,31,90.0,True,False
+560464,Královské Poříčí,gynekolog,Gynekologie Sokolov s.r.o.,3.6,ok,Léčebně preventivní zařízení s. r. o.,Sokolov,lek-135000-gynekolog,4.2,12.0,6:43,6:55,2.0,1.0,8:13,True,30.0,768,131,17.06,Královské Poříčí,31,90.0,True,False
+560464,Královské Poříčí,ocni,"OČNÍ AMBULANCE MUDr. Tomanová, s.r.o.",3.4,ok,Sanokulus s.r.o.,Sokolov,lek-248079-ocni,4.2,12.0,6:43,6:55,2.0,1.0,8:13,True,30.0,768,131,17.06,Královské Poříčí,31,90.0,True,False
+560464,Královské Poříčí,nemocnice,Nemocnice Sokolov s.r.o.,3.8,ok,Nemocnice Sokolov s.r.o.,Sokolov,nem-24747246,3.8,17.0,6:43,7:00,2.0,1.0,8:13,True,16.0,768,131,17.06,Královské Poříčí,31,90.0,False,False
+560464,Královské Poříčí,urad_orp,Úřad ORP Sokolov,4.0,ok,Úřad ORP Sokolov,Sokolov,orp-671,4.0,11.0,6:43,6:54,2.0,1.0,8:13,True,29.0,768,131,17.06,Královské Poříčí,31,90.0,False,False
+539554,Odrava,praktik,MUDr. František Uhlík,3.2,ok,MUDr. HANA BERKOVCOVÁ,Cheb,lek-244880-praktik,8.7,17.0,7:16,7:33,2.0,1.0,9:32,True,12.0,238,47,19.75,"Odrava,Potočiště,rozc.",31,136.0,True,False
+539554,Odrava,zubar,MUDr. Marie Emmichová,3.6,ok,AXION Dental Dock Cheb s.r.o.,Cheb,lek-240592-zubar,9.4,18.0,7:16,7:34,1.0,0.0,9:32,True,71.0,238,47,19.75,"Odrava,Potočiště,rozc.",31,136.0,True,False
+539554,Odrava,gynekolog,Labela - gynekologie s. r. o.,9.1,ok,Labela - gynekologie s. r. o.,Cheb,lek-178203-gynekolog,9.1,19.0,7:16,7:35,2.0,1.0,9:32,True,12.0,238,47,19.75,"Odrava,Potočiště,rozc.",31,136.0,False,False
+539554,Odrava,ocni,Oční ambulance Kynšperk s.r.o.,3.1,ok,MUDr. Olga Matoušková,Cheb,lek-204726-ocni,9.0,15.0,7:16,7:31,2.0,1.0,9:32,True,12.0,238,47,19.75,"Odrava,Potočiště,rozc.",31,136.0,True,False
+539554,Odrava,nemocnice,Nemocnice v Chebu,9.6,ok,Nemocnice v Chebu,Cheb,nem-26365804,9.6,33.0,7:16,7:49,4.0,3.0,9:32,True,30.0,238,47,19.75,"Odrava,Potočiště,rozc.",31,136.0,False,False
+539554,Odrava,urad_orp,Úřad ORP Cheb,9.0,ok,Úřad ORP Cheb,Cheb,orp-515,9.0,20.0,7:16,7:36,2.0,1.0,9:32,True,57.0,238,47,19.75,"Odrava,Potočiště,rozc.",31,136.0,False,False
+555592,Stružná,praktik,MUDr. Jaroslava Švandrlíková,4.6,ok,Ordinace Bochov s.r.o.,Bochov,lek-178310-praktik,5.2,7.0,6:01,6:08,1.0,0.0,7:03,True,4.0,633,97,15.32,"Stružná,Horní Tašovice",61,62.0,True,False
+555592,Stružná,zubar,MDDr. David Irman,5.2,ok,MDDr. David Irman,Bochov,lek-240511-zubar,5.2,7.0,6:01,6:08,1.0,0.0,7:03,True,4.0,633,97,15.32,"Stružná,Horní Tašovice",61,62.0,False,False
+555592,Stružná,gynekolog,MUDr. Tomáš Martykán,8.4,ok,PRONATAL Spa s.r.o.,Karlovy Vary,lek-205969-gynekolog,9.9,26.0,7:03,7:29,2.0,1.0,9:13,True,51.0,633,97,15.32,"Stružná,Horní Tašovice",61,130.0,True,False
+555592,Stružná,ocni,Corneaxi s.r.o.,9.9,ok,MUDr. Hana Plachá,Karlovy Vary,lek-135008-ocni,10.1,27.0,7:03,7:30,1.0,0.0,9:13,True,52.0,633,97,15.32,"Stružná,Horní Tašovice",61,130.0,True,False
+555592,Stružná,nemocnice,Nemocnice v Karlových Varech,10.0,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,10.0,26.0,7:03,7:29,1.0,0.0,9:13,True,51.0,633,97,15.32,"Stružná,Horní Tašovice",61,130.0,False,False
+555592,Stružná,urad_orp,Úřad ORP Karlovy Vary,10.3,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,10.3,32.0,7:03,7:35,1.0,0.0,9:13,True,28.0,633,97,15.32,"Stružná,Horní Tašovice",61,130.0,False,False
+506621,Čichalov,praktik,Miroslava Girod Schreinerová,4.2,ok,Ordinace Bochov s.r.o.,Bochov,lek-178310-praktik,11.1,21.0,10:39,11:00,1.0,0.0,13:05,True,65.0,158,25,15.82,Čichalov,9,146.0,True,False
+506621,Čichalov,zubar,MUDr. Hana Hnyková,4.7,ok,MDDr. David Irman,Bochov,lek-240511-zubar,11.1,21.0,10:39,11:00,1.0,0.0,13:05,True,65.0,158,25,15.82,Čichalov,9,146.0,True,False
+506621,Čichalov,gynekolog,Medipoint s.r.o.,4.7,ok,Medipoint s.r.o.,Žlutice,lek-135017-gynekolog,4.7,20.0,7:18,7:38,1.0,0.0,10:39,True,14.0,158,25,15.82,Čichalov,9,201.0,False,True
+506621,Čichalov,ocni,MUDr.Kloz - Oční privátní praxe,25.5,ok,"Karlovarská krajská nemocnice a.s., Nemocnice Karlovy Vary, odborná ambulance",Karlovy Vary,lek-135521-ocni,25.8,48.0,10:39,11:27,1.0,0.0,14:54,True,140.0,158,25,15.82,Čichalov,9,255.0,True,False
+506621,Čichalov,nemocnice,Nemocnice v Karlových Varech,25.8,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,25.8,47.0,10:39,11:26,1.0,0.0,14:54,True,157.0,158,25,15.82,Čichalov,9,255.0,False,False
+506621,Čichalov,urad_orp,Úřad ORP Karlovy Vary,26.2,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,26.2,53.0,10:39,11:32,1.0,0.0,14:54,True,144.0,158,25,15.82,Čichalov,9,255.0,False,False
+538116,Děpoltovice,praktik,MUDr. Barbora Majkusová,2.9,ok,"GP Danuše Mikeschová MUDr. - praktický lékař, internista s.r.o.",Karlovy Vary,lek-135205-praktik,5.1,14.0,7:16,7:30,1.0,0.0,8:35,True,11.0,466,94,20.17,Děpoltovice,60,79.0,True,False
+538116,Děpoltovice,zubar,MDDr. Kateřina Bůžková,2.9,ok,YATROGEN Consulting s.r.o.,Karlovy Vary,lek-135686-zubar,5.6,14.0,7:16,7:30,1.0,0.0,8:35,True,13.0,466,94,20.17,Děpoltovice,60,79.0,True,False
+538116,Děpoltovice,gynekolog,Ambulance Penta s.r.o.,2.9,ok,Centrum Pánevního Dna Karlovy Vary s.r.o.,Karlovy Vary,lek-135870-gynekolog,5.1,14.0,7:16,7:30,1.0,0.0,8:35,True,11.0,466,94,20.17,Děpoltovice,60,79.0,True,False
+538116,Děpoltovice,ocni,Optissima s.r.o.,6.5,ok,Optissima s.r.o.,Karlovy Vary,lek-262399-ocni,6.5,18.0,8:16,8:34,2.0,1.0,10:05,True,39.0,466,94,20.17,Děpoltovice,60,109.0,False,False
+538116,Děpoltovice,nemocnice,Nemocnice v Karlových Varech,7.6,ok,Nemocnice v Karlových Varech,Karlovy Vary,nem-26365804,7.6,30.0,8:16,8:46,2.0,1.0,10:24,True,46.0,466,94,20.17,Děpoltovice,60,128.0,False,False
+538116,Děpoltovice,urad_orp,Úřad ORP Karlovy Vary,7.7,ok,Úřad ORP Karlovy Vary,Karlovy Vary,orp-531,7.7,28.0,9:46,10:14,1.0,0.0,11:25,True,20.0,466,94,20.17,Děpoltovice,60,99.0,False,False

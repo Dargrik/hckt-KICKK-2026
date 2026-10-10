@@ -1,0 +1,10 @@
+starlette
+uvicorn
+httpx
+pandas
+numpy
+shapely
+unidecode
+fpdf2
+segno==1.6.1
+requests

@@ -1,0 +1,73 @@
+{
+ "datum_overeni": "2026-10-10",
+ "obci": 134,
+ "obci_podle_stavu": {
+  "OVĚŘENO": 41,
+  "ČÁSTEČNĚ": 13,
+  "POZASTAVENO": 2,
+  "NEPROVOZUJE": 0,
+  "NENALEZENO": 78
+ },
+ "obci_se_sluzbou": 47,
+ "sluzeb_v_aplikaci": 47,
+ "obci_s_dotaci_na_vuz_bez_zverejneneho_provozu": [
+  {
+   "obec": "Abertamy",
+   "dotace": "2025",
+   "stav": "ČÁSTEČNĚ",
+   "ma_sluzbu": "nejasne"
+  },
+  {
+   "obec": "Chyše",
+   "dotace": "2025",
+   "stav": "ČÁSTEČNĚ",
+   "ma_sluzbu": "nejasne"
+  },
+  {
+   "obec": "Krásná",
+   "dotace": "2024",
+   "stav": "ČÁSTEČNĚ",
+   "ma_sluzbu": "nejasne"
+  },
+  {
+   "obec": "Lipová",
+   "dotace": "2024",
+   "stav": "NENALEZENO",
+   "ma_sluzbu": "nejasne"
+  },
+  {
+   "obec": "Poustka",
+   "dotace": "2025",
+   "stav": "NENALEZENO",
+   "ma_sluzbu": "nejasne"
+  },
+  {
+   "obec": "Verušičky",
+   "dotace": "2023",
+   "stav": "ČÁSTEČNĚ",
+   "ma_sluzbu": "nejasne"
+  },
+  {
+   "obec": "Vrbice",
+   "dotace": "2026",
+   "stav": "ČÁSTEČNĚ",
+   "ma_sluzbu": "nejasne"
+  },
+  {
+   "obec": "Černava",
+   "dotace": "2026",
+   "stav": "ČÁSTEČNĚ",
+   "ma_sluzbu": "nejasne"
+  },
+  {
+   "obec": "Šabina",
+   "dotace": "2026",
+   "stav": "NENALEZENO",
+   "ma_sluzbu": "nejasne"
+  }
+ ],
+ "pozastaveno_nebo_neprovozuje": [
+  "Vřesová",
+  "Jindřichovice"
+ ]
+}

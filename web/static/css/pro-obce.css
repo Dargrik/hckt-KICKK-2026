@@ -1,0 +1,69 @@
+/* Dojedeme – Letáky pro obce (web/pro-obce.html).
+   Obyčejný seznam obcí podle abecedy: název = stažení letáku, vedle „Zobrazit lékaře“.
+   Jen tokeny z tokens.css, žádné vlastní hex barvy (design/BRAND.md). */
+
+.web-paticka { margin-top: 0; }
+
+.odkaz-vse { font: var(--text-label); font-size: 20px; text-decoration-thickness: 2px; }
+
+/* hledání a seznam */
+.hledani { max-width: 520px; margin-bottom: var(--space-2); }
+.hledani input[type="search"] { font-size: 22px; min-height: 60px; }
+.pocet { font: var(--text-body-s); color: var(--color-ink-2); margin: var(--space-3) 0 var(--space-5); min-height: 28px; }
+
+.skupina { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 0 var(--space-4); border-top: 1px solid var(--color-border-strong); }
+.skupina[hidden] { display: none; }
+.pismeno { font: var(--text-h3); color: var(--color-ink-3); margin: 0; padding-top: var(--space-3); }
+.obce { list-style: none; margin: 0; padding: 0; }
+.obec { border-bottom: 1px solid var(--color-border); scroll-margin-top: var(--vyska-hlavicky, 96px); }
+.obce .obec:last-child { border-bottom: 0; }
+.obec[hidden] { display: none; }
+.obec-radek { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0 var(--space-5); min-height: 64px; }
+.obec-letak { display: inline-flex; align-items: center; gap: var(--space-3); padding: var(--space-3) 0; min-height: var(--touch-web);
+  font: 600 22px/1.3 var(--font-sans); color: var(--color-primary); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.obec-letak i { font-size: 24px; text-decoration: none; color: var(--color-ink-3); }
+.odkryt { display: inline-flex; align-items: center; gap: var(--space-2); min-height: var(--touch-web); padding: 0; margin: 0;
+  font: var(--text-label); font-size: 19px; font-family: var(--font-sans); color: var(--color-ink-2); background: transparent; border: 0; cursor: pointer; }
+.odkryt:hover { color: var(--color-primary); }
+.odkryt:hover .odkryt-text { text-decoration: underline; text-underline-offset: 3px; }
+.odkryt i { font-size: 18px; }
+@media (prefers-reduced-motion: no-preference) { .odkryt i { transition: transform .2s ease; } }
+.odkryt[aria-expanded="true"] i { transform: rotate(180deg); }
+
+/* panel s lékaři */
+.lekari-panel { background: var(--color-bg-subtle); padding: var(--space-5) var(--space-6) var(--space-6); margin-bottom: var(--space-4); border-radius: var(--radius-s); }
+.lekari-panel[hidden] { display: none; }
+.panel-stav:empty { display: none; }
+.panel-stav { font: var(--text-body-s); color: var(--color-ink-2); margin: 0 0 var(--space-3); }
+.panel-obsah > * + * { margin-top: var(--space-6); }
+.panel-uvod { color: var(--color-ink-2); margin: 0; max-width: 62ch; }
+.lekari-panel h4 { font: var(--text-h3); margin: 0 0 var(--space-3); }
+.lekari { list-style: none; margin: var(--space-3) 0 0; padding: 0; border-top: 1px solid var(--color-border); }
+.lekar { border-bottom: 1px solid var(--color-border); padding: var(--space-4) 0; display: grid; gap: var(--space-1); }
+.lekar p { margin: 0; }
+.lekar-obor { font: var(--text-body-s); font-weight: 600; color: var(--color-primary); }
+.lekar-nazev { font: 700 22px/1.35 var(--font-sans); color: var(--color-ink); }
+.lekar-spoj { color: var(--color-ink-2); }
+.lekar-spoj b { color: var(--color-ink); font-variant-numeric: tabular-nums; }
+.telefony { display: flex; flex-wrap: wrap; gap: 0 var(--space-5); }
+a.telefon { display: inline-flex; align-items: center; gap: var(--space-2); min-height: var(--touch-web); font: var(--text-label); font-size: 21px;
+  color: var(--color-primary); white-space: nowrap; font-variant-numeric: tabular-nums; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.senior-expres { display: grid; gap: var(--space-3); }
+.se-karta { border-left: 4px solid var(--color-signal); padding: var(--space-1) 0 var(--space-1) var(--space-4); display: grid; gap: var(--space-2); }
+.se-karta p { margin: 0; }
+.se-nazev { font: 700 22px/1.35 var(--font-sans); }
+.znovu-obal { margin: var(--space-3) 0 0; }
+
+.sk-radek { height: 24px; margin: var(--space-4) 0; }
+.sk-radek.kratsi { width: 60%; }
+.obec-nacitani { border-bottom: 1px solid var(--color-border); }
+
+@media (max-width: 720px) {
+  .skupina { grid-template-columns: 1fr; }
+  .pismeno { font: var(--text-label); font-size: 22px; padding-top: var(--space-4); }
+  .lekari-panel { padding: var(--space-4); margin-left: calc(-1 * var(--space-4)); margin-right: calc(-1 * var(--space-4)); border-radius: 0; }
+}
+@media print {
+  .web-hlavicka, .web-paticka, .hledani, .odkryt, .preskocit { display: none; }
+  .obec { break-inside: avoid; }
+}

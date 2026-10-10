@@ -1,0 +1,15 @@
+{
+ "den": "20261017",
+ "odjezdy_od_do": [
+  6,
+  12
+ ],
+ "seniori_podle_hodnoceni": {
+  "bez spojení": 6755,
+  "dobrá": 39597,
+  "kritická": 2826,
+  "střední": 10970,
+  "špatná": 3820
+ },
+ "seniori_nad_3h_nebo_bez_spojeni": 13401
+}

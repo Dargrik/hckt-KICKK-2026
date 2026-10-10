@@ -1,0 +1,228 @@
+{
+ "popis": "Kde chybí Senior Expres: obce s průměrnou dobou mimo domov k praktikovi, zubaři a do nemocnice přes 3 h (špatná, kritická) nebo bez spojení, a zda v nich jezdí Senior Expres.",
+ "zdroje": [
+  "dostupnost_souhrn_obci.csv (P-06)",
+  "h3_dostupnost.csv (P-07)",
+  "senior_taxi.csv (M-01)",
+  "obce_demografie.csv (ST-02)",
+  "obce.csv, obce.geojson (KK-04)",
+  "dotace kraje na vozy (jen do poznámky)"
+ ],
+ "den_vypoctu": "2026-10-13 (úterý), odjezd z domova 6-9 h, návrat do 20:00",
+ "obci_celkem": 134,
+ "senioru_v_kraji": 63968,
+ "obci_se_senior_expresem": 47,
+ "z_toho_overeno_castecne": 6,
+ "problemove_obce": {
+  "obci": 23,
+  "obyvatel": 10473,
+  "obyvatel_65plus": 2208,
+  "podle_hodnoceni": {
+   "bez spojení": {
+    "obci": 1,
+    "bez_senior_expresu": 1,
+    "obyvatel_65plus": 35
+   },
+   "kritická": {
+    "obci": 2,
+    "bez_senior_expresu": 2,
+    "obyvatel_65plus": 206
+   },
+   "špatná": {
+    "obci": 20,
+    "bez_senior_expresu": 16,
+    "obyvatel_65plus": 1967
+   }
+  },
+  "bez_senior_expresu": {
+   "obci": 19,
+   "obyvatel": 7510,
+   "obyvatel_65plus": 1497
+  },
+  "se_senior_expresem": {
+   "obci": 4,
+   "obyvatel": 2963,
+   "obyvatel_65plus": 711
+  },
+  "se_senior_expresem_castecne_overenym": {
+   "obci": 0,
+   "obyvatel": 0,
+   "obyvatel_65plus": 0
+  },
+  "obce_se_senior_expresem": [
+   "Luby",
+   "Valeč",
+   "Rovná",
+   "Čichalov"
+  ]
+ },
+ "stredni_bez_senior_expresu": {
+  "obci": 26,
+  "obyvatel": 9804,
+  "obyvatel_65plus": 2000
+ },
+ "hexagony": {
+  "popis": "Senioři v obydlených hexagonech H3 se špatnou, kritickou nebo žádnou dostupností (hexagon je přiřazen převažující obci). Součet podle hexagonů, proto se mírně liší od 7 261 seniorů spočtených po adresách v P-07.",
+  "senioru_celkem": 7380,
+  "v_obcich_bez_senior_expresu": 3227,
+  "v_obcich_se_senior_expresem": 4153,
+  "v_obcich_bez_senior_expresu_s_hodnocenim_dobra_nebo_stredni": 1835
+ },
+ "priority": {
+  "1": "chybí Senior Expres, dostupnost špatná, kritická nebo bez spojení",
+  "2": "Senior Expres je, ale ověřený jen částečně, dostupnost střední nebo horší",
+  "3": "chybí Senior Expres, dostupnost střední nebo aspoň 50 seniorů v částech obce se špatnou dostupností",
+  "4": "ostatní"
+ },
+ "pocet_obci_podle_priority": {
+  "1": 19,
+  "2": 3,
+  "3": 31,
+  "4": 81
+ },
+ "vuz_z_dotace_bez_zverejneneho_provozu": [
+  "Abertamy",
+  "Chyše",
+  "Krásná",
+  "Lipová",
+  "Poustka",
+  "Verušičky",
+  "Vrbice",
+  "Černava",
+  "Šabina"
+ ],
+ "veta_do_prezentace": "Ve 23 obcích kraje trvá cesta k lékaři a zpět veřejnou dopravou v průměru přes 3 hodiny, nebo nejde vůbec. 19 z nich nemá Senior Expres a žije v nich 1 497 seniorů.",
+ "veta_do_prezentace_hexagony": "Po adresách je to víc: 3 227 seniorů bez Senior Expresu bydlí tam, kde cesta k lékaři a zpět trvá přes 3 hodiny, nebo nejde vůbec. 1 835 z nich žije v obcích, které jako celek vycházejí dobře nebo středně (odlehlé místní části).",
+ "top10": [
+  {
+   "poradi": 1,
+   "obec": "Smolné Pece",
+   "kod_obce": "538027",
+   "orp": "Karlovy Vary",
+   "obyvatel_65plus": 35,
+   "hodnoceni": "bez spojení",
+   "prumer_mimo_domov_h": null,
+   "mimo_domov_praktik_min": null,
+   "mimo_domov_nemocnice_min": null,
+   "ma_senior_expres": "ne",
+   "poznamka": "Obec nemá v jízdních řádech žádnou zastávku."
+  },
+  {
+   "poradi": 2,
+   "obec": "Krajková",
+   "kod_obce": "560456",
+   "orp": "Sokolov",
+   "obyvatel_65plus": 149,
+   "hodnoceni": "kritická",
+   "prumer_mimo_domov_h": 4.33,
+   "mimo_domov_praktik_min": 260,
+   "mimo_domov_nemocnice_min": 260,
+   "ma_senior_expres": "ne",
+   "poznamka": null
+  },
+  {
+   "poradi": 3,
+   "obec": "Krásný Les",
+   "kod_obce": "578045",
+   "orp": "Ostrov",
+   "obyvatel_65plus": 57,
+   "hodnoceni": "kritická",
+   "prumer_mimo_domov_h": 4.92,
+   "mimo_domov_praktik_min": 295,
+   "mimo_domov_nemocnice_min": 295,
+   "ma_senior_expres": "ne",
+   "poznamka": null
+  },
+  {
+   "poradi": 4,
+   "obec": "Stráž nad Ohří",
+   "kod_obce": "555584",
+   "orp": "Ostrov",
+   "obyvatel_65plus": 145,
+   "hodnoceni": "špatná",
+   "prumer_mimo_domov_h": 3.12,
+   "mimo_domov_praktik_min": 228,
+   "mimo_domov_nemocnice_min": 229,
+   "ma_senior_expres": "ne",
+   "poznamka": null
+  },
+  {
+   "poradi": 5,
+   "obec": "Pšov",
+   "kod_obce": "555525",
+   "orp": "Karlovy Vary",
+   "obyvatel_65plus": 135,
+   "hodnoceni": "špatná",
+   "prumer_mimo_domov_h": 3.48,
+   "mimo_domov_praktik_min": 216,
+   "mimo_domov_nemocnice_min": 325,
+   "ma_senior_expres": "ne",
+   "poznamka": null
+  },
+  {
+   "poradi": 6,
+   "obec": "Chyše",
+   "kod_obce": "555207",
+   "orp": "Karlovy Vary",
+   "obyvatel_65plus": 135,
+   "hodnoceni": "špatná",
+   "prumer_mimo_domov_h": 3.23,
+   "mimo_domov_praktik_min": 249,
+   "mimo_domov_nemocnice_min": 249,
+   "ma_senior_expres": "ne",
+   "poznamka": "Kraj dotoval vůz v roce 2025, provoz služby jsme na webu obce nenašli. Ověřit."
+  },
+  {
+   "poradi": 7,
+   "obec": "Vojkovice",
+   "kod_obce": "555738",
+   "orp": "Ostrov",
+   "obyvatel_65plus": 117,
+   "hodnoceni": "špatná",
+   "prumer_mimo_domov_h": 3.25,
+   "mimo_domov_praktik_min": 195,
+   "mimo_domov_nemocnice_min": 195,
+   "ma_senior_expres": "ne",
+   "poznamka": null
+  },
+  {
+   "poradi": 8,
+   "obec": "Otročín",
+   "kod_obce": "555444",
+   "orp": "Karlovy Vary",
+   "obyvatel_65plus": 111,
+   "hodnoceni": "špatná",
+   "prumer_mimo_domov_h": 3.27,
+   "mimo_domov_praktik_min": 92,
+   "mimo_domov_nemocnice_min": 248,
+   "ma_senior_expres": "ne",
+   "poznamka": null
+  },
+  {
+   "poradi": 9,
+   "obec": "Nový Kostel",
+   "kod_obce": "554707",
+   "orp": "Cheb",
+   "obyvatel_65plus": 99,
+   "hodnoceni": "špatná",
+   "prumer_mimo_domov_h": 3.72,
+   "mimo_domov_praktik_min": 206,
+   "mimo_domov_nemocnice_min": 257,
+   "ma_senior_expres": "ne",
+   "poznamka": null
+  },
+  {
+   "poradi": 10,
+   "obec": "Vysoká Pec",
+   "kod_obce": "578029",
+   "orp": "Karlovy Vary",
+   "obyvatel_65plus": 88,
+   "hodnoceni": "špatná",
+   "prumer_mimo_domov_h": 3.14,
+   "mimo_domov_praktik_min": 155,
+   "mimo_domov_nemocnice_min": 255,
+   "ma_senior_expres": "ne",
+   "poznamka": null
+  }
+ ]
+}

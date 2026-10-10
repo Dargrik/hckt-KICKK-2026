@@ -1,0 +1,6 @@
+id,nazev,spolecnost,zrizovatel,adresa,kod_obce,obec,ruian_kod,lat,lon,telefon,email,web
+26365804,Nemocnice v Karlových Varech,Karlovarská krajská nemocnice a.s.,Karlovarský kraj,"Bezručova 1190/19, 36001 Karlovy Vary",554961,Karlovy Vary,26844907,50.232618,12.876587,+420354225111,info@kkn.cz,https://www.nemkv.cz
+26365804,Nemocnice v Chebu,Karlovarská krajská nemocnice a.s.,Karlovarský kraj,"K Nemocnici 1204/17, 35002 Cheb",554481,Cheb,26844907,50.069873,12.367443,+420354226600,info@kkn.cz,https://www.nemcheb.cz
+24747246,Nemocnice Sokolov s.r.o.,Nemocnice Sokolov s.r.o.,soukromá společnost,"Slovenská 545, 35601 Sokolov",560286,Sokolov,42793335,50.178051,12.650553,+420352520111,,https://www.pentahospitals.cz/nemocnice-sokolov/
+47714913,Nemocnice Ostrov s.r.o.,Nemocnice Ostrov s.r.o.,soukromá společnost,"U Nemocnice 1161, 36301 Ostrov",555428,Ostrov,42793335,50.312335,12.963921,+420353364111,info@nemocniceostrov.cz,https://www.pentahospitals.cz/nemocnice-ostrov
+26376709,"Nemocnice Mariánské Lázně, s.r.o.","Nemocnice Mariánské Lázně, s.r.o.",soukromá společnost,"U Nemocnice 91/3, 35301 Mariánské Lázně",554642,Mariánské Lázně,25274708,49.96086,12.70408,+420354474222,info@neml.cz,https://neml.eu/cs/uvod

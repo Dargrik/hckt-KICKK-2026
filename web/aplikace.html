@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Najít spoj – Dojedeme</title>
+<meta name="description" content="Najděte spoj veřejnou dopravou k lékaři, do nemocnice nebo na úřad v Karlovarském kraji – tam i zpátky.">
+<link rel="icon" href="/static/img/dojedeme-mark-light.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
+<meta name="theme-color" content="#14574A">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dojedeme">
+<meta property="og:title" content="Najít spoj – Dojedeme">
+<meta property="og:description" content="Najděte spoj veřejnou dopravou k lékaři, do nemocnice nebo na úřad v Karlovarském kraji – tam i zpátky.">
+<meta property="og:url" content="https://dojedeme.cz/aplikace">
+<meta property="og:image" content="https://dojedeme.cz/static/img/sdileni.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="cs_CZ">
+<meta name="twitter:card" content="summary_large_image">
+<script src="/static/js/vzhled.js"></script>
+<link rel="stylesheet" href="/static/css/tokens.css">
+<link rel="stylesheet" href="/static/css/dojedeme.css">
+<link rel="stylesheet" href="/static/css/aplikace.css">
+<!-- ikony: Phosphor (BRAND.md) – <i class="ph-bold ph-bus" aria-hidden="true"></i> -->
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css">
+<!-- mapa s bydlištěm: Leaflet (stejná verze jako /mapa) načítá aplikace.js, až je potřeba -->
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+</head>
+<body>
+<a class="preskocit" href="#obsah">Přeskočit na obsah</a>
+<header class="web-hlavicka">
+  <div class="obal">
+    <a class="znacka" href="/"><span class="tecka" aria-hidden="true"></span>Dojedeme</a>
+    <nav class="web-nav" aria-label="Hlavní navigace">
+      <a href="/aplikace" aria-current="page">Najít spoj</a>
+      <a href="/pro-blizke">SMS pro blízké</a>
+      <a href="/pro-obce">Letáky pro obce</a>
+      <a href="/mapa">Data a mapy</a>
+    </nav>
+  </div>
+</header>
+
+<main id="obsah" tabindex="-1">
+  <header class="stranka-hlava">
+    <div class="obal">
+      <h1>Najít spoj</h1>
+      <p class="lead">Spoj k lékaři, do nemocnice nebo na úřad a zase domů.</p>
+    </div>
+  </header>
+
+  <!-- jeden formulář přes celou šířku: vlevo Odkud (s mapou), vpravo Kam a Kdy, pod nimi Najít spoj (vyplňuje a ovládá aplikace.js) -->
+  <section class="oddil hledani-oddil" aria-labelledby="hledani-nadpis">
+    <div class="obal">
+      <noscript>
+        <div class="blok chyba"><i class="ph-bold ph-warning ikona" aria-hidden="true"></i>
+          <div><strong>Hledání spojů potřebuje zapnutý JavaScript.</strong>Zapněte ho prosím v nastavení prohlížeče, nebo použijte SMS službu Dojedeme.</div></div>
+      </noscript>
+
+      <form class="hledani" id="hledani" novalidate hidden>
+        <!-- nadpis jen pro čtečky obrazovky (cíl fokusu po „Upravit hledání“); viditelný je nadpis stránky -->
+        <h2 id="hledani-nadpis" class="sr" tabindex="-1">Hledání spoje</h2>
+
+        <!-- mobil nad výsledkem: souhrn hledání a tlačítko Upravit hledání -->
+        <div class="souhrn" id="hledani-souhrn"></div>
+
+        <div class="blok chyba chyby-souhrn" id="chyby-souhrn" role="alert" tabindex="-1" hidden></div>
+
+        <div class="hledani-mrizka">
+          <fieldset class="pole-krok pole-odkud" id="pole-odkud">
+            <legend><span class="pole-ikona" aria-hidden="true"><i class="ph-bold ph-house"></i></span>Odkud pojedete</legend>
+            <p class="pole-chyba" id="odkud-chyba"></p>
+            <div id="odkud-obsah"></div>
+            <div class="se-bydliste" id="se-bydliste"></div>
+            <div class="odkud-mapa" id="odkud-mapa" hidden>
+              <div class="mapa-ram"><div class="mapa mapa-bydliste" id="odkud-mapa-plocha"></div></div>
+            </div>
+            <div class="mapa-prazdna" id="odkud-mapa-prazdna" hidden>
+              <i class="ph-bold ph-map-trifold" aria-hidden="true"></i>
+              <p>Vybranou adresu vám tu ukážeme na mapě.</p>
+            </div>
+          </fieldset>
+
+          <div class="hledani-prava">
+            <fieldset class="pole-krok pole-kam" id="pole-kam" aria-describedby="kam-chyba">
+              <legend><span class="pole-ikona" aria-hidden="true"><i class="ph-bold ph-map-pin"></i></span>Kam potřebujete</legend>
+              <p class="pole-chyba" id="kam-chyba"></p>
+              <div id="moje-mista-obal"></div>
+              <div class="kam-volby-obal"><div class="kam-volby" id="kam-volby"></div></div>
+              <p class="kam-popis" id="kam-popis" hidden></p>
+              <div class="kam-doplneni" id="kam-lekar" hidden></div>
+              <div class="kam-doplneni" id="kam-novy" hidden></div>
+            </fieldset>
+
+            <fieldset class="pole-krok pole-kdy" id="pole-kdy">
+              <legend><span class="pole-ikona" aria-hidden="true"><i class="ph-bold ph-clock"></i></span>Kdy pojedete</legend>
+              <div id="kdy-obsah"></div>
+            </fieldset>
+
+            <div class="hledat-akce">
+              <p class="male hledat-pozn" id="hledat-pozn" hidden>Výsledek níže je pro původní zadání. Změny se projeví po stisknutí Najít spoj.</p>
+              <button type="submit" class="tlacitko velke tlacitko-hledat"><i class="ph-bold ph-magnifying-glass" aria-hidden="true"></i><span>Najít spoj</span><i class="ph-bold ph-arrow-right sipka" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- výsledek hledání: seznam míst seřazený podle spojení, nebo spoje tam a zpět -->
+  <section class="oddil oddil-vysledky" id="oddil-vysledky" aria-labelledby="vysledky-nadpis" hidden>
+    <div class="obal">
+      <div class="obal-uzky vysledek" id="vysledek"></div>
+    </div>
+  </section>
+
+  <p class="sr" aria-live="polite" id="hlaseni"></p>
+</main>
+
+<footer class="web-paticka">
+  <div class="obal">
+    <div>
+      <h2>Dojedeme</h2>
+      <p>K lékaři a zase domů. Spoje veřejné dopravy pro lidi bez auta v Karlovarském kraji.</p>
+    </div>
+    <div>
+      <h2>Stránky</h2>
+      <ul><li><a href="/aplikace">Najít spoj</a></li><li><a href="/pro-blizke">SMS služba pro blízké</a></li><li><a href="/pro-obce">Letáky pro obce</a></li><li><a href="/mapa">Data a mapy</a></li></ul>
+    </div>
+    <div>
+      <h2>Data</h2>
+      <p>Otevřená data Karlovarského kraje (DATA ZÁPAD), jízdní řády CIS JŘ, registr poskytovatelů zdravotních služeb (ÚZIS), ČSÚ, RÚIAN.</p>
+    </div>
+  </div>
+</footer>
+<script src="/static/js/dojedeme.js"></script>
+<script src="/static/js/aplikace.js"></script>
+</body>
+</html>

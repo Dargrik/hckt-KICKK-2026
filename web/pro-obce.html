@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Letáky pro obce – Dojedeme</title>
+<meta name="description" content="Leták A4 na obecní nástěnku zdarma: lékaři v dosahu veřejné dopravy, kteří přijímají nové pacienty, s telefonem, adresou a spojem. Pro všech 134 obcí Karlovarského kraje.">
+<link rel="icon" href="/static/img/dojedeme-mark-light.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
+<meta name="theme-color" content="#14574A">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dojedeme">
+<meta property="og:title" content="Letáky pro obce – Dojedeme">
+<meta property="og:description" content="Leták A4 na obecní nástěnku zdarma: lékaři v dosahu veřejné dopravy, kteří přijímají nové pacienty, s telefonem, adresou a spojem. Pro všech 134 obcí Karlovarského kraje.">
+<meta property="og:url" content="https://dojedeme.cz/pro-obce">
+<meta property="og:image" content="https://dojedeme.cz/static/img/sdileni.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="cs_CZ">
+<meta name="twitter:card" content="summary_large_image">
+<script src="/static/js/vzhled.js"></script>
+<link rel="stylesheet" href="/static/css/tokens.css">
+<link rel="stylesheet" href="/static/css/dojedeme.css">
+<link rel="stylesheet" href="/static/css/pro-obce.css">
+<!-- ikony: Phosphor (BRAND.md) – jen tam, kde nesou význam (stav, autobus, pěšky, telefon, upozornění) -->
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css">
+</head>
+<body>
+<a class="preskocit" href="#obsah">Přeskočit na obsah</a>
+<header class="web-hlavicka">
+  <div class="obal">
+    <a class="znacka" href="/"><span class="tecka" aria-hidden="true"></span>Dojedeme</a>
+    <nav class="web-nav" aria-label="Hlavní navigace">
+      <a href="/aplikace">Najít spoj</a>
+      <a href="/pro-blizke">SMS pro blízké</a>
+      <a href="/pro-obce" aria-current="page">Letáky pro obce</a>
+      <a href="/mapa">Data a mapy</a>
+    </nav>
+  </div>
+</header>
+
+<main id="obsah">
+  <header class="stranka-hlava">
+    <div class="obal">
+      <h1>Letáky pro obce</h1>
+      <p class="lead">Leták A4 na obecní nástěnku se seznamem lékařů, kteří přijímají nové pacienty a dostanete se k nim autobusem nebo vlakem. Je na něm adresa a telefon. Klikněte na název obce a leták se stáhne.</p>
+      <div class="akce-hlavy">
+        <a class="odkaz-vse" href="/letaky/vsechny.zip" download="dojedeme-letaky-obci.zip">Stáhnout letáky všech obcí najednou (ZIP, 3 MB)</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="oddil" aria-labelledby="seznam-nadpis">
+    <div class="obal">
+      <div class="oddil-hlava">
+        <h2 id="seznam-nadpis">Obce Karlovarského kraje</h2>
+        <p>Lékaře si můžete prohlédnout i rovnou tady: u obce klikněte na „Zobrazit lékaře“.</p>
+      </div>
+      <div class="hledani">
+        <label for="hledat-obec">Najděte svou obec</label>
+        <input type="search" id="hledat-obec" autocomplete="off" spellcheck="false" aria-describedby="hledat-napoveda" aria-controls="seznam-obci">
+        <p class="napoveda-pole" id="hledat-napoveda">Stačí začátek názvu, diakritiku psát nemusíte.</p>
+      </div>
+      <p id="pocet-obci" class="pocet" role="status" aria-live="polite"></p>
+      <div id="seznam-stav"></div>
+      <div id="seznam-obci" class="seznam-obci">
+        <div class="obec-nacitani" aria-hidden="true"><div class="skeleton sk-radek"></div></div>
+        <div class="obec-nacitani" aria-hidden="true"><div class="skeleton sk-radek"></div></div>
+        <div class="obec-nacitani" aria-hidden="true"><div class="skeleton sk-radek"></div></div>
+      </div>
+      <p class="zdroj">Zdroj: registr poskytovatelů zdravotních služeb (ÚZIS), seznam lékařů Karlovarského kraje, jízdní řády CIS JŘ, Senior Expres z webů obcí.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="web-paticka">
+  <div class="obal">
+    <div>
+      <h2>Dojedeme</h2>
+      <p>K lékaři a zase domů. Spoje veřejné dopravy pro lidi bez auta v Karlovarském kraji.</p>
+    </div>
+    <div>
+      <h2>Stránky</h2>
+      <ul><li><a href="/aplikace">Najít spoj</a></li><li><a href="/pro-blizke">SMS služba pro blízké</a></li><li><a href="/pro-obce">Letáky pro obce</a></li><li><a href="/mapa">Data a mapy</a></li></ul>
+    </div>
+    <div>
+      <h2>Data</h2>
+      <p>Otevřená data Karlovarského kraje (DATA ZÁPAD), jízdní řády CIS JŘ, registr poskytovatelů zdravotních služeb (ÚZIS), ČSÚ, RÚIAN.</p>
+    </div>
+  </div>
+</footer>
+<script src="/static/js/dojedeme.js"></script>
+<script src="/static/js/pro-obce.js"></script>
+</body>
+</html>

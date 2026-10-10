@@ -1,0 +1,221 @@
+sluzba_id,poskytovatel,ico,druh,web,kod_obce,obec,lat,lon,zdroj,pomoc_s_dopravou
+4503163,"Dětský úsvit "", z. s.",07111223,odborné sociální poradenství,https://detskyusvit.cz/,554481,Cheb,50.076698,12.369338,kk_socialni_sluzby.csv,False
+6432113,15. přední hlídka Royal Rangers Mariánské Lázně,68782004,denní stacionáře,https://www.stredisko-vitecek.cz/clanky/kontakty/,566888,Olbramov,49.851813,12.842833,kk_socialni_sluzby.csv,False
+4397816,15. přední hlídka Royal Rangers Mariánské Lázně,68782004,osobní asistence,https://www.stredisko-vitecek.cz/clanky/kontakty/,566888,Olbramov,49.851813,12.842833,kk_socialni_sluzby.csv,True
+4003834,15. přední hlídka Royal Rangers Mariánské Lázně,68782004,sociálně terapeutické dílny,https://www.stredisko-vitecek.cz/clanky/kontakty/,566888,Olbramov,49.851813,12.842833,kk_socialni_sluzby.csv,False
+1817403,Agentura domácí péče LADARA o.p.s.,26406608,osobní asistence,https://ladara.eu/socialni-sluzby/,554961,Karlovy Vary,50.23751,12.84942,kk_socialni_sluzby.csv,True
+1119251,Agentura domácí péče LADARA o.p.s.,26406608,pečovatelská služba,https://ladara.eu/socialni-sluzby/,554961,Karlovy Vary,50.23751,12.84942,kk_socialni_sluzby.csv,True
+6479013,Agentura domácí péče LADARA o.p.s.,26406608,tísňová péče,https://ladara.eu/socialni-sluzby/,554961,Karlovy Vary,50.23751,12.84942,kk_socialni_sluzby.csv,True
+6128230,"Agentura osobní asistence a sociálního poradenství, o.p.s.",26395517,osobní asistence,https://www.agenturapomoci.cz,560286,Sokolov,50.175608,12.657547,kk_socialni_sluzby.csv,True
+4052290,AHC Senior centrum Nová Role s.r.o.,09907891,domovy pro seniory,https://novarole.ahc.cz,555398,Nová Role,50.272357,12.780748,kk_socialni_sluzby.csv,False
+8401058,ALZHEIMER HOME z.ú.,03593207,domovy se zvláštním režimem,https://www.alzheimerhome.cz/alzheimer-home-ostrov/,555428,Ostrov,50.312286,12.963841,kk_socialni_sluzby.csv,False
+7354421,ALZHEIMER HOME Region z.ú.,14420228,domovy se zvláštním režimem,https://www.senevida.cz/senevida-karlovy-vary/,554961,Karlovy Vary,50.249244,12.832872,kk_socialni_sluzby.csv,False
+3059006,AMICA CENTRUM s.r.o.,18233392,domovy pro seniory,https://www.amica-centrum.cz/,554481,Cheb,50.083895,12.363649,kk_socialni_sluzby.csv,False
+9815142,AMICA CENTRUM s.r.o.,18233392,sociální služby poskytované ve zdravotnických zařízeních lůžkové péče,https://www.amica-centrum.cz/,554481,Cheb,50.083895,12.363649,kk_socialni_sluzby.csv,False
+8384795,"Anděl strážný, z.ú.",02771527,tísňová péče,https://www.andelstrazny.eu/sos-tlacitka-andel-strazny/#tisnovapece,554782,Praha 2,50.072185,14.430212,kk_socialni_sluzby.csv,True
+3786114,"Armáda spásy v České republice, z.s.",40613411,azylové domy,https://armadaspasy.cz/pobocky/karlovy-vary/,554961,Karlovy Vary,50.233788,12.86097,kk_socialni_sluzby.csv,False
+8444882,"Armáda spásy v České republice, z.s.",40613411,nízkoprahová denní centra,https://armadaspasy.cz/pobocky/karlovy-vary/,554961,Karlovy Vary,50.233788,12.86097,kk_socialni_sluzby.csv,False
+4733692,"Armáda spásy v České republice, z.s.",40613411,nízkoprahová zařízení pro děti a mládež,https://armadaspasy.cz/pobocky/karlovy-vary/,554961,Karlovy Vary,50.233788,12.86097,kk_socialni_sluzby.csv,False
+4894287,"Armáda spásy v České republice, z.s.",40613411,noclehárny,https://armadaspasy.cz/pobocky/karlovy-vary/,554961,Karlovy Vary,50.233788,12.86097,kk_socialni_sluzby.csv,False
+4654942,B.E.Z.va Nejdek o.p.s.,26562464,nízkoprahová zařízení pro děti a mládež,https://bezvanejdek.cz/,555380,Nejdek,50.321114,12.726726,kk_socialni_sluzby.csv,False
+2595946,B.E.Z.va Nejdek o.p.s.,26562464,sociálně aktivizační služby pro rodiny s dětmi,https://bezvanejdek.cz/,555380,Nejdek,50.321114,12.726726,kk_socialni_sluzby.csv,False
+1288849,CARVAC s.r.o.,63504260,domovy pro seniory,http://www.carvac.cz/,554499,Aš,50.223582,12.202841,kk_socialni_sluzby.csv,False
+8069984,"Centrum denních služeb Čtyřlístek, z.ú.",09657452,odlehčovací služby,https://cdsctyrlistek.cz/,560286,Sokolov,50.181111,12.643423,kk_socialni_sluzby.csv,True
+6619024,CENTRUM DENNÍCH SLUŽEB Mariánské Lázně o.p.s.,70957142,denní stacionáře,https://www.jlx.info/cedes/,554642,Mariánské Lázně,49.949913,12.710685,kk_socialni_sluzby.csv,False
+4981338,CENTRUM DENNÍCH SLUŽEB Mariánské Lázně o.p.s.,70957142,odborné sociální poradenství,https://www.jlx.info/cedes/,554642,Mariánské Lázně,49.949913,12.710685,kk_socialni_sluzby.csv,False
+9274066,CENTRUM DENNÍCH SLUŽEB Mariánské Lázně o.p.s.,70957142,sociálně aktivizační služby pro seniory a osoby se zdravotním postižením,https://www.jlx.info/cedes/,554642,Mariánské Lázně,49.949913,12.710685,kk_socialni_sluzby.csv,True
+8221740,CENTRUM HÁJEK z.ú.,22845798,denní stacionáře,https://centrumhajek.eu/socialni-sluzby,558427,Šťáhlavy,49.664034,13.536964,kk_socialni_sluzby.csv,False
+1396076,CENTRUM HÁJEK z.ú.,22845798,sociální rehabilitace,https://centrumhajek.eu/socialni-sluzby,558427,Šťáhlavy,49.664034,13.536964,kk_socialni_sluzby.csv,False
+4703361,CENTRUM HÁJEK z.ú.,22845798,odlehčovací služby,https://centrumhajek.eu/socialni-sluzby,558427,Šťáhlavy,49.664034,13.536964,kk_socialni_sluzby.csv,True
+1055128,CENTRUM HÁJEK z.ú.,22845798,sociálně aktivizační služby pro rodiny s dětmi,https://centrumhajek.eu/socialni-sluzby,558427,Šťáhlavy,49.664034,13.536964,kk_socialni_sluzby.csv,False
+5011308,Centrum Motýlek Luby z.ú.,19362315,osobní asistence,https://www.centrummotylek.cz/,554634,Luby,50.25359,12.403713,kk_socialni_sluzby.csv,True
+9223295,Centrum MRAVENEC s.r.o.,29108900,pečovatelská služba,https://www.mravenec-sro.cz/,554481,Cheb,50.066294,12.368758,kk_socialni_sluzby.csv,True
+9280386,"Centrum pro dětský sluch Tamtam, o.p.s.",00499811,odborné sociální poradenství,https://www.tamtam.cz/,500143,Praha 5,50.046338,14.312006,kk_socialni_sluzby.csv,False
+5002625,"Centrum pro dětský sluch Tamtam, o.p.s.",00499811,raná péče,https://www.tamtam.cz/,500143,Praha 5,50.046338,14.312006,kk_socialni_sluzby.csv,False
+5589051,"Centrum pro dítě a rodinu Valika, z.s.",01794710,sociálně aktivizační služby pro rodiny s dětmi,https://www.valika.cz/socialni-sluzby/,554961,Karlovy Vary,50.245426,12.83342,kk_socialni_sluzby.csv,False
+9570418,"Centrum pro zdravotně postižené Karlovarského kraje, o.p.s.",26594307,odborné sociální poradenství,https://sluzbypostizenym.cz/,554961,Karlovy Vary,50.233775,12.859393,kk_socialni_sluzby.csv,False
+5897939,"Centrum pro zdravotně postižené Karlovarského kraje, o.p.s.",26594307,osobní asistence,https://sluzbypostizenym.cz/,554961,Karlovy Vary,50.233775,12.859393,kk_socialni_sluzby.csv,True
+4297251,"Centrum Rodina, z.s.",21051437,sociálně aktivizační služby pro rodiny s dětmi,https://centrumrodina.cz/,555428,Ostrov,50.308552,12.958932,kk_socialni_sluzby.csv,False
+8231879,"Centrum služeb Aladinka, z.ú.",19296835,odlehčovací služby,https://www.aladinka.cz/,560286,Sokolov,50.177478,12.641589,kk_socialni_sluzby.csv,True
+7992122,"Centrum služeb Aladinka, z.ú.",19296835,osobní asistence,https://www.aladinka.cz/,560286,Sokolov,50.177478,12.641589,kk_socialni_sluzby.csv,True
+3136162,"Centrum sociálních služeb Sokolov, o.p.s.",28015819,pečovatelská služba,https://www.osobniasistence.cz/?tema=1&article=2&detail=10&oid=500,560286,Sokolov,50.17451,12.64971,kk_socialni_sluzby.csv,True
+2128966,"Czech - real CB, s.r.o.",26072831,domovy se zvláštním režimem,https://kazduvdvur.cz/kontakty/,554812,Skalná,50.153493,12.375986,kk_socialni_sluzby.csv,False
+4358523,"Česká unie neslyšících, z.ú.",00675547,tlumočnické služby,https://www.cun.cz/,554961,Karlovy Vary,50.238976,12.887049,kk_socialni_sluzby.csv,False
+9646137,"Český západ, o.p.s.",26550334,odborné sociální poradenství,https://cesky-zapad.cz/,555657,Toužim,49.988441,12.96097,kk_socialni_sluzby.csv,False
+6640080,"Český západ, o.p.s.",26550334,sociálně aktivizační služby pro rodiny s dětmi,https://cesky-zapad.cz/,555657,Toužim,49.988441,12.96097,kk_socialni_sluzby.csv,False
+8252676,"Člověk v tísni, o.p.s.",25755277,nízkoprahová zařízení pro děti a mládež,https://www.clovekvtisni.cz/co-delame/socialni-prace-v-cr/karlovarsky-kraj,554961,Karlovy Vary,50.233469,12.87975,kk_socialni_sluzby.csv,False
+6895063,"Člověk v tísni, o.p.s.",25755277,odborné sociální poradenství,https://www.clovekvtisni.cz/co-delame/socialni-prace-v-cr/karlovarsky-kraj,554961,Karlovy Vary,50.233469,12.87975,kk_socialni_sluzby.csv,False
+1899810,"Člověk v tísni, o.p.s.",25755277,sociálně aktivizační služby pro rodiny s dětmi,https://www.clovekvtisni.cz/co-delame/socialni-prace-v-cr/karlovarsky-kraj,554961,Karlovy Vary,50.233469,12.87975,kk_socialni_sluzby.csv,False
+3137035,"Člověk v tísni, o.p.s.",25755277,terénní programy,https://www.clovekvtisni.cz/co-delame/socialni-prace-v-cr/karlovarsky-kraj,554961,Karlovy Vary,50.233469,12.87975,kk_socialni_sluzby.csv,False
+4701183,"Denní centrum Mateřídouška, o.p.s.",27989364,denní stacionáře,https://www.dcmat.cz/,560383,Chodov,50.240189,12.745782,kk_socialni_sluzby.csv,False
+9133275,"Denní centrum Mateřídouška, o.p.s.",27989364,odlehčovací služby,https://www.dcmat.cz/,560383,Chodov,50.240189,12.745782,kk_socialni_sluzby.csv,True
+6794705,"Denní centrum Mateřídouška, o.p.s.",27989364,sociálně terapeutické dílny,https://www.dcmat.cz/,560383,Chodov,50.240189,12.745782,kk_socialni_sluzby.csv,False
+4941796,"Denní centrum Žirafa, z.s.",26990075,centra denních služeb,https://dennicentrumzirafa.websnadno.cz/O-nas27.html,554961,Karlovy Vary,50.234994,12.888507,kk_socialni_sluzby.csv,False
+8131076,"Denní centrum Žirafa, z.s.",26990075,týdenní stacionáře,https://dennicentrumzirafa.websnadno.cz/O-nas27.html,554961,Karlovy Vary,50.234994,12.888507,kk_socialni_sluzby.csv,False
+4882516,Diecézní charita Plzeň,49774034,azylové domy,https://www.dchp.cz/jak-pomahame/v-karlovarskem-kraji/,554481,Cheb,50.082624,12.365417,kk_socialni_sluzby.csv,False
+8824107,Diecézní charita Plzeň,49774034,krizová pomoc,https://www.dchp.cz/jak-pomahame/v-karlovarskem-kraji/,554481,Cheb,50.082624,12.365417,kk_socialni_sluzby.csv,False
+2482833,Diecézní charita Plzeň,49774034,nízkoprahová denní centra,https://www.dchp.cz/jak-pomahame/v-karlovarskem-kraji/,554481,Cheb,50.082624,12.365417,kk_socialni_sluzby.csv,False
+1107751,Diecézní charita Plzeň,49774034,noclehárny,https://www.dchp.cz/jak-pomahame/v-karlovarskem-kraji/,554481,Cheb,50.082624,12.365417,kk_socialni_sluzby.csv,False
+1471939,Diecézní charita Plzeň,49774034,odborné sociální poradenství,https://www.dchp.cz/jak-pomahame/v-karlovarskem-kraji/,554481,Cheb,50.082624,12.365417,kk_socialni_sluzby.csv,False
+4094689,Diecézní charita Plzeň,49774034,sociální rehabilitace,https://www.dchp.cz/jak-pomahame/v-karlovarskem-kraji/,554481,Cheb,50.082624,12.365417,kk_socialni_sluzby.csv,False
+6007492,"Dohled na dosah, z.s.",11806095,telefonická krizová pomoc,https://www.dohlednadosah.cz/,554791,Plzeň,49.735854,13.370742,kk_socialni_sluzby.csv,False
+7899814,"Dohled na dosah, z.s.",11806095,tísňová péče,https://www.dohlednadosah.cz/,554791,Plzeň,49.735854,13.370742,kk_socialni_sluzby.csv,True
+4669128,Domácí péče Karlovy Vary s.r.o.,29120942,pečovatelská služba,https://www.domacipecekv.cz/,554961,Karlovy Vary,50.234129,12.885777,kk_socialni_sluzby.csv,True
+7151202,"Domov ""Pata"", příspěvková organizace",71175318,domovy pro osoby se zdravotním postižením,https://www.usp-pata.cz/,554499,Aš,50.21704,12.194348,kk_socialni_sluzby.csv,False
+4343946,"Domov ""Pata"", příspěvková organizace",71175318,chráněné bydlení,https://www.usp-pata.cz/,554499,Aš,50.21704,12.194348,kk_socialni_sluzby.csv,False
+8694290,"Domov ""Pata"", příspěvková organizace",71175318,chráněné bydlení,https://www.usp-pata.cz/,554499,Aš,50.21704,12.194348,kk_socialni_sluzby.csv,False
+4426710,"Domov pro osoby se zdravotním postižením ""PRAMEN"" v Mnichově, příspěvková organizace",71175326,domovy pro osoby se zdravotním postižením,https://www.domovpramen.cz/,554642,Mariánské Lázně,50.037873,12.786134,kk_socialni_sluzby.csv,False
+1822560,"Domov pro osoby se zdravotním postižením ""SOKOLÍK"" v Sokolově, příspěvková organizace",72046881,domovy pro osoby se zdravotním postižením,https://www.sokolik-po.cz/,560286,Sokolov,50.171462,12.673838,kk_socialni_sluzby.csv,False
+6660174,"Domov pro osoby se zdravotním postižením ""SOKOLÍK"" v Sokolově, příspěvková organizace",72046881,domovy pro osoby se zdravotním postižením,https://www.sokolik-po.cz/,560286,Sokolov,50.171462,12.673838,kk_socialni_sluzby.csv,False
+1588549,"Domov pro osoby se zdravotním postižením v Mariánské, příspěvková organizace",71175296,domovy pro osoby se zdravotním postižením,https://www.domov-marianska.cz/,555215,Jáchymov,50.356373,12.887049,kk_socialni_sluzby.csv,False
+6306854,"Domov pro osoby se zdravotním postižením v Mariánské, příspěvková organizace",71175296,domovy pro seniory,https://www.domov-marianska.cz/,555215,Jáchymov,50.356373,12.887049,kk_socialni_sluzby.csv,False
+6885580,"Domov pro osoby se zdravotním postižením v Radošově, příspěvková organizace",71175334,domovy pro osoby se zdravotním postižením,https://domovradosov.cz/,555347,Kyselka,50.276175,12.978647,kk_socialni_sluzby.csv,False
+5132759,"Domov pro seniory ""SKALKA"" v Chebu, příspěvková organizace",71175245,domovy pro seniory,https://www.domovskalka.cz/,554481,Cheb,50.075698,12.34985,kk_socialni_sluzby.csv,False
+8077802,"Domov pro seniory ""SKALKA"" v Chebu, příspěvková organizace",71175245,domovy se zvláštním režimem,https://www.domovskalka.cz/,554481,Cheb,50.075698,12.34985,kk_socialni_sluzby.csv,False
+9237025,"Domov pro seniory ""SPÁLENIŠTĚ"" v Chebu, příspěvková organizace",71175253,domovy pro seniory,https://www.domovcheb.cz/,554481,Cheb,50.066173,12.365344,kk_socialni_sluzby.csv,False
+7760330,"Domov pro seniory a dům s pečovatelskou službou Mariánské Lázně, příspěvková organizace",00575143,domovy pro seniory,https://www.dsml.cz/,554642,Mariánské Lázně,49.948322,12.709684,kk_socialni_sluzby.csv,False
+8821690,"Domov pro seniory a dům s pečovatelskou službou Mariánské Lázně, příspěvková organizace",00575143,domovy se zvláštním režimem,https://www.dsml.cz/,554642,Mariánské Lázně,49.948322,12.709684,kk_socialni_sluzby.csv,False
+8908504,"Domov pro seniory a dům s pečovatelskou službou Mariánské Lázně, příspěvková organizace",00575143,odlehčovací služby,https://www.dsml.cz/,554642,Mariánské Lázně,49.948322,12.709684,kk_socialni_sluzby.csv,True
+3869543,"Domov pro seniory a dům s pečovatelskou službou Mariánské Lázně, příspěvková organizace",00575143,pečovatelská služba,https://www.dsml.cz/,554642,Mariánské Lázně,49.948322,12.709684,kk_socialni_sluzby.csv,True
+9816866,Domov pro seniory Květinka s.r.o.,04668448,domovy pro seniory,https://kvetinka-dps.cz,555428,Ostrov,50.304057,12.959499,kk_socialni_sluzby.csv,False
+1808311,"Domov pro seniory v Hranicích, příspěvková organizace",71175202,domovy pro seniory,https://www.dpshranice.cz/,554553,Hranice,50.294373,12.195232,kk_socialni_sluzby.csv,False
+5847956,"Domov pro seniory v Lázních Kynžvart, příspěvková organizace",71175237,domovy pro seniory,https://www.domovkynzvart.cz/,554600,Lázně Kynžvart,50.008075,12.622932,kk_socialni_sluzby.csv,False
+4269858,"Domov pro seniory v Lázních Kynžvart, příspěvková organizace",71175237,domovy se zvláštním režimem,https://www.domovkynzvart.cz/,554600,Lázně Kynžvart,50.008075,12.622932,kk_socialni_sluzby.csv,False
+2376572,"Domov pro seniory v Perninku, příspěvková organizace",71175199,domovy pro seniory,https://domov-pernink.cz/,555452,Pernink,50.367936,12.778175,kk_socialni_sluzby.csv,False
+1610260,Domov Rudné u Nejdku,70890285,domovy pro osoby se zdravotním postižením,https://www.dozprudne.cz/,578029,Vysoká Pec,50.35208,12.684962,kk_socialni_sluzby.csv,False
+7778098,Domov Rudné u Nejdku,70890285,domovy se zvláštním režimem,https://www.dozprudne.cz/,578029,Vysoká Pec,50.35208,12.684962,kk_socialni_sluzby.csv,False
+8758561,"Domov se zvláštním režimem ""MATYÁŠ"" v Nejdku, příspěvková organizace",71175229,domovy se zvláštním režimem,https://www.ddnejdek.cz/,555380,Nejdek,50.317706,12.726115,kk_socialni_sluzby.csv,False
+3138287,DOP - HC s.r.o.,26356589,domovy pro seniory,https://www.dop-hc.cz,538591,Dolní Rychnov,50.161009,12.636456,kk_socialni_sluzby.csv,False
+2050047,DOP - HC s.r.o.,26356589,domovy se zvláštním režimem,https://www.dop-hc.cz,538591,Dolní Rychnov,50.161009,12.636456,kk_socialni_sluzby.csv,False
+7154308,DOP - HC s.r.o.,26356589,pečovatelská služba,https://www.dop-hc.cz,538591,Dolní Rychnov,50.161009,12.636456,kk_socialni_sluzby.csv,True
+9950098,DOP - HC s.r.o.,26356589,sociální služby poskytované ve zdravotnických zařízeních lůžkové péče,https://www.dop-hc.cz,538591,Dolní Rychnov,50.161009,12.636456,kk_socialni_sluzby.csv,False
+6594507,"Dům klidného stáří, spol. s r.o.",26369427,domovy se zvláštním režimem,https://www.klidne-stari.cz/,560464,Královské Poříčí,50.194215,12.680677,kk_socialni_sluzby.csv,False
+5245061,"Dům klidného stáří, spol. s r.o.",26369427,sociální služby poskytované ve zdravotnických zařízeních lůžkové péče,https://www.klidne-stari.cz/,560464,Královské Poříčí,50.194215,12.680677,kk_socialni_sluzby.csv,False
+3796759,Dveře dokořán z.s.,26995549,osobní asistence,https://www.dveredokoran.cz/,554961,Karlovy Vary,50.213304,12.820955,kk_socialni_sluzby.csv,True
+3160752,Farní charita Aš,64839991,azylové domy,https://www.farcaritas.cz/,554499,Aš,50.220297,12.19912,kk_socialni_sluzby.csv,False
+8514354,Farní charita Karlovy Vary,49753053,azylové domy,https://www.kv.charita.cz/,554961,Karlovy Vary,50.243647,12.828311,kk_socialni_sluzby.csv,False
+4609607,Farní charita Karlovy Vary,49753053,denní stacionáře,https://www.kv.charita.cz/,554961,Karlovy Vary,50.243647,12.828311,kk_socialni_sluzby.csv,False
+3961836,Farní charita Karlovy Vary,49753053,domy na půl cesty,https://www.kv.charita.cz/,554961,Karlovy Vary,50.243647,12.828311,kk_socialni_sluzby.csv,False
+9845569,Farní charita Karlovy Vary,49753053,sociálně terapeutické dílny,https://www.kv.charita.cz/,554961,Karlovy Vary,50.243647,12.828311,kk_socialni_sluzby.csv,False
+7300930,Farní charita Karlovy Vary,49753053,týdenní stacionáře,https://www.kv.charita.cz/,554961,Karlovy Vary,50.243647,12.828311,kk_socialni_sluzby.csv,False
+1117374,FOKUS Karlovarský kraj z.ú.,11867167,chráněné bydlení,https://www.fokus-kk.cz/,554961,Karlovy Vary,50.233131,12.881099,kk_socialni_sluzby.csv,False
+3838628,FOKUS Karlovarský kraj z.ú.,11867167,sociální rehabilitace,https://www.fokus-kk.cz/,554961,Karlovy Vary,50.233131,12.881099,kk_socialni_sluzby.csv,False
+9288250,FOKUS Karlovarský kraj z.ú.,11867167,centrum duševního zdraví,https://www.fokus-kk.cz/,554961,Karlovy Vary,50.233131,12.881099,kk_socialni_sluzby.csv,False
+3699256,"Generace KK, z. s.",04795725,odborné sociální poradenství,https://generacekk.cz/,554481,Cheb,50.082126,12.36851,kk_socialni_sluzby.csv,False
+7679470,"Global Partner Péče, z.ú.",09903046,odborné sociální poradenství,https://www.gp.cz/#kde-pusobime,554961,Karlovy Vary,50.227983,12.857729,kk_socialni_sluzby.csv,False
+6239035,"Global Partner Péče, z.ú.",09903046,odlehčovací služby,https://www.gp.cz/#kde-pusobime,554961,Karlovy Vary,50.227983,12.857729,kk_socialni_sluzby.csv,True
+3517864,GOPALA o.p.s.,28745175,odborné sociální poradenství,https://www.gopala-ops.cz/,555380,Nejdek,50.321335,12.72731,kk_socialni_sluzby.csv,False
+6731070,"Hospic Sv. Jiří, o.p.s.",22729909,odborné sociální poradenství,https://www.hospiccheb.cz/,554481,Cheb,50.068397,12.374486,kk_socialni_sluzby.csv,False
+7720798,"Chráněné bydlení Sokolov, z.s.",65528794,chráněné bydlení,https://chbsokolov.cz/,560286,Sokolov,50.171505,12.674749,kk_socialni_sluzby.csv,False
+6168678,"Chráněné bydlení Sokolov, z.s.",65528794,podpora samostatného bydlení,https://chbsokolov.cz/,560286,Sokolov,50.171505,12.674749,kk_socialni_sluzby.csv,False
+8479033,"Institut zdravotně-sociálních služeb, z.ú.",06229654,tísňová péče,https://www.izss.cz/,500119,Praha 4,50.006562,14.463324,kk_socialni_sluzby.csv,True
+9282940,"Jah jireh, spolek",27058841,domovy pro seniory,https://www.jahjireh.cz/,554642,Mariánské Lázně,49.952154,12.681748,kk_socialni_sluzby.csv,False
+4734394,Joker z. s.,26656892,sociálně terapeutické dílny,https://www.dilnyjoker.cz/,554481,Cheb,50.078117,12.365639,kk_socialni_sluzby.csv,False
+7260023,Karlovarská krajská nemocnice a.s.,26365804,sociální služby poskytované ve zdravotnických zařízeních lůžkové péče,https://nemcheb.cz/osetrovatelska-luzka,554481,Cheb,50.069787,12.366885,kk_socialni_sluzby.csv,False
+1359295,Khamoro o.p.s.,26519569,nízkoprahová zařízení pro děti a mládež,http://www.khamoro-chodov.cz/,560570,Chranišov,50.22062,12.743333,kk_socialni_sluzby.csv,False
+3464357,"Klubíčko Cheb, z. s.",70848823,sociálně aktivizační služby pro rodiny s dětmi,https://www.klubicko.cz/,554481,Cheb,50.076537,12.373081,kk_socialni_sluzby.csv,False
+4108029,Klubík štěstí denní stacionář z.ú.,19271832,denní stacionáře,https://ksds.cz/,554499,Aš,50.214399,12.199017,kk_socialni_sluzby.csv,False
+7105759,KOTEC o.p.s.,26648415,kontaktní centra,https://kotec.cz/,554642,Mariánské Lázně,49.957891,12.693787,kk_socialni_sluzby.csv,False
+3832437,KOTEC o.p.s.,26648415,kontaktní centra,https://kotec.cz/,554642,Mariánské Lázně,49.957891,12.693787,kk_socialni_sluzby.csv,False
+4207744,KOTEC o.p.s.,26648415,nízkoprahová zařízení pro děti a mládež,https://kotec.cz/,554642,Mariánské Lázně,49.957891,12.693787,kk_socialni_sluzby.csv,False
+1587892,KOTEC o.p.s.,26648415,odborné sociální poradenství,https://kotec.cz/,554642,Mariánské Lázně,49.957891,12.693787,kk_socialni_sluzby.csv,False
+7733622,KOTEC o.p.s.,26648415,služby následné péče,https://kotec.cz/,554642,Mariánské Lázně,49.957891,12.693787,kk_socialni_sluzby.csv,False
+1312049,KOTEC o.p.s.,26648415,sociálně aktivizační služby pro rodiny s dětmi,https://kotec.cz/,554642,Mariánské Lázně,49.957891,12.693787,kk_socialni_sluzby.csv,False
+2042293,KOTEC o.p.s.,26648415,sociálně aktivizační služby pro rodiny s dětmi,https://kotec.cz/,554642,Mariánské Lázně,49.957891,12.693787,kk_socialni_sluzby.csv,False
+3752319,KOTEC o.p.s.,26648415,terénní programy,https://kotec.cz/,554642,Mariánské Lázně,49.957891,12.693787,kk_socialni_sluzby.csv,False
+3830970,KOTEC o.p.s.,26648415,terénní programy,https://kotec.cz/,554642,Mariánské Lázně,49.957891,12.693787,kk_socialni_sluzby.csv,False
+7598166,KOTEC o.p.s.,26648415,terénní programy,https://kotec.cz/,554642,Mariánské Lázně,49.957891,12.693787,kk_socialni_sluzby.csv,False
+8105952,KOTEC o.p.s.,26648415,nízkoprahová denní centra,https://kotec.cz/,554642,Mariánské Lázně,49.957891,12.693787,kk_socialni_sluzby.csv,False
+2755879,KSK centrum o.p.s.,70800812,odborné sociální poradenství,https://kskcentrum.cz/,554961,Karlovy Vary,50.244551,12.87564,kk_socialni_sluzby.csv,False
+3238400,KSK centrum o.p.s.,70800812,sociálně aktivizační služby pro rodiny s dětmi,https://kskcentrum.cz/,554961,Karlovy Vary,50.244551,12.87564,kk_socialni_sluzby.csv,False
+1327128,KSK centrum o.p.s.,70800812,terénní programy,https://kskcentrum.cz/,554961,Karlovy Vary,50.244551,12.87564,kk_socialni_sluzby.csv,False
+9509809,Linnet eu s.r.o.,26010585,tísňová péče,https://www.andelnadrate.cz/,573868,Náchod,50.41717,16.164753,kk_socialni_sluzby.csv,True
+2126391,"Lukostřelecký klub Victoria Bochov, z.s.",09204121,nízkoprahová zařízení pro děti a mládež,https://lukostrelci-bochov.webnode.cz/,555029,Bochov,50.150874,13.045786,kk_socialni_sluzby.csv,False
+8232504,"Mateřské centrum Karlovy Vary, z.s.",49755692,odborné sociální poradenství,https://www.materske-centrum.cz/,554961,Karlovy Vary,50.235953,12.884403,kk_socialni_sluzby.csv,False
+9138850,Město Aš,00253901,pečovatelská služba,https://www.muas.cz/pecovatelska%2Dsluzba%2Dorganizacni%2Dslozka%2Dmesta%2Dase/os-3185,554499,Aš,50.222988,12.192479,kk_socialni_sluzby.csv,True
+7010273,Město Františkovy Lázně,00253936,pečovatelská služba,https://www.frantiskovy-lazne.cz/pecovatelska-sluzba/ds-12541,554529,Františkovy Lázně,50.123165,12.353837,kk_socialni_sluzby.csv,True
+4068361,Město Habartov,00259314,pečovatelská služba,https://www.mestohabartov.cz/pecovatelska-sluzba/ds-1168,560359,Habartov,50.191979,12.571495,kk_socialni_sluzby.csv,True
+3511361,Město Chodov,00259349,pečovatelská služba,https://www.mestochodov.cz/urad/socialni-sluzby-a-zdravotnictvi/pecovatelska-sluzba/,560383,Chodov,50.236502,12.742843,kk_socialni_sluzby.csv,True
+1281860,Město Kraslice,00259438,pečovatelská služba,https://www.kraslice.cz/urad/odbory-a-oddeleni-mestskeho-uradu/odbor-socialnich-veci-a-zdravotnictvi/pecovatelska-sluzba/,560472,Kraslice,50.333753,12.503404,kk_socialni_sluzby.csv,True
+4156459,Město Rotava,00259551,pečovatelská služba,https://www.mestorotava.cz/mesto/pecovatelska-sluzba/,560600,Rotava,50.303241,12.554629,kk_socialni_sluzby.csv,True
+6344360,Město Toužim,00255076,pečovatelská služba,https://www.touzim.cz/mesto/organizace-zrizene-mestem/organizacni-slozky/pecovatelska-sluzba/,555657,Toužim,50.06014,12.98757,kk_socialni_sluzby.csv,True
+4442307,"Městské zařízení sociálních služeb, příspěvková organizace",47701277,domovy pro seniory,https://www.kv-mzss.cz/,554961,Karlovy Vary,50.235064,12.893405,kk_socialni_sluzby.csv,False
+8779324,"Městské zařízení sociálních služeb, příspěvková organizace",47701277,odlehčovací služby,https://www.kv-mzss.cz/,554961,Karlovy Vary,50.235064,12.893405,kk_socialni_sluzby.csv,True
+8315331,"Městské zařízení sociálních služeb, příspěvková organizace",47701277,odlehčovací služby,https://www.kv-mzss.cz/,554961,Karlovy Vary,50.235064,12.893405,kk_socialni_sluzby.csv,True
+1015111,"Městské zařízení sociálních služeb, příspěvková organizace",47701277,pečovatelská služba,https://www.kv-mzss.cz/,554961,Karlovy Vary,50.235064,12.893405,kk_socialni_sluzby.csv,True
+4939401,"Multikulturní Integrační Centrum, z. ú.",17837006,nízkoprahová zařízení pro děti a mládež,https://www.facebook.com/groups/1477334652718470/,560570,Nové Sedlo,50.211426,12.742688,kk_socialni_sluzby.csv,False
+3523407,"Národní ústav pro autismus, z.ú.",26623064,domovy se zvláštním režimem,https://www.nautis.cz/,554782,Praha 8,50.117528,14.451091,kk_socialni_sluzby.csv,False
+2284277,"Národní ústav pro autismus, z.ú.",26623064,odborné sociální poradenství,https://www.nautis.cz/sluzby-nautis,554782,Praha 8,50.117528,14.451091,kk_socialni_sluzby.csv,False
+1010387,Nemocnice Ostrov s.r.o.,47714913,sociální služby poskytované ve zdravotnických zařízeních lůžkové péče,https://www.pentahospitals.cz/nemocnice-ostrov/oddeleni/zdravotne-socialni-pracovnice/,555428,Ostrov,50.312286,12.963841,kk_socialni_sluzby.csv,False
+9093533,Nemocnice Sokolov s.r.o.,24747246,sociální služby poskytované ve zdravotnických zařízeních lůžkové péče,https://www.pentahospitals.cz/nemocnice-sokolov/oddeleni/zdravotne-socialni-pracovnice/,560286,Sokolov,50.177833,12.650982,kk_socialni_sluzby.csv,False
+3412992,Oáza klidu o.p.s.,27961583,domovy se zvláštním režimem,https://oazaklidu.cz/,560570,Nové Sedlo,50.207339,12.755176,kk_socialni_sluzby.csv,False
+9760543,Oblastní charita Ostrov,49753185,domovy pro seniory,https://www.ostrov.charita.cz/,555428,Ostrov,50.307104,12.951274,kk_socialni_sluzby.csv,False
+8296986,Oblastní charita Ostrov,49753185,domovy pro seniory,https://www.ostrov.charita.cz/,555428,Ostrov,50.307104,12.951274,kk_socialni_sluzby.csv,False
+5988015,Pečovatelská služba S NÁMI DOMA z.ú.,27972275,pečovatelská služba,https://pece.cz/zarizeni-sluzby/seznam/s-nami-doma-pecovatelska-sluzba.html,555380,Nejdek,50.320398,12.737555,kk_socialni_sluzby.csv,True
+7326680,"Pečovatelská služba v Teplé, příspěvková organizace",73740004,pečovatelská služba,https://www.tepla.cz/tepla-2/pecovatelska-sluzba/pecovatelska-sluzba/,555631,Teplá,49.977757,12.866724,kk_socialni_sluzby.csv,True
+4291264,"Pečovatelská služba Žlutice, příspěvková organizace",70891079,pečovatelská služba,https://pszlutice.cz/,555762,Žlutice,50.089986,13.167171,kk_socialni_sluzby.csv,True
+3871162,"Pečovatelská služba Žlutice, příspěvková organizace",70891079,tísňová péče,https://pszlutice.cz/,555762,Žlutice,50.089986,13.167171,kk_socialni_sluzby.csv,True
+9172654,"Pečovatelská služba, příspěvková organizace",71232923,pečovatelská služba,https://www.hornislavkov.cz/mestske-organizace/pecovatelska-sluzba/,560367,Horní Slavkov,50.135926,12.798977,kk_socialni_sluzby.csv,True
+5480696,"POD VLČÍ HOROU, z.s.",06828116,nízkoprahová zařízení pro děti a mládež,https://podvlcihorou.cz/,555215,Jáchymov,50.370398,12.915994,kk_socialni_sluzby.csv,False
+7703067,"Pomoc v nouzi, o.p.s.",27991997,azylové domy,https://www.pomocvnouziops.cz/www/script/main.php,560286,Sokolov,50.188133,12.638892,kk_socialni_sluzby.csv,False
+2575539,"Pomoc v nouzi, o.p.s.",27991997,intervenční centra,https://www.pomocvnouziops.cz/www/script/main.php,560286,Sokolov,50.188133,12.638892,kk_socialni_sluzby.csv,False
+4711739,"Pomoc v nouzi, o.p.s.",27991997,nízkoprahová denní centra,https://www.pomocvnouziops.cz/www/script/main.php,560286,Sokolov,50.188133,12.638892,kk_socialni_sluzby.csv,False
+4534646,"Pomoc v nouzi, o.p.s.",27991997,noclehárny,https://www.pomocvnouziops.cz/www/script/main.php,560286,Sokolov,50.188133,12.638892,kk_socialni_sluzby.csv,False
+8396604,"Pomoc v nouzi, o.p.s.",27991997,odborné sociální poradenství,https://www.pomocvnouziops.cz/www/script/main.php,560286,Sokolov,50.188133,12.638892,kk_socialni_sluzby.csv,False
+4642969,"Pomoc v nouzi, o.p.s.",27991997,pečovatelská služba,https://www.pomocvnouziops.cz/www/script/main.php,560286,Sokolov,50.188133,12.638892,kk_socialni_sluzby.csv,True
+6513502,"PROSAZ, z. ú.",43005853,osobní asistence,https://www.prosaz.cz/index.html@p=4237.html,554642,Mariánské Lázně,49.955145,12.688666,kk_socialni_sluzby.csv,True
+4649959,"Rada seniorů České republiky, z.s.s.",63829797,odborné sociální poradenství,https://www.rscr.cz/krajske-rady/karlovarsky-kraj/,554481,Cheb,50.082114,12.368495,kk_socialni_sluzby.csv,False
+5181171,Raná péče Krůček z. ú.,14444666,raná péče,https://www.ranapecekrucek.cz/,554481,Cheb,50.081209,12.380973,kk_socialni_sluzby.csv,False
+1997532,"Raná péče Kuk, z.ú.",29109663,raná péče,https://www.ranapecekuk.eu/,554791,Plzeň,49.735015,13.364872,kk_socialni_sluzby.csv,False
+6585415,"Res vitae, z.s.",69968209,krizová pomoc,https://resvitae.cz/,554961,Karlovy Vary,50.235763,12.887562,kk_socialni_sluzby.csv,False
+5706154,"Res vitae, z.s.",69968209,odborné sociální poradenství,https://resvitae.cz/,554961,Karlovy Vary,50.235763,12.887562,kk_socialni_sluzby.csv,False
+9368538,"Res vitae, z.s.",69968209,pečovatelská služba,https://resvitae.cz/,554961,Karlovy Vary,50.235763,12.887562,kk_socialni_sluzby.csv,True
+8642545,"Res vitae, z.s.",69968209,telefonická krizová pomoc,https://resvitae.cz/,554961,Karlovy Vary,50.235763,12.887562,kk_socialni_sluzby.csv,False
+4640372,Romodrom o.p.s.,26537036,odborné sociální poradenství,https://romodrom.cz/cs/,500143,Praha 5,50.066461,14.398505,kk_socialni_sluzby.csv,False
+5067613,Romodrom o.p.s.,26537036,odborné sociální poradenství,https://romodrom.cz/cs/,500143,Praha 5,50.066461,14.398505,kk_socialni_sluzby.csv,False
+4402732,Romodrom o.p.s.,26537036,krizová pomoc,https://romodrom.cz/cs/,500143,Praha 5,50.066461,14.398505,kk_socialni_sluzby.csv,False
+4441304,"ROZKOŠ bez RIZIKA, z. s.",44990901,terénní programy,https://rozkosbezrizika.cz/,500054,Praha 1,50.086199,14.43514,kk_socialni_sluzby.csv,False
+1900886,"RUBIKON Centrum, z.ú.",60446871,odborné sociální poradenství,https://www.rubikoncentrum.cz/,554481,Cheb,50.073246,12.366785,kk_socialni_sluzby.csv,False
+3388509,"Rytmus - od klienta k občanovi, z.ú.",61383783,podpora samostatného bydlení,https://rytmus.org/,554961,Karlovy Vary,50.237372,12.892586,kk_socialni_sluzby.csv,False
+1074208,"Rytmus - od klienta k občanovi, z.ú.",61383783,sociální rehabilitace,https://rytmus.org/,554961,Karlovy Vary,50.237372,12.892586,kk_socialni_sluzby.csv,False
+1595442,Seniorenpension Littengrün s.r.o.,03912949,domovy se zvláštním režimem,https://www.custodium.cz/zarizeni/domov-se-zvlastnim-rezimem-seniorenpension/,554634,Luby,50.273234,12.385334,kk_socialni_sluzby.csv,False
+9614424,"Sestřička SOS, z. ú.",11836270,tísňová péče,https://www.sestrickasos.cz/,554961,Karlovy Vary,50.241017,12.843526,kk_socialni_sluzby.csv,True
+2026800,"Sjednocená organizace nevidomých a slabozrakých ČR, zapsaný spolek",65399447,sociálně aktivizační služby pro seniory a osoby se zdravotním postižením,https://www.sons.cz/karlovyvary,554961,Karlovy Vary,50.23053,12.870326,kk_socialni_sluzby.csv,True
+7265619,SOCIÁLNĚ PSYCHIATRICKÉ CENTRUM SLUNÍČKO z.ú.,08929815,odlehčovací služby,https://web.spc-slunicko.cz/%C3%Bavod,560286,Sokolov,50.181125,12.643446,kk_socialni_sluzby.csv,True
+9616787,"Sociální služby Sokolov, příspěvková organizace",07668155,domovy pro seniory,https://sossokolov.cz/,560286,Sokolov,50.179631,12.637331,kk_socialni_sluzby.csv,False
+7478398,"Sociální služby Sokolov, příspěvková organizace",07668155,domovy se zvláštním režimem,https://sossokolov.cz/,560286,Sokolov,50.179631,12.637331,kk_socialni_sluzby.csv,False
+1784585,"Sociální služby Sokolov, příspěvková organizace",07668155,pečovatelská služba,https://sossokolov.cz/,560286,Sokolov,50.179631,12.637331,kk_socialni_sluzby.csv,True
+2030094,"Sociální služby v Kynšperku nad Ohří, příspěvková organizace",70832641,domovy pro osoby se zdravotním postižením,https://www.ss-po.cz/,560499,Kynšperk nad Ohří,50.1255,12.51554,kk_socialni_sluzby.csv,False
+7666096,"Sociální služby v Kynšperku nad Ohří, příspěvková organizace",70832641,domovy pro seniory,https://www.ss-po.cz/,560499,Kynšperk nad Ohří,50.1255,12.51554,kk_socialni_sluzby.csv,False
+1366499,"Sociální služby v Kynšperku nad Ohří, příspěvková organizace",70832641,domovy se zvláštním režimem,https://www.ss-po.cz/,560499,Kynšperk nad Ohří,50.1255,12.51554,kk_socialni_sluzby.csv,False
+8631866,"Sociální služby v Kynšperku nad Ohří, příspěvková organizace",70832641,odborné sociální poradenství,https://www.ss-po.cz/,560499,Kynšperk nad Ohří,50.1255,12.51554,kk_socialni_sluzby.csv,False
+4606125,"SOS dětské vesničky, z.s.",00407933,sociálně aktivizační služby pro rodiny s dětmi,https://www.sos-vesnicky.cz/,554961,Karlovy Vary,50.241017,12.843526,kk_socialni_sluzby.csv,False
+7683006,"SOS dětské vesničky, z.s.",00407933,sociální rehabilitace,https://www.sos-vesnicky.cz/,554961,Karlovy Vary,50.241017,12.843526,kk_socialni_sluzby.csv,False
+1154490,"Společnost Dolmen, z.ú.",27291049,chráněné bydlení,https://www.spolecnostdolmen.cz/?page_id=55,560286,Sokolov,50.17629,12.6482,kk_socialni_sluzby.csv,False
+8798523,"Společnost Dolmen, z.ú.",27291049,podpora samostatného bydlení,https://www.spolecnostdolmen.cz/?page_id=55,560286,Sokolov,50.17629,12.6482,kk_socialni_sluzby.csv,False
+9700851,"Společnost pro ranou péči, pobočka Karlovy Vary",08243743,odlehčovací služby,https://www.ranapece.cz/karlovy-vary/,554961,Karlovy Vary,50.239067,12.848088,kk_socialni_sluzby.csv,True
+2812601,"Společnost pro ranou péči, z. s.",67363610,raná péče,https://www.ranapece.cz/,554961,Karlovy Vary,50.239067,12.848088,kk_socialni_sluzby.csv,False
+3867796,Správa uprchlických zařízení Ministerstva vnitra,60498021,odborné sociální poradenství,https://www.suz.cz/,554961,Karlovy Vary,50.238,12.840044,kk_socialni_sluzby.csv,False
+3382932,"Správa zdravotních a sociálních služeb Cheb, příspěvková organizace",70887985,denní stacionáře,https://www.szss-cheb.cz/,554481,Cheb,50.06869,12.368345,kk_socialni_sluzby.csv,False
+6398000,"Správa zdravotních a sociálních služeb Cheb, příspěvková organizace",70887985,nízkoprahová zařízení pro děti a mládež,https://www.szss-cheb.cz/,554481,Cheb,50.06869,12.368345,kk_socialni_sluzby.csv,False
+5740862,"Správa zdravotních a sociálních služeb Cheb, příspěvková organizace",70887985,pečovatelská služba,https://www.szss-cheb.cz/,554481,Cheb,50.06869,12.368345,kk_socialni_sluzby.csv,True
+7422908,"Svaz neslyšících a nedoslýchavých osob v ČR, z.s.",00676535,tlumočnické služby,https://snncr.cz/,554782,Praha 8,50.092306,14.446349,kk_socialni_sluzby.csv,False
+8680556,Světlo Kadaň z.s.,65650701,kontaktní centra,https://www.svetlokadanzs.cz/,563102,Kadaň,50.37665,13.269589,kk_socialni_sluzby.csv,False
+2711883,Světlo Kadaň z.s.,65650701,nízkoprahová zařízení pro děti a mládež,https://www.svetlokadanzs.cz/,563102,Kadaň,50.37665,13.269589,kk_socialni_sluzby.csv,False
+4515038,Světlo Kadaň z.s.,65650701,nízkoprahová zařízení pro děti a mládež,https://www.svetlokadanzs.cz/,563102,Kadaň,50.37665,13.269589,kk_socialni_sluzby.csv,False
+6964061,Světlo Kadaň z.s.,65650701,odborné sociální poradenství,https://www.svetlokadanzs.cz/,563102,Kadaň,50.37665,13.269589,kk_socialni_sluzby.csv,False
+2449753,Světlo Kadaň z.s.,65650701,terénní programy,https://www.svetlokadanzs.cz/,563102,Kadaň,50.37665,13.269589,kk_socialni_sluzby.csv,False
+8557743,Světlo Kadaň z.s.,65650701,terénní programy,https://www.svetlokadanzs.cz/,563102,Kadaň,50.37665,13.269589,kk_socialni_sluzby.csv,False
+1679799,"Tichý svět, o.p.s.",26611716,odborné sociální poradenství,https://www.tichysvet.cz/,554961,Karlovy Vary,50.229802,12.870684,kk_socialni_sluzby.csv,False
+8477576,"Tichý svět, o.p.s.",26611716,tlumočnické služby,https://www.tichysvet.cz/,554961,Karlovy Vary,50.229802,12.870684,kk_socialni_sluzby.csv,False
+4385424,"Tichý svět, o.p.s.",26611716,sociální rehabilitace,https://www.tichysvet.cz/,554961,Karlovy Vary,50.229802,12.870684,kk_socialni_sluzby.csv,False
+5421189,"TOREAL, spol. s r.o.",27960480,domovy pro seniory,http://www.toreal.cz/,560464,Královské Poříčí,50.193101,12.682035,kk_socialni_sluzby.csv,False
+8997847,"TOREAL, spol. s r.o.",27960480,domovy se zvláštním režimem,http://www.toreal.cz/,560464,Královské Poříčí,50.193101,12.682035,kk_socialni_sluzby.csv,False
+2868217,"TyfloCentrum Karlovy Vary, o.p.s.",25248863,průvodcovské a předčitatelské služby,https://www.tckv.cz/,554961,Karlovy Vary,50.232984,12.883289,kk_socialni_sluzby.csv,True
+8843326,"TyfloCentrum Karlovy Vary, o.p.s.",25248863,sociálně aktivizační služby pro seniory a osoby se zdravotním postižením,https://www.tckv.cz/,554961,Karlovy Vary,50.232984,12.883289,kk_socialni_sluzby.csv,True
+5339732,"TyfloCentrum Karlovy Vary, o.p.s.",25248863,sociální rehabilitace,https://www.tckv.cz/,554961,Karlovy Vary,50.232984,12.883289,kk_socialni_sluzby.csv,False
+1901942,"Tyfloservis, o.p.s.",26200481,sociální rehabilitace,https://www.tyfloservis.cz/krajske-stredisko-karlovy-vary/,554961,Karlovy Vary,50.232984,12.883289,kk_socialni_sluzby.csv,False
+4927440,Útočiště o.p.s.,26393972,nízkoprahová zařízení pro děti a mládež,https://www.utocistecheb.cz/,554481,Cheb,50.080606,12.366329,kk_socialni_sluzby.csv,False
+5060571,Útočiště o.p.s.,26393972,sociálně aktivizační služby pro rodiny s dětmi,https://www.utocistecheb.cz/,554481,Cheb,50.080606,12.366329,kk_socialni_sluzby.csv,False
+5157097,"Zařízení následné rehabilitační a hospicové péče, příspěvková organizace",69979821,sociální služby poskytované ve zdravotnických zařízeních lůžkové péče,http://www.rehos-nejdek.cz/,555380,Nejdek,50.329014,12.741312,kk_socialni_sluzby.csv,False
+8053341,Židovská obec Karlovy Vary,49753231,sociálně aktivizační služby pro seniory a osoby se zdravotním postižením,http://www.kehilakv.cz/,554961,Karlovy Vary,50.230801,12.875694,kk_socialni_sluzby.csv,True

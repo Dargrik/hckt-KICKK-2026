@@ -1,0 +1,451 @@
+{
+ "scenar": {
+  "den": "20261013",
+  "den_v_tydnu": "úterý",
+  "odjezd_z_domova": "16:00–19:00",
+  "pobyt_na_pohotovosti_min": 60,
+  "navrat_domu_do": "23:59",
+  "prijezd": "v otevírací době pohotovosti (nejpozději v zavírací čas)",
+  "vychozi_bod_obce": "hlavní zastávka obce (jako P-06)",
+  "vychozi_bod_adresy": "adresa RÚIAN s č.p., libovolná zastávka do 1000 m (jako P-07)"
+ },
+ "pohotovosti": [
+  {
+   "id": "poh-1",
+   "nazev": "Nemocnice v Karlových Varech",
+   "obec": "Karlovy Vary",
+   "hodiny": "16:00-21:00"
+  },
+  {
+   "id": "poh-3",
+   "nazev": "Nemocnice v Chebu",
+   "obec": "Cheb",
+   "hodiny": "16:00-21:00"
+  },
+  {
+   "id": "poh-5",
+   "nazev": "Nemocnice Mariánské Lázně s.r.o.",
+   "obec": "Mariánské Lázně",
+   "hodiny": "15:30-21:00"
+  },
+  {
+   "id": "poh-8",
+   "nazev": "Nemocnice v Sokolově",
+   "obec": "Sokolov",
+   "hodiny": "16:00-21:00"
+  }
+ ],
+ "obci": 134,
+ "seniori_kraj": 63968,
+ "obce": {
+  "nedojedou_tam": {
+   "obci": 5,
+   "seniori": 251,
+   "z_toho_od_16_do_19_nic_nejede_nebo_bez_zastavky": 3
+  },
+  "dojedou_tam_ale_ne_zpet": {
+   "obci": 24,
+   "seniori": 2195
+  },
+  "bez_navratu_tyz_vecer": {
+   "obci": 29,
+   "seniori": 2446,
+   "podil_senioru_pct": 3.8,
+   "z_toho_obci_s_dobrou_nebo_stredni_dostupnosti_pres_den": 16,
+   "seniori_v_nich": 1643
+  },
+  "tam_i_zpet": {
+   "obci": 105,
+   "seniori": 61522,
+   "median_doba_mimo_domov_min": 154,
+   "obci_mimo_domov_4h_a_vic": 20,
+   "obci_posledni_navrat_po_22h": 83
+  }
+ },
+ "adresy": {
+  "adres": 55762,
+  "zastavek": 1365,
+  "seniori": 63968,
+  "seniori_nedojedou_tam": 3088,
+  "seniori_bez_navratu": 8062,
+  "podil_senioru_bez_navratu_pct": 12.6,
+  "z_toho_dal_nez_1km_od_zastavky": 1705,
+  "jeden_z_kolika_senioru": 8
+ },
+ "citlivost_na_dobu_na_pohotovosti": [
+  {
+   "pobyt_min": 30,
+   "obci_bez_navratu": 17,
+   "seniori": 1061
+  },
+  {
+   "pobyt_min": 45,
+   "obci_bez_navratu": 20,
+   "seniori": 1483
+  },
+  {
+   "pobyt_min": 60,
+   "obci_bez_navratu": 29,
+   "seniori": 2446
+  },
+  {
+   "pobyt_min": 90,
+   "obci_bez_navratu": 31,
+   "seniori": 2560
+  },
+  {
+   "pobyt_min": 120,
+   "obci_bez_navratu": 33,
+   "seniori": 2630
+  }
+ ],
+ "top10_bez_navratu": [
+  {
+   "obec": "Hranice",
+   "kod_obce": "554553",
+   "orp": "Aš",
+   "seniori_65plus": 420,
+   "seniori_bez_navratu_adresy": 420,
+   "stav": "tam ano, zpět týž den ne",
+   "pohotovost_obec": "Cheb",
+   "odjezd": "16:56",
+   "prijezd": "18:23",
+   "posledni_spoj_zpet": "19:22",
+   "nejpozdeji_na_pohotovosti": "18:18",
+   "doba_mimo_domov_min": null,
+   "hodnoceni_den": "střední"
+  },
+  {
+   "obec": "Kolová",
+   "kod_obce": "555258",
+   "orp": "Karlovy Vary",
+   "seniori_65plus": 185,
+   "seniori_bez_navratu_adresy": 184,
+   "stav": "tam ano, zpět týž den ne",
+   "pohotovost_obec": "Karlovy Vary",
+   "odjezd": "17:39",
+   "prijezd": "18:03",
+   "posledni_spoj_zpet": "18:38",
+   "nejpozdeji_na_pohotovosti": "17:34",
+   "doba_mimo_domov_min": null,
+   "hodnoceni_den": "střední"
+  },
+  {
+   "obec": "Libá",
+   "kod_obce": "554618",
+   "orp": "Cheb",
+   "seniori_65plus": 149,
+   "seniori_bez_navratu_adresy": 149,
+   "stav": "tam ano, zpět týž den ne",
+   "pohotovost_obec": "Cheb",
+   "odjezd": "16:26",
+   "prijezd": "17:18",
+   "posledni_spoj_zpet": "18:20",
+   "nejpozdeji_na_pohotovosti": "17:16",
+   "doba_mimo_domov_min": null,
+   "hodnoceni_den": "dobrá"
+  },
+  {
+   "obec": "Chyše",
+   "kod_obce": "555207",
+   "orp": "Karlovy Vary",
+   "seniori_65plus": 135,
+   "seniori_bez_navratu_adresy": 134,
+   "stav": "večer se na pohotovost nedostane",
+   "pohotovost_obec": null,
+   "odjezd": null,
+   "prijezd": null,
+   "posledni_spoj_zpet": null,
+   "nejpozdeji_na_pohotovosti": null,
+   "doba_mimo_domov_min": null,
+   "hodnoceni_den": "špatná"
+  },
+  {
+   "obec": "Pšov",
+   "kod_obce": "555525",
+   "orp": "Karlovy Vary",
+   "seniori_65plus": 135,
+   "seniori_bez_navratu_adresy": 119,
+   "stav": "tam ano, zpět týž den ne",
+   "pohotovost_obec": "Karlovy Vary",
+   "odjezd": "16:37",
+   "prijezd": "17:57",
+   "posledni_spoj_zpet": "16:49",
+   "nejpozdeji_na_pohotovosti": "15:45",
+   "doba_mimo_domov_min": null,
+   "hodnoceni_den": "špatná"
+  },
+  {
+   "obec": "Stříbrná",
+   "kod_obce": "560651",
+   "orp": "Kraslice",
+   "seniori_65plus": 119,
+   "seniori_bez_navratu_adresy": 119,
+   "stav": "tam ano, zpět týž den ne",
+   "pohotovost_obec": "Sokolov",
+   "odjezd": "16:11",
+   "prijezd": "17:41",
+   "posledni_spoj_zpet": "18:22",
+   "nejpozdeji_na_pohotovosti": "17:17",
+   "doba_mimo_domov_min": null,
+   "hodnoceni_den": "střední"
+  },
+  {
+   "obec": "Pila",
+   "kod_obce": "556947",
+   "orp": "Karlovy Vary",
+   "seniori_65plus": 118,
+   "seniori_bez_navratu_adresy": 118,
+   "stav": "tam ano, zpět týž den ne",
+   "pohotovost_obec": "Karlovy Vary",
+   "odjezd": "17:36",
+   "prijezd": "18:03",
+   "posledni_spoj_zpet": "18:38",
+   "nejpozdeji_na_pohotovosti": "17:34",
+   "doba_mimo_domov_min": null,
+   "hodnoceni_den": "dobrá"
+  },
+  {
+   "obec": "Krásná",
+   "kod_obce": "538795",
+   "orp": "Aš",
+   "seniori_65plus": 115,
+   "seniori_bez_navratu_adresy": 101,
+   "stav": "tam ano, zpět týž den ne",
+   "pohotovost_obec": "Cheb",
+   "odjezd": "17:05",
+   "prijezd": "18:23",
+   "posledni_spoj_zpet": "19:22",
+   "nejpozdeji_na_pohotovosti": "18:18",
+   "doba_mimo_domov_min": null,
+   "hodnoceni_den": "střední"
+  },
+  {
+   "obec": "Otročín",
+   "kod_obce": "555444",
+   "orp": "Karlovy Vary",
+   "seniori_65plus": 111,
+   "seniori_bez_navratu_adresy": 110,
+   "stav": "tam ano, zpět týž den ne",
+   "pohotovost_obec": "Karlovy Vary",
+   "odjezd": "17:00",
+   "prijezd": "18:03",
+   "posledni_spoj_zpet": null,
+   "nejpozdeji_na_pohotovosti": null,
+   "doba_mimo_domov_min": null,
+   "hodnoceni_den": "špatná"
+  },
+  {
+   "obec": "Bublava",
+   "kod_obce": "560308",
+   "orp": "Kraslice",
+   "seniori_65plus": 105,
+   "seniori_bez_navratu_adresy": 105,
+   "stav": "tam ano, zpět týž den ne",
+   "pohotovost_obec": "Sokolov",
+   "odjezd": "17:59",
+   "prijezd": "20:01",
+   "posledni_spoj_zpet": "18:22",
+   "nejpozdeji_na_pohotovosti": "17:17",
+   "doba_mimo_domov_min": null,
+   "hodnoceni_den": "střední"
+  }
+ ],
+ "top10_bez_navratu_adresy": [
+  {
+   "obec": "Aš",
+   "kod_obce": "554499",
+   "orp": "Aš",
+   "seniori_65plus": 2474,
+   "seniori_bez_navratu_adresy": 518,
+   "stav": "tam i zpět",
+   "pohotovost_obec": "Cheb",
+   "odjezd": "16:05",
+   "prijezd": "17:18",
+   "posledni_spoj_zpet": "19:22",
+   "nejpozdeji_na_pohotovosti": "18:18",
+   "doba_mimo_domov_min": 309,
+   "hodnoceni_den": "dobrá"
+  },
+  {
+   "obec": "Ostrov",
+   "kod_obce": "555428",
+   "orp": "Ostrov",
+   "seniori_65plus": 3662,
+   "seniori_bez_navratu_adresy": 507,
+   "stav": "tam i zpět",
+   "pohotovost_obec": "Karlovy Vary",
+   "odjezd": "17:59",
+   "prijezd": "18:15",
+   "posledni_spoj_zpet": "23:15",
+   "nejpozdeji_na_pohotovosti": "22:04",
+   "doba_mimo_domov_min": 95,
+   "hodnoceni_den": "dobrá"
+  },
+  {
+   "obec": "Cheb",
+   "kod_obce": "554481",
+   "orp": "Cheb",
+   "seniori_65plus": 6522,
+   "seniori_bez_navratu_adresy": 480,
+   "stav": "tam i zpět",
+   "pohotovost_obec": "Cheb",
+   "odjezd": "16:07",
+   "prijezd": "16:18",
+   "posledni_spoj_zpet": "22:50",
+   "nejpozdeji_na_pohotovosti": "21:45",
+   "doba_mimo_domov_min": 79,
+   "hodnoceni_den": "dobrá"
+  },
+  {
+   "obec": "Hranice",
+   "kod_obce": "554553",
+   "orp": "Aš",
+   "seniori_65plus": 420,
+   "seniori_bez_navratu_adresy": 420,
+   "stav": "tam ano, zpět týž den ne",
+   "pohotovost_obec": "Cheb",
+   "odjezd": "16:56",
+   "prijezd": "18:23",
+   "posledni_spoj_zpet": "19:22",
+   "nejpozdeji_na_pohotovosti": "18:18",
+   "doba_mimo_domov_min": null,
+   "hodnoceni_den": "střední"
+  },
+  {
+   "obec": "Kraslice",
+   "kod_obce": "560472",
+   "orp": "Kraslice",
+   "seniori_65plus": 1546,
+   "seniori_bez_navratu_adresy": 407,
+   "stav": "tam i zpět",
+   "pohotovost_obec": "Sokolov",
+   "odjezd": "16:32",
+   "prijezd": "17:41",
+   "posledni_spoj_zpet": "21:17",
+   "nejpozdeji_na_pohotovosti": "20:12",
+   "doba_mimo_domov_min": 253,
+   "hodnoceni_den": "dobrá"
+  },
+  {
+   "obec": "Teplá",
+   "kod_obce": "555631",
+   "orp": "Mariánské Lázně",
+   "seniori_65plus": 656,
+   "seniori_bez_navratu_adresy": 262,
+   "stav": "tam i zpět",
+   "pohotovost_obec": "Mariánské Lázně",
+   "odjezd": "18:34",
+   "prijezd": "20:43",
+   "posledni_spoj_zpet": "22:03",
+   "nejpozdeji_na_pohotovosti": "20:54",
+   "doba_mimo_domov_min": 228,
+   "hodnoceni_den": "dobrá"
+  },
+  {
+   "obec": "Mariánské Lázně",
+   "kod_obce": "554642",
+   "orp": "Mariánské Lázně",
+   "seniori_65plus": 3515,
+   "seniori_bez_navratu_adresy": 210,
+   "stav": "tam i zpět",
+   "pohotovost_obec": "Mariánské Lázně",
+   "odjezd": "16:08",
+   "prijezd": "16:15",
+   "posledni_spoj_zpet": null,
+   "nejpozdeji_na_pohotovosti": null,
+   "doba_mimo_domov_min": 76,
+   "hodnoceni_den": "dobrá"
+  },
+  {
+   "obec": "Františkovy Lázně",
+   "kod_obce": "554529",
+   "orp": "Cheb",
+   "seniori_65plus": 1266,
+   "seniori_bez_navratu_adresy": 200,
+   "stav": "tam i zpět",
+   "pohotovost_obec": "Cheb",
+   "odjezd": "18:17",
+   "prijezd": "18:45",
+   "posledni_spoj_zpet": "21:58",
+   "nejpozdeji_na_pohotovosti": "20:53",
+   "doba_mimo_domov_min": 136,
+   "hodnoceni_den": "dobrá"
+  },
+  {
+   "obec": "Kolová",
+   "kod_obce": "555258",
+   "orp": "Karlovy Vary",
+   "seniori_65plus": 185,
+   "seniori_bez_navratu_adresy": 184,
+   "stav": "tam ano, zpět týž den ne",
+   "pohotovost_obec": "Karlovy Vary",
+   "odjezd": "17:39",
+   "prijezd": "18:03",
+   "posledni_spoj_zpet": "18:38",
+   "nejpozdeji_na_pohotovosti": "17:34",
+   "doba_mimo_domov_min": null,
+   "hodnoceni_den": "střední"
+  },
+  {
+   "obec": "Bochov",
+   "kod_obce": "555029",
+   "orp": "Karlovy Vary",
+   "seniori_65plus": 391,
+   "seniori_bez_navratu_adresy": 178,
+   "stav": "tam i zpět",
+   "pohotovost_obec": "Karlovy Vary",
+   "odjezd": "17:28",
+   "prijezd": "17:57",
+   "posledni_spoj_zpet": "22:04",
+   "nejpozdeji_na_pohotovosti": "20:59",
+   "doba_mimo_domov_min": 127,
+   "hodnoceni_den": "dobrá"
+  }
+ ],
+ "po_orp": [
+  {
+   "orp": "Aš",
+   "obci_bez_navratu": 3,
+   "seniori_bez_navratu": 579,
+   "seniori_bez_navratu_adresy": 1163
+  },
+  {
+   "orp": "Cheb",
+   "obci_bez_navratu": 9,
+   "seniori_bez_navratu": 577,
+   "seniori_bez_navratu_adresy": 1547
+  },
+  {
+   "orp": "Karlovy Vary",
+   "obci_bez_navratu": 9,
+   "seniori_bez_navratu": 865,
+   "seniori_bez_navratu_adresy": 2045
+  },
+  {
+   "orp": "Kraslice",
+   "obci_bez_navratu": 3,
+   "seniori_bez_navratu": 241,
+   "seniori_bez_navratu_adresy": 894
+  },
+  {
+   "orp": "Mariánské Lázně",
+   "obci_bez_navratu": 2,
+   "seniori_bez_navratu": 99,
+   "seniori_bez_navratu_adresy": 700
+  },
+  {
+   "orp": "Ostrov",
+   "obci_bez_navratu": 2,
+   "seniori_bez_navratu": 85,
+   "seniori_bez_navratu_adresy": 919
+  },
+  {
+   "orp": "Sokolov",
+   "obci_bez_navratu": 0,
+   "seniori_bez_navratu": 0,
+   "seniori_bez_navratu_adresy": 794
+  }
+ ],
+ "veta_do_prezentace": "Večer v pracovní den se z 29 obcí kraje nedá veřejnou dopravou dojet na lékařskou pohotovost a týž večer zpět domů. Žije v nich 2 446 seniorů. Po adresách je to 8 062 seniorů, tedy asi každý osmý."
+}

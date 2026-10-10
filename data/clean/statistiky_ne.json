@@ -1,0 +1,15 @@
+{
+ "den": "20261018",
+ "odjezdy_od_do": [
+  6,
+  12
+ ],
+ "seniori_podle_hodnoceni": {
+  "bez spojení": 7990,
+  "dobrá": 39300,
+  "kritická": 2869,
+  "střední": 10069,
+  "špatná": 3740
+ },
+ "seniori_nad_3h_nebo_bez_spojeni": 14599
+}

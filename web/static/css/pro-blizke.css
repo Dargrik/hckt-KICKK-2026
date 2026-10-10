@@ -1,0 +1,298 @@
+/* Dojedeme – SMS pro blízké (web/pro-blizke.html, popis služby) a systém pro blízké (web/system.html, účty a senioři).
+   Kostra stránky je společná (dojedeme.css: .stranka-hlava, .oddil, .oddil-hlava, .obal-uzky); tady jsou jen součásti této stránky.
+   Klidný, typografický vzhled: tenké linky místo karet, zelená jen pro hlavní akci, jen tokeny (design/BRAND.md). */
+
+[hidden] { display: none !important; }
+.web-paticka { margin-top: 0; }   /* poslední oddíl má vlastní spodní odsazení */
+.blizci h2[tabindex="-1"]:focus, .blizci h3[tabindex="-1"]:focus { outline: none; }
+.blizci b { font-weight: 700; }
+.blizci :is(input, select, button, a, h2, h3, .blok) { scroll-margin-top: 104px; }   /* pod lepicí hlavičkou webu */
+.nezalomit { white-space: nowrap; }
+.blizci .odznak { padding: var(--space-1) var(--space-3); }
+
+/* hlavička stránky: kdo je přihlášený (jen po přihlášení) */
+.ucet-kdo { margin: 0; font: var(--text-body-s); color: var(--color-ink-2); overflow-wrap: anywhere; }
+.ucet-kdo b { color: var(--color-ink); font-weight: 600; }
+
+/* hlava oddílu s hlavní akcí vpravo (Moji senioři + Přidat seniora) */
+.oddil-hlava.s-akci { max-width: none; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-3) var(--space-5); }
+.oddil-hlava.s-akci h2 { margin: 0; }
+
+/* pole, která společný základ nestyluje */
+.blizci input[type="email"] { width: 100%; min-height: var(--touch-web); font: var(--text-body); font-family: var(--font-sans); color: var(--color-ink);
+  background: var(--color-bg); border: 2px solid var(--color-border-strong); border-radius: var(--radius-m); padding: 0 var(--space-4); }
+.blizci input[type="email"]:focus-visible { border-color: var(--color-focus); }
+.blizci input[readonly] { background: var(--color-bg-subtle); color: var(--color-ink-2); }
+.pole { margin-top: var(--space-5); }
+.pole > .napoveda-pole { margin: 0 0 var(--space-2); }
+.pole-chyba { color: var(--color-error); font: var(--text-label); margin: var(--space-2) 0 0; }
+.pole-chyba:empty { display: none; }
+.blizci input[aria-invalid="true"], .blizci .tlacitko[aria-invalid="true"] { border-color: var(--color-error); }
+input[type="checkbox"][aria-invalid="true"] { outline: 3px solid var(--color-error); outline-offset: 2px; }
+.blizci .zaskrtavatko { min-height: var(--touch-web); align-items: center; font: var(--text-body-s); }
+.blizci .zaskrtavatko label { font: inherit; margin: 0; cursor: pointer; }
+.blizci .zaskrtavatko.souhlas { align-items: flex-start; font: var(--text-body); }
+.blizci .zaskrtavatko.souhlas input { margin-top: 3px; }
+
+.zpet { display: inline-flex; align-items: center; min-height: var(--touch-web); margin-bottom: var(--space-3); font: var(--text-label); }
+.zpet::before { content: "← " / ""; white-space: pre; }
+.akce { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3) var(--space-4); margin-top: var(--space-4); }
+.odkaz-tlacitko, .odkaz-akce { display: inline-flex; align-items: center; min-height: var(--touch-web); padding: 0; background: none; border: 0;
+  color: var(--color-primary); font: var(--text-label); font-size: 20px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.odkaz-tlacitko:hover, .odkaz-akce:hover { color: var(--color-primary-press); }
+.odkaz-tlacitko[disabled] { cursor: not-allowed; opacity: .55; }
+.tlacitko[disabled] { cursor: progress; }
+.potvrzeni { font: var(--text-body-s); font-weight: 600; color: var(--color-success); margin: var(--space-3) 0 0; }
+.potvrzeni:empty { display: none; }
+.tlacitko.nebezpeci { background: var(--color-error); color: var(--color-bg); }
+.tlacitko.nebezpeci:hover { background: var(--color-error); color: var(--color-bg); filter: brightness(.92); }
+.tlacitko.nebezpeci-obrys { color: var(--color-error); border-color: var(--color-error); }
+.tlacitko.nebezpeci-obrys:hover { background: var(--color-error-bg); color: var(--color-error); }
+.souhrn-chyb { margin-bottom: var(--space-5); }
+.souhrn-chyb ul { margin: var(--space-2) 0 0; padding-left: 1.1em; }
+.souhrn-chyb a { color: var(--color-error); font-weight: 700; display: inline-flex; align-items: center; min-height: var(--touch-web); }
+.zprava { margin-bottom: var(--space-5); }
+
+/* stav seniora: vždy ikona + text, nikdy jen barva */
+.stav { display: inline-flex; align-items: center; gap: var(--space-2); margin: var(--space-3) 0 0; font: var(--text-label); font-size: 20px; }
+.stav i { font-size: 26px; flex: none; }
+.stav.zapnuto { color: var(--color-success); }
+.stav.ceka { color: var(--color-warning); }
+.stav.ceka i { color: var(--color-warning-icon); }
+.stav.vypnuto { color: var(--color-ink-2); }
+
+/* ---------- nepřihlášený: přihlášení / nový účet ---------- */
+.form-pristup, #pristup .souhrn-chyb, #pristup .zprava { max-width: 34rem; }
+.form-pristup > .pole:first-child { margin-top: 0; }
+.form-pristup .zobrazit-heslo { margin-top: var(--space-2); }
+.odeslat-pristup { margin-top: var(--space-5); }
+.prepnout { display: flex; flex-wrap: wrap; align-items: center; gap: 0 var(--space-3); margin-top: var(--space-5); padding-top: var(--space-4); border-top: 1px solid var(--color-border); }
+.prepnout p { margin: 0; color: var(--color-ink-2); }
+
+/* ---------- /pro-blizke: popis služby; /system: přihlášení ---------- */
+/* hlavička: vlevo nadpis, vpravo ukázka SMS (po přihlášení ukázka zmizí) */
+.hlava-mrizka { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr); gap: var(--space-8); align-items: center; }
+.hlava-ukazka { margin: 0; }
+.stranka-hlava:has(#ucet-hlava:not([hidden])) .hlava-ukazka { display: none; }
+.stranka-hlava:has(#ucet-hlava:not([hidden])) .hlava-mrizka { grid-template-columns: minmax(0, 1fr); }
+.konverzace { display: grid; gap: var(--space-3); padding: var(--space-5); background: var(--color-bg); border: 1px solid var(--color-border); border-radius: var(--radius-l); }
+.konverzace .sms { margin: 0; font-size: 20px; line-height: 29px; }
+.konverzace .sms:not(.odeslana) { background: var(--color-bg-sunken); }
+.konverzace .sms.odeslana { justify-self: end; }
+
+/* nepřihlášený: vlevo přihlášení v rámečku, vpravo tři kroky */
+.verejne-mrizka { display: grid; grid-template-columns: minmax(0, 30rem) minmax(0, 1fr); gap: var(--space-9); align-items: start; }
+.pristup-box { border: 1px solid var(--color-border-strong); border-radius: var(--radius-l); padding: var(--space-6); background: var(--color-bg); }
+.pristup-box .oddil-hlava { margin-bottom: var(--space-5); }
+.postup-sloupec h2 { margin-bottom: var(--space-5); }
+.postup { list-style: none; margin: 0 0 var(--space-6); padding: 0; display: grid; gap: var(--space-5); }
+.postup > li { display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); gap: var(--space-3); align-items: baseline; }
+.postup-cislo { font: 700 30px/1 var(--font-sans); color: var(--color-primary); font-variant-numeric: tabular-nums; }
+.postup p { margin: 0; font: var(--text-lead); color: var(--color-ink); }
+.soukromi { margin: 0; max-width: 44ch; }
+/* /pro-blizke: tři kroky vedle sebe, příkazy seniora, výzva do systému */
+.postup-radek { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-6) var(--space-7); }
+.postup-radek > li { grid-template-columns: minmax(0, 1fr); gap: var(--space-2); border-top: 2px solid var(--color-primary); padding-top: var(--space-4); }
+.postup-radek .postup-cislo { font-size: 36px; }
+.prikazy { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-5) var(--space-8); margin: 0; max-width: 1000px; }
+.prikazy > div { border-top: 1px solid var(--color-border); padding-top: var(--space-4); }
+.prikazy dt { margin-bottom: var(--space-1); }
+.prikazy dd { margin: 0; color: var(--color-ink-2); max-width: 46ch; }
+.oddil.vyzva { background: var(--color-primary-tint); border-top: 0; }
+.vyzva h2 { margin: 0 0 var(--space-2); }
+.vyzva p { margin: 0 0 var(--space-5); font: var(--text-lead); color: var(--color-ink); }
+.vyzva + * { margin-top: 0; }
+
+/* /system: termíny u lékaře */
+.form-termin { display: grid; gap: var(--space-4); margin: var(--space-4) 0 var(--space-7); max-width: 34rem; }
+.form-termin select, .form-termin input { width: 100%; }
+.pole-radek { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); }
+.seznam-terminu { list-style: none; margin: 0; padding: 0; }
+.termin { border-top: 1px solid var(--color-border-strong); padding: var(--space-4) 0 var(--space-5); }
+.termin:last-child { border-bottom: 1px solid var(--color-border-strong); }
+.termin p { margin: 0 0 var(--space-2); }
+.termin-kdy { font: var(--text-h3); }
+.termin-kam .male { display: block; color: var(--color-ink-2); }
+.termin-sms { max-width: 40rem; padding: var(--space-3) var(--space-4); background: var(--color-bg-sunken); border-radius: var(--radius-m); font-size: 18px; }
+.termin-stav { display: flex; align-items: center; gap: var(--space-2); }
+@media (max-width: 720px) { .pole-radek { grid-template-columns: minmax(0, 1fr); } }
+
+/* /system: přihlášení samotné, uprostřed úzkého sloupce */
+.pristup-samotny { max-width: 32rem; }
+.pristup-odkaz { margin: var(--space-5) 0 0; }
+
+/* /system: přehled přihlášeného (souhrn, rychlé akce, seznam seniorů) */
+.prehled-souhrn { font: var(--text-lead); color: var(--color-ink); margin: 0 0 var(--space-5); }
+.rychle-akce { list-style: none; margin: 0 0 var(--space-8); padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); }
+.akce-karta { display: flex; gap: var(--space-4); align-items: flex-start; height: 100%; box-sizing: border-box; padding: var(--space-5);
+  border: 1px solid var(--color-border-strong); border-radius: var(--radius-l); background: var(--color-bg); color: var(--color-ink); text-decoration: none; }
+.akce-karta:hover { border-color: var(--color-primary); background: var(--color-primary-tint); }
+.akce-karta > i { font-size: 32px; color: var(--color-primary); flex: none; margin-top: 2px; }
+.akce-karta b { display: block; font: var(--text-h3); color: var(--color-primary); margin-bottom: var(--space-1); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.akce-karta span span { display: block; color: var(--color-ink-2); }
+.seznam-nadpis { font: var(--text-h3); margin: 0 0 var(--space-4); }
+
+/* ---------- přihlášený: moji senioři ---------- */
+.seznam-senioru { list-style: none; margin: 0; padding: 0; }
+.senior { border-top: 1px solid var(--color-border-strong); padding: var(--space-5) 0 var(--space-6); }
+.senior:last-child { border-bottom: 1px solid var(--color-border-strong); }
+.senior-obsah { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: var(--space-4) var(--space-7); }
+.senior-akce { grid-column: 1 / -1; margin-top: var(--space-2); }
+.senior-jmeno { font: var(--text-h3); margin: 0; overflow-wrap: anywhere; }
+.senior-tel { margin: var(--space-1) 0 0; color: var(--color-ink-2); font-variant-numeric: tabular-nums; }
+.senior-kdo .stav { margin-top: var(--space-3); }
+.senior-pozn { margin: var(--space-2) 0 0; font: var(--text-body-s); color: var(--color-ink-2); }
+.senior-kdo p:has(> .odkaz-akce), .senior-kdo p:has(> .tlacitko) { margin: var(--space-1) 0 0; }
+.senior-kdo .tlacitko { margin-top: var(--space-2); }
+.kod-text { font-variant-numeric: tabular-nums; color: var(--color-ink); font-size: 22px; letter-spacing: .02em; }
+.senior-udaje { margin: 0; }
+.senior-udaje > div + div { margin-top: var(--space-4); }
+.senior-udaje dt { font: var(--text-label); color: var(--color-ink-2); margin-bottom: var(--space-1); }
+.senior-udaje dd { margin: 0; overflow-wrap: anywhere; }
+.predvolby { list-style: none; margin: 0; padding: 0; }
+.predvolby li { display: grid; grid-template-columns: 3rem minmax(0, 1fr); gap: var(--space-3); padding: var(--space-2) 0; border-top: 1px solid var(--color-border); }
+.predvolby li:first-child { border-top: 0; padding-top: 0; }
+.pv-kod { font: 700 24px/33px var(--font-sans); font-variant-numeric: tabular-nums; }
+.pv-detail { display: block; font: var(--text-body-s); color: var(--color-ink-2); }
+.napoveda-kody { margin: var(--space-4) 0 0; }
+.prazdno { padding: var(--space-5) 0; border-top: 1px solid var(--color-border-strong); border-bottom: 1px solid var(--color-border-strong); }
+.prazdno p:last-child { margin-bottom: 0; color: var(--color-ink-2); }
+@media (max-width: 760px) {
+  .senior-obsah { grid-template-columns: minmax(0, 1fr); gap: var(--space-4); }
+}
+
+/* smazání účtu (rozbalovací, vlastní poslední oddíl) */
+.smazat-ucet summary { display: flex; align-items: center; gap: var(--space-2); min-height: var(--touch-web); cursor: pointer;
+  font: var(--text-label); font-size: 20px; color: var(--color-ink-2); list-style: none; width: fit-content; }
+.smazat-ucet summary::-webkit-details-marker { display: none; }
+.smazat-ucet summary:hover { color: var(--color-error); }
+.smazat-ucet .sipka { font-size: 20px; transition: transform .15s; }
+.smazat-ucet[open] .sipka { transform: rotate(90deg); }
+@media (prefers-reduced-motion: reduce) { .smazat-ucet .sipka { transition: none; } }
+.smazat-ucet-form { padding-top: var(--space-3); max-width: 30rem; }
+.smazat-ucet-form .tlacitko { margin-top: var(--space-4); }
+
+/* ---------- formulář seniora ---------- */
+.krok-formulare { border: 0; border-top: 1px solid var(--color-border); margin: 0; padding: var(--space-2) 0 var(--space-6); min-width: 0; }
+.krok-formulare > legend { font: var(--text-h3); padding: var(--space-5) 0 0; float: left; width: 100%; margin-bottom: var(--space-2); }
+.krok-formulare > legend + * { clear: both; }
+.krok-formulare > .pole:first-of-type { margin-top: var(--space-2); }
+.krok-cislo { color: var(--color-ink-2); margin-right: var(--space-1); font-variant-numeric: tabular-nums; }
+.nepovinne { font-weight: 400; color: var(--color-ink-2); }
+.telefon-pole { display: flex; align-items: stretch; max-width: 22em; }
+.predvolba { display: inline-flex; align-items: center; padding: 0 var(--space-3); border: 2px solid var(--color-border-strong); border-right: 0;
+  border-radius: var(--radius-m) 0 0 var(--radius-m); background: var(--color-bg-subtle); font: var(--text-body); color: var(--color-ink-2); }
+.telefon-pole input { border-radius: 0 var(--radius-m) var(--radius-m) 0; font-variant-numeric: tabular-nums; }
+#f-jmeno { max-width: 22em; }
+.naseptavac > .napoveda-pole { margin: 0 0 var(--space-2); }
+.naseptavac-stav { font: var(--text-body-s); color: var(--color-ink-2); margin: var(--space-2) 0 0; }
+.naseptavac-stav:empty { display: none; }
+.naseptavac [role="listbox"] { list-style: none; margin: var(--space-1) 0 0; padding: var(--space-1) 0; background: var(--color-bg); border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-m); box-shadow: var(--shadow-2); position: absolute; left: 0; right: 0; z-index: 20; max-height: 360px; overflow: auto; }
+.naseptavac [role="option"] { display: flex; align-items: center; min-height: var(--touch-web); padding: var(--space-2) var(--space-4); font: var(--text-body); color: var(--color-ink); cursor: pointer; }
+.naseptavac [role="option"] + [role="option"] { border-top: 1px solid var(--color-border); }
+.naseptavac [role="option"]:hover { background: var(--color-bg-subtle); }
+.naseptavac [role="option"][aria-selected="true"] { background: var(--color-bg-sunken); box-shadow: inset 4px 0 0 var(--color-ink); }
+.vybrane-bydliste { margin: var(--space-3) 0 0; }
+.vybrane-bydliste:empty { display: none; }
+
+/* předvolby ve formuláři */
+.zkratky { list-style: none; margin: var(--space-4) 0; padding: 0; }
+.zkratky:empty { display: none; }
+.zkratka { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: var(--space-2) var(--space-4); padding: var(--space-4) 0; border-top: 1px solid var(--color-border); }
+.zkratka:last-child { border-bottom: 1px solid var(--color-border); }
+.zk-chyba { grid-column: 1 / -1; }
+.zk-kod input { font: 700 26px/1 var(--font-sans); font-variant-numeric: tabular-nums; padding: 0 var(--space-2); width: 4.5ch; min-width: 0; text-align: center; }
+.zk-cil p { margin: 0 0 var(--space-1); }
+.zk-nazev { overflow-wrap: anywhere; }
+.zk-cil label { margin-top: var(--space-3); }
+.zk-cil .blok { margin: var(--space-2) 0; }
+.odznaky { margin: var(--space-2) 0 !important; }
+@media (max-width: 480px) { .zkratka { grid-template-columns: minmax(0, 1fr); } }
+
+.panel-cile { margin-top: var(--space-4); padding: var(--space-5); border-radius: var(--radius-l); background: var(--color-bg-subtle); }
+.panel-cile h3 { font: var(--text-h3); margin: 0 0 var(--space-3); }
+.typy { border: 0; padding: 0; margin: 0 0 var(--space-5); min-width: 0; }
+.typy legend { font: var(--text-label); padding: 0; margin-bottom: var(--space-3); }
+.typy-radek { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.typ { min-height: var(--touch-web); padding: 0 var(--space-4); border-radius: var(--radius-m); border: 2px solid var(--color-border-strong);
+  background: var(--color-bg); color: var(--color-ink); font: var(--text-label); font-family: var(--font-sans); cursor: pointer; }
+.typ:hover { border-color: var(--color-ink); }
+.typ[aria-pressed="true"] { background: var(--color-ink); border-color: var(--color-ink); color: var(--color-bg); }
+.hledat-cil .napoveda-pole { margin: var(--space-2) 0 0; }
+.pole-s-tlacitkem { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: stretch; }
+.pole-s-tlacitkem > input { flex: 1 1 220px; width: auto; min-width: 0; }
+.vysledky-cile { margin-top: var(--space-5); }
+.vysledky-cile:empty { display: none; }
+.vc-nadpis { font: var(--text-label); font-size: 21px; margin: 0 0 var(--space-1); }
+.vyber-cilu { list-style: none; margin: var(--space-3) 0 var(--space-4); padding: 0; border-top: 1px solid var(--color-border); }
+.vyber-cilu > li { padding: var(--space-4) 0; border-bottom: 1px solid var(--color-border); }
+.vyber-cilu p { margin: 0 0 var(--space-1); overflow-wrap: anywhere; }
+.vc-spoj { display: flex; gap: var(--space-2); align-items: flex-start; }
+.vc-spoj i { font-size: 22px; margin-top: 5px; color: var(--color-ink-2); flex: none; }
+.vyber-cilu .blok { margin: var(--space-2) 0; }
+.vyber-cilu .tlacitko { margin-top: var(--space-2); }
+.odeslat { border-top: 1px solid var(--color-border); padding-top: var(--space-5); margin-top: 0; gap: var(--space-3) var(--space-6); }
+
+/* ---------- potvrzení čísla kódem ---------- */
+.overeni-stitek { font: var(--text-label); color: var(--color-ink-2); margin: 0; }
+.overeni-kod { font: 700 80px/88px var(--font-sans); font-variant-numeric: tabular-nums; letter-spacing: .04em; margin: var(--space-2) 0 var(--space-4); }
+.overeni-text { font: var(--text-lead); }
+.overeni .cekame { margin-top: var(--space-5); }
+.hotovo { font: var(--text-body); padding: var(--space-5); }
+.hotovo h3 { font: var(--text-h3); margin: 0 0 var(--space-2); }
+.hotovo p { margin: 0; }
+.blizci .blok.uspech.hotovo .ikona { font-size: 32px; }
+@media (max-width: 400px) { .overeni-kod { font-size: 60px; line-height: 68px; } }
+
+/* ---------- kartička pro seniora: náhled na obrazovce i tisk ---------- */
+.karticka { border: 2px solid var(--color-ink); border-radius: var(--radius-m); padding: var(--space-5) var(--space-6); max-width: 34rem; }
+.karticka.bez-ramu { border: 0; padding: 0; }
+.karticka p { margin: 0 0 var(--space-3); }
+.k-nadpis { font: 700 26px/32px var(--font-sans); padding-bottom: var(--space-3); border-bottom: 2px solid var(--color-ink); margin-bottom: var(--space-4) !important; }
+.k-cislo { font: 400 22px/30px var(--font-sans); }
+.k-cislo strong { display: block; font: 700 38px/46px var(--font-sans); font-variant-numeric: tabular-nums; letter-spacing: .02em; }
+.k-kody { list-style: none; margin: var(--space-2) 0 var(--space-5); padding: 0; border-top: 1px solid var(--color-border-strong); }
+.k-kody li { display: flex; gap: var(--space-5); align-items: baseline; padding: var(--space-3) 0; border-bottom: 1px solid var(--color-border-strong); }
+.k-kod { flex: none; min-width: 2.8em; font: 700 34px/40px var(--font-sans); font-variant-numeric: tabular-nums; }
+.k-misto { font: 600 24px/32px var(--font-sans); }
+.k-radek { font: 400 21px/31px var(--font-sans); color: var(--color-ink); }
+.tisk-karticka { display: none; }
+
+/* potvrzovací dialog */
+.dialog { border: 0; border-radius: var(--radius-l); padding: var(--space-6); max-width: min(34rem, calc(100vw - 2 * var(--space-4)));
+  background: var(--color-bg); color: var(--color-ink); box-shadow: var(--shadow-2); }
+.dialog::backdrop { background: rgba(0, 0, 0, .5); }
+.dialog h2 { font: var(--text-h3); }
+.dialog p { margin-bottom: var(--space-2); }
+
+@media (max-width: 480px) {
+  .konverzace, .panel-cile { padding: var(--space-4); }
+  .karticka { padding: var(--space-4); }
+}
+
+@media print {
+  html.tisk-karticky body > *:not(.tisk-karticka) { display: none !important; }
+  html.tisk-karticky .tisk-karticka { display: block !important; color: black; background: white; padding: 12mm; border: 2px solid black; border-radius: 6mm; }
+  .tisk-karticka p { margin: 0 0 5mm; }
+  .tisk-karticka .k-nadpis { font: 700 24pt/1.2 var(--font-sans); padding-bottom: 3mm; border-bottom: 1mm solid black; margin-bottom: 5mm; }
+  .tisk-karticka .k-cislo { font: 400 18pt/1.3 var(--font-sans); }
+  .tisk-karticka .k-cislo strong { display: block; font: 700 32pt/1.25 var(--font-sans); }
+  .tisk-karticka .k-kody { list-style: none; margin: 3mm 0 6mm; padding: 0; border-top: 0.4mm solid black; }
+  .tisk-karticka .k-kody li { display: flex; gap: 8mm; align-items: baseline; padding: 3mm 0; border-bottom: 0.4mm solid black; }
+  .tisk-karticka .k-kod { min-width: 2.8em; font: 700 28pt/1.2 var(--font-sans); }
+  .tisk-karticka .k-misto { font: 600 20pt/1.3 var(--font-sans); }
+  .tisk-karticka .k-radek { font: 400 16pt/1.4 var(--font-sans); color: black; }
+}
+
+@media (max-width: 960px) {
+  .hlava-mrizka, .verejne-mrizka { grid-template-columns: minmax(0, 1fr); gap: var(--space-6); }
+  .hlava-ukazka { max-width: 34rem; }
+  .pristup-box { max-width: 34rem; }
+}
+@media (max-width: 720px) {
+  .pristup-box { padding: var(--space-5) var(--space-4); }
+  .prikazy, .rychle-akce, .postup-radek { grid-template-columns: minmax(0, 1fr); }
+  .akce-karta { padding: var(--space-4); }
+  .postup p { font: var(--text-body); }
+}

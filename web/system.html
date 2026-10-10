@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Systém pro blízké – Dojedeme</title>
+<meta name="description" content="Přihlášení do systému Dojedeme: senioři, kterým nastavujete SMS službu, a poslání spoje SMS.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/static/img/dojedeme-mark-light.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
+<meta name="theme-color" content="#14574A">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dojedeme">
+<meta property="og:title" content="Systém pro blízké – Dojedeme">
+<meta property="og:description" content="Nastavte svému blízkému bez chytrého telefonu spoje k lékaři přes obyčejnou SMS.">
+<meta property="og:url" content="https://dojedeme.cz/system">
+<meta property="og:image" content="https://dojedeme.cz/static/img/sdileni.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="cs_CZ">
+<meta name="twitter:card" content="summary_large_image">
+<script src="/static/js/vzhled.js"></script>
+<link rel="stylesheet" href="/static/css/tokens.css">
+<link rel="stylesheet" href="/static/css/dojedeme.css">
+<link rel="stylesheet" href="/static/css/pro-blizke.css">
+<link rel="stylesheet" href="/static/css/system.css">
+<!-- ikony: Phosphor (BRAND.md) – jen tam, kde nesou význam (stav, upozornění) -->
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css">
+</head>
+<body>
+<a class="preskocit" href="#obsah">Přeskočit na obsah</a>
+<header class="web-hlavicka">
+  <div class="obal">
+    <a class="znacka" href="/"><span class="tecka" aria-hidden="true"></span>Dojedeme</a>
+    <nav class="web-nav" aria-label="Hlavní navigace">
+      <a href="/aplikace">Najít spoj</a>
+      <a href="/pro-blizke">SMS pro blízké</a>
+      <a href="/pro-obce">Letáky pro obce</a>
+      <a href="/mapa">Data a mapy</a>
+    </nav>
+  </div>
+</header>
+
+<main id="obsah" class="blizci" tabindex="-1">
+  <!-- jen pro nepřihlášené; přihlášený vidí rovnou své seniory (nadpis h1 „Moji senioři“ vykresluje system.js) -->
+  <header class="stranka-hlava" id="stranka-hlava">
+    <div class="obal">
+      <h1>Systém pro blízké</h1>
+      <p class="lead">Tady nastavíte SMS službu svým blízkým, spárujete jejich čísla a pošlete jim spoj k lékaři.</p>
+    </div>
+  </header>
+
+  <!-- než odpoví GET /ucet (relace je v HttpOnly cookie, JS ji nevidí) -->
+  <div id="nacitani" class="oddil nacitani" aria-busy="true">
+    <div class="obal">
+      <div class="obal-uzky">
+        <p class="sr">Načítáme stránku.</p>
+        <div class="skeleton" style="height:40px;max-width:320px"></div>
+        <div class="skeleton" style="height:160px;margin-top:24px"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- nepřihlášený blízký: přihlášení / nový účet -->
+  <div id="verejne" hidden>
+    <section class="oddil" aria-label="Přihlášení">
+      <div class="obal">
+        <div id="pristup" class="pristup-box pristup-samotny">
+          <div class="oddil-hlava">
+            <h2 id="pristup-nadpis">Přihlášení</h2>
+            <p id="pristup-popis">Službu pro seniora nastavíte a upravíte po přihlášení.</p>
+          </div>
+          <div id="pristup-zprava"></div>
+          <div class="blok chyba souhrn-chyb" id="pristup-chyby" tabindex="-1" hidden></div>
+
+          <form id="form-prihlaseni" class="form-pristup" novalidate aria-labelledby="pristup-nadpis">
+            <div class="pole">
+              <label for="p-email">E-mail</label>
+              <input type="email" id="p-email" name="email" autocomplete="username" inputmode="email" spellcheck="false" aria-describedby="p-email-chyba">
+              <p class="pole-chyba" id="p-email-chyba"></p>
+            </div>
+            <div class="pole">
+              <label for="p-heslo">Heslo</label>
+              <input type="password" id="p-heslo" name="password" autocomplete="current-password" aria-describedby="p-heslo-chyba">
+              <p class="pole-chyba" id="p-heslo-chyba"></p>
+            </div>
+            <div class="zaskrtavatko zobrazit-heslo">
+              <input type="checkbox" id="p-zobrazit" data-zobrazit="p-heslo">
+              <label for="p-zobrazit">Zobrazit heslo</label>
+            </div>
+            <div class="akce odeslat-pristup">
+              <button type="submit" class="tlacitko velke">Přihlásit se</button>
+            </div>
+            <div class="prepnout">
+              <p>Nemáte účet?</p>
+              <button type="button" class="odkaz-tlacitko" data-rezim="registrace">Založit účet</button>
+            </div>
+          </form>
+
+          <form id="form-registrace" class="form-pristup" novalidate aria-labelledby="pristup-nadpis" hidden>
+            <div class="pole">
+              <label for="r-email">E-mail</label>
+              <p class="napoveda-pole" id="r-email-napoveda">Slouží jen k přihlášení. Nic vám na něj neposíláme.</p>
+              <input type="email" id="r-email" name="email" autocomplete="username" inputmode="email" spellcheck="false" aria-describedby="r-email-napoveda r-email-chyba">
+              <p class="pole-chyba" id="r-email-chyba"></p>
+            </div>
+            <div class="pole">
+              <label for="r-heslo">Heslo</label>
+              <p class="napoveda-pole" id="r-heslo-napoveda">Vymyslete si heslo, kterým se budete přihlašovat.</p>
+              <input type="password" id="r-heslo" name="new-password" autocomplete="new-password" aria-describedby="r-heslo-napoveda r-heslo-chyba">
+              <p class="pole-chyba" id="r-heslo-chyba"></p>
+            </div>
+            <div class="zaskrtavatko zobrazit-heslo">
+              <input type="checkbox" id="r-zobrazit" data-zobrazit="r-heslo">
+              <label for="r-zobrazit">Zobrazit heslo</label>
+            </div>
+            <div class="akce odeslat-pristup">
+              <button type="submit" class="tlacitko velke">Založit účet</button>
+            </div>
+            <div class="prepnout">
+              <p>Účet už máte?</p>
+              <button type="button" class="odkaz-tlacitko" data-rezim="prihlaseni">Přihlásit se</button>
+            </div>
+          </form>
+          <p class="male pristup-odkaz">Jak služba funguje, se dočtete na stránce <a href="/pro-blizke">SMS pro blízké</a>.</p>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- přihlášený blízký: moji senioři, formulář, potvrzení čísla, kartička (oddíly vykresluje system.js) -->
+  <div id="pohled" hidden></div>
+
+  <p class="sr" aria-live="polite" id="hlaseni"></p>
+  <noscript>
+    <div class="oddil">
+      <div class="obal">
+        <div class="obal-uzky">
+          <div class="blok chyba"><i class="ph-bold ph-warning ikona" aria-hidden="true"></i>
+            <div><strong>Nastavení SMS služby potřebuje zapnutý JavaScript.</strong>Zapněte ho prosím v nastavení prohlížeče.</div></div>
+        </div>
+      </div>
+    </div>
+  </noscript>
+</main>
+
+<!-- jedno okno pro funkce u karty seniora (poslat spoj, předvolby, termíny, kartička, úpravy) a pro účet;
+     obsah vykresluje system.js podle adresy (#spoj?tel=…), zavřením se adresa vrátí na přehled -->
+<dialog class="modal" id="modal" aria-labelledby="modal-nadpis">
+  <div class="modal-hlava">
+    <div class="modal-titulek">
+      <h2 id="modal-nadpis" tabindex="-1"></h2>
+      <p class="modal-popis" id="modal-popis" hidden></p>
+    </div>
+    <button type="button" class="modal-zavrit" id="modal-zavrit" aria-label="Zavřít okno"><i class="ph-bold ph-x" aria-hidden="true"></i></button>
+  </div>
+  <div class="modal-telo" id="modal-obsah"></div>
+</dialog>
+
+<dialog class="dialog" id="dialog-smazat" aria-labelledby="dialog-nadpis" aria-describedby="dialog-text">
+  <h2 id="dialog-nadpis">Smazat seniora?</h2>
+  <p id="dialog-text"></p>
+  <p class="pole-chyba" id="dialog-chyba" role="alert"></p>
+  <div class="akce">
+    <button type="button" class="tlacitko nebezpeci" id="dialog-potvrdit">Smazat seniora</button>
+    <button type="button" class="tlacitko vedlejsi" id="dialog-zrusit">Ponechat</button>
+  </div>
+</dialog>
+
+<footer class="web-paticka">
+  <div class="obal">
+    <div>
+      <h2>Dojedeme</h2>
+      <p>K lékaři a zase domů. Spoje veřejné dopravy pro lidi bez auta v Karlovarském kraji.</p>
+    </div>
+    <div>
+      <h2>Stránky</h2>
+      <ul><li><a href="/aplikace">Najít spoj</a></li><li><a href="/pro-blizke">SMS služba pro blízké</a></li><li><a href="/pro-obce">Letáky pro obce</a></li><li><a href="/mapa">Data a mapy</a></li></ul>
+    </div>
+    <div>
+      <h2>Data</h2>
+      <p>Otevřená data Karlovarského kraje (DATA ZÁPAD), jízdní řády CIS JŘ, registr poskytovatelů zdravotních služeb (ÚZIS), ČSÚ, RÚIAN.</p>
+    </div>
+  </div>
+</footer>
+<script src="/static/js/dojedeme.js"></script>
+<script src="/static/js/system.js"></script>
+</body>
+</html>

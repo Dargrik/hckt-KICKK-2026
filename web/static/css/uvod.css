@@ -1,0 +1,58 @@
+/* Dojedeme – úvodní stránka (web/index.html).
+   Málo obsahu a hodně vzduchu: úvod se skutečným spojem, tři služby, jedno číslo. Data a mapy mají vlastní stránku.
+   Jen tokeny z tokens.css, žádné vlastní hex barvy (design/BRAND.md). */
+
+main { overflow-wrap: break-word; }
+.web-paticka { margin-top: 0; }
+
+/* ---------- 1. Úvod ---------- */
+.hero { padding: var(--space-9) 0; background: var(--color-bg-subtle); border-bottom: 1px solid var(--color-border); }
+.hero-mrizka { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); gap: var(--space-9); align-items: center; }
+.hero h1 { font: var(--text-display); font-size: 64px; line-height: 1.05; margin: 0 0 var(--space-5); text-wrap: balance; }
+.hero .lead { color: var(--color-ink-2); max-width: 30em; margin-bottom: var(--space-7); }
+.hero-akce { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4) var(--space-6); margin: 0; }
+.odkaz-akce { display: inline-flex; align-items: center; min-height: var(--touch-web); font: var(--text-label); font-size: 20px; color: var(--color-primary); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+
+/* lístek se skutečným spojem */
+.listek { margin: 0; border: 1px solid var(--color-border-strong); border-radius: var(--radius-m); background: var(--color-bg); padding: var(--space-6); }
+.listek p { margin: 0; }
+.listek-hlava { font: var(--text-body-s); color: var(--color-ink-3); margin-bottom: var(--space-2); }
+.listek-trasa { font: 700 22px/1.4 var(--font-sans); color: var(--color-ink); margin-bottom: var(--space-4) !important; }
+.listek-cast { border-top: 1px dashed var(--color-border-strong); padding: var(--space-4) 0 0; margin-top: var(--space-4); }
+.listek-stitek { font: var(--text-label); color: var(--color-ink-2); margin-bottom: var(--space-2) !important; }
+.listek-radek { display: flex; gap: var(--space-4); align-items: baseline; }
+.listek-radek .cas { flex: none; color: var(--color-ink); }
+.listek-hlavni { font-weight: 700; }
+.listek-detail { font: var(--text-body-s); color: var(--color-ink-2); }
+.listek-detail i { color: var(--color-ink-2); margin-right: var(--space-2); vertical-align: -2px; }
+.listek-casy { font: 700 24px/1.4 var(--font-sans); font-variant-numeric: tabular-nums; color: var(--color-ink); display: flex; flex-wrap: wrap; gap: 0 var(--space-5); }
+.listek-posledni { margin-top: var(--space-2) !important; color: var(--color-info); font-weight: 700; }
+
+/* ---------- 2. Tři služby ---------- */
+.oddil { padding: var(--space-9) 0; }
+.sluzby { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-7); }
+.sluzba { border-top: 3px solid var(--color-primary); padding-top: var(--space-5); }
+.sluzba h3 { font: var(--text-h3); margin: 0 0 var(--space-3); }
+.sluzba h3 a { color: var(--color-ink); text-decoration: underline; text-decoration-color: var(--color-primary); text-decoration-thickness: 2px; text-underline-offset: 5px; }
+.sluzba h3 a:hover { color: var(--color-primary); }
+.sluzba p { color: var(--color-ink-2); margin: 0; max-width: 30ch; }
+
+/* ---------- 3. Jedno číslo ---------- */
+.velke-cislo { font: 700 72px/1.05 var(--font-sans); font-variant-numeric: tabular-nums; color: var(--color-primary); margin: 0 0 var(--space-4); }
+.velke-cislo-text { font: var(--text-lead); max-width: 34em; margin: 0 0 var(--space-6); }
+
+@media (max-width: 960px) {
+  .hero-mrizka { grid-template-columns: 1fr; gap: var(--space-7); }
+  .listek { max-width: 560px; }
+  .sluzby { grid-template-columns: 1fr; gap: var(--space-6); }
+  .sluzba p { max-width: 50ch; }
+}
+@media (max-width: 720px) {
+  .hero { padding: var(--space-7) 0 var(--space-8); }
+  .hero h1 { font-size: 42px; }
+  .hero-akce .tlacitko { width: 100%; }
+  .listek { padding: var(--space-4); }
+  .listek-casy { font-size: 22px; }
+  .oddil { padding: var(--space-8) 0; }
+  .velke-cislo { font-size: 52px; }
+}

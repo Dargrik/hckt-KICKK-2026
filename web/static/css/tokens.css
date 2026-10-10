@@ -1,0 +1,137 @@
+/* Dojedeme – CSS proměnné (generováno z tokens.py) */
+:root {
+  color-scheme: light;
+  --color-bg: #FFFFFF;
+  --color-bg-subtle: #F4F7F5;
+  --color-bg-sunken: #E9EEEB;
+  --color-ink: #111A17;
+  --color-ink-2: #3E4A45;
+  --color-ink-3: #4C5853;
+  --color-border: #C9D2CE;
+  --color-border-strong: #66726D;
+  --color-primary: #14574A;
+  --color-primary-press: #0D4238;
+  --color-primary-tint: #E3F1EC;
+  --color-on-primary: #FFFFFF;
+  --color-signal: #F2B53A;
+  --color-on-signal: #111A17;
+  --color-signal-tint: #FDF2D8;
+  --color-success: #175628;
+  --color-success-bg: #E6F3E8;
+  --color-warning: #5E3B00;
+  --color-warning-icon: #7A4D00;
+  --color-warning-bg: #FDF0D2;
+  --color-error: #8C1616;
+  --color-error-bg: #FBE8E6;
+  --color-info: #174A86;
+  --color-info-bg: #E6EEF8;
+  --color-focus: #174A86;
+  --color-map-1: #FBE7A1;
+  --color-map-2: #D9C56E;
+  --color-map-3: #9DA577;
+  --color-map-4: #5E8480;
+  --color-map-5: #33607C;
+  --color-map-6: #1D3557;
+  --color-map-none: #8A8F8D;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --radius-s: 8px;
+  --radius-m: 14px;
+  --radius-l: 22px;
+  --radius-xl: 32px;
+  --radius-pill: 999px;
+  --touch-min: 44px;
+  --touch-web: 48px;
+  --touch-simple: 60px;
+  --tile-simple: 132px;
+  --shadow-1: 0 1px 2px rgba(17,26,23,0.08), 0 2px 8px rgba(17,26,23,0.06);
+  --shadow-2: 0 8px 32px rgba(17,26,23,0.14);
+  --font-sans: "Atkinson Hyperlegible Next", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Atkinson Hyperlegible Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --text-display: 800 56px/60px var(--font-sans);
+  --text-h1: 800 44px/50px var(--font-sans);
+  --text-h2: 700 34px/40px var(--font-sans);
+  --text-h3: 700 26px/32px var(--font-sans);
+  --text-lead: 400 22px/34px var(--font-sans);
+  --text-body: 400 20px/32px var(--font-sans);
+  --text-body-s: 400 18px/28px var(--font-sans);
+  --text-label: 700 18px/24px var(--font-sans);
+  --text-time: 700 32px/36px var(--font-mono);
+  --text-sms: 400 22px/32px var(--font-mono);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #0E1513;
+    --color-bg-subtle: #17201D;
+    --color-bg-sunken: #222C28;
+    --color-ink: #EEF3F1;
+    --color-ink-2: #C2CDC8;
+    --color-ink-3: #A3AFAA;
+    --color-border: #3A4642;
+    --color-border-strong: #8C9893;
+    --color-primary: #86D6C1;
+    --color-primary-press: #A6E3D3;
+    --color-primary-tint: #14302A;
+    --color-on-primary: #04241D;
+    --color-signal: #F5C35E;
+    --color-on-signal: #1A1200;
+    --color-signal-tint: #2C2209;
+    --color-success: #93D8A0;
+    --color-success-bg: #132719;
+    --color-warning: #F7CB72;
+    --color-warning-icon: #F7CB72;
+    --color-warning-bg: #2B2108;
+    --color-error: #FFA39B;
+    --color-error-bg: #301614;
+    --color-info: #A5C8F3;
+    --color-info-bg: #121F30;
+    --color-focus: #A5C8F3;
+    --shadow-1: none;
+    --shadow-2: 0 8px 32px rgba(0,0,0,0.5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --color-bg: #0E1513;
+  --color-bg-subtle: #17201D;
+  --color-bg-sunken: #222C28;
+  --color-ink: #EEF3F1;
+  --color-ink-2: #C2CDC8;
+  --color-ink-3: #A3AFAA;
+  --color-border: #3A4642;
+  --color-border-strong: #8C9893;
+  --color-primary: #86D6C1;
+  --color-primary-press: #A6E3D3;
+  --color-primary-tint: #14302A;
+  --color-on-primary: #04241D;
+  --color-signal: #F5C35E;
+  --color-on-signal: #1A1200;
+  --color-signal-tint: #2C2209;
+  --color-success: #93D8A0;
+  --color-success-bg: #132719;
+  --color-warning: #F7CB72;
+  --color-warning-icon: #F7CB72;
+  --color-warning-bg: #2B2108;
+  --color-error: #FFA39B;
+  --color-error-bg: #301614;
+  --color-info: #A5C8F3;
+  --color-info-bg: #121F30;
+  --color-focus: #A5C8F3;
+  --shadow-1: none;
+  --shadow-2: 0 8px 32px rgba(0,0,0,0.5);
+  color-scheme: dark;
+}
+@media (max-width: 720px) {
+  :root {
+    --text-display: 800 40px/44px var(--font-sans);
+    --text-h1: 800 34px/40px var(--font-sans);
+    --text-h2: 700 28px/34px var(--font-sans);
+  }
+}

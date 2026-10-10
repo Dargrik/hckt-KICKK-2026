@@ -1,0 +1,72 @@
+{
+ "obyvatel_kraj": 292027,
+ "seniori_kraj": 63968,
+ "podil_senioru_pct": 21.9,
+ "obci": 134,
+ "hexagonu": 1837,
+ "seniori_podle_hodnoceni": {
+  "bez spojení": 1908,
+  "dobrá": 48291,
+  "kritická": 2200,
+  "střední": 8416,
+  "špatná": 3153
+ },
+ "seniori_nad_3h_nebo_bez_spojeni": 7261,
+ "podil_senioru_nad_3h_pct": 11.4,
+ "jeden_z_kolika_senioru": 9,
+ "seniori_dal_nez_1km_od_zastavky": 1705,
+ "obce_podle_hodnoceni": {
+  "dobrá": 75,
+  "střední": 36,
+  "špatná": 20,
+  "kritická": 2,
+  "bez spojení": 1
+ },
+ "obce_km_klame_praktik": 18,
+ "seniori_v_obcich_km_klame": 2002,
+ "priklady_km_klame": [
+  {
+   "obec": "Krásný Les",
+   "praktik_km": 4.7,
+   "mimo_domov_min": 295,
+   "odjezd": "8:16",
+   "navrat": "13:11"
+  },
+  {
+   "obec": "Krajková",
+   "praktik_km": 3.9,
+   "mimo_domov_min": 260,
+   "odjezd": "7:03",
+   "navrat": "11:23"
+  },
+  {
+   "obec": "Chyše",
+   "praktik_km": 2.3,
+   "mimo_domov_min": 249,
+   "odjezd": "6:31",
+   "navrat": "10:40"
+  },
+  {
+   "obec": "Doupovské Hradiště",
+   "praktik_km": 3.2,
+   "mimo_domov_min": 230,
+   "odjezd": "6:39",
+   "navrat": "10:29"
+  },
+  {
+   "obec": "Stráž nad Ohří",
+   "praktik_km": 8.6,
+   "mimo_domov_min": 228,
+   "odjezd": "9:04",
+   "navrat": "12:52"
+  }
+ ],
+ "median_mimo_domov_min": {
+  "gynekolog": 102,
+  "nemocnice": 145,
+  "ocni": 120,
+  "praktik": 77,
+  "urad_orp": 135,
+  "zubar": 90
+ }
+}

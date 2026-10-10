@@ -1,0 +1,1841 @@
+stanoviste_id,nazev,cislo_zastavky,stanoviste,kod_obce,obec,orp,okres,lat,lon
+1,"Abertamy, Barbora",10,1,554979,Abertamy,Ostrov,Karlovy Vary,50.374035,12.863648
+2,"Abertamy, Barbora",10,2,554979,Abertamy,Ostrov,Karlovy Vary,50.3741,12.863516
+3,"Abertamy, nám.",8,1,554979,Abertamy,Ostrov,Karlovy Vary,50.368332,12.817241
+4,"Abertamy, nám.",8,2,554979,Abertamy,Ostrov,Karlovy Vary,50.368301,12.817444
+5,"Abertamy, pila",9,1,554979,Abertamy,Ostrov,Karlovy Vary,50.365429,12.803733
+6,"Abertamy, pila",9,2,554979,Abertamy,Ostrov,Karlovy Vary,50.365463,12.803618
+7,"Abertamy, Plešivec, rozc.",13,1,554979,Abertamy,Ostrov,Karlovy Vary,50.368668,12.834601
+8,"Abertamy, Plešivec, rozc.",13,2,554979,Abertamy,Ostrov,Karlovy Vary,50.368784,12.835867
+9,"Andělská Hora, dolní obec",108,1,538001,Andělská hora,Karlovy Vary,Karlovy Vary,50.208112,12.954838
+10,"Andělská Hora, dolní obec",108,2,538001,Andělská hora,Karlovy Vary,Karlovy Vary,50.208071,12.955297
+11,"Andělská Hora, horní obec",109,1,538001,Andělská hora,Karlovy Vary,Karlovy Vary,50.204807,12.96066
+12,"Andělská Hora, horní obec",109,2,538001,Andělská hora,Karlovy Vary,Karlovy Vary,50.204296,12.961373
+13,"Andělská Hora, chaty",110,1,538001,Andělská hora,Karlovy Vary,Karlovy Vary,50.207021,12.944571
+14,"Andělská Hora, chaty",110,2,538001,Andělská hora,Karlovy Vary,Karlovy Vary,50.207136,12.944809
+15,"Andělská Hora, rozc.",111,1,538001,Andělská hora,Karlovy Vary,Karlovy Vary,50.200269,12.960004
+16,"Andělská Hora, rozc.",111,2,538001,Andělská hora,Karlovy Vary,Karlovy Vary,50.200458,12.960169
+17,"Aš, Doubrava",172,1,554499,Aš,Aš,Cheb,50.260639,12.239756
+18,"Aš, garáže",157,1,554499,Aš,Aš,Cheb,50.229565,12.185788
+19,"Aš, garáže",157,2,554499,Aš,Aš,Cheb,50.229718,12.18561
+20,"Aš, hřbitov točna",158,1,554499,Aš,Aš,Cheb,50.225503,12.207516
+21,"Aš, Chebská",45644,1,554499,Aš,Aš,Cheb,50.211328,12.202714
+22,"Aš, Chebská",45644,2,554499,Aš,Aš,Cheb,50.211086,12.202711
+23,"Aš, Janáčkova křiž.",159,1,554499,Aš,Aš,Cheb,50.220596,12.198058
+24,"Aš, Janáčkova křiž.",159,2,554499,Aš,Aš,Cheb,50.220699,12.197872
+25,"Aš, kino",160,1,554499,Aš,Aš,Cheb,50.221047,12.189347
+26,"Aš, kino",160,2,554499,Aš,Aš,Cheb,50.220997,12.189148
+27,"Aš, Kopaniny",175,1,554499,Aš,Aš,Cheb,50.260226,12.227924
+28,"Aš, Kopaniny",175,2,554499,Aš,Aš,Cheb,50.260288,12.227819
+29,"Aš, Kopaniny, rest.",176,1,554499,Aš,Aš,Cheb,50.25857,12.22209
+30,"Aš, Kopaniny, rest.",176,2,554499,Aš,Aš,Cheb,50.258645,12.222087
+31,"Aš, Krajka",161,1,554499,Aš,Aš,Cheb,50.228666,12.178292
+32,"Aš, Krajka",161,2,554499,Aš,Aš,Cheb,50.228554,12.178277
+33,"Aš, Kvapilova potraviny",162,1,554499,Aš,Aš,Cheb,50.2244,12.178085
+34,"Aš, Kvapilova potraviny",162,2,554499,Aš,Aš,Cheb,50.224186,12.178251
+35,"Aš, Lidový dům",163,1,554499,Aš,Aš,Cheb,50.21534,12.195754
+36,"Aš, Lidový dům",163,2,554499,Aš,Aš,Cheb,50.215126,12.195688
+37,"Aš, Mokřiny",177,1,554499,Aš,Aš,Cheb,50.204749,12.208236
+38,"Aš, Mokřiny",177,2,554499,Aš,Aš,Cheb,50.204577,12.208121
+39,"Aš, Nebesa",182,1,554499,Aš,Aš,Cheb,50.197265,12.228997
+40,"Aš, Nebesa",182,2,554499,Aš,Aš,Cheb,50.197193,12.229061
+41,"Aš, nem.",164,1,554499,Aš,Aš,Cheb,50.223847,12.202541
+42,"Aš, nem.",164,2,554499,Aš,Aš,Cheb,50.223926,12.202486
+43,"Aš, Nemocniční sídl.",165,1,554499,Aš,Aš,Cheb,50.222962,12.198329
+44,"Aš, Nemocniční sídl.",165,2,554499,Aš,Aš,Cheb,50.223053,12.19804
+45,"Aš, Nový Žďár",185,1,554499,Aš,Aš,Cheb,50.195104,12.216097
+46,"Aš, Nový Žďár",185,2,554499,Aš,Aš,Cheb,50.195396,12.215603
+47,"Aš, Palackého",48694,1,554499,Aš,Aš,Cheb,50.213522,12.197586
+48,"Aš, přádelna Okružní",43046,1,554499,Aš,Aš,Cheb,50.216819,12.187515
+49,"Aš, přádelna Okružní",43046,2,554499,Aš,Aš,Cheb,50.216701,12.187432
+50,"Aš, rozc. slévárna",43043,2,554499,Aš,Aš,Cheb,50.228321,12.178741
+51,"Aš, rozc. slévárna",43043,1,554499,Aš,Aš,Cheb,50.228191,12.179063
+52,"Aš, Saská",45645,1,554499,Aš,Aš,Cheb,50.233009,12.186101
+53,"Aš, Saská",45645,2,554499,Aš,Aš,Cheb,50.232834,12.185949
+54,"Aš, sídliště",167,1,554499,Aš,Aš,Cheb,50.224826,12.186462
+55,"Aš, sídliště",167,2,554499,Aš,Aš,Cheb,50.224723,12.186248
+56,"Aš, Střelnice",43044,1,554499,Aš,Aš,Cheb,50.218423,12.194173
+57,"Aš, Střelnice",43044,2,554499,Aš,Aš,Cheb,50.218437,12.193873
+58,"Aš, Studentská",43047,1,554499,Aš,Aš,Cheb,50.228093,12.184043
+59,"Aš, Studentská",43047,2,554499,Aš,Aš,Cheb,50.228019,12.183946
+60,"Aš, Tosta ředitelství",45646,1,554499,Aš,Aš,Cheb,50.219141,12.194981
+61,"Aš, Tosta ředitelství",45646,2,554499,Aš,Aš,Cheb,50.219033,12.194189
+62,"Aš, ZŠ Okružní",43048,1,554499,Aš,Aš,Cheb,50.221237,12.179524
+63,"Aš, ZŠ Okružní",43048,2,554499,Aš,Aš,Cheb,50.221269,12.179676
+64,"Aš, ZDM",43045,1,554499,Aš,Aš,Cheb,50.215867,12.194473
+65,"Aš, ZDM",43045,2,554499,Aš,Aš,Cheb,50.216036,12.194632
+66,"Aš, žel. st.",169,1,554499,Aš,Aš,Cheb,50.209239,12.199396
+67,"Aš, žel. st. město",43049,1,554499,Aš,Aš,Cheb,50.219234,12.182968
+68,"Aš, žel. st. město",43049,3,554499,Aš,Aš,Cheb,50.219562,12.181774
+69,"Aš, žel. st. město",43049,2,554499,Aš,Aš,Cheb,50.219727,12.181662
+70,Bečov n. Teplou,637,1,554995,Bečov nad Teplou,Karlovy Vary,Karlovy Vary,50.088448,12.840386
+71,Bečov n. Teplou,637,2,554995,Bečov nad Teplou,Karlovy Vary,Karlovy Vary,50.088241,12.840652
+72,"Bečov n. Teplou, Krásný Jez",640,1,554995,Bečov nad Teplou,Karlovy Vary,Karlovy Vary,50.124658,12.850629
+73,"Bečov n. Teplou, Krásný Jez",640,2,554995,Bečov nad Teplou,Karlovy Vary,Karlovy Vary,50.126015,12.851126
+74,"Bečov n. Teplou, nám.",638,2,554995,Bečov nad Teplou,Karlovy Vary,Karlovy Vary,50.083524,12.838516
+75,"Bečov n. Teplou, nám.",638,1,554995,Bečov nad Teplou,Karlovy Vary,Karlovy Vary,50.083538,12.838674
+76,"Bečov n. Teplou, Vodná",641,1,554995,Bečov nad Teplou,Karlovy Vary,Karlovy Vary,50.10573,12.846775
+77,"Bečov n. Teplou, Vodná",641,2,554995,Bečov nad Teplou,Karlovy Vary,Karlovy Vary,50.10563,12.846891
+78,"Bečov n. Teplou, žel. st.",639,1,554995,Bečov nad Teplou,Karlovy Vary,Karlovy Vary,50.083499,12.831578
+79,"Bochov, Číhaná",1859,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.123896,12.984728
+80,"Bochov, Číhaná",1859,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.123623,12.984861
+81,"Bochov, Číhaná, rozc.",1860,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.142464,12.971803
+82,"Bochov, Číhaná, rozc.",1860,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.142923,12.974273
+83,"Bochov, Dlouhá Lomnice",1861,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.159602,12.986927
+84,"Bochov, Dlouhá Lomnice",1861,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.159502,12.9868
+85,"Bochov, Dlouhá Lomnice",1861,3,555029,Bochov,Karlovy Vary,Karlovy Vary,50.158805,12.988337
+86,"Bochov, Dlouhá Ves",1862,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.128735,13.047974
+87,"Bochov, Dlouhá Ves",1862,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.128916,13.047729
+88,"Bochov, Herstošice",1863,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.14209,13.100662
+89,"Bochov, Herstošice",1863,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.142,13.100033
+90,"Bochov, Javorná",1864,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.133756,12.959509
+91,"Bochov, Javorná",1864,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.133756,12.959509
+92,"Bochov, Javorná, zámek",1865,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.138055,12.947329
+93,"Bochov, Javorná, zámek",1865,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.138191,12.947319
+94,"Bochov, Javorná, zámek",1865,3,555029,Bochov,Karlovy Vary,Karlovy Vary,50.137857,12.948175
+95,"Bochov, Javorná, zámek",1865,4,555029,Bochov,Karlovy Vary,Karlovy Vary,50.137699,12.947641
+96,"Bochov, Kozlov",1866,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.107386,13.029723
+97,"Bochov, Kozlov",1866,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.107966,13.030647
+98,"Bochov, Kozlov, rozc.",1867,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.101479,13.024838
+99,"Bochov, Kozlov, rozc.",1867,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.100712,13.024774
+100,"Bochov, Mirotice",1868,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.110572,13.000319
+101,"Bochov, Mirotice",1868,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.110521,13.000191
+102,"Bochov, nám.",1857,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.150336,13.045292
+103,"Bochov, nám.",1857,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.150384,13.045485
+104,"Bochov, Německý Chloumek",1869,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.144703,12.985276
+105,"Bochov, Německý Chloumek",1869,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.144539,12.9846
+106,"Bochov, Německý Chloumek",1869,3,555029,Bochov,Karlovy Vary,Karlovy Vary,50.144791,12.983061
+107,"Bochov, Německý Chloumek",1869,4,555029,Bochov,Karlovy Vary,Karlovy Vary,50.144653,12.982887
+108,"Bochov, Nové Kounice",1870,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.134443,12.937356
+109,"Bochov, Rybničná",1871,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.14201,12.943316
+110,"Bochov, Rybničná",1871,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.141906,12.943303
+111,"Bochov, Sovolusky",1872,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.10173,13.056909
+112,"Bochov, SÚS",43079,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.148913,13.05182
+113,"Bochov, SÚS",43079,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.148814,13.051927
+114,"Bochov, Těšetice",13930,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.161488,13.086005
+115,"Bochov, Údrč",1874,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.133971,13.087134
+116,"Bochov, Údrč, rozc. Skoky",1875,1,555029,Bochov,Karlovy Vary,Karlovy Vary,50.143969,13.088222
+117,"Bochov, Údrč, rozc. Skoky",1875,2,555029,Bochov,Karlovy Vary,Karlovy Vary,50.143761,13.088476
+118,"Bochov, Údrč, rozc. Skoky",1876,3,555029,Bochov,Karlovy Vary,Karlovy Vary,50.143505,13.089284
+119,"Boží Dar, celnice",2370,1,506486,Boží Dar,Ostrov,Karlovy Vary,50.409717,12.934081
+120,"Boží Dar, u kostela",48987,1,506486,Boží Dar,Ostrov,Karlovy Vary,50.409021,12.924696
+121,"Boží Dar, u kostela",48987,2,506486,Boží Dar,Ostrov,Karlovy Vary,50.409144,12.924614
+122,Božičany,2379,1,555045,Božičany,Karlovy Vary,Karlovy Vary,50.25748,12.771916
+123,Božičany,2379,2,555045,Božičany,Karlovy Vary,Karlovy Vary,50.25758,12.772132
+124,"Božičany, Sedlecký kaolin",2381,1,555045,Božičany,Karlovy Vary,Karlovy Vary,50.257478,12.771922
+125,"Božičany, Sedlecký kaolin",2381,2,555045,Božičany,Karlovy Vary,Karlovy Vary,50.25758,12.772132
+126,Bražec,10591,1,500101,Bražec,Karlovy Vary,Karlovy Vary,50.174674,13.046243
+127,Bražec,10591,2,500101,Bražec,Karlovy Vary,Karlovy Vary,50.174526,13.04634
+128,"Bražec, Javorná",10594,1,500101,Bražec,Karlovy Vary,Karlovy Vary,50.185746,13.067876
+129,"Bražec, Javorná",10594,2,500101,Bražec,Karlovy Vary,Karlovy Vary,50.185667,13.067889
+130,"Bražec, Tis rozc.",10599,1,500101,Bražec,Karlovy Vary,Karlovy Vary,50.177198,13.105186
+131,"Bražec, Tis rozc.",10599,2,500101,Bražec,Karlovy Vary,Karlovy Vary,50.177029,13.105667
+132,"Bražec, Valov rozc.",10600,1,500101,Bražec,Karlovy Vary,Karlovy Vary,50.18496,13.092296
+133,"Bražec, Valov rozc.",10600,2,500101,Bražec,Karlovy Vary,Karlovy Vary,50.18487,13.092316
+134,"Březová, aut. st.",3237,1,560294,Březová,Sokolov,Sokolov,50.149008,12.647092
+135,"Březová, aut. st.",3237,2,560294,Březová,Sokolov,Sokolov,50.148813,12.647391
+136,"Březová, Kostelní Bříza",3246,1,560294,Březová,Sokolov,Sokolov,50.116424,12.622095
+137,"Březová, Kostelní Bříza",3246,2,560294,Březová,Sokolov,Sokolov,50.116391,12.622353
+138,"Březová, Kostelní Bříza",3246,3,560294,Březová,Sokolov,Sokolov,50.114963,12.62232
+139,"Březová, Mýtina, rozc.",3247,1,560294,Březová,Sokolov,Sokolov,50.148813,12.647391
+140,"Březová, Mýtina, rozc.",3247,2,560294,Březová,Sokolov,Sokolov,50.142264,12.619169
+141,"Březová, rest. Slunce",32635,1,537870,Březová,Karlovy Vary,Karlovy Vary,50.19679,12.870266
+142,"Březová, rest. Slunce",32635,2,537870,Březová,Karlovy Vary,Karlovy Vary,50.197426,12.871168
+143,"Březová, rest. St. Michael",3242,1,537870,Březová,Karlovy Vary,Karlovy Vary,50.201092,12.869798
+144,"Březová, rest. St. Michael",3242,2,537870,Březová,Karlovy Vary,Karlovy Vary,50.20133,12.869897
+145,"Březová, Rudolec",3248,1,560294,Březová,Sokolov,Sokolov,50.133344,12.615851
+146,"Březová, Rudolec",3248,2,560294,Březová,Sokolov,Sokolov,50.133129,12.615515
+147,"Březová, Staromlýnská",3241,1,537870,Březová,Karlovy Vary,Karlovy Vary,50.194239,12.866536
+148,"Březová, Staromlýnská",3241,2,537870,Březová,Karlovy Vary,Karlovy Vary,50.194349,12.866732
+149,"Březová, Tisová, Černý mlýn",35851,1,560294,Březová,Sokolov,Sokolov,50.143743,12.602489
+150,"Březová, Tisová, Černý mlýn",35851,2,560294,Březová,Sokolov,Sokolov,50.143804,12.602384
+151,"Březová, Tisová, ETI",35850,1,560294,Březová,Sokolov,Sokolov,50.152841,12.609863
+152,"Březová, Tisová, ETI",35850,2,560294,Březová,Sokolov,Sokolov,50.152684,12.609858
+153,"Březová, U Splavu",3239,1,537870,Březová,Karlovy Vary,Karlovy Vary,50.204306,12.86896
+154,"Březová, U Splavu",3239,2,537870,Březová,Karlovy Vary,Karlovy Vary,50.204529,12.868968
+155,"Bublava, Na kopečku",3300,1,560308,Bublava,Kraslice,Sokolov,50.374913,12.512431
+156,"Bublava, Na kopečku",3300,2,560308,Bublava,Kraslice,Sokolov,50.374693,12.512844
+157,"Bublava, nám.",3297,1,560308,Bublava,Kraslice,Sokolov,50.362494,12.501518
+158,"Bublava, nám.",3297,2,560308,Bublava,Kraslice,Sokolov,50.362541,12.501633
+159,"Bublava, rest. Sport",3298,2,560308,Bublava,Kraslice,Sokolov,50.374161,12.503495
+160,"Bublava, rest. Sport",3298,1,560308,Bublava,Kraslice,Sokolov,50.374214,12.503201
+161,"Bublava, rozc.",50636,1,560308,Bublava,Kraslice,Sokolov,50.358342,12.506164
+162,"Bublava, rozc.",50636,2,560308,Bublava,Kraslice,Sokolov,50.358324,12.506296
+163,"Bublava, statek rozc.",3299,1,560308,Bublava,Kraslice,Sokolov,50.366533,12.501881
+164,"Bublava, statek rozc.",3299,2,560308,Bublava,Kraslice,Sokolov,50.366547,12.502029
+165,Bukovany,3494,1,560316,Bukovany,Sokolov,Sokolov,50.166109,12.571895
+166,Bukovany,3494,2,560316,Bukovany,Sokolov,Sokolov,50.166169,12.570827
+167,"Bukovany, sídliště",3495,1,560316,Bukovany,Sokolov,Sokolov,50.165157,12.578326
+168,"Bukovany, sídliště",3495,2,560316,Bukovany,Sokolov,Sokolov,50.165159,12.577762
+169,Citice,4025,1,560324,Citice,Sokolov,Sokolov,50.159483,12.609381
+170,Citice,4025,2,560324,Citice,Sokolov,Sokolov,50.159605,12.610792
+171,"Citice, Hlavno",4028,1,560324,Citice,Sokolov,Sokolov,50.149673,12.598071
+172,"Citice, SÚS",4027,1,560324,Citice,Sokolov,Sokolov,50.161591,12.623416
+173,"Citice, SÚS",4027,2,560324,Citice,Sokolov,Sokolov,50.16143,12.623497
+174,"Citice, u mostu",4026,1,560324,Citice,Sokolov,Sokolov,50.160793,12.618367
+175,"Citice, u mostu",4026,2,560324,Citice,Sokolov,Sokolov,50.160738,12.618733
+176,Černava,4467,1,538019,Černava,Karlovy Vary,Karlovy Vary,50.291116,12.710876
+177,Černava,4467,2,538019,Černava,Karlovy Vary,Karlovy Vary,50.290697,12.710595
+178,"Černava, Rájec, rozc.",4468,1,538019,Černava,Karlovy Vary,Karlovy Vary,50.294501,12.717734
+179,"Černava, Rájec, rozc.",4468,2,538019,Černava,Karlovy Vary,Karlovy Vary,50.294516,12.717881
+180,Čichalov,5185,1,506621,Čichalov,Karlovy Vary,Karlovy Vary,50.124196,13.170905
+181,Čichalov,5185,2,506621,Čichalov,Karlovy Vary,Karlovy Vary,50.124212,13.17064
+182,"Čichalov, Kovářov, rozc.",43001,1,506621,Čichalov,Karlovy Vary,Karlovy Vary,50.114918,13.178572
+183,"Čichalov, Kovářov, rozc.",43001,2,506621,Čichalov,Karlovy Vary,Karlovy Vary,50.114918,13.178638
+184,"Čichalov, Mokrá",43002,1,506621,Čichalov,Karlovy Vary,Karlovy Vary,50.123737,13.218133
+185,"Čichalov, Mokrá",43002,2,506621,Čichalov,Karlovy Vary,Karlovy Vary,50.123639,13.218227
+186,"Čichalov, Štoutov, rozc.",43007,1,506621,Čichalov,Karlovy Vary,Karlovy Vary,50.12188,13.185719
+187,"Čichalov, Štoutov, rozc.",43007,2,506621,Čichalov,Karlovy Vary,Karlovy Vary,50.121818,13.185686
+188,Dalovice,47882,1,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.249798,12.892627
+189,Dalovice,47882,2,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.24989,12.893088
+190,"Dalovice, Dlouhá",5376,1,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.253408,12.900888
+191,"Dalovice, Dlouhá",5376,2,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.253408,12.900888
+192,"Dalovice, nádr. Dalovice",53603,1,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.256119,12.885768
+193,"Dalovice, nádr. Dalovice",53603,2,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.25594,12.885391
+194,"Dalovice, nám.",5377,1,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.247533,12.896659
+195,"Dalovice, nám.",5377,2,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.247278,12.896411
+196,"Dalovice, škola",59472,1,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.24873,12.896845
+197,"Dalovice, Všeborovice",5380,1,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.244019,12.893579
+198,"Dalovice, Všeborovice",5380,2,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.243834,12.893128
+199,"Dalovice, Vysoká",5381,1,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.255003,12.902478
+200,"Dalovice, Vysoká",5381,2,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.254933,12.902584
+201,"Dalovice, Zálesí",5379,1,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.257005,12.887456
+202,"Dalovice, Zálesí",5379,2,537918,Dalovice,Karlovy Vary,Karlovy Vary,50.257061,12.88759
+203,Dasnice,52042,1,560332,Dasnice,Sokolov,Sokolov,50.146591,12.567909
+204,"Dasnice, rozc.",5405,1,560332,Dasnice,Sokolov,Sokolov,50.161726,12.557678
+205,"Dasnice, rozc.",5405,2,560332,Dasnice,Sokolov,Sokolov,50.161934,12.55792
+206,Děpoltovice,5553,1,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.293395,12.814119
+207,Děpoltovice,5553,2,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.293189,12.815314
+208,Děpoltovice,5553,5,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.29452,12.814318
+209,Děpoltovice,5553,4,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.294474,12.814429
+210,Děpoltovice,5553,6,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.293408,12.81393
+211,Děpoltovice,5553,3,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.293338,12.815331
+212,"Děpoltovice, horní statek",5555,1,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.297953,12.807414
+213,"Děpoltovice, horní statek",5555,2,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.297775,12.807424
+214,"Děpoltovice, Nivy",5559,1,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.278771,12.846421
+215,"Děpoltovice, Nivy",5559,2,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.27895,12.846296
+216,"Děpoltovice, Nivy, hájovna",5560,1,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.284647,12.831907
+217,"Děpoltovice, Nivy, hájovna",5560,2,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.284626,12.832056
+218,"Děpoltovice, rozcestí koupaliště",5558,1,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.282699,12.840471
+219,"Děpoltovice, rozcestí koupaliště",5558,2,538116,Děpoltovice,Karlovy Vary,Karlovy Vary,50.282883,12.840156
+220,Dolní Nivy,6682,1,560341,Dolní Nivy,Sokolov,Sokolov,50.242844,12.637199
+221,Dolní Nivy,6682,2,560341,Dolní Nivy,Sokolov,Sokolov,50.243103,12.636874
+222,"Dolní Nivy, Boučí",6683,1,560341,Dolní Nivy,Sokolov,Sokolov,50.23268,12.591921
+223,"Dolní Nivy, Boučí",6683,2,560341,Dolní Nivy,Sokolov,Sokolov,50.233051,12.592458
+224,"Dolní Nivy, Horní Nivy",6684,2,560341,Dolní Nivy,Sokolov,Sokolov,50.248054,12.624673
+225,"Dolní Nivy, Horní Nivy",6684,1,560341,Dolní Nivy,Sokolov,Sokolov,50.247902,12.624997
+226,"Dolní Nivy, Horní Rozmyšl",6685,1,560341,Dolní Nivy,Sokolov,Sokolov,50.24799,12.661765
+227,"Dolní Nivy, Horní Rozmyšl",6685,2,560341,Dolní Nivy,Sokolov,Sokolov,50.247913,12.661799
+228,"Dolní Rychnov, BS",6733,1,538591,Dolní Rychnov,Sokolov,Sokolov,50.165216,12.636697
+229,"Dolní Rychnov, BS",6733,2,538591,Dolní Rychnov,Sokolov,Sokolov,50.165889,12.637086
+230,"Dolní Rychnov, Sklotas",6736,2,538591,Dolní Rychnov,Sokolov,Sokolov,50.161064,12.636052
+231,"Dolní Rychnov, Sklotas",6736,1,538591,Dolní Rychnov,Sokolov,Sokolov,50.160921,12.635858
+232,Dolní Žandov,6792,1,554502,Dolní Žandov,Cheb,Cheb,50.019063,12.549954
+233,Dolní Žandov,6792,2,554502,Dolní Žandov,Cheb,Cheb,50.019204,12.549954
+234,"Dolní Žandov, Manský Dvůr",6795,1,554502,Dolní Žandov,Cheb,Cheb,50.034893,12.532903
+235,"Dolní Žandov, Manský Dvůr",6795,2,554502,Dolní Žandov,Cheb,Cheb,50.034893,12.532903
+236,"Dolní Žandov, návrší",6793,1,554502,Dolní Žandov,Cheb,Cheb,50.015914,12.557473
+237,"Dolní Žandov, návrší",6793,2,554502,Dolní Žandov,Cheb,Cheb,50.016033,12.556984
+238,"Dolní Žandov, Podlesí",6796,1,554502,Dolní Žandov,Cheb,Cheb,50.044248,12.562884
+239,"Dolní Žandov, Podlesí",6796,2,554502,Dolní Žandov,Cheb,Cheb,50.044149,12.562894
+240,"Dolní Žandov, Úbočí",6797,1,554502,Dolní Žandov,Cheb,Cheb,50.028432,12.565574
+241,"Dolní Žandov, Úbočí",6797,2,554502,Dolní Žandov,Cheb,Cheb,50.028481,12.565563
+242,"Dolní Žandov, Ždírnice",6798,2,554502,Dolní Žandov,Cheb,Cheb,50.04462,12.517784
+243,"Dolní Žandov, Ždírnice",6798,4,554502,Dolní Žandov,Cheb,Cheb,50.046324,12.517246
+244,"Dolní Žandov, Ždírnice",6798,1,554502,Dolní Žandov,Cheb,Cheb,50.04479,12.517948
+245,"Dolní Žandov, Ždírnice",6798,3,554502,Dolní Žandov,Cheb,Cheb,50.04638,12.517411
+246,"Doupovské Hradiště, Dolní Lomnice",10592,1,500127,Doupovské Hradiště,Ostrov,Karlovy Vary,50.264388,13.021581
+247,"Doupovské Hradiště, Dolní Lomnice, lesní správa",10593,1,500127,Doupovské Hradiště,Ostrov,Karlovy Vary,50.265636,13.010117
+248,"Doupovské Hradiště, Dolní Lomnice, lesní správa",10593,2,500127,Doupovské Hradiště,Ostrov,Karlovy Vary,50.265583,13.010358
+249,"Doupovské Hradiště, Lučiny",10596,1,500127,Doupovské Hradiště,Ostrov,Karlovy Vary,50.227199,13.0148
+250,"Doupovské Hradiště, Lučiny, dolní",65177,1,500127,Doupovské Hradiště,Ostrov,Karlovy Vary,50.232648,13.014254
+251,"Doupovské Hradiště, Lučiny, dolní",65177,2,500127,Doupovské Hradiště,Ostrov,Karlovy Vary,50.232624,13.014065
+252,"Doupovské Hradiště, Svatobor, rozc.",10598,1,500127,Doupovské Hradiště,Ostrov,Karlovy Vary,50.236011,12.999186
+253,"Doupovské Hradiště, Svatobor, rozc.",10598,2,500127,Doupovské Hradiště,Ostrov,Karlovy Vary,50.235912,12.999154
+254,"Drmoul, křiž.",7152,1,554511,Drmoul,Mariánské Lázně,Cheb,49.941105,12.665583
+255,"Drmoul, křiž.",7152,2,554511,Drmoul,Mariánské Lázně,Cheb,49.941905,12.665858
+256,"Drmoul, nám.",7153,1,554511,Drmoul,Mariánské Lázně,Cheb,49.936736,12.664051
+257,"Drmoul, Ovčín",7154,1,554511,Drmoul,Mariánské Lázně,Cheb,49.938034,12.652535
+258,"Drmoul, Ovčín",7154,2,554511,Drmoul,Mariánské Lázně,Cheb,49.937969,12.652663
+259,"Drmoul, Panský vrch",7155,1,554511,Drmoul,Mariánské Lázně,Cheb,49.93865,12.643751
+260,"Drmoul, Panský vrch",7155,2,554511,Drmoul,Mariánské Lázně,Cheb,49.938568,12.643835
+261,"Františkovy Lázně, Čs. armády",7775,1,554529,Františkovy Lázně,Cheb,Cheb,50.123849,12.34974
+262,"Františkovy Lázně, Čs. armády",7775,2,554529,Františkovy Lázně,Cheb,Cheb,50.123887,12.349264
+263,"Františkovy Lázně, Dolní Lomany",7778,1,554529,Františkovy Lázně,Cheb,Cheb,50.12468,12.340406
+264,"Františkovy Lázně, Dolní Lomany",7778,2,554529,Františkovy Lázně,Cheb,Cheb,50.124848,12.340279
+265,"Františkovy Lázně, Dolní Lomany, sídliště",7779,1,554529,Františkovy Lázně,Cheb,Cheb,50.12468,12.340406
+266,"Františkovy Lázně, Elektra",7773,1,554529,Františkovy Lázně,Cheb,Cheb,50.125878,12.346726
+267,"Františkovy Lázně, Elektra",7773,2,554529,Františkovy Lázně,Cheb,Cheb,50.125583,12.346663
+268,"Františkovy Lázně, Horní Lomany",7780,1,554529,Františkovy Lázně,Cheb,Cheb,50.130475,12.342641
+269,"Františkovy Lázně, Horní Lomany",7780,2,554529,Františkovy Lázně,Cheb,Cheb,50.130509,12.342843
+270,"Františkovy Lázně, Horní Lomany, domky",7781,1,554529,Františkovy Lázně,Cheb,Cheb,50.134609,12.333239
+271,"Františkovy Lázně, Horní Lomany, domky",7781,2,554529,Františkovy Lázně,Cheb,Cheb,50.134476,12.333507
+272,"Františkovy Lázně, Horní Lomany, škola",7782,1,554529,Františkovy Lázně,Cheb,Cheb,50.129967,12.344938
+273,"Františkovy Lázně, Horní Lomany, škola",7782,2,554529,Františkovy Lázně,Cheb,Cheb,50.129898,12.345035
+274,"Františkovy Lázně, Krapice, Dvoreček",7783,1,554529,Františkovy Lázně,Cheb,Cheb,50.132898,12.288892
+275,"Františkovy Lázně, Krapice, Dvoreček",7783,2,554529,Františkovy Lázně,Cheb,Cheb,50.133002,12.288826
+276,"Františkovy Lázně, Krapice, Lužná",7784,1,554529,Františkovy Lázně,Cheb,Cheb,50.11017,12.304853
+277,"Františkovy Lázně, Krapice, Lužná",7784,2,554529,Františkovy Lázně,Cheb,Cheb,50.110287,12.3047
+278,"Františkovy Lázně, Krapice, rozc.",7785,1,554529,Františkovy Lázně,Cheb,Cheb,50.13031,12.312212
+279,"Františkovy Lázně, Krapice, rozc.",7785,2,554529,Františkovy Lázně,Cheb,Cheb,50.130234,12.312291
+280,"Františkovy Lázně, městské sady",7774,2,554529,Františkovy Lázně,Cheb,Cheb,50.120832,12.348971
+281,"Františkovy Lázně, městské sady",7774,1,554529,Františkovy Lázně,Cheb,Cheb,50.12113,12.349023
+282,"Františkovy Lázně, Slatina",7786,1,554529,Františkovy Lázně,Cheb,Cheb,50.111153,12.353231
+283,"Františkovy Lázně, Slatina",7786,2,554529,Františkovy Lázně,Cheb,Cheb,50.111053,12.353121
+284,"Františkovy Lázně, Slatina, záv.",7787,1,554529,Františkovy Lázně,Cheb,Cheb,50.108037,12.356659
+285,"Františkovy Lázně, Slatina, záv.",7787,2,554529,Františkovy Lázně,Cheb,Cheb,50.107848,12.356735
+286,"Františkovy Lázně, V aleji",7776,1,554529,Františkovy Lázně,Cheb,Cheb,50.124257,12.367602
+287,"Františkovy Lázně, V aleji",7776,2,554529,Františkovy Lázně,Cheb,Cheb,50.124439,12.367769
+288,"Františkovy Lázně, žel. st.",7777,1,554529,Františkovy Lázně,Cheb,Cheb,50.124088,12.354745
+289,"Františkovy Lázně, žel. st.",7777,2,554529,Františkovy Lázně,Cheb,Cheb,50.12374,12.355463
+290,"Františkovy Lázně, žel. st.",7777,3,554529,Františkovy Lázně,Cheb,Cheb,50.124237,12.354049
+291,"Františkovy Lázně, Žírovice",7788,1,554529,Františkovy Lázně,Cheb,Cheb,50.14066,12.356929
+292,"Františkovy Lázně, Žírovice, návrší",7789,2,554529,Františkovy Lázně,Cheb,Cheb,50.137131,12.354363
+293,"Františkovy Lázně, Žírovice, návrší",7789,1,554529,Františkovy Lázně,Cheb,Cheb,50.137116,12.354191
+294,"Františkovy Lázně, Žírovice, Seníky",7790,1,554529,Františkovy Lázně,Cheb,Cheb,50.146029,12.339456
+295,"Františkovy Lázně, Žírovice, Seníky",7790,2,554529,Františkovy Lázně,Cheb,Cheb,50.146031,12.339791
+296,"Františkovy Lázně, Žírovice, Stodoly",7791,2,554529,Františkovy Lázně,Cheb,Cheb,50.13902,12.367751
+297,"Františkovy Lázně, Žírovice, Stodoly",7791,1,554529,Františkovy Lázně,Cheb,Cheb,50.139084,12.36788
+298,"Habartov, aut. st.",8216,1,560359,Habartov,Sokolov,Sokolov,50.182408,12.546859
+299,"Habartov, aut. st.",8216,2,560359,Habartov,Sokolov,Sokolov,50.182469,12.548289
+300,"Habartov, Čistá",8221,1,560359,Habartov,Sokolov,Sokolov,50.19324,12.579964
+301,"Habartov, Čistá",8221,2,560359,Habartov,Sokolov,Sokolov,50.192984,12.578854
+302,"Habartov, Dukla",7464,2,560359,Habartov,Sokolov,Sokolov,50.1709,12.558666
+303,"Habartov, Dukla",7464,1,560359,Habartov,Sokolov,Sokolov,50.170731,12.558724
+304,"Habartov, Hornická",8217,1,560359,Habartov,Sokolov,Sokolov,50.185609,12.56202
+305,"Habartov, Hornická",8217,2,560359,Habartov,Sokolov,Sokolov,50.185451,12.561973
+306,"Habartov, Kluč",8222,1,560359,Habartov,Sokolov,Sokolov,50.189213,12.569055
+307,"Habartov, Kluč",8222,2,560359,Habartov,Sokolov,Sokolov,50.189274,12.56921
+308,"Habartov, Kluč",8222,3,560359,Habartov,Sokolov,Sokolov,50.188718,12.568897
+309,"Habartov, Kluč",8222,4,560359,Habartov,Sokolov,Sokolov,50.188701,12.569138
+310,"Habartov, Kluč, MŠ",8223,1,560359,Habartov,Sokolov,Sokolov,50.189857,12.562834
+311,"Habartov, Kluč, MŠ",8223,2,560359,Habartov,Sokolov,Sokolov,50.189931,12.562913
+312,"Habartov, Lítov",19028,1,560359,Habartov,Sokolov,Sokolov,50.171387,12.518713
+313,"Habartov, Lítov",19028,2,560359,Habartov,Sokolov,Sokolov,50.171201,12.518316
+314,"Habartov, Na Rovince",8218,1,560359,Habartov,Sokolov,Sokolov,50.178311,12.528991
+315,"Habartov, Na Rovince",8218,2,560359,Habartov,Sokolov,Sokolov,50.178092,12.528625
+316,"Habartov, sídliště",8219,1,560359,Habartov,Sokolov,Sokolov,50.183562,12.554599
+317,"Habartov, sídliště",8219,2,560359,Habartov,Sokolov,Sokolov,50.183631,12.555547
+318,"Habartov, škola",8220,2,560359,Habartov,Sokolov,Sokolov,50.180596,12.549414
+319,"Habartov, škola",8220,1,560359,Habartov,Sokolov,Sokolov,50.180601,12.549266
+320,"Habartov, Úžlabí",8224,1,560359,Habartov,Sokolov,Sokolov,50.180918,12.537664
+321,"Habartov, Úžlabí",8224,2,560359,Habartov,Sokolov,Sokolov,50.180864,12.537764
+322,Hájek,8296,1,538159,Hájek,Ostrov,Karlovy Vary,50.278305,12.919044
+323,Hájek,8296,2,538159,Hájek,Ostrov,Karlovy Vary,50.278332,12.918794
+324,"Hájek, statek",8297,1,538159,Hájek,Ostrov,Karlovy Vary,50.282631,12.925063
+325,"Hájek, statek",8297,2,538159,Hájek,Ostrov,Karlovy Vary,50.283485,12.926575
+326,Hazlov,8604,3,554545,Hazlov,Aš,Cheb,50.157013,12.275015
+327,Hazlov,8604,4,554545,Hazlov,Aš,Cheb,50.157261,12.275331
+328,Hazlov,8604,1,554545,Hazlov,Aš,Cheb,50.156853,12.275759
+329,Hazlov,8604,2,554545,Hazlov,Aš,Cheb,50.156693,12.275973
+330,"Hazlov, Lipná, rozc.",8608,1,554545,Hazlov,Aš,Cheb,50.170474,12.261527
+331,"Hazlov, Lipná, rozc.",8608,2,554545,Hazlov,Aš,Cheb,50.170439,12.261406
+332,"Hazlov, Pata",8605,1,554545,Hazlov,Aš,Cheb,50.182942,12.24515
+333,"Hazlov, Pata",8605,2,554545,Hazlov,Aš,Cheb,50.183048,12.245259
+334,"Hazlov, Polná",8609,1,554545,Hazlov,Aš,Cheb,50.152184,12.245421
+335,"Hazlov, Polná, Franky",8610,1,554545,Hazlov,Aš,Cheb,50.14797,12.252502
+336,"Hazlov, Polná, Franky",8610,2,554545,Hazlov,Aš,Cheb,50.147835,12.25225
+337,"Hazlov, přejezd",8606,1,554545,Hazlov,Aš,Cheb,50.162254,12.270241
+338,"Hazlov, přejezd",8606,2,554545,Hazlov,Aš,Cheb,50.161139,12.270303
+339,"Hazlov, Skalka",8611,1,554545,Hazlov,Aš,Cheb,50.175895,12.268636
+340,"Hazlov, Skalka",8611,2,554545,Hazlov,Aš,Cheb,50.175631,12.268444
+341,"Hazlov, Výhledy",8612,1,554545,Hazlov,Aš,Cheb,50.1895,12.268283
+342,"Hazlov, Výhledy",8612,2,554545,Hazlov,Aš,Cheb,50.189477,12.268188
+343,"Hazlov, žel. st.",8607,1,554545,Hazlov,Aš,Cheb,50.160724,12.279104
+344,"Hazlov, žel. st.",8607,2,554545,Hazlov,Aš,Cheb,50.160736,12.279362
+345,"Horní Blatná, Majakovského",9646,1,555169,Horní Blatná,Ostrov,Karlovy Vary,50.389123,12.757921
+346,"Horní Blatná, Majakovského",9646,2,555169,Horní Blatná,Ostrov,Karlovy Vary,50.389164,12.758053
+347,"Horní Blatná, nám.",9647,1,555169,Horní Blatná,Ostrov,Karlovy Vary,50.389889,12.770541
+348,"Horní Blatná, nám.",9647,2,555169,Horní Blatná,Ostrov,Karlovy Vary,50.38992,12.770302
+349,"Horní Slavkov, areál Stannum",16296,1,560367,Horní Slavkov,Sokolov,Sokolov,50.122869,12.803511
+350,"Horní Slavkov, Bošířany, rozc.",9935,1,560367,Horní Slavkov,Sokolov,Sokolov,50.152468,12.791663
+351,"Horní Slavkov, Bošířany, rozc.",9935,2,560367,Horní Slavkov,Sokolov,Sokolov,50.152587,12.791817
+352,"Horní Slavkov, hodinářství",9927,1,560367,Horní Slavkov,Sokolov,Sokolov,50.138576,12.807057
+353,"Horní Slavkov, hodinářství",9927,2,560367,Horní Slavkov,Sokolov,Sokolov,50.138485,12.807265
+354,"Horní Slavkov, Cheza",9928,1,560367,Horní Slavkov,Sokolov,Sokolov,50.127261,12.789334
+355,"Horní Slavkov, Kounice",9938,2,560367,Horní Slavkov,Sokolov,Sokolov,50.134627,12.817932
+356,"Horní Slavkov, Kounice",9938,1,560367,Horní Slavkov,Sokolov,Sokolov,50.134913,12.8173
+357,"Horní Slavkov, Kounice, internát",9939,1,560367,Horní Slavkov,Sokolov,Sokolov,50.136508,12.813123
+358,"Horní Slavkov, Kounice, internát",9939,2,560367,Horní Slavkov,Sokolov,Sokolov,50.135803,12.814014
+359,"Horní Slavkov, Ležnice, rozc.",48998,1,560367,Horní Slavkov,Sokolov,Sokolov,50.135447,12.822703
+360,"Horní Slavkov, nám.",9929,3,560367,Horní Slavkov,Sokolov,Sokolov,50.140435,12.808731
+361,"Horní Slavkov, nám.",9929,1,560367,Horní Slavkov,Sokolov,Sokolov,50.140941,12.806873
+362,"Horní Slavkov, nám.",9929,2,560367,Horní Slavkov,Sokolov,Sokolov,50.140121,12.808405
+363,"Horní Slavkov, porcelánka",9930,1,560367,Horní Slavkov,Sokolov,Sokolov,50.158039,12.782098
+364,"Horní Slavkov, porcelánka",9930,2,560367,Horní Slavkov,Sokolov,Sokolov,50.158196,12.782043
+365,"Horní Slavkov, sídliště",9931,1,560367,Horní Slavkov,Sokolov,Sokolov,50.136513,12.797636
+366,"Horní Slavkov, ústřední dílny",9933,1,560367,Horní Slavkov,Sokolov,Sokolov,50.125744,12.796431
+367,"Horní Slavkov, ústřední dílny",9933,2,560367,Horní Slavkov,Sokolov,Sokolov,50.125815,12.796802
+368,"Horní Slavkov, věznice",9932,2,560367,Horní Slavkov,Sokolov,Sokolov,50.128015,12.792101
+369,"Horní Slavkov, věznice",9932,1,560367,Horní Slavkov,Sokolov,Sokolov,50.128083,12.791717
+370,"Horní Slavkov, Vlčí",9940,1,560367,Horní Slavkov,Sokolov,Sokolov,50.161053,12.777332
+371,"Horní Slavkov, Vlčí",9940,2,560367,Horní Slavkov,Sokolov,Sokolov,50.1616,12.776907
+372,"Horní Slavkov, nad viaduktem",9934,1,560367,Horní Slavkov,Sokolov,Sokolov,50.132053,12.802973
+373,"Horní Slavkov, nad viaduktem",9934,2,560367,Horní Slavkov,Sokolov,Sokolov,50.13211,12.80316
+374,Hory,10106,1,551651,Hory ,Karlovy Vary,Karlovy Vary,50.213615,12.78163
+375,Hory,10106,2,551651,Hory ,Karlovy Vary,Karlovy Vary,50.213519,12.780743
+376,"Hradiště, Radošov",10597,1,555177,Hradiště,Karlovy Vary,Karlovy Vary,50.175792,13.118215
+377,"Hradiště, Radošov",10597,2,555177,Hradiště,Karlovy Vary,Karlovy Vary,50.175915,13.118129
+378,"Hranice, hotel Praha",10662,1,554553,Hranice,Aš,Cheb,50.306273,12.176263
+379,"Hranice, návrší",10663,1,554553,Hranice,Aš,Cheb,50.297614,12.171491
+380,"Hranice, návrší",10663,2,554553,Hranice,Aš,Cheb,50.29765,12.171413
+381,"Hranice, návrší",10663,3,554553,Hranice,Aš,Cheb,50.297649,12.171917
+382,"Hranice, návrší",10663,4,554553,Hranice,Aš,Cheb,50.297696,12.171929
+383,"Hranice, Pastviny",10668,1,554553,Hranice,Aš,Cheb,50.275253,12.152094
+384,"Hranice, Pastviny",10668,2,554553,Hranice,Aš,Cheb,50.275106,12.151708
+385,"Hranice, Pastviny, domky",10669,1,554553,Hranice,Aš,Cheb,50.278583,12.164166
+386,"Hranice, Pastviny, domky",10669,2,554553,Hranice,Aš,Cheb,50.27853,12.164188
+387,"Hranice, rozc.",10664,2,554553,Hranice,Aš,Cheb,50.301903,12.175433
+388,"Hranice, rozc.",10664,1,554553,Hranice,Aš,Cheb,50.301907,12.175644
+389,"Hranice, rybník",10665,1,554553,Hranice,Aš,Cheb,50.275106,12.151708
+390,"Hranice, rybník",10665,2,554553,Hranice,Aš,Cheb,50.284425,12.158748
+391,"Hranice, STS",10666,1,554553,Hranice,Aš,Cheb,50.301945,12.163991
+392,"Hranice, Studánka, křiž.",10670,1,554553,Hranice,Aš,Cheb,50.27654,12.185169
+393,"Hranice, Studánka, křiž.",10670,2,554553,Hranice,Aš,Cheb,50.276465,12.185162
+394,"Hranice, Studánka, návrší",10671,1,554553,Hranice,Aš,Cheb,50.27466,12.188648
+395,"Hranice, Studánka, návrší",10671,2,554553,Hranice,Aš,Cheb,50.274215,12.188898
+396,"Hranice, Studánka, záv.",10672,1,554553,Hranice,Aš,Cheb,50.278694,12.173278
+397,"Hranice, Studánka, záv.",10672,2,554553,Hranice,Aš,Cheb,50.278606,12.173328
+398,"Hranice, Studánka, záv.",10672,3,554553,Hranice,Aš,Cheb,50.278357,12.176207
+399,"Hranice, Trojmezí",10673,1,554553,Hranice,Aš,Cheb,50.308808,12.144455
+400,"Hranice, Trojmezí, návrší",10674,1,554553,Hranice,Aš,Cheb,50.300083,12.154263
+401,"Hranice, Trojmezí, rest.",10675,1,554553,Hranice,Aš,Cheb,50.300684,12.146488
+402,"Hranice, Trojmezí, Výhledy",10676,1,554553,Hranice,Aš,Cheb,50.309303,12.164621
+403,"Hranice, vodárna",10667,1,554553,Hranice,Aš,Cheb,50.290539,12.167018
+404,"Hranice, vodárna",10667,2,554553,Hranice,Aš,Cheb,50.290584,12.166931
+405,"Hroznětín, Bystřice",10955,1,555185,Hroznětín,Ostrov,Karlovy Vary,50.312,12.896356
+406,"Hroznětín, Bystřice",10955,2,555185,Hroznětín,Ostrov,Karlovy Vary,50.312128,12.895983
+407,"Hroznětín, Masokombinát",10950,1,555185,Hroznětín,Ostrov,Karlovy Vary,50.30896,12.863416
+408,"Hroznětín, Masokombinát",10950,2,555185,Hroznětín,Ostrov,Karlovy Vary,50.308687,12.861387
+409,"Hroznětín, nám.",10952,1,555185,Hroznětín,Ostrov,Karlovy Vary,50.309479,12.871861
+410,"Hroznětín, nám.",10952,2,555185,Hroznětín,Ostrov,Karlovy Vary,50.309141,12.872684
+411,"Hroznětín, Odeř",10956,1,555185,Hroznětín,Ostrov,Karlovy Vary,50.307355,12.840283
+412,"Hroznětín, Odeř",10956,2,555185,Hroznětín,Ostrov,Karlovy Vary,50.307219,12.8407
+413,"Hroznětín, Odeř, farma",10957,1,555185,Hroznětín,Ostrov,Karlovy Vary,50.303429,12.826185
+414,"Hroznětín, Odeř, farma",10957,2,555185,Hroznětín,Ostrov,Karlovy Vary,50.303337,12.826268
+415,"Hroznětín, Odeř, záv.",10958,1,555185,Hroznětín,Ostrov,Karlovy Vary,50.306006,12.832138
+416,"Hroznětín, Odeř, záv.",10958,2,555185,Hroznětín,Ostrov,Karlovy Vary,50.305987,12.83239
+417,"Hroznětín, Ruprechtov, rozc.",10959,1,555185,Hroznětín,Ostrov,Karlovy Vary,50.290898,12.858381
+418,"Hroznětín, Ruprechtov, rozc.",10959,2,555185,Hroznětín,Ostrov,Karlovy Vary,50.290962,12.858108
+419,"Hroznětín, sušárna",10953,1,555185,Hroznětín,Ostrov,Karlovy Vary,50.318417,12.858561
+420,"Hroznětín, sušárna",10953,2,555185,Hroznětín,Ostrov,Karlovy Vary,50.318577,12.858775
+421,"Hroznětín, U Budků",10949,1,555185,Hroznětín,Ostrov,Karlovy Vary,50.309087,12.881008
+422,"Hroznětín, U Budků",10949,2,555185,Hroznětín,Ostrov,Karlovy Vary,50.308931,12.880976
+423,"Hroznětín, Velký Rybník",10960,1,555185,Hroznětín,Ostrov,Karlovy Vary,50.287788,12.865815
+424,"Hroznětín, Velký Rybník",10960,2,555185,Hroznětín,Ostrov,Karlovy Vary,50.287701,12.86566
+425,"Hroznětín, žel. zast.",10954,1,555185,Hroznětín,Ostrov,Karlovy Vary,50.313913,12.860246
+426,"Hroznětín, žel. zast.",10954,2,555185,Hroznětín,Ostrov,Karlovy Vary,50.313492,12.861045
+427,"Cheb, 6. ZŠ",11436,1,554481,Cheb,Cheb,Cheb,50.072706,12.375557
+428,"Cheb, aut. nádr.",11437,3,554481,Cheb,Cheb,Cheb,50.074926,12.379793
+429,"Cheb, aut. nádr.",11437,4,554481,Cheb,Cheb,Cheb,50.074833,12.379897
+430,"Cheb, aut. nádr.",11437,5,554481,Cheb,Cheb,Cheb,50.074681,12.379965
+431,"Cheb, aut. nádr.",11437,6,554481,Cheb,Cheb,Cheb,50.074545,12.379925
+432,"Cheb, aut. nádr.",11437,7,554481,Cheb,Cheb,Cheb,50.074361,12.379851
+433,"Cheb, aut. nádr.",11437,8,554481,Cheb,Cheb,Cheb,50.074288,12.379723
+434,"Cheb, aut. nádr.",11437,9,554481,Cheb,Cheb,Cheb,50.074212,12.379472
+435,"Cheb, aut. nádr.",11437,1,554481,Cheb,Cheb,Cheb,50.07502,12.379328
+436,"Cheb, aut. nádr.",11437,2,554481,Cheb,Cheb,Cheb,50.07498,12.379542
+437,"Cheb, aut. nádr.",11437,10,554481,Cheb,Cheb,Cheb,50.074233,12.379223
+438,"Cheb, Cetnov, rozc.",11453,1,554481,Cheb,Cheb,Cheb,50.097479,12.320345
+439,"Cheb, Cetnov, rozc.",11453,2,554481,Cheb,Cheb,Cheb,50.097611,12.319651
+440,"Cheb, Dolní Dvory",11454,1,554481,Cheb,Cheb,Cheb,50.084824,12.415993
+441,"Cheb, Havlíčkova",45870,1,554481,Cheb,Cheb,Cheb,50.083642,12.368047
+442,"Cheb, Havlíčkova",45870,2,554481,Cheb,Cheb,Cheb,50.083518,12.368021
+443,"Cheb, Horní Dvory",11455,1,554481,Cheb,Cheb,Cheb,50.072618,12.402986
+444,"Cheb, Hradiště",45897,1,554481,Cheb,Cheb,Cheb,50.088732,12.394948
+445,"Cheb, Hradiště",45897,2,554481,Cheb,Cheb,Cheb,50.088989,12.394956
+446,"Cheb, Hrozňatov, cihelna",11456,2,554481,Cheb,Cheb,Cheb,50.033054,12.415321
+447,"Cheb, Hrozňatov, cihelna",11456,1,554481,Cheb,Cheb,Cheb,50.042103,12.402863
+448,"Cheb, Chvoječná",11457,2,554481,Cheb,Cheb,Cheb,50.103557,12.43012
+449,"Cheb, Chvoječná",11457,1,554481,Cheb,Cheb,Cheb,50.103655,12.430031
+450,"Cheb, Karlovarská",11438,1,554481,Cheb,Cheb,Cheb,50.08502,12.400014
+451,"Cheb, Karlovarská",11438,2,554481,Cheb,Cheb,Cheb,50.085159,12.399792
+452,"Cheb, Kasární nám.",45872,1,554481,Cheb,Cheb,Cheb,50.081398,12.372715
+453,"Cheb, Kasární nám.",45872,2,554481,Cheb,Cheb,Cheb,50.081278,12.372648
+454,"Cheb, Klest",11458,2,554481,Cheb,Cheb,Cheb,50.103142,12.324278
+455,"Cheb, Klest",11458,1,554481,Cheb,Cheb,Cheb,50.103119,12.324749
+456,"Cheb, Komorní Dvůr",47841,1,554481,Cheb,Cheb,Cheb,50.098701,12.340153
+457,"Cheb, Komorní Dvůr",47841,2,554481,Cheb,Cheb,Cheb,50.098869,12.339569
+458,"Cheb, křiž.",11441,1,554481,Cheb,Cheb,Cheb,50.076256,12.374355
+459,"Cheb, křiž.",11441,2,554481,Cheb,Cheb,Cheb,50.076343,12.374175
+460,"Cheb, křiž.",11441,3,554481,Cheb,Cheb,Cheb,50.076436,12.373987
+461,"Cheb, křiž.",11441,4,554481,Cheb,Cheb,Cheb,50.076525,12.373815
+462,"Cheb, křiž.",11441,5,554481,Cheb,Cheb,Cheb,50.076781,12.374997
+463,"Cheb, křiž.",11441,6,554481,Cheb,Cheb,Cheb,50.076796,12.373514
+464,"Cheb, Loužek",11459,2,554481,Cheb,Cheb,Cheb,50.10458,12.451161
+465,"Cheb, Loužek",11459,1,554481,Cheb,Cheb,Cheb,50.104482,12.450984
+466,"Cheb, Maškov",11460,1,554481,Cheb,Cheb,Cheb,50.075705,12.391887
+467,"Cheb, Maškov",11460,2,554481,Cheb,Cheb,Cheb,50.076002,12.391544
+468,"Cheb, Městské sady",45874,1,554481,Cheb,Cheb,Cheb,50.075218,12.368383
+469,"Cheb, Městské sady",45874,2,554481,Cheb,Cheb,Cheb,50.075406,12.368246
+470,"Cheb, Městské sady",45874,3,554481,Cheb,Cheb,Cheb,50.075399,12.36808
+471,"Cheb, Pivovarská Obchodní centrum",55571,1,554481,Cheb,Cheb,Cheb,50.077187,12.380304
+472,"Cheb, Pivovarská Obchodní centrum",55571,2,554481,Cheb,Cheb,Cheb,50.077343,12.379988
+473,"Cheb, plynárna",11443,1,554481,Cheb,Cheb,Cheb,50.08135,12.375883
+474,"Cheb, plynárna",11443,2,554481,Cheb,Cheb,Cheb,50.082294,12.374722
+475,"Cheb, Podhrad, domky",11462,2,554481,Cheb,Cheb,Cheb,50.050038,12.393963
+476,"Cheb, Podhrad, domky",11462,1,554481,Cheb,Cheb,Cheb,50.050408,12.394038
+477,"Cheb, Podhrad, Chebská",11463,1,554481,Cheb,Cheb,Cheb,50.060053,12.393266
+478,"Cheb, Podhrad, Chebská",11463,2,554481,Cheb,Cheb,Cheb,50.059296,12.394606
+479,"Cheb, Podhrad, most",11464,1,554481,Cheb,Cheb,Cheb,50.046033,12.391976
+480,"Cheb, Podhrad, točna",11461,1,554481,Cheb,Cheb,Cheb,50.055027,12.39643
+481,"Cheb, Podhrad, točna",11461,2,554481,Cheb,Cheb,Cheb,50.054883,12.396466
+482,"Cheb, Podhrad, Všeboř",11465,1,554481,Cheb,Cheb,Cheb,50.042748,12.409063
+483,"Cheb, Podhrad, Všeboř",11465,2,554481,Cheb,Cheb,Cheb,50.042756,12.408812
+484,"Cheb, Podhrad, Všeboř rozc.",11466,2,554481,Cheb,Cheb,Cheb,50.042103,12.402863
+485,"Cheb, Podhrad, Všeboř rozc.",11466,1,554481,Cheb,Cheb,Cheb,50.041474,12.403402
+486,"Cheb, Podhradská",11444,1,554481,Cheb,Cheb,Cheb,50.064442,12.385566
+487,"Cheb, Podhradská",11444,2,554481,Cheb,Cheb,Cheb,50.064701,12.385517
+488,"Cheb, Podhradská depo rozc.",11446,1,554481,Cheb,Cheb,Cheb,50.067989,12.38734
+489,"Cheb, Průmyslový park I",55632,2,554481,Cheb,Cheb,Cheb,50.086839,12.416522
+490,"Cheb, Průmyslový park I",54531,1,554481,Cheb,Cheb,Cheb,50.086524,12.410553
+491,"Cheb, Průmyslový park II",55632,1,554481,Cheb,Cheb,Cheb,50.08666,12.41631
+492,"Cheb, Průmyslový park II",54531,2,554481,Cheb,Cheb,Cheb,50.086734,12.411031
+493,"Cheb, Průmyslový park K Hradišti",64981,1,554481,Cheb,Cheb,Cheb,50.091236,12.406729
+494,"Cheb, Průmyslový park K Hradišti",64981,2,554481,Cheb,Cheb,Cheb,50.090551,12.406787
+495,"Cheb, Průmyslový park Podnikatelská",11451,1,554481,Cheb,Cheb,Cheb,50.084895,12.405823
+496,"Cheb, Průmyslový park Podnikatelská",11451,2,554481,Cheb,Cheb,Cheb,50.085087,12.405717
+497,"Cheb, Skalka nádrž",11445,1,554481,Cheb,Cheb,Cheb,50.093458,12.338059
+498,"Cheb, Skalka nádrž",11445,2,554481,Cheb,Cheb,Cheb,50.093536,12.33809
+499,"Cheb, Střížov",11467,1,554481,Cheb,Cheb,Cheb,50.105984,12.364898
+500,"Cheb, Střížov",11467,2,554481,Cheb,Cheb,Cheb,50.105684,12.365108
+501,"Cheb, Švédský vrch",11447,1,554481,Cheb,Cheb,Cheb,50.07222,12.387422
+502,"Cheb, Švédský vrch",11447,2,554481,Cheb,Cheb,Cheb,50.073075,12.387437
+503,"Cheb, Tyršova",11448,1,554481,Cheb,Cheb,Cheb,50.089066,12.366056
+504,"Cheb, Tyršova",11448,2,554481,Cheb,Cheb,Cheb,50.088749,12.364999
+505,"Cheb, Zlatý vrch",11452,1,554481,Cheb,Cheb,Cheb,50.09108,12.370928
+506,"Cheb, Zlatý vrch",11452,2,554481,Cheb,Cheb,Cheb,50.09081,12.37053
+507,Chlum Svaté Maří,11525,1,560375,Chlum Svaté Maří,Sokolov,Sokolov,50.151913,12.532332
+508,Chlum Svaté Maří,11525,2,560375,Chlum Svaté Maří,Sokolov,Sokolov,50.151876,12.531809
+509,"Chodov, aut. nádr.",11637,1,560383,Chodov,Sokolov,Sokolov,50.238177,12.74452
+510,"Chodov, aut. nádr.",11637,5,560383,Chodov,Sokolov,Sokolov,50.237801,12.743811
+511,"Chodov, aut. nádr.",11637,6,560383,Chodov,Sokolov,Sokolov,50.237935,12.743638
+512,"Chodov, aut. nádr.",11637,3,560383,Chodov,Sokolov,Sokolov,50.237915,12.74422
+513,"Chodov, aut. nádr.",11637,4,560383,Chodov,Sokolov,Sokolov,50.237794,12.744036
+514,"Chodov, aut. nádr.",11637,2,560383,Chodov,Sokolov,Sokolov,50.238047,12.744369
+515,"Chodov, aut. nádr.",11637,7,560383,Chodov,Sokolov,Sokolov,50.238356,12.744298
+516,"Chodov, host.",46967,2,560383,Chodov,Sokolov,Sokolov,50.069443,12.862738
+517,"Chodov, host.",46967,1,560383,Chodov,Sokolov,Sokolov,50.069488,12.862812
+518,"Chodov, Chodos",11638,1,560383,Chodov,Sokolov,Sokolov,50.247711,12.759979
+519,"Chodov, Chodos",11638,2,560383,Chodov,Sokolov,Sokolov,50.247653,12.760317
+520,"Chodov, Chranišov, osada",11645,1,560383,Chodov,Sokolov,Sokolov,50.230919,12.731914
+521,"Chodov, Chranišov, osada",11645,2,560383,Chodov,Sokolov,Sokolov,50.231174,12.73102
+522,"Chodov, Horní",11639,2,560383,Chodov,Sokolov,Sokolov,50.228363,12.745402
+523,"Chodov, Horní",11639,1,560383,Chodov,Sokolov,Sokolov,50.228692,12.745621
+524,"Chodov, Nová Chodovská",11646,2,560383,Chodov,Sokolov,Sokolov,50.249202,12.723123
+525,"Chodov, Nová Chodovská",11646,1,560383,Chodov,Sokolov,Sokolov,50.249279,12.723171
+526,"Chodov, polesí",46968,2,560383,Chodov,Sokolov,Sokolov,50.074192,12.852401
+527,"Chodov, polesí",46968,1,560383,Chodov,Sokolov,Sokolov,50.074242,12.852384
+528,"Chodov, rozc. Vintířov",68450,1,560383,Chodov,Sokolov,Sokolov,50.233369,12.745751
+529,"Chodov, rozc. Vintířov",68450,2,560383,Chodov,Sokolov,Sokolov,50.233334,12.746086
+530,"Chodov, sídliště",11641,1,560383,Chodov,Sokolov,Sokolov,50.243203,12.744199
+531,"Chodov, sídliště",11641,2,560383,Chodov,Sokolov,Sokolov,50.242934,12.744661
+532,"Chodov, SKF",63543,1,560383,Chodov,Sokolov,Sokolov,50.232496,12.740246
+533,"Chodov, SKF",63543,2,560383,Chodov,Sokolov,Sokolov,50.232609,12.739953
+534,"Chodov, Stará Chodovská",11647,4,560383,Chodov,Sokolov,Sokolov,50.252327,12.72373
+535,"Chodov, Stará Chodovská",11647,3,560383,Chodov,Sokolov,Sokolov,50.252271,12.723859
+536,"Chodov, Stará Chodovská",11647,1,560383,Chodov,Sokolov,Sokolov,50.252686,12.72431
+537,"Chodov, Stará Chodovská",11647,2,560383,Chodov,Sokolov,Sokolov,50.252907,12.723858
+538,"Chodov, u koupaliště",68242,1,560383,Chodov,Sokolov,Sokolov,50.245475,12.742041
+539,"Chodov, u koupaliště",68242,2,560383,Chodov,Sokolov,Sokolov,50.245864,12.741869
+540,"Chodov, záv. klub",11643,1,560383,Chodov,Sokolov,Sokolov,50.234192,12.747125
+541,"Chodov, záv. klub",11643,2,560383,Chodov,Sokolov,Sokolov,50.233807,12.746839
+542,"Chotěnov-Skláře, Chotěnov, rozc.",11798,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.933758,12.712306
+543,"Chotěnov-Skláře, Chotěnov, rozc.",11798,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.933792,12.712409
+544,"Chotěnov-Skláře, Skláře",11799,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.927968,12.714679
+545,"Chotěnov-Skláře, Skláře",11799,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.929185,12.714693
+546,"Chyše, nám.",12272,1,555207,Chyše,Karlovy Vary,Karlovy Vary,50.104942,13.248905
+547,"Chyše, nám.",12272,2,555207,Chyše,Karlovy Vary,Karlovy Vary,50.104731,13.249045
+548,"Chyše, Nové Teplice, rozc.",12277,1,555207,Chyše,Karlovy Vary,Karlovy Vary,50.128512,13.236328
+549,"Chyše, Nové Teplice, rozc.",12277,2,555207,Chyše,Karlovy Vary,Karlovy Vary,50.128484,13.236184
+550,"Chyše, Podštěly",46975,1,555207,Chyše,Karlovy Vary,Karlovy Vary,50.118466,13.265158
+551,"Jáchymov, Abertamská zatáčka",53605,3,555215,Jáchymov,Ostrov,Karlovy Vary,50.388297,12.902152
+552,"Jáchymov, Abertamská zatáčka",53605,4,555215,Jáchymov,Ostrov,Karlovy Vary,50.388425,12.901875
+553,"Jáchymov, Abertamská zatáčka",53605,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.388602,12.903607
+554,"Jáchymov, Abertamská zatáčka",53605,2,555215,Jáchymov,Ostrov,Karlovy Vary,50.388669,12.902831
+555,"Jáchymov, Curie",56668,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.362556,12.933522
+556,"Jáchymov, Fibichova",56669,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.358566,12.940128
+557,"Jáchymov, Kulturní dům",56666,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.362404,12.933599
+558,"Jáchymov, lázně",12544,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.361553,12.933666
+559,"Jáchymov, lázně",12544,2,555215,Jáchymov,Ostrov,Karlovy Vary,50.361363,12.933687
+560,"Jáchymov, Mariánská",12549,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.355789,12.893685
+561,"Jáchymov, Mariánská",12549,2,555215,Jáchymov,Ostrov,Karlovy Vary,50.355687,12.893511
+562,"Jáchymov, Mariánská, rozc.",12543,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.386931,12.902307
+563,"Jáchymov, Mariánská, rozc.",12543,2,555215,Jáchymov,Ostrov,Karlovy Vary,50.387169,12.902527
+564,"Jáchymov, Mariánská, rozc. Adam",12551,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.363823,12.898787
+565,"Jáchymov, Mariánská, rozc. Adam",12551,2,555215,Jáchymov,Ostrov,Karlovy Vary,50.363762,12.898906
+566,"Jáchymov, Mariánská, ÚSP",12550,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.357275,12.885498
+567,"Jáchymov, Nové Město",12552,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.368653,12.899572
+568,"Jáchymov, Nové Město",12552,2,555215,Jáchymov,Ostrov,Karlovy Vary,50.368637,12.899694
+569,"Jáchymov, Pod Panorámou",56670,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.359913,12.936444
+570,"Jáchymov, Pošta",56667,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.364559,12.934568
+571,"Jáchymov, radnice",12546,2,555215,Jáchymov,Ostrov,Karlovy Vary,50.371022,12.914312
+572,"Jáchymov, radnice",12546,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.371464,12.913997
+573,"Jáchymov, Slovany DPS",56663,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.366741,12.917908
+574,"Jáchymov, střed",12547,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.367513,12.918552
+575,"Jáchymov, střed",12547,2,555215,Jáchymov,Ostrov,Karlovy Vary,50.367263,12.918845
+576,"Jáchymov, škola",56665,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.363454,12.930118
+577,"Jáchymov, Žižkova rozc.",56664,1,555215,Jáchymov,Ostrov,Karlovy Vary,50.364262,12.92744
+578,"Jenišov, Globus",54793,1,537926,Jenišov,Karlovy Vary,Karlovy Vary,50.217823,12.806296
+579,"Jenišov, Globus",54793,2,537926,Jenišov,Karlovy Vary,Karlovy Vary,50.217716,12.806653
+580,"Jenišov, osada rozc.",12998,1,537926,Jenišov,Karlovy Vary,Karlovy Vary,50.238185,12.791716
+581,"Jenišov, osada rozc.",12998,2,537926,Jenišov,Karlovy Vary,Karlovy Vary,50.238303,12.79161
+582,"Jenišov, rozc.",12999,1,537926,Jenišov,Karlovy Vary,Karlovy Vary,50.223213,12.804363
+583,"Jenišov, rozc.",12999,2,537926,Jenišov,Karlovy Vary,Karlovy Vary,50.223129,12.803051
+584,"Jenišov, u kompostárny",53552,1,537926,Jenišov,Karlovy Vary,Karlovy Vary,50.222475,12.805466
+585,"Jenišov, u kompostárny",53552,2,537926,Jenišov,Karlovy Vary,Karlovy Vary,50.222281,12.805924
+586,Jindřichovice,13396,1,560413,Jindřichovice,Kraslice,Sokolov,50.28123,12.605822
+587,Jindřichovice,13396,2,560413,Jindřichovice,Kraslice,Sokolov,50.281671,12.605198
+588,"Jindřichovice, Háj",13399,1,560413,Jindřichovice,Kraslice,Sokolov,50.252162,12.603531
+589,"Jindřichovice, Mezihorská",13397,2,560413,Jindřichovice,Kraslice,Sokolov,50.272339,12.628614
+590,"Jindřichovice, Mezihorská",13397,1,560413,Jindřichovice,Kraslice,Sokolov,50.272433,12.62868
+591,"Jindřichovice, Smrčina",13401,1,560413,Jindřichovice,Kraslice,Sokolov,50.286694,12.613454
+592,"Jindřichovice, Smrčina",13401,2,560413,Jindřichovice,Kraslice,Sokolov,50.286762,12.613437
+593,"Jindřichovice, u vysílače",13398,1,560413,Jindřichovice,Kraslice,Sokolov,50.27676,12.621297
+594,"Jindřichovice, u vysílače",13398,2,560413,Jindřichovice,Kraslice,Sokolov,50.277039,12.621056
+595,Josefov,13599,1,511587,Josefov,Sokolov,Sokolov,50.209633,12.580261
+596,Josefov,13599,2,511587,Josefov,Sokolov,Sokolov,50.209889,12.579723
+597,"Josefov, Radvanov",64338,1,511587,Josefov,Sokolov,Sokolov,50.197807,12.583666
+598,"Josefov, Radvanov",64338,2,511587,Josefov,Sokolov,Sokolov,50.197791,12.583459
+599,"Josefov, Radvanov, rozc.",13601,2,511587,Josefov,Sokolov,Sokolov,50.205685,12.585626
+600,"Josefov, Radvanov, rozc.",13601,1,511587,Josefov,Sokolov,Sokolov,50.205451,12.585716
+601,"Josefov, rozc.",13600,2,511587,Josefov,Sokolov,Sokolov,50.199185,12.592129
+602,"Josefov, rozc.",13600,1,511587,Josefov,Sokolov,Sokolov,50.199387,12.59182
+603,Kaceřov,13622,1,560421,Kaceřov,Sokolov,Sokolov,50.147049,12.508263
+604,Kaceřov,13622,2,560421,Kaceřov,Sokolov,Sokolov,50.146659,12.508188
+605,"Kaceřov, Horní Pochlovice",13624,1,560421,Kaceřov,Sokolov,Sokolov,50.138078,12.513138
+606,"Kaceřov, Horní Pochlovice",13624,2,560421,Kaceřov,Sokolov,Sokolov,50.138385,12.513124
+607,"Kaceřov, rozc.",13623,2,560421,Kaceřov,Sokolov,Sokolov,50.150643,12.509837
+608,"Kaceřov, rozc.",13623,1,560421,Kaceřov,Sokolov,Sokolov,50.150678,12.509707
+609,"Karlovy Vary, Bohatice, most",14041,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.237318,12.880631
+610,"Karlovy Vary, Bohatice, most",14041,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.237401,12.880098
+611,"Karlovy Vary, Černý kůň",50950,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.220893,12.890054
+612,"Karlovy Vary, Černý kůň",50950,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.221151,12.88951
+613,"Karlovy Vary, Dolní nádraží",57995,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229592,12.862954
+614,"Karlovy Vary, Dolní nádraží",57995,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229466,12.863279
+615,"Karlovy Vary, Dvory, Kpt. Jaroše",58020,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.225159,12.839629
+616,"Karlovy Vary, Dvory, Kpt. Jaroše",58020,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.225556,12.838588
+617,"Karlovy Vary, Dvory, KÚ",49321,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.218721,12.826833
+618,"Karlovy Vary, Dvory, KÚ",49321,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.21873,12.827018
+619,"Karlovy Vary, Dvory, V Aleji",58021,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.226521,12.821597
+620,"Karlovy Vary, Dvory, V Aleji",58021,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.226374,12.821731
+621,"Karlovy Vary, Elektrosvit",14042,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.244469,12.875406
+622,"Karlovy Vary, Elektrosvit",14042,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.244566,12.875267
+623,"Karlovy Vary, Elite",14050,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.233364,12.862233
+624,"Karlovy Vary, Elite",14050,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.233132,12.863144
+625,"Karlovy Vary, Fričova",47455,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.239128,12.870594
+626,"Karlovy Vary, Fričova",47455,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.238737,12.869988
+627,"Karlovy Vary, Gejzírpark",58041,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.21402,12.875713
+628,"Karlovy Vary, Gejzírpark",58041,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.213757,12.875759
+629,"Karlovy Vary, Hůrky",58047,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.220085,12.907101
+630,"Karlovy Vary, Hůrky",58047,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.220163,12.907047
+631,"Karlovy Vary, K Letišti",58048,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.218309,12.903228
+632,"Karlovy Vary, Krátká",14058,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.241027,12.838814
+633,"Karlovy Vary, Krátká",14058,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.241856,12.838429
+634,"Karlovy Vary, KV Arena",51867,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.22409,12.842546
+635,"Karlovy Vary, KV Arena",51867,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.223231,12.841712
+636,"Karlovy Vary, Libušina",47456,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.221266,12.888579
+637,"Karlovy Vary, Libušina",47456,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.221167,12.887863
+638,"Karlovy Vary, Mattoniho nábř.",6103,3,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.238716,12.888661
+639,"Karlovy Vary, Mattoniho nábř.",6103,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.239701,12.889396
+640,"Karlovy Vary, Mattoniho nábř.",6103,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.23984,12.88936
+641,"Karlovy Vary, Mlékárna",14039,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.234776,12.875984
+642,"Karlovy Vary, Mlékárna",14039,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.23489,12.875896
+643,"Karlovy Vary, Motýlek",58050,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.212509,12.904161
+644,"Karlovy Vary, Na Kopečku",58071,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.235959,12.836185
+645,"Karlovy Vary, Na Kopečku",58071,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.235794,12.836546
+646,"Karlovy Vary, Na Krachu",58051,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.209918,12.905952
+647,"Karlovy Vary, Na Krachu",58051,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.209694,12.905342
+648,"Karlovy Vary, Na Pražské",58072,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.21883,12.895256
+649,"Karlovy Vary, Na Vyhlídce",20553,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.22325,12.889065
+650,"Karlovy Vary, Na Vyhlídce",20553,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.223377,12.889286
+651,"Karlovy Vary, nemocnice",47457,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.231384,12.875466
+652,"Karlovy Vary, nemocnice",47457,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.231573,12.875506
+653,"Karlovy Vary, Olšová Vrata",58044,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.206783,12.919599
+654,"Karlovy Vary, Olšová Vrata, rozc.",14048,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.212452,12.920074
+655,"Karlovy Vary, Olšová Vrata, rozc.",14048,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.212234,12.919604
+656,"Karlovy Vary, Olšová Vrata, střed",58045,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.208116,12.9167
+657,"Karlovy Vary, Olšová Vrata, střed",58045,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.207722,12.917487
+658,"Karlovy Vary, Pivovar",14051,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.234107,12.855855
+659,"Karlovy Vary, Pivovar",14051,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.233912,12.856263
+660,"Karlovy Vary, Počernická",14056,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.236872,12.828055
+661,"Karlovy Vary, Počernická",14056,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.236791,12.82814
+662,"Karlovy Vary, Počerny",14049,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.236961,12.80851
+663,"Karlovy Vary, Počerny",14049,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.236164,12.808943
+664,"Karlovy Vary, Pod Hůrkami",58049,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.218953,12.901928
+665,"Karlovy Vary, Pod Hůrkami",58049,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.219936,12.900985
+666,"Karlovy Vary, Prašná",58003,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.237048,12.884002
+667,"Karlovy Vary, Prašná",58003,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.236341,12.882348
+668,"Karlovy Vary, Richmond",14029,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.216703,12.889337
+669,"Karlovy Vary, Richmond",14029,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.216651,12.889636
+670,"Karlovy Vary, Richmond",14029,3,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.217123,12.888816
+671,"Karlovy Vary, Richmond",14029,4,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.217327,12.888454
+672,"Karlovy Vary, rozc. u Koníčka",14052,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.233552,12.844986
+673,"Karlovy Vary, rozc. u Koníčka",14052,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.233316,12.845473
+674,"Karlovy Vary, Růžový Vrch",14032,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.235927,12.865036
+675,"Karlovy Vary, Růžový Vrch",14032,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.235751,12.865179
+676,"Karlovy Vary, Rybáře, Sokolovská",66982,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.234134,12.853745
+677,"Karlovy Vary, Sanssouci",47458,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.219361,12.89005
+678,"Karlovy Vary, Sanssouci",47458,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.219587,12.889969
+679,"Karlovy Vary, Sedlec",14054,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.245598,12.862547
+680,"Karlovy Vary, Sedlec",14054,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.245702,12.862553
+681,"Karlovy Vary, Sklářská",14053,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229014,12.836208
+682,"Karlovy Vary, Sklářská",14053,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229012,12.835471
+683,"Karlovy Vary, Stará Role, Letná",14055,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.253344,12.827453
+684,"Karlovy Vary, Stará Role, Letná",14055,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.254105,12.826503
+685,"Karlovy Vary, Stará Role, Svobodova",49069,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.242408,12.828557
+686,"Karlovy Vary, Stará Role, Svobodova",49069,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.242563,12.828732
+687,"Karlovy Vary, Stará Role, u lékárny",14057,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.245484,12.8312
+688,"Karlovy Vary, Stará Role, u lékárny",14057,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.245552,12.830801
+689,"Karlovy Vary, Svatošská",14043,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.208939,12.826268
+690,"Karlovy Vary, Svatošská",14043,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.209258,12.826274
+691,"Karlovy Vary, Sv. Hubert",14034,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.237396,12.928032
+692,"Karlovy Vary, Sv. Hubert",14034,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.237419,12.928149
+693,"Karlovy Vary, Sv. Hubert chaty",14035,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.240052,12.917547
+694,"Karlovy Vary, Sv. Hubert chaty",14035,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.240128,12.917384
+695,"Karlovy Vary, Šumavská",57993,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.22672,12.852282
+696,"Karlovy Vary, Švermův dům",14037,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.238445,12.909613
+697,"Karlovy Vary, Švermův dům",14037,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.238441,12.909456
+698,"Karlovy Vary, Švýcarský dvůr",58073,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.218617,12.889009
+699,"Karlovy Vary, terminál",14038,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229962,12.864236
+700,"Karlovy Vary, terminál",14038,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229913,12.863658
+701,"Karlovy Vary, terminál",14038,3,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229891,12.863409
+702,"Karlovy Vary, terminál",14038,4,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229864,12.863164
+703,"Karlovy Vary, terminál",14038,5,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229841,12.862909
+704,"Karlovy Vary, terminál",14038,6,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229817,12.862661
+705,"Karlovy Vary, terminál",14038,7,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229853,12.863544
+706,"Karlovy Vary, terminál",14038,8,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229826,12.863237
+707,"Karlovy Vary, terminál",14038,9,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229803,12.862995
+708,"Karlovy Vary, terminál",14038,10,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229781,12.862745
+709,"Karlovy Vary, terminál",14038,11,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229793,12.862411
+710,"Karlovy Vary, terminál",14038,12,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.230047,12.863981
+711,"Karlovy Vary, terminál",14038,13,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.230006,12.863566
+712,"Karlovy Vary, terminál",14038,14,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229987,12.863333
+713,"Karlovy Vary, terminál",14038,15,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229966,12.863109
+714,"Karlovy Vary, terminál",14038,16,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229945,12.86289
+715,"Karlovy Vary, terminál",14038,17,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229909,12.8625
+716,"Karlovy Vary, terminál",14038,18,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.229886,12.862279
+717,"Karlovy Vary, terminál",14038,19,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.230148,12.86483
+718,"Karlovy Vary, terminál",14038,20,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.22989,12.864781
+719,"Karlovy Vary, tržnice",45962,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.231037,12.869706
+720,"Karlovy Vary, tržnice",45962,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.230943,12.869989
+721,"Karlovy Vary, tržnice",45962,3,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.230881,12.870497
+722,"Karlovy Vary, U Hájovny",58065,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.215308,12.911779
+723,"Karlovy Vary, U Hájovny",58065,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.215351,12.911926
+724,"Karlovy Vary, U Jara",26215,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.227914,12.88187
+725,"Karlovy Vary, U Jara",26215,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.228269,12.88194
+726,"Karlovy Vary, Vítkova hora",58064,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.204238,12.90178
+727,"Karlovy Vary, Vítkova hora",58064,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.205686,12.900098
+728,"Karlovy Vary, U Zámečku",51633,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.212517,12.825719
+729,"Karlovy Vary, U Zámečku",51633,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.212528,12.82606
+730,"Karlovy Vary, Drahovice, Východní",58001,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.236536,12.893187
+731,"Karlovy Vary, Drahovice, Východní",58001,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.236736,12.892755
+732,"Karlovy Vary, Stará Role, Okružní",49788,1,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.238258,12.838161
+733,"Karlovy Vary, Stará Role, Okružní",49788,2,554961,Karlovy Vary,Karlovy Vary,Karlovy Vary,50.237866,12.83773
+734,Kolová,15087,1,555258,Kolová,Karlovy Vary,Karlovy Vary,50.183353,12.899143
+735,Kolová,15087,2,555258,Kolová,Karlovy Vary,Karlovy Vary,50.183282,12.899429
+736,"Kolová, Háje",15090,1,555258,Kolová,Karlovy Vary,Karlovy Vary,50.18557,12.880813
+737,"Kolová, Háje",15090,2,555258,Kolová,Karlovy Vary,Karlovy Vary,50.185501,12.880334
+738,"Kolová, Háje, Senhof",52310,1,555258,Kolová,Karlovy Vary,Karlovy Vary,50.189228,12.885313
+739,"Kolová, Háje, Senhof",52310,2,555258,Kolová,Karlovy Vary,Karlovy Vary,50.189344,12.884803
+740,"Kolová, ObÚ",15089,1,555258,Kolová,Karlovy Vary,Karlovy Vary,50.187446,12.90394
+741,"Kolová, ObÚ",15089,2,555258,Kolová,Karlovy Vary,Karlovy Vary,50.189695,12.905279
+742,"Kolová, střed",62857,1,555258,Kolová,Karlovy Vary,Karlovy Vary,50.184891,12.900993
+743,"Kolová, střed",62857,2,555258,Kolová,Karlovy Vary,Karlovy Vary,50.183827,12.900356
+744,"Krajková, Anenská Ves",15951,1,560456,Krajková,Sokolov,Sokolov,50.205128,12.551143
+745,"Krajková, Anenská Ves",15951,2,560456,Krajková,Sokolov,Sokolov,50.205225,12.551179
+746,"Krajková, Anenská Ves, rest.",15952,1,560456,Krajková,Sokolov,Sokolov,50.201369,12.553627
+747,"Krajková, Anenská Ves, rest.",15952,2,560456,Krajková,Sokolov,Sokolov,50.201458,12.553695
+748,"Krajková, hotel Lípa",15948,1,560456,Krajková,Sokolov,Sokolov,50.213692,12.544064
+749,"Krajková, hotel Lípa",15948,2,560456,Krajková,Sokolov,Sokolov,50.21366,12.543929
+750,"Krajková, Hřebeny, rozc.",15953,2,560456,Krajková,Sokolov,Sokolov,50.21339,12.57475
+751,"Krajková, Hřebeny, rozc.",15953,1,560456,Krajková,Sokolov,Sokolov,50.213568,12.57489
+752,"Krajková, Květná",15954,1,560456,Krajková,Sokolov,Sokolov,50.204231,12.516485
+753,"Krajková, Leopoldovy Hamry, rozc.",15955,1,560456,Krajková,Sokolov,Sokolov,50.221634,12.521115
+754,"Krajková, Leopoldovy Hamry, rozc.",15955,2,560456,Krajková,Sokolov,Sokolov,50.221538,12.520989
+755,"Krajková, Libnov",15956,2,560456,Krajková,Sokolov,Sokolov,50.228956,12.526923
+756,"Krajková, Libnov",15956,1,560456,Krajková,Sokolov,Sokolov,50.228857,12.526784
+757,"Krajková, nám.",15949,1,560456,Krajková,Sokolov,Sokolov,50.215841,12.538116
+758,"Krajková, nám.",15949,2,560456,Krajková,Sokolov,Sokolov,50.215651,12.538601
+759,"Krajková, sklárna",15950,1,560456,Krajková,Sokolov,Sokolov,50.217747,12.530314
+760,"Krajková, sklárna",15950,2,560456,Krajková,Sokolov,Sokolov,50.217687,12.530165
+761,"Královské Poříčí, kino",16100,1,560464,Královské Poříčí,Sokolov,Sokolov,50.187595,12.674533
+762,"Královské Poříčí, kino",16100,2,560464,Královské Poříčí,Sokolov,Sokolov,50.187809,12.67469
+763,"Královské Poříčí, sídliště",16101,1,560464,Královské Poříčí,Sokolov,Sokolov,50.194576,12.679786
+764,"Královské Poříčí, sídliště",16101,2,560464,Královské Poříčí,Sokolov,Sokolov,50.194888,12.679821
+765,"Kraslice, Amati 02",16204,2,560472,Kraslice,Kraslice,Sokolov,50.338421,12.506969
+766,"Kraslice, Amati 02",16204,1,560472,Kraslice,Kraslice,Sokolov,50.338389,12.506836
+767,"Kraslice, aut. st.",16196,1,560472,Kraslice,Kraslice,Sokolov,50.329929,12.504441
+768,"Kraslice, aut. st.",16196,2,560472,Kraslice,Kraslice,Sokolov,50.330024,12.504238
+769,"Kraslice, aut. st.",16196,3,560472,Kraslice,Kraslice,Sokolov,50.330123,12.504018
+770,"Kraslice, aut. st.",16196,4,560472,Kraslice,Kraslice,Sokolov,50.33022,12.503804
+771,"Kraslice, aut. st.",16196,5,560472,Kraslice,Kraslice,Sokolov,50.330319,12.503588
+772,"Kraslice, Čirá",16207,1,560472,Kraslice,Kraslice,Sokolov,50.293071,12.451144
+773,"Kraslice, Kostelní",16210,2,560472,Kraslice,Kraslice,Sokolov,50.302479,12.422826
+774,"Kraslice, Kostelní",16210,1,560472,Kraslice,Kraslice,Sokolov,50.302357,12.422826
+775,"Kraslice, Krajka",16205,1,560472,Kraslice,Kraslice,Sokolov,50.315989,12.520346
+776,"Kraslice, Krajka",16205,2,560472,Kraslice,Kraslice,Sokolov,50.315395,12.520376
+777,"Kraslice, Krásná, rozc.",16211,2,560472,Kraslice,Kraslice,Sokolov,50.32353,12.506607
+778,"Kraslice, Krásná, rozc.",16211,1,560472,Kraslice,Kraslice,Sokolov,50.323553,12.50637
+779,"Kraslice, město",51634,1,560472,Kraslice,Kraslice,Sokolov,50.328839,12.512043
+780,"Kraslice, město",51634,2,560472,Kraslice,Kraslice,Sokolov,50.328947,12.51177
+781,"Kraslice, Mlýnská",16213,2,560472,Kraslice,Kraslice,Sokolov,50.288374,12.48267
+782,"Kraslice, Mlýnská, rozc.",16214,2,560472,Kraslice,Kraslice,Sokolov,50.306225,12.478524
+783,"Kraslice, Mlýnská, rozc.",16214,1,560472,Kraslice,Kraslice,Sokolov,50.30624,12.478627
+784,"Kraslice, nem.",16198,1,560472,Kraslice,Kraslice,Sokolov,50.323223,12.517529
+785,"Kraslice, nem.",16198,2,560472,Kraslice,Kraslice,Sokolov,50.32422,12.516416
+786,"Kraslice, Počátky",16215,2,560472,Kraslice,Kraslice,Sokolov,50.3158,12.438601
+787,"Kraslice, Počátky",16215,1,560472,Kraslice,Kraslice,Sokolov,50.315798,12.438458
+788,"Kraslice, Počátky, škola",16216,1,560472,Kraslice,Kraslice,Sokolov,50.314559,12.424384
+789,"Kraslice, Počátky, škola",16216,2,560472,Kraslice,Kraslice,Sokolov,50.314404,12.424784
+790,"Kraslice, Polesí",16199,2,560472,Kraslice,Kraslice,Sokolov,50.323522,12.491355
+791,"Kraslice, Polesí",16199,1,560472,Kraslice,Kraslice,Sokolov,50.323671,12.490754
+792,"Kraslice, rest. U dvou lip",16200,1,560472,Kraslice,Kraslice,Sokolov,50.335349,12.520521
+793,"Kraslice, rest. U dvou lip",16200,2,560472,Kraslice,Kraslice,Sokolov,50.335412,12.520373
+794,"Kraslice, sever",16201,1,560472,Kraslice,Kraslice,Sokolov,50.333004,12.502543
+795,"Kraslice, sever",16201,2,560472,Kraslice,Kraslice,Sokolov,50.332954,12.50305
+796,"Kraslice, Sněžná",16217,1,560472,Kraslice,Kraslice,Sokolov,50.306828,12.492118
+797,"Kraslice, Sněžná, rozc.",16218,2,560472,Kraslice,Kraslice,Sokolov,50.309074,12.479991
+798,"Kraslice, Sněžná, rozc.",16218,1,560472,Kraslice,Kraslice,Sokolov,50.309016,12.480089
+799,"Kraslice, technické služby",16197,1,560472,Kraslice,Kraslice,Sokolov,50.343473,12.51997
+800,"Kraslice, technické služby",16197,2,560472,Kraslice,Kraslice,Sokolov,50.343337,12.519884
+801,"Kraslice, Tisová",16219,1,560472,Kraslice,Kraslice,Sokolov,50.348666,12.510231
+802,"Kraslice, Tisová",16219,2,560472,Kraslice,Kraslice,Sokolov,50.348709,12.510366
+803,"Kraslice, u Hrdličky",16202,2,560472,Kraslice,Kraslice,Sokolov,50.320467,12.469778
+804,"Kraslice, u Hrdličky",16202,1,560472,Kraslice,Kraslice,Sokolov,50.320518,12.469534
+805,"Kraslice, Wolkerova",16203,1,560472,Kraslice,Kraslice,Sokolov,50.34277,12.508099
+806,"Kraslice, Wolkerova",16203,2,560472,Kraslice,Kraslice,Sokolov,50.343123,12.508573
+807,"Kraslice, ZŠ Havlíčkova",58738,1,560472,Kraslice,Kraslice,Sokolov,50.331788,12.516354
+808,"Kraslice, Zátiší, rozc.",16220,2,560472,Kraslice,Kraslice,Sokolov,50.321796,12.499651
+809,"Kraslice, Zátiší, rozc.",16220,1,560472,Kraslice,Kraslice,Sokolov,50.321747,12.49958
+810,Krásná,43421,1,538795,Krásná,Aš,Cheb,50.2327,12.173578
+811,Krásná,43421,2,538795,Krásná,Aš,Cheb,50.232696,12.173227
+812,"Krásná, rozc.",46017,1,538795,Krásná,Aš,Cheb,50.238026,12.18545
+813,"Krásná, rozc.",46017,2,538795,Krásná,Aš,Cheb,50.238463,12.185351
+814,"Krásná, Větrov",16238,1,538795,Krásná,Aš,Cheb,50.245389,12.18258
+815,"Krásná, Větrov",16238,2,538795,Krásná,Aš,Cheb,50.245888,12.182344
+816,Krásné Údolí,16290,1,555304,Krásné Údolí,Karlovy Vary,Karlovy Vary,50.072515,12.920926
+817,Krásné Údolí,16290,2,555304,Krásné Údolí,Karlovy Vary,Karlovy Vary,50.072679,12.920855
+818,Krásné Údolí,16290,3,555304,Krásné Údolí,Karlovy Vary,Karlovy Vary,50.073042,12.921696
+819,Krásné Údolí,16290,4,555304,Krásné Údolí,Karlovy Vary,Karlovy Vary,50.072966,12.921282
+820,"Krásné Údolí, Odolenovice",16291,1,555304,Krásné Údolí,Karlovy Vary,Karlovy Vary,50.082427,12.922385
+821,"Krásné Údolí, Odolenovice",16291,2,555304,Krásné Údolí,Karlovy Vary,Karlovy Vary,50.08245,12.922544
+822,Krásno,16295,1,538337,Krásno,Sokolov,Sokolov,50.109477,12.79079
+823,Krásno,16295,2,538337,Krásno,Sokolov,Sokolov,50.109392,12.791298
+824,"Krásno, Dolní Hluboká, rozc.",9936,1,538337,Krásno,Sokolov,Sokolov,50.096067,12.833513
+825,"Krásno, Dolní Hluboká, rozc.",9936,2,538337,Krásno,Sokolov,Sokolov,50.096,12.833417
+826,"Krásno, Háje",49795,1,538337,Krásno,Sokolov,Sokolov,50.114825,12.816918
+827,"Krásno, Hornické muzeum",16298,2,538337,Krásno,Sokolov,Sokolov,50.116336,12.796057
+828,"Krásno, Hornické muzeum",16298,1,538337,Krásno,Sokolov,Sokolov,50.116407,12.796189
+829,"Krásno, rozc.",16297,1,538337,Krásno,Sokolov,Sokolov,50.114161,12.792412
+830,"Krásno, rozc.",16297,2,538337,Krásno,Sokolov,Sokolov,50.112821,12.792291
+831,"Krásno, rozc. Háje",9937,2,538337,Krásno,Sokolov,Sokolov,50.11832,12.802174
+832,"Krásno, rozc. Háje",9937,1,538337,Krásno,Sokolov,Sokolov,50.118266,12.802081
+833,Krásný Les,16314,1,578045,Krásný Les,Ostrov,Karlovy Vary,50.345768,13.001868
+834,"Krásný Les, Damice",16315,1,578045,Krásný Les,Ostrov,Karlovy Vary,50.33087,13.012326
+835,"Krásný Les, Horní Hrad, rozc.",16316,1,578045,Krásný Les,Ostrov,Karlovy Vary,50.335609,13.029065
+836,"Krásný Les, Horní Hrad, rozc.",16316,2,578045,Krásný Les,Ostrov,Karlovy Vary,50.336806,13.029018
+837,Křižovatka,16931,1,554596,Křižovatka,Cheb,Cheb,50.195255,12.391522
+838,Křižovatka,16931,2,554596,Křižovatka,Cheb,Cheb,50.195416,12.391548
+839,Křižovatka,16931,3,554596,Křižovatka,Cheb,Cheb,50.196571,12.388989
+840,Křižovatka,16931,4,554596,Křižovatka,Cheb,Cheb,50.196458,12.38904
+841,"Křižovatka, Nová Ves",16932,1,554596,Křižovatka,Cheb,Cheb,50.177639,12.418721
+842,"Kynšperk n. Ohří, aut. st.",17329,1,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.117863,12.530629
+843,"Kynšperk n. Ohří, Dom. důch.",17330,1,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.126669,12.516637
+844,"Kynšperk n. Ohří, Dom. důch.",17330,2,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.126829,12.516573
+845,"Kynšperk n. Ohří, Chotíkov",17333,1,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.119417,12.504734
+846,"Kynšperk n. Ohří, Kamenný Dvůr",17334,1,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.103645,12.53412
+847,"Kynšperk n. Ohří, Kamenný Dvůr",17334,2,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.103832,12.534538
+848,"Kynšperk n. Ohří, Kamenný Dvůr",17334,3,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.105058,12.533406
+849,"Kynšperk n. Ohří, Kamenný Dvůr",17334,4,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.105311,12.533748
+850,"Kynšperk n. Ohří, Kamenný Dvůr, Podlesí",67037,1,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.102672,12.547215
+851,"Kynšperk n. Ohří, Kolová",49124,1,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.114193,12.553041
+852,"Kynšperk n. Ohří, Kolová",49124,2,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.11405,12.553016
+853,"Kynšperk n. Ohří, Liboc",47391,1,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.120651,12.516163
+854,"Kynšperk n. Ohří, Liboc",47391,2,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.120586,12.516386
+855,"Kynšperk n. Ohří, Pochlovice",17335,1,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.126335,12.524555
+856,"Kynšperk n. Ohří, Pochlovice",17335,2,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.126434,12.524521
+857,"Kynšperk n. Ohří, U pivovaru",17332,1,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.123823,12.531261
+858,"Kynšperk n. Ohří, U pivovaru",17332,2,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.123976,12.530866
+859,"Kynšperk n. Ohří, Zlatá",17336,1,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.108311,12.559957
+860,"Kynšperk n. Ohří, Zlatá",17336,2,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.108517,12.560587
+861,"Kynšperk n. Ohří, Zlatá, obec",53064,1,560499,Kynšperk nad Ohří,Sokolov,Sokolov,50.105484,12.559724
+862,Kyselka,17339,1,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.262622,12.999724
+863,Kyselka,17339,2,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.262194,13.000318
+864,Kyselka,17339,3,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.262853,12.999748
+865,Kyselka,17339,4,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.262953,12.999651
+866,"Kyselka, pila",17340,1,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.251544,12.989971
+867,"Kyselka, pila",17340,2,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.251246,12.989309
+868,"Kyselka, pošta",17341,1,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.259668,13.000014
+869,"Kyselka, pošta",17341,2,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.25985,13.000037
+870,"Kyselka, Radošov",17343,1,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.277228,12.993316
+871,"Kyselka, Radošov",17343,2,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.277415,12.992963
+872,"Kyselka, Radošov, Jednota",17344,1,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.271781,12.995274
+873,"Kyselka, Radošov, Jednota",17344,2,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.271748,12.995134
+874,"Kyselka, škola",17342,1,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.265488,12.995134
+875,"Kyselka, škola",17342,2,555347,Kyselka,Karlovy Vary,Karlovy Vary,50.265208,12.994921
+876,"Lázně Kynžvart, 5. května",17569,1,554600,Lázně Kynžvart,Mariánské Lázně,Cheb,50.004503,12.631647
+877,"Lázně Kynžvart, 5. května",17569,2,554600,Lázně Kynžvart,Mariánské Lázně,Cheb,50.004702,12.631671
+878,"Lázně Kynžvart, aut. st.",17567,1,554600,Lázně Kynžvart,Mariánské Lázně,Cheb,50.007637,12.627175
+879,"Lázně Kynžvart, Lazy",17572,1,554600,Lázně Kynžvart,Mariánské Lázně,Cheb,50.049128,12.63133
+880,"Lázně Kynžvart, Lískovec",17575,2,554600,Lázně Kynžvart,Mariánské Lázně,Cheb,49.987125,12.64234
+881,"Lázně Kynžvart, Lískovec",17575,1,554600,Lázně Kynžvart,Mariánské Lázně,Cheb,49.987219,12.642344
+882,"Lázně Kynžvart, navijárna",17568,2,554600,Lázně Kynžvart,Mariánské Lázně,Cheb,49.997833,12.625805
+883,"Lázně Kynžvart, navijárna",17568,1,554600,Lázně Kynžvart,Mariánské Lázně,Cheb,49.997801,12.625929
+884,"Lázně Kynžvart, zámek",17570,2,554600,Lázně Kynžvart,Mariánské Lázně,Cheb,50.003419,12.608411
+885,"Lázně Kynžvart, zámek",17570,1,554600,Lázně Kynžvart,Mariánské Lázně,Cheb,50.003502,12.608436
+886,"Lázně Kynžvart, žel. st.",17571,2,554600,Lázně Kynžvart,Mariánské Lázně,Cheb,49.997833,12.625805
+887,"Lázně Kynžvart, žel. st.",17571,1,554600,Lázně Kynžvart,Mariánské Lázně,Cheb,49.994928,12.615739
+888,"Libá, garáže",18108,2,554618,Libá,Cheb,Cheb,50.124909,12.238224
+889,"Libá, garáže",18108,1,554618,Libá,Cheb,Cheb,50.125022,12.237937
+890,"Libá, Hůrka",11219,2,554618,Libá,Cheb,Cheb,50.123962,12.258269
+891,"Libá, Hůrka",11219,1,554618,Libá,Cheb,Cheb,50.124039,12.258269
+892,"Libá, nám.",18109,2,554618,Libá,Cheb,Cheb,50.128414,12.230723
+893,"Libá, nám.",18109,1,554618,Libá,Cheb,Cheb,50.128326,12.230921
+894,Libavské Údolí,18117,1,560502,Libavské Údolí,Sokolov,Sokolov,50.130009,12.552461
+895,Libavské Údolí,18117,2,560502,Libavské Údolí,Sokolov,Sokolov,50.130234,12.552109
+896,Lipová,18639,1,554626,Lipová,Cheb,Cheb,50.036302,12.448329
+897,Lipová,18639,2,554626,Lipová,Cheb,Cheb,50.036435,12.448212
+898,"Lipová, Dolní Lažany",18640,1,554626,Lipová,Cheb,Cheb,50.033433,12.470431
+899,"Lipová, Dolní Lažany",18640,2,554626,Lipová,Cheb,Cheb,50.033544,12.470433
+900,"Lipová, Dolní Lipina",18641,1,554626,Lipová,Cheb,Cheb,50.037534,12.433327
+901,"Lipová, Dolní Lipina",18641,2,554626,Lipová,Cheb,Cheb,50.037609,12.433329
+902,"Lipová, Doubrava",18643,2,554626,Lipová,Cheb,Cheb,50.021245,12.453677
+903,"Lipová, Doubrava",18643,1,554626,Lipová,Cheb,Cheb,50.021126,12.453794
+904,"Lipová, Doubrava, žel. st.",18644,2,554626,Lipová,Cheb,Cheb,50.02927,12.457253
+905,"Lipová, Doubrava, žel. st.",18644,1,554626,Lipová,Cheb,Cheb,50.029356,12.45734
+906,"Lipová, Horní Lažany",18645,1,554626,Lipová,Cheb,Cheb,50.028259,12.477264
+907,"Lipová, Horní Lažany",18645,2,554626,Lipová,Cheb,Cheb,50.028249,12.477368
+908,"Lipová, Horní Lipina, rozc.",18642,2,554626,Lipová,Cheb,Cheb,50.021035,12.419562
+909,"Lipová, Horní Lipina, rozc.",18642,1,554626,Lipová,Cheb,Cheb,50.020899,12.419511
+910,"Lipová, Mýtina",18646,1,554626,Lipová,Cheb,Cheb,50.00378,12.443919
+911,"Lipová, Mýtina, Kozly",18647,2,554626,Lipová,Cheb,Cheb,50.021035,12.419562
+912,"Lipová, Mýtina, Kozly",18647,1,554626,Lipová,Cheb,Cheb,50.013853,12.423191
+913,"Lipová, Palič",18648,1,554626,Lipová,Cheb,Cheb,50.010156,12.479445
+914,Loket,19151,1,560537,Loket,Sokolov,Sokolov,50.188232,12.751347
+915,Loket,19151,2,560537,Loket,Sokolov,Sokolov,50.188138,12.751123
+916,"Loket, Buková",19159,1,560537,Loket,Sokolov,Sokolov,50.184225,12.76141
+917,"Loket, Buková",19159,2,560537,Loket,Sokolov,Sokolov,50.184162,12.761167
+918,"Loket, Epiag",19157,1,560537,Loket,Sokolov,Sokolov,50.188228,12.759242
+919,"Loket, Epiag",19157,2,560537,Loket,Sokolov,Sokolov,50.187853,12.759179
+920,"Loket, finské domky",19153,1,560537,Loket,Sokolov,Sokolov,50.196353,12.741796
+921,"Loket, finské domky",19153,2,560537,Loket,Sokolov,Sokolov,50.196833,12.741199
+922,"Loket, garáže",19154,1,560537,Loket,Sokolov,Sokolov,50.181421,12.764666
+923,"Loket, garáže",19154,2,560537,Loket,Sokolov,Sokolov,50.182133,12.764544
+924,"Loket, Nadlesí",19160,2,560537,Loket,Sokolov,Sokolov,50.158438,12.754825
+925,"Loket, Nadlesí",19160,1,560537,Loket,Sokolov,Sokolov,50.158475,12.754903
+926,"Loket, Nadlesí, pramen",19161,1,560537,Loket,Sokolov,Sokolov,50.159775,12.750572
+927,"Loket, předměstí",53545,1,560537,Loket,Sokolov,Sokolov,50.185479,12.760418
+928,"Loket, rozc. Goethe",47852,1,560537,Loket,Sokolov,Sokolov,50.187889,12.75589
+929,"Loket, rozc. Goethe",47852,2,560537,Loket,Sokolov,Sokolov,50.188122,12.756041
+930,"Loket, sídliště",47853,1,560537,Loket,Sokolov,Sokolov,50.192119,12.73944
+931,"Loket, sokolovna",19155,1,560537,Loket,Sokolov,Sokolov,50.192349,12.752824
+932,"Loket, sokolovna",19155,2,560537,Loket,Sokolov,Sokolov,50.192253,12.752993
+933,"Loket, Střelecká",19156,1,560537,Loket,Sokolov,Sokolov,50.189647,12.741921
+934,"Loket, Střelecká",19156,2,560537,Loket,Sokolov,Sokolov,50.189645,12.740046
+935,"Loket, Údolí",19162,1,560537,Loket,Sokolov,Sokolov,50.171181,12.772991
+936,"Loket, Údolí",19162,2,560537,Loket,Sokolov,Sokolov,50.171044,12.773287
+937,"Loket, žel. st.",19158,2,560537,Loket,Sokolov,Sokolov,50.190739,12.751409
+938,"Loket, žel. st.",19158,1,560537,Loket,Sokolov,Sokolov,50.191493,12.749469
+939,"Lomnice, lom",19206,1,560545,Lomnice,Sokolov,Sokolov,50.215811,12.640806
+940,"Lomnice, lom",19206,2,560545,Lomnice,Sokolov,Sokolov,50.214912,12.639466
+941,"Lomnice, rozc.",19208,1,560545,Lomnice,Sokolov,Sokolov,50.209394,12.634134
+942,"Lomnice, rozc.",19208,2,560545,Lomnice,Sokolov,Sokolov,50.209492,12.633904
+943,"Lomnice, u hřbitova",19209,1,560545,Lomnice,Sokolov,Sokolov,50.209871,12.628469
+944,"Lomnice, u hřbitova",19209,2,560545,Lomnice,Sokolov,Sokolov,50.209768,12.628286
+945,Luby,19525,2,554634,Luby,Cheb,Cheb,50.252562,12.4057
+946,Luby,19525,1,554634,Luby,Cheb,Cheb,50.252674,12.405721
+947,"Luby, Dolní Luby",19527,1,554634,Luby,Cheb,Cheb,50.239885,12.414118
+948,"Luby, Dolní Luby",19527,2,554634,Luby,Cheb,Cheb,50.240171,12.413748
+949,"Luby, školka",19526,1,554634,Luby,Cheb,Cheb,50.249104,12.410352
+950,"Luby, školka",19526,2,554634,Luby,Cheb,Cheb,50.248828,12.410397
+951,"Mariánské Lázně, 2. ZŠ",20416,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.972926,12.700931
+952,"Mariánské Lázně, 2. ZŠ",20416,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.972992,12.701375
+953,"Mariánské Lázně, aut. st.",20417,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.956795,12.696208
+954,"Mariánské Lázně, aut. st.",20417,3,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.956724,12.696447
+955,"Mariánské Lázně, aut. st.",20417,4,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.956639,12.696697
+956,"Mariánské Lázně, aut. st.",20417,5,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.956566,12.696918
+957,"Mariánské Lázně, aut. st.",20417,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.956864,12.695966
+958,"Mariánské Lázně, aut. st.",20417,6,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.957343,12.695047
+959,"Mariánské Lázně, aut. st.",20417,7,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.95697,12.695678
+960,"Mariánské Lázně, Cityservis",51114,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.972935,12.703488
+961,"Mariánské Lázně, Donbas",20419,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.981899,12.698415
+962,"Mariánské Lázně, Donbas",20419,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.981979,12.698504
+963,"Mariánské Lázně, Golf",20420,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.976365,12.736249
+964,"Mariánské Lázně, Golf",20420,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.976433,12.736144
+965,"Mariánské Lázně, Hamrníky",20424,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.948071,12.680601
+966,"Mariánské Lázně, Hamrníky",20424,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.94817,12.68039
+967,"Mariánské Lázně, hotel Excelsior",20421,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.973262,12.703206
+968,"Mariánské Lázně, Chebská",50545,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.964575,12.700049
+969,"Mariánské Lázně, Chebská",50545,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.964653,12.699221
+970,"Mariánské Lázně, Kladská",20425,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,50.025273,12.668024
+971,"Mariánské Lázně, Kladská",20425,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,50.025537,12.668264
+972,"Mariánské Lázně, Kladská, Mýtský rybník",20426,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,50.034343,12.691037
+973,"Mariánské Lázně, Kladská, Mýtský rybník",20426,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,50.034325,12.691651
+974,"Mariánské Lázně, Koliba lanovka",20427,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.974167,12.712979
+975,"Mariánské Lázně, Koliba lanovka",20427,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.974949,12.71271
+976,"Mariánské Lázně, Krakonoš",48974,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.972547,12.721648
+977,"Mariánské Lázně, Králův kámen háj.",20428,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,50.010681,12.681129
+978,"Mariánské Lázně, Králův kámen háj.",20428,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,50.010728,12.681287
+979,"Mariánské Lázně, Lunapark",20422,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.987887,12.69874
+980,"Mariánské Lázně, Lunapark",20422,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.987823,12.698621
+981,"Mariánské Lázně, tržnice",20423,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.964224,12.701095
+982,"Mariánské Lázně, tržnice",20423,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.962978,12.701102
+983,"Mariánské Lázně, Hamrníky, sádky",57429,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.952042,12.686562
+984,"Mariánské Lázně, Hamrníky, sádky",57429,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.951702,12.68615
+985,"Mariánské Lázně, Úšovice, dopravní podnik",51169,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.948741,12.710607
+986,"Mariánské Lázně, Úšovice, dopravní podnik",51169,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.948815,12.711268
+987,"Mariánské Lázně, Úšovice, dopravní podnik",51169,3,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.948759,12.711369
+988,"Mariánské Lázně, Úšovice, st. domy",20429,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.952066,12.703848
+989,"Mariánské Lázně, Úšovice, st. domy",20429,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.951138,12.704041
+990,"Mariánské Lázně, Úšovice, škola",20431,2,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.952279,12.708018
+991,"Mariánské Lázně, Úšovice, škola",20431,1,554642,Mariánské Lázně,Mariánské Lázně,Cheb,49.952284,12.707541
+992,"Merklín, nádr.",47886,1,555363,Merklín,Ostrov,Karlovy Vary,50.326866,12.864636
+993,"Merklín, nádr.",47886,2,555363,Merklín,Ostrov,Karlovy Vary,50.326843,12.864768
+994,"Merklín, náves",20745,1,555363,Merklín,Ostrov,Karlovy Vary,50.326631,12.862753
+995,"Merklín, náves",20745,2,555363,Merklín,Ostrov,Karlovy Vary,50.326601,12.862434
+996,"Merklín, náves",20745,3,555363,Merklín,Ostrov,Karlovy Vary,50.326794,12.86319
+997,"Merklín, náves",20745,4,555363,Merklín,Ostrov,Karlovy Vary,50.326596,12.863193
+998,"Merklín, ObÚ",20746,1,555363,Merklín,Ostrov,Karlovy Vary,50.329466,12.860081
+999,"Merklín, ObÚ",20746,2,555363,Merklín,Ostrov,Karlovy Vary,50.329429,12.859946
+1000,"Merklín, Papírny",20747,1,555363,Merklín,Ostrov,Karlovy Vary,50.336651,12.851543
+1001,"Merklín, Papírny",20747,2,555363,Merklín,Ostrov,Karlovy Vary,50.335434,12.852778
+1002,"Merklín, Pstruží, most",20748,1,555363,Merklín,Ostrov,Karlovy Vary,50.340944,12.837268
+1003,"Merklín, Pstruží, most",20748,2,555363,Merklín,Ostrov,Karlovy Vary,50.340631,12.837403
+1004,"Merklín, Pstruží, osada",20749,1,555363,Merklín,Ostrov,Karlovy Vary,50.339081,12.844641
+1005,"Merklín, Pstruží, osada",20749,2,555363,Merklín,Ostrov,Karlovy Vary,50.338968,12.844678
+1006,"Merklín, Pstruží, Papírny",20750,1,555363,Merklín,Ostrov,Karlovy Vary,50.344257,12.829345
+1007,"Merklín, Pstruží, Papírny",20750,2,555363,Merklín,Ostrov,Karlovy Vary,50.344206,12.82924
+1008,"Merklín, Pstruží, rest.",20751,1,555363,Merklín,Ostrov,Karlovy Vary,50.346882,12.823494
+1009,"Merklín, Pstruží, rest.",20751,2,555363,Merklín,Ostrov,Karlovy Vary,50.346935,12.823063
+1010,Milhostov,21113,2,554651,Milhostov,Cheb,Cheb,50.156613,12.452619
+1011,Milhostov,21113,1,554651,Milhostov,Cheb,Cheb,50.156623,12.452443
+1012,"Milhostov, Hluboká",21114,1,554651,Milhostov,Cheb,Cheb,50.168692,12.48757
+1013,"Milhostov, Hluboká",21114,2,554651,Milhostov,Cheb,Cheb,50.168644,12.487339
+1014,"Milhostov, Vackovec",21115,2,554651,Milhostov,Cheb,Cheb,50.139065,12.45973
+1015,"Milhostov, Vackovec",21115,1,554651,Milhostov,Cheb,Cheb,50.13903,12.4596
+1016,Milíkov,21136,2,538906,Milíkov,Cheb,Cheb,50.05598,12.547511
+1017,Milíkov,21136,1,538906,Milíkov,Cheb,Cheb,50.05586,12.547441
+1018,"Milíkov, Malá Šitboř",21137,2,538906,Milíkov,Cheb,Cheb,50.056432,12.531469
+1019,"Milíkov, Malá Šitboř",21137,1,538906,Milíkov,Cheb,Cheb,50.056302,12.531526
+1020,"Milíkov, Malá Šitboř, rozc.",21138,1,538906,Milíkov,Cheb,Cheb,50.057789,12.540194
+1021,"Milíkov, Malá Šitboř, rozc.",21138,2,538906,Milíkov,Cheb,Cheb,50.057698,12.538555
+1022,"Milíkov, Mokřina",21139,1,538906,Milíkov,Cheb,Cheb,50.078924,12.537455
+1023,"Milíkov, Těšov",21140,2,538906,Milíkov,Cheb,Cheb,50.07075,12.538805
+1024,"Milíkov, Těšov",21140,1,538906,Milíkov,Cheb,Cheb,50.070991,12.539024
+1025,"Milíkov, Velká Šitboř",21142,2,538906,Milíkov,Cheb,Cheb,50.057415,12.525948
+1026,"Milíkov, Velká Šitboř",21142,1,538906,Milíkov,Cheb,Cheb,50.057384,12.525751
+1027,Mírová,21277,1,537934,Mírová,Karlovy Vary,Karlovy Vary,50.237812,12.768428
+1028,Mírová,21277,2,537934,Mírová,Karlovy Vary,Karlovy Vary,50.238017,12.769016
+1029,"Mírová, rozc. Jimlíkov",21278,1,537934,Mírová,Karlovy Vary,Karlovy Vary,50.239497,12.775885
+1030,"Mírová, rozc. Jimlíkov",21278,2,537934,Mírová,Karlovy Vary,Karlovy Vary,50.239567,12.775663
+1031,"Mnichov, aut. st.",21538,1,554677,Mnichov,Mariánské Lázně,Cheb,50.036743,12.786945
+1032,"Mnichov, Rájov",21539,1,554677,Mnichov,Mariánské Lázně,Cheb,49.996074,12.761923
+1033,"Mnichov, Rájov",21539,2,554677,Mnichov,Mariánské Lázně,Cheb,49.996396,12.761997
+1034,"Mnichov, Sítiny",21540,1,554677,Mnichov,Mariánské Lázně,Cheb,50.027362,12.760933
+1035,Nebanice,22653,2,554693,Nebanice,Cheb,Cheb,50.115765,12.474374
+1036,Nebanice,22653,1,554693,Nebanice,Cheb,Cheb,50.115575,12.474411
+1037,"Nebanice, Hartoušov",22655,1,554693,Nebanice,Cheb,Cheb,50.134686,12.469195
+1038,"Nebanice, Hartoušov",22655,2,554693,Nebanice,Cheb,Cheb,50.134555,12.469222
+1039,"Nebanice, Hněvín",22657,1,554693,Nebanice,Cheb,Cheb,50.128513,12.452994
+1040,"Nebanice, Hněvín",22657,2,554693,Nebanice,Cheb,Cheb,50.128533,12.452706
+1041,"Nebanice, vodárna",22654,2,554693,Nebanice,Cheb,Cheb,50.106521,12.476457
+1042,"Nebanice, vodárna",22654,1,554693,Nebanice,Cheb,Cheb,50.106989,12.475461
+1043,"Nejdek, aut. st.",22798,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.320852,12.729859
+1044,"Nejdek, aut. st.",22798,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.320848,12.729739
+1045,"Nejdek, aut. st.",22798,3,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.320834,12.729644
+1046,"Nejdek, aut. st.",22798,4,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.320809,12.72955
+1047,"Nejdek, aut. st.",22798,5,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.320977,12.729956
+1048,"Nejdek, Bernov, rozc.",47044,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.318011,12.702466
+1049,"Nejdek, Bernov, rozc.",47044,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.318052,12.702192
+1050,"Nejdek, Bernov, statek",47045,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.320419,12.709921
+1051,"Nejdek, Bernov, statek",47045,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.320343,12.710006
+1052,"Nejdek, Fojtov",22804,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.301141,12.789467
+1053,"Nejdek, Fojtov",22804,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.300811,12.790029
+1054,"Nejdek, Fojtov, rozc. Smolné Pece",47216,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.301128,12.786678
+1055,"Nejdek, Fojtov, rozc. Smolné Pece",47216,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.301025,12.786676
+1056,"Nejdek, Lesík",47046,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.314167,12.684717
+1057,"Nejdek, Lesík",47046,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.314186,12.68503
+1058,"Nejdek, Lesík, rozc.",47047,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.314696,12.692246
+1059,"Nejdek, Lesík, rozc.",47047,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.314781,12.692137
+1060,"Nejdek, Kraslická",22802,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.320645,12.718707
+1061,"Nejdek, Kraslická",22802,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.320611,12.718944
+1062,"Nejdek, METALIS",22803,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.329373,12.723791
+1063,"Nejdek, METALIS",22803,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.329144,12.724414
+1064,"Nejdek, most",22799,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.323063,12.732787
+1065,"Nejdek, most",22799,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.322473,12.733265
+1066,"Nejdek, nám.",22800,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.325008,12.733116
+1067,"Nejdek, nám.",22800,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.325195,12.733688
+1068,"Nejdek, Nová Suchá, dolní",22806,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.304799,12.723611
+1069,"Nejdek, Nová Suchá, dolní",22806,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.30473,12.723744
+1070,"Nejdek, Nová Suchá, horní",22807,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.301196,12.718587
+1071,"Nejdek, Nová Suchá, horní",22807,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.301159,12.718717
+1072,"Nejdek, Nový Fojtov",22808,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.309131,12.773698
+1073,"Nejdek, Nový Fojtov",22808,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.309193,12.773829
+1074,"Nejdek, Pozorka",22809,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.311964,12.763444
+1075,"Nejdek, Pozorka",22809,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.311844,12.763466
+1076,"Nejdek, sídliště",22801,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.319168,12.742594
+1077,"Nejdek, sídliště",22801,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.319003,12.742578
+1078,"Nejdek, Suchá",22810,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.309262,12.733699
+1079,"Nejdek, Suchá",22810,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.309363,12.733782
+1080,"Nejdek, U studánky",22805,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.335394,12.715205
+1081,"Nejdek, U studánky",22805,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.335382,12.715337
+1082,"Nejdek, Vysoká Štola, rozc.",22811,2,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.315598,12.752526
+1083,"Nejdek, Vysoká Štola, rozc.",22811,1,555380,Nejdek,Karlovy Vary,Karlovy Vary,50.315277,12.752957
+1084,"Nová Role, Jimlíkov",43616,2,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.253681,12.786802
+1085,"Nová Role, Jimlíkov",43616,1,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.253591,12.786596
+1086,"Nová Role, Mezirolí",23615,1,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.272394,12.816593
+1087,"Nová Role, Mezirolí",23615,2,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.271871,12.816155
+1088,"Nová Role, Mezirolí, náves",23616,1,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.272132,12.825276
+1089,"Nová Role, Mezirolí, rozc.",23617,1,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.276516,12.815377
+1090,"Nová Role, Mezirolí, rozc.",23617,2,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.276933,12.814
+1091,"Nová Role, Mezirolí, rozc.",23617,3,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.277363,12.814086
+1092,"Nová Role, obec",23613,1,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.272794,12.788889
+1093,"Nová Role, obec",23613,2,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.272538,12.788769
+1094,"Nová Role, sídliště",23614,1,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.273109,12.780626
+1095,"Nová Role, u přejezdu",49014,1,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.269935,12.783331
+1096,"Nová Role, u přejezdu",49014,2,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.270826,12.784101
+1097,"Nová Role, u přejezdu",49014,3,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.270781,12.783811
+1098,"Nová Role, u přejezdu",49014,4,555398,Nová Role,Karlovy Vary,Karlovy Vary,50.269105,12.782809
+1099,Nová Ves u Bečova,23704,1,560561,Nová Ves,Sokolov,Sokolov,50.083543,12.776769
+1100,Nová Ves u Bečova,23704,2,560561,Nová Ves,Sokolov,Sokolov,50.0835,12.776967
+1101,"Nová Ves u Bečova, Louka",23705,1,560561,Nová Ves,Sokolov,Sokolov,50.055241,12.808725
+1102,"Nová Ves u Bečova, Starý dvůr",23706,2,560561,Nová Ves,Sokolov,Sokolov,50.087841,12.810034
+1103,"Nová Ves u Bečova, Starý dvůr",23706,1,560561,Nová Ves,Sokolov,Sokolov,50.087789,12.810019
+1104,Nové Hamry,47049,2,506494,Nové Hamry,Karlovy Vary,Karlovy Vary,50.359742,12.719384
+1105,Nové Hamry,47049,1,506494,Nové Hamry,Karlovy Vary,Karlovy Vary,50.359911,12.71959
+1106,"Nové Hamry, u kostela",47050,1,506494,Nové Hamry,Karlovy Vary,Karlovy Vary,50.364266,12.724675
+1107,"Nové Hamry, u přejezdu",51224,2,506494,Nové Hamry,Karlovy Vary,Karlovy Vary,50.351506,12.714866
+1108,"Nové Hamry, u přejezdu",51224,1,506494,Nové Hamry,Karlovy Vary,Karlovy Vary,50.35151,12.71446
+1109,"Nové Sedlo, Horní Pískovec",23937,1,560570,Nové Sedlo,Sokolov,Sokolov,50.199261,12.715202
+1110,"Nové Sedlo, Horní Pískovec",23937,2,560570,Nové Sedlo,Sokolov,Sokolov,50.199418,12.717451
+1111,"Nové Sedlo, Chranišov",23938,1,560570,Nové Sedlo,Sokolov,Sokolov,50.221289,12.744629
+1112,"Nové Sedlo, Chranišov",23938,2,560570,Nové Sedlo,Sokolov,Sokolov,50.221169,12.744301
+1113,"Nové Sedlo, Jalový Dvůr",23939,1,560570,Nové Sedlo,Sokolov,Sokolov,50.206359,12.767274
+1114,"Nové Sedlo, Jalový Dvůr",23939,2,560570,Nové Sedlo,Sokolov,Sokolov,50.206183,12.767328
+1115,"Nové Sedlo, Loučky",23941,1,560570,Nové Sedlo,Sokolov,Sokolov,50.207242,12.751875
+1116,"Nové Sedlo, Loučky",23941,2,560570,Nové Sedlo,Sokolov,Sokolov,50.207299,12.751593
+1117,"Nové Sedlo, Loučky, rozc.",23942,1,560570,Nové Sedlo,Sokolov,Sokolov,50.202081,12.745489
+1118,"Nové Sedlo, Loučky, rozc.",23942,2,560570,Nové Sedlo,Sokolov,Sokolov,50.202264,12.745839
+1119,"Nové Sedlo, Loučky, závod",23943,1,560570,Nové Sedlo,Sokolov,Sokolov,50.204527,12.752556
+1120,"Nové Sedlo, Loučky, závod",23943,2,560570,Nové Sedlo,Sokolov,Sokolov,50.204732,12.753331
+1121,"Nové Sedlo, nádraží",65321,1,560570,Nové Sedlo,Sokolov,Sokolov,50.214195,12.744318
+1122,"Nové Sedlo, pošta",23934,1,560570,Nové Sedlo,Sokolov,Sokolov,50.208647,12.742961
+1123,"Nové Sedlo, pošta",23934,2,560570,Nové Sedlo,Sokolov,Sokolov,50.208531,12.742987
+1124,"Nové Sedlo, Nové Loučky",68443,1,560570,Nové Sedlo,Sokolov,Sokolov,50.20743,12.744381
+1125,"Nové Sedlo, Nové Loučky",68443,2,560570,Nové Sedlo,Sokolov,Sokolov,50.20828,12.743945
+1126,"Nové Sedlo, Příkopy",23933,1,560570,Nové Sedlo,Sokolov,Sokolov,50.207089,12.734931
+1127,"Nové Sedlo, Příkopy",23933,2,560570,Nové Sedlo,Sokolov,Sokolov,50.206024,12.734349
+1128,"Nové Sedlo, rozc.",23935,1,560570,Nové Sedlo,Sokolov,Sokolov,50.207899,12.746021
+1129,"Nové Sedlo, rozc.",23935,2,560570,Nové Sedlo,Sokolov,Sokolov,50.208531,12.744823
+1130,Nový Kostel,24193,2,554707,Nový Kostel,Cheb,Cheb,50.215882,12.445862
+1131,Nový Kostel,24193,1,554707,Nový Kostel,Cheb,Cheb,50.215939,12.445997
+1132,"Nový Kostel, Božetín, rozc.",24195,1,554707,Nový Kostel,Cheb,Cheb,50.229889,12.418393
+1133,"Nový Kostel, Božetín, rozc.",24195,2,554707,Nový Kostel,Cheb,Cheb,50.228836,12.417554
+1134,"Nový Kostel, Horka",24196,1,554707,Nový Kostel,Cheb,Cheb,50.182182,12.480324
+1135,"Nový Kostel, Horka",24196,2,554707,Nový Kostel,Cheb,Cheb,50.176098,12.484404
+1136,"Nový Kostel, Horka, přehrada",24197,2,554707,Nový Kostel,Cheb,Cheb,50.175999,12.484343
+1137,"Nový Kostel, Horka, přehrada",24197,1,554707,Nový Kostel,Cheb,Cheb,50.176098,12.484404
+1138,"Nový Kostel, Hrzín",24198,2,554707,Nový Kostel,Cheb,Cheb,50.202601,12.429415
+1139,"Nový Kostel, Hrzín",24198,1,554707,Nový Kostel,Cheb,Cheb,50.202593,12.429201
+1140,"Nový Kostel, Hrzín, rozc.",24200,1,554707,Nový Kostel,Cheb,Cheb,50.216704,12.425917
+1141,"Nový Kostel, Hrzín, rozc.",24200,2,554707,Nový Kostel,Cheb,Cheb,50.21662,12.426111
+1142,"Nový Kostel, Kopanina",24201,1,554707,Nový Kostel,Cheb,Cheb,50.192985,12.472034
+1143,"Nový Kostel, Kopanina",24201,2,554707,Nový Kostel,Cheb,Cheb,50.192944,12.471896
+1144,"Nový Kostel, Kopanina, Jednota",24202,2,554707,Nový Kostel,Cheb,Cheb,50.195307,12.470743
+1145,"Nový Kostel, Kopanina, Jednota",24202,1,554707,Nový Kostel,Cheb,Cheb,50.1954,12.470973
+1146,"Nový Kostel, Spálená",24204,2,554707,Nový Kostel,Cheb,Cheb,50.21632,12.437786
+1147,"Nový Kostel, Spálená",24204,1,554707,Nový Kostel,Cheb,Cheb,50.216413,12.437834
+1148,"Nový Kostel, žel. zast.",24194,3,554707,Nový Kostel,Cheb,Cheb,50.221484,12.421399
+1149,"Nový Kostel, žel. zast.",24194,1,554707,Nový Kostel,Cheb,Cheb,50.221202,12.420748
+1150,"Nový Kostel, žel. zast.",24194,2,554707,Nový Kostel,Cheb,Cheb,50.220692,12.421974
+1151,Odrava,24478,1,539554,Odrava,Cheb,Cheb,50.102832,12.483147
+1152,"Odrava, Obilná",24480,1,539554,Odrava,Cheb,Cheb,50.098734,12.472573
+1153,"Odrava, Potočiště",24481,1,539554,Odrava,Cheb,Cheb,50.096457,12.446473
+1154,"Odrava, Potočiště",24481,2,539554,Odrava,Cheb,Cheb,50.096626,12.446492
+1155,"Odrava, Potočiště, rozc.",24482,1,539554,Odrava,Cheb,Cheb,50.084745,12.44326
+1156,"Odrava, Potočiště, rozc.",24482,2,539554,Odrava,Cheb,Cheb,50.084625,12.443796
+1157,Okrouhlá,24602,1,538922,Okrouhlá,Cheb,Cheb,50.06311,12.486699
+1158,Okrouhlá,24602,2,538922,Okrouhlá,Cheb,Cheb,50.063149,12.486448
+1159,"Okrouhlá, Jesenice, hráz",24604,1,538922,Okrouhlá,Cheb,Cheb,50.084904,12.480078
+1160,"Okrouhlá, Jesenice, hráz",24604,2,538922,Okrouhlá,Cheb,Cheb,50.08479,12.48038
+1161,"Okrouhlá, Jesenice, přístav",24605,1,538922,Okrouhlá,Cheb,Cheb,50.084124,12.467853
+1162,"Okrouhlá, Jesenice, přístav",24605,2,538922,Okrouhlá,Cheb,Cheb,50.083996,12.467652
+1163,"Okrouhlá, Jesenice, rozc.",24606,1,538922,Okrouhlá,Cheb,Cheb,50.079157,12.491648
+1164,"Okrouhlá, Jesenice, rozc.",24606,2,538922,Okrouhlá,Cheb,Cheb,50.078637,12.491407
+1165,"Oloví, Studenec",24810,1,560588,Oloví,Kraslice,Sokolov,50.255309,12.534224
+1166,"Oloví, Studenec, škola",24811,1,560588,Oloví,Kraslice,Sokolov,50.247007,12.528994
+1167,"Oloví, Studenec, škola",24811,2,560588,Oloví,Kraslice,Sokolov,50.246998,12.529097
+1168,"Ostrov, Dolní Žďár, garáže",25522,1,555428,Ostrov,Ostrov,Karlovy Vary,50.323395,12.947561
+1169,"Ostrov, Dolní Žďár, garáže",25522,2,555428,Ostrov,Ostrov,Karlovy Vary,50.322168,12.947355
+1170,"Ostrov, Horní Žďár",25523,1,555428,Ostrov,Ostrov,Karlovy Vary,50.335212,12.94224
+1171,"Ostrov, Horní Žďár",25523,2,555428,Ostrov,Ostrov,Karlovy Vary,50.334324,12.942822
+1172,"Ostrov, Horní Žďár, pila",25524,1,555428,Ostrov,Ostrov,Karlovy Vary,50.343925,12.934903
+1173,"Ostrov, Horní Žďár, pila",25524,2,555428,Ostrov,Ostrov,Karlovy Vary,50.343834,12.934786
+1174,"Ostrov, Horní Žďár, Vykmanov rozc.",25526,1,555428,Ostrov,Ostrov,Karlovy Vary,50.330355,12.947108
+1175,"Ostrov, Horní Žďár, Vykmanov rozc.",25526,2,555428,Ostrov,Ostrov,Karlovy Vary,50.329044,12.947278
+1176,"Ostrov, Horní Žďár, Vykmanov rozc.",25526,3,555428,Ostrov,Ostrov,Karlovy Vary,50.330602,12.947447
+1177,"Ostrov, Hornická",25511,1,555428,Ostrov,Ostrov,Karlovy Vary,50.301806,12.949088
+1178,"Ostrov, Hornická",25511,2,555428,Ostrov,Ostrov,Karlovy Vary,50.301868,12.948963
+1179,"Ostrov, jídelna",25512,1,555428,Ostrov,Ostrov,Karlovy Vary,50.309099,12.942198
+1180,"Ostrov, jídelna",25512,2,555428,Ostrov,Ostrov,Karlovy Vary,50.309248,12.942087
+1181,"Ostrov, Kfely, rest.",25528,1,555428,Ostrov,Ostrov,Karlovy Vary,50.309551,12.926291
+1182,"Ostrov, Kfely, rest.",25528,2,555428,Ostrov,Ostrov,Karlovy Vary,50.309727,12.928287
+1183,"Ostrov, Kfely, rozc.",25529,1,555428,Ostrov,Ostrov,Karlovy Vary,50.309941,12.914988
+1184,"Ostrov, Kfely, rozc.",25529,2,555428,Ostrov,Ostrov,Karlovy Vary,50.309994,12.915131
+1185,"Ostrov, Květnová",25530,1,555428,Ostrov,Ostrov,Karlovy Vary,50.332124,12.981824
+1186,"Ostrov, Květnová",25530,2,555428,Ostrov,Ostrov,Karlovy Vary,50.332194,12.981479
+1187,"Ostrov, Květnová, škola",25531,2,555428,Ostrov,Ostrov,Karlovy Vary,50.327434,12.977759
+1188,"Ostrov, Květnová, škola",25531,1,555428,Ostrov,Ostrov,Karlovy Vary,50.327473,12.977899
+1189,"Ostrov, Maroltov",25532,1,555428,Ostrov,Ostrov,Karlovy Vary,50.339211,12.98143
+1190,"Ostrov, Maroltov",25532,2,555428,Ostrov,Ostrov,Karlovy Vary,50.339294,12.981786
+1191,"Ostrov, Moříčov",25533,1,555428,Ostrov,Ostrov,Karlovy Vary,50.297813,12.985681
+1192,"Ostrov, Moříčov",25533,2,555428,Ostrov,Ostrov,Karlovy Vary,50.297521,12.986162
+1193,"Ostrov, nám.",25513,1,555428,Ostrov,Ostrov,Karlovy Vary,50.308363,12.946939
+1194,"Ostrov, nám.",25513,2,555428,Ostrov,Ostrov,Karlovy Vary,50.308548,12.946971
+1195,"Ostrov, nám.",25513,3,555428,Ostrov,Ostrov,Karlovy Vary,50.308023,12.946462
+1196,"Ostrov, nám.",25513,4,555428,Ostrov,Ostrov,Karlovy Vary,50.308137,12.946521
+1197,"Ostrov, nám.",25513,5,555428,Ostrov,Ostrov,Karlovy Vary,50.308334,12.946549
+1198,"Ostrov, nem.",25514,1,555428,Ostrov,Ostrov,Karlovy Vary,50.31245,12.963129
+1199,"Ostrov, Papírny",25515,1,555428,Ostrov,Ostrov,Karlovy Vary,50.301914,12.962973
+1200,"Ostrov, Papírny",25515,2,555428,Ostrov,Ostrov,Karlovy Vary,50.302002,12.962958
+1201,"Ostrov, Poliklinika",25516,1,555428,Ostrov,Ostrov,Karlovy Vary,50.307363,12.936951
+1202,"Ostrov, Poliklinika",25516,2,555428,Ostrov,Ostrov,Karlovy Vary,50.307708,12.937121
+1203,"Ostrov, Poliklinika",25516,3,555428,Ostrov,Ostrov,Karlovy Vary,50.307224,12.938429
+1204,"Ostrov, Průmyslová zóna II",65032,1,555428,Ostrov,Ostrov,Karlovy Vary,50.293086,12.941271
+1205,"Ostrov, Průmyslová zóna II",65032,2,555428,Ostrov,Ostrov,Karlovy Vary,50.293821,12.941198
+1206,"Ostrov, Průmyslová zóna I",65025,1,555428,Ostrov,Ostrov,Karlovy Vary,50.297081,12.943519
+1207,"Ostrov, rest. Růže",25517,2,555428,Ostrov,Ostrov,Karlovy Vary,50.300988,12.948546
+1208,"Ostrov, Rokle",25534,1,555428,Ostrov,Ostrov,Karlovy Vary,50.346615,12.986391
+1209,"Ostrov, Rokle",25534,2,555428,Ostrov,Ostrov,Karlovy Vary,50.346722,12.986533
+1210,"Ostrov, Tesco",58412,1,555428,Ostrov,Ostrov,Karlovy Vary,50.314697,12.945479
+1211,"Ostrov, Tesco",58412,2,555428,Ostrov,Ostrov,Karlovy Vary,50.314848,12.945275
+1212,"Ostrov, Větrný Vrch",25518,1,555428,Ostrov,Ostrov,Karlovy Vary,50.291779,12.938487
+1213,"Ostrov, Větrný Vrch",25518,2,555428,Ostrov,Ostrov,Karlovy Vary,50.291917,12.938439
+1214,"Ostrov, Zámek",25519,1,555428,Ostrov,Ostrov,Karlovy Vary,50.303058,12.941355
+1215,"Ostrov, Zámek",25519,2,555428,Ostrov,Ostrov,Karlovy Vary,50.302887,12.941956
+1216,"Ostrov, Zvl. škola",47072,1,555428,Ostrov,Ostrov,Karlovy Vary,50.304584,12.943731
+1217,"Ostrov, Zvl. škola",47072,2,555428,Ostrov,Ostrov,Karlovy Vary,50.304674,12.943754
+1218,"Ostrov, Krušnohorská",47063,1,555428,Ostrov,Ostrov,Karlovy Vary,50.304319,12.946209
+1219,"Ostrov, Krušnohorská",47063,2,555428,Ostrov,Ostrov,Karlovy Vary,50.30412,12.946796
+1220,"Ostrov, Lávka",47064,1,555428,Ostrov,Ostrov,Karlovy Vary,50.300798,12.953198
+1221,"Ostrov, Lávka",47064,2,555428,Ostrov,Ostrov,Karlovy Vary,50.300648,12.953033
+1222,"Ostrov, Lidl",58410,1,555428,Ostrov,Ostrov,Karlovy Vary,50.312569,12.941795
+1223,"Ostrov, Nádraží",25520,1,555428,Ostrov,Ostrov,Karlovy Vary,50.301967,12.957382
+1224,"Ostrov, Nápoje",47065,1,555428,Ostrov,Ostrov,Karlovy Vary,50.30928,12.954902
+1225,"Ostrov, Pekárna",47066,1,555428,Ostrov,Ostrov,Karlovy Vary,50.311756,12.957505
+1226,"Ostrov, Pekárna",47066,2,555428,Ostrov,Ostrov,Karlovy Vary,50.311836,12.957183
+1227,"Ostrov, Penzion",57426,1,555428,Ostrov,Ostrov,Karlovy Vary,50.309128,12.957381
+1228,"Ostrov, Pošta",47067,1,555428,Ostrov,Ostrov,Karlovy Vary,50.309696,12.948073
+1229,"Ostrov, Řezník",47069,1,555428,Ostrov,Ostrov,Karlovy Vary,50.309029,12.955466
+1230,"Ostrov, Tržiště",47070,1,555428,Ostrov,Ostrov,Karlovy Vary,50.309396,12.949222
+1231,"Ostrov, Hluboký",58411,1,555428,Ostrov,Ostrov,Karlovy Vary,50.323839,12.905645
+1232,"Ostrov, Horní Žďár, domky",58404,1,555428,Ostrov,Ostrov,Karlovy Vary,50.331238,12.939296
+1233,"Ostrov, Horní Žďár, Škoda 42",25525,1,555428,Ostrov,Ostrov,Karlovy Vary,50.331638,12.955813
+1234,"Ostrov, Vykmanov",25535,1,555428,Ostrov,Ostrov,Karlovy Vary,50.334626,12.959059
+1235,"Otovice, Plavírna",47547,1,574317,Otovice,Karlovy Vary,Karlovy Vary,50.265648,12.861391
+1236,"Otovice, Plavírna",47547,2,574317,Otovice,Karlovy Vary,Karlovy Vary,50.265604,12.861298
+1237,"Otovice, SÚS",58055,1,574317,Otovice,Karlovy Vary,Karlovy Vary,50.251028,12.872884
+1238,"Otovice, U pošty",25664,2,574317,Otovice,Karlovy Vary,Karlovy Vary,50.2542,12.873554
+1239,"Otovice, U pošty",25664,1,574317,Otovice,Karlovy Vary,Karlovy Vary,50.254013,12.873886
+1240,"Otovice, V březinkách",25665,1,574317,Otovice,Karlovy Vary,Karlovy Vary,50.266521,12.875458
+1241,"Otovice, V březinkách",25665,2,574317,Otovice,Karlovy Vary,Karlovy Vary,50.266176,12.875312
+1242,Otročín,25674,1,555444,Otročín,Karlovy Vary,Karlovy Vary,50.032207,12.891939
+1243,"Otročín, Brť",25676,1,555444,Otročín,Karlovy Vary,Karlovy Vary,50.044412,12.891548
+1244,"Otročín, Brť",25676,2,555444,Otročín,Karlovy Vary,Karlovy Vary,50.044412,12.891548
+1245,"Otročín, Brť, rozc.",25677,1,555444,Otročín,Karlovy Vary,Karlovy Vary,50.045645,12.893786
+1246,"Otročín, Brť, rozc.",25677,2,555444,Otročín,Karlovy Vary,Karlovy Vary,50.045582,12.893519
+1247,"Otročín, Brť, rozc.",25677,3,555444,Otročín,Karlovy Vary,Karlovy Vary,50.045542,12.893751
+1248,"Otročín, Měchov",25678,1,555444,Otročín,Karlovy Vary,Karlovy Vary,50.053739,12.879606
+1249,"Otročín, Měchov",25678,2,555444,Otročín,Karlovy Vary,Karlovy Vary,50.053595,12.879392
+1250,"Otročín, Měchov, rozc.",46243,1,555444,Otročín,Karlovy Vary,Karlovy Vary,50.051201,12.893781
+1251,"Otročín, Měchov, rozc.",46243,2,555444,Otročín,Karlovy Vary,Karlovy Vary,50.051019,12.893869
+1252,"Otročín, Měchov, rozc.",46243,3,555444,Otročín,Karlovy Vary,Karlovy Vary,50.051184,12.893956
+1253,"Otročín, Měchov, U Křížů",25679,1,555444,Otročín,Karlovy Vary,Karlovy Vary,50.057074,12.882681
+1254,"Otročín, Měchov, U Křížů",25679,2,555444,Otročín,Karlovy Vary,Karlovy Vary,50.056938,12.88278
+1255,"Otročín, žel. st.",25675,1,555444,Otročín,Karlovy Vary,Karlovy Vary,50.038444,12.888373
+1256,"Otročín, žel. st.",25675,2,555444,Otročín,Karlovy Vary,Karlovy Vary,50.038421,12.888229
+1257,"Pernink, rozc. k žel. st.",26303,1,555452,Pernink,Ostrov,Karlovy Vary,50.36829,12.781614
+1258,"Pernink, rozc. k žel. st.",26303,2,555452,Pernink,Ostrov,Karlovy Vary,50.368364,12.781863
+1259,"Pernink, Rybná, rozc.",26306,1,555452,Pernink,Ostrov,Karlovy Vary,50.353348,12.80296
+1260,"Pernink, Rybná, rozc.",26306,2,555452,Pernink,Ostrov,Karlovy Vary,50.353325,12.802777
+1261,"Pernink, škola",26305,1,555452,Pernink,Ostrov,Karlovy Vary,50.364941,12.783916
+1262,"Pernink, škola",26305,2,555452,Pernink,Ostrov,Karlovy Vary,50.365112,12.784028
+1263,"Pernink, školní louka",26304,1,555452,Pernink,Ostrov,Karlovy Vary,50.359418,12.789479
+1264,"Pernink, školní louka",26304,2,555452,Pernink,Ostrov,Karlovy Vary,50.359646,12.789118
+1265,"Pila, ObÚ",53255,1,556947,Pila,Karlovy Vary,Karlovy Vary,50.181591,12.926039
+1266,"Pila, ObÚ",53255,2,556947,Pila,Karlovy Vary,Karlovy Vary,50.181891,12.926206
+1267,"Pila, rest.",15091,1,556947,Pila,Karlovy Vary,Karlovy Vary,50.184807,12.92879
+1268,"Pila, rest.",15091,2,556947,Pila,Karlovy Vary,Karlovy Vary,50.184694,12.928666
+1269,"Pila, rozc.",15092,1,556947,Pila,Karlovy Vary,Karlovy Vary,50.178179,12.924102
+1270,"Pila, továrna",15088,1,556947,Pila,Karlovy Vary,Karlovy Vary,50.173449,12.926029
+1271,"Pila, továrna",15088,2,556947,Pila,Karlovy Vary,Karlovy Vary,50.173747,12.925077
+1272,Plesná,26851,1,554740,Plesná,Cheb,Cheb,50.219939,12.346657
+1273,Plesná,26851,2,554740,Plesná,Cheb,Cheb,50.220341,12.348122
+1274,"Plesná, Lomnička",26852,2,554740,Plesná,Cheb,Cheb,50.223412,12.381262
+1275,"Plesná, Lomnička",26852,1,554740,Plesná,Cheb,Cheb,50.22387,12.380208
+1276,"Plesná, Lomnička",26852,3,554740,Plesná,Cheb,Cheb,50.223484,12.381312
+1277,"Plesná, Sibiř",26853,1,554740,Plesná,Cheb,Cheb,50.221618,12.354594
+1278,"Plesná, Sibiř",26853,2,554740,Plesná,Cheb,Cheb,50.22144,12.354234
+1279,"Plesná, Smrčina",26854,1,554740,Plesná,Cheb,Cheb,50.232072,12.369289
+1280,"Plesná, Smrčina",26854,2,554740,Plesná,Cheb,Cheb,50.232098,12.369453
+1281,"Plesná, Šneky",26855,1,554740,Plesná,Cheb,Cheb,50.215386,12.351599
+1282,"Plesná, Šneky",26855,2,554740,Plesná,Cheb,Cheb,50.216541,12.351345
+1283,"Plesná, Vackov",26856,1,554740,Plesná,Cheb,Cheb,50.235505,12.379942
+1284,"Plesná, Vackov",26856,2,554740,Plesná,Cheb,Cheb,50.2354,12.38006
+1285,Podhradí,27180,1,538817,Podhradí,Aš,Cheb,50.254908,12.201488
+1286,Podhradí,27180,2,538817,Podhradí,Aš,Cheb,50.25477,12.201154
+1287,"Podhradí, Marak",27182,1,538817,Podhradí,Aš,Cheb,50.244706,12.191428
+1288,"Podhradí, Marak",27182,2,538817,Podhradí,Aš,Cheb,50.244763,12.191324
+1289,"Podhradí, Smrčina",27183,1,538817,Podhradí,Aš,Cheb,50.250141,12.181273
+1290,"Podhradí, Smrčina",27183,2,538817,Podhradí,Aš,Cheb,50.250516,12.180553
+1291,"Podhradí, Smrčina, drůbežárna",27184,1,538817,Podhradí,Aš,Cheb,50.256649,12.178536
+1292,"Podhradí, Smrčina, drůbežárna",27184,2,538817,Podhradí,Aš,Cheb,50.257039,12.178554
+1293,"Podhradí, závod",27181,2,538817,Podhradí,Aš,Cheb,50.256854,12.216481
+1294,"Podhradí, závod",27181,1,538817,Podhradí,Aš,Cheb,50.256798,12.21669
+1295,"Potůčky, paneláky",47085,1,555479,Potůčky,Ostrov,Karlovy Vary,50.427935,12.739808
+1296,"Potůčky, st. hr.",27722,1,555479,Potůčky,Ostrov,Karlovy Vary,50.428318,12.733807
+1297,"Potůčky, st. hr.",27722,2,555479,Potůčky,Ostrov,Karlovy Vary,50.428228,12.733889
+1298,"Potůčky, vrty-most",27726,1,555479,Potůčky,Ostrov,Karlovy Vary,50.418378,12.732853
+1299,"Potůčky, vrty-most",27726,2,555479,Potůčky,Ostrov,Karlovy Vary,50.418391,12.733182
+1300,Poustka,27730,1,577979,Poustka,Cheb,Cheb,50.140114,12.298781
+1301,Poustka,27730,2,577979,Poustka,Cheb,Cheb,50.140011,12.298809
+1302,"Poustka, Ostroh",27732,1,577979,Poustka,Cheb,Cheb,50.13211,12.283523
+1303,"Poustka, Ostroh, rozc.",27733,1,577979,Poustka,Cheb,Cheb,50.122794,12.27546
+1304,"Poustka, Ostroh, rozc.",27733,2,577979,Poustka,Cheb,Cheb,50.122697,12.275463
+1305,"Poustka, rozc.",27731,1,577979,Poustka,Cheb,Cheb,50.14486,12.301404
+1306,"Poustka, rozc.",27731,2,577979,Poustka,Cheb,Cheb,50.144657,12.301586
+1307,"Poustka, rozc.",27731,3,577979,Poustka,Cheb,Cheb,50.144471,12.301547
+1308,"Poustka, rozc.",27731,4,577979,Poustka,Cheb,Cheb,50.144485,12.301679
+1309,Prameny,28072,1,539538,Prameny,Mariánské Lázně,Cheb,50.050453,12.732102
+1310,"Prameny, křiž.",28073,1,539538,Prameny,Mariánské Lázně,Cheb,50.047866,12.728841
+1311,"Prameny, křiž.",28073,2,539538,Prameny,Mariánské Lázně,Cheb,50.047687,12.728506
+1312,Přebuz,28541,1,560596,Přebuz,Kraslice,Sokolov,50.366337,12.619598
+1313,Pšov,28969,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.051893,13.17017
+1314,Pšov,28969,2,555525,Pšov,Karlovy Vary,Karlovy Vary,50.051792,13.170176
+1315,"Pšov, Borek",28971,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.055251,13.143495
+1316,"Pšov, Borek, rozc.",47197,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.053221,13.143863
+1317,"Pšov, Borek, rozc.",47197,2,555525,Pšov,Karlovy Vary,Karlovy Vary,50.053158,13.143996
+1318,"Pšov, Chlum",28972,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.018277,13.204761
+1319,"Pšov, Chlum",28972,2,555525,Pšov,Karlovy Vary,Karlovy Vary,50.018169,13.204556
+1320,"Pšov, Kobylé",28974,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.066811,13.177524
+1321,"Pšov, Kobylé",28974,2,555525,Pšov,Karlovy Vary,Karlovy Vary,50.066699,13.177461
+1322,"Pšov, Kobylé, střelnice",28976,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.074057,13.182778
+1323,"Pšov, Kobylé, střelnice",28976,2,555525,Pšov,Karlovy Vary,Karlovy Vary,50.074001,13.18303
+1324,"Pšov, Kolešov",28977,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.069157,13.200433
+1325,"Pšov, Kolešov",28977,2,555525,Pšov,Karlovy Vary,Karlovy Vary,50.069134,13.200723
+1326,"Pšov, Močidlec",28979,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.055774,13.224724
+1327,"Pšov, Močidlec",28979,2,555525,Pšov,Karlovy Vary,Karlovy Vary,50.055839,13.224628
+1328,"Pšov, Novosedly",28980,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.039008,13.204201
+1329,"Pšov, Novosedly",28980,2,555525,Pšov,Karlovy Vary,Karlovy Vary,50.039129,13.204101
+1330,"Pšov, Novosedly, rozc.",64339,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.040539,13.174782
+1331,"Pšov, Novosedly, rozc.",64339,2,555525,Pšov,Karlovy Vary,Karlovy Vary,50.040695,13.17482
+1332,"Pšov, rozc.",28970,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.053554,13.165878
+1333,"Pšov, rozc.",28970,2,555525,Pšov,Karlovy Vary,Karlovy Vary,50.053455,13.165854
+1334,"Pšov, Semtěš",28981,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.070831,13.144832
+1335,"Pšov, Semtěš, rozc.",28982,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.072464,13.152378
+1336,"Pšov, Semtěš, rozc.",28982,2,555525,Pšov,Karlovy Vary,Karlovy Vary,50.072464,13.152378
+1337,"Pšov, Víska",47198,1,555525,Pšov,Karlovy Vary,Karlovy Vary,50.040448,13.227764
+1338,"Pšov, Víska",47198,2,555525,Pšov,Karlovy Vary,Karlovy Vary,50.040432,13.227984
+1339,"Rotava, aut. st.",30070,1,560600,Rotava,Kraslice,Sokolov,50.294811,12.570656
+1340,"Rotava, Lom",30072,1,560600,Rotava,Kraslice,Sokolov,50.301907,12.585326
+1341,"Rotava, Lom",30072,2,560600,Rotava,Kraslice,Sokolov,50.302261,12.585489
+1342,"Rotava, parlament",30073,1,560600,Rotava,Kraslice,Sokolov,50.290097,12.56639
+1343,"Rotava, parlament",30073,2,560600,Rotava,Kraslice,Sokolov,50.290162,12.566601
+1344,"Rotava, pož. zbroj.",30074,1,560600,Rotava,Kraslice,Sokolov,50.306368,12.560674
+1345,"Rotava, pož. zbroj.",30074,2,560600,Rotava,Kraslice,Sokolov,50.306545,12.55997
+1346,"Rotava, sídliště",30075,2,560600,Rotava,Kraslice,Sokolov,50.304259,12.553971
+1347,"Rotava, sídliště",30075,1,560600,Rotava,Kraslice,Sokolov,50.303808,12.554184
+1348,"Rotava, Smolná",30079,1,560600,Rotava,Kraslice,Sokolov,50.309471,12.536449
+1349,"Rotava, Smolná",30079,2,560600,Rotava,Kraslice,Sokolov,50.30954,12.536233
+1350,"Rotava, Smolná, závodiště",55128,1,560600,Rotava,Kraslice,Sokolov,50.308665,12.524138
+1351,"Rotava, Smolná, závodiště",55128,2,560600,Rotava,Kraslice,Sokolov,50.30852,12.523445
+1352,"Rotava, Škoda",30076,1,560600,Rotava,Kraslice,Sokolov,50.296501,12.573022
+1353,"Rotava, Škoda",30076,2,560600,Rotava,Kraslice,Sokolov,50.297182,12.572827
+1354,"Rotava, Zátiší",30082,1,560600,Rotava,Kraslice,Sokolov,50.307039,12.550561
+1355,"Rotava, Zátiší",30082,2,560600,Rotava,Kraslice,Sokolov,50.30742,12.55032
+1356,Rovná,30188,1,560618,Rovná,Sokolov,Sokolov,50.102816,12.667305
+1357,Rovná,30188,2,560618,Rovná,Sokolov,Sokolov,50.10291,12.666972
+1358,"Rovná, Bystřina, rozc.",30189,1,560618,Rovná,Sokolov,Sokolov,50.108472,12.636727
+1359,"Rovná, Bystřina, rozc.",30189,2,560618,Rovná,Sokolov,Sokolov,50.108742,12.636249
+1360,Sadov,30913,2,555533,Sadov,Karlovy Vary,Karlovy Vary,50.266205,12.901619
+1361,Sadov,30913,3,555533,Sadov,Karlovy Vary,Karlovy Vary,50.266206,12.901276
+1362,Sadov,30913,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.26542,12.901621
+1363,Sadov,30913,4,555533,Sadov,Karlovy Vary,Karlovy Vary,50.266687,12.903027
+1364,Sadov,30913,5,555533,Sadov,Karlovy Vary,Karlovy Vary,50.265014,12.900805
+1365,Sadov,30913,6,555533,Sadov,Karlovy Vary,Karlovy Vary,50.266779,12.903463
+1366,"Sadov, Bor",30914,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.264496,12.927768
+1367,"Sadov, Bor",30914,2,555533,Sadov,Karlovy Vary,Karlovy Vary,50.264435,12.927794
+1368,"Sadov, Bor, rozc.",59474,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.266678,12.942418
+1369,"Sadov, Bor, rozc.",59474,2,555533,Sadov,Karlovy Vary,Karlovy Vary,50.266449,12.942058
+1370,"Sadov, Bor, statek",59475,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.26704,12.943976
+1371,"Sadov, Bor, statek",59475,2,555533,Sadov,Karlovy Vary,Karlovy Vary,50.267156,12.943739
+1372,"Sadov, Bor, škola",30915,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.265514,12.936093
+1373,"Sadov, Bor, škola",30915,2,555533,Sadov,Karlovy Vary,Karlovy Vary,50.265609,12.936567
+1374,"Sadov, Lesov",30916,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.273547,12.911043
+1375,"Sadov, Lesov",30916,2,555533,Sadov,Karlovy Vary,Karlovy Vary,50.274091,12.912734
+1376,"Sadov, Lesov, Dolní Lesov",59473,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.26657,12.912439
+1377,"Sadov, Lesov, Dolní Lesov",59473,2,555533,Sadov,Karlovy Vary,Karlovy Vary,50.266589,12.912614
+1378,"Sadov, Lesov, rozc.",30917,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.264709,12.915605
+1379,"Sadov, Lesov, rozc.",30917,2,555533,Sadov,Karlovy Vary,Karlovy Vary,50.264655,12.915454
+1380,"Sadov, Lesov, Sedmidomky",59471,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.263621,12.916374
+1381,"Sadov, Lesov, Sedmidomky",59471,2,555533,Sadov,Karlovy Vary,Karlovy Vary,50.263694,12.916392
+1382,"Sadov, Nová Víska",30918,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.271903,12.927194
+1383,"Sadov, Nová Víska",30918,2,555533,Sadov,Karlovy Vary,Karlovy Vary,50.271851,12.92715
+1384,"Sadov, Podlesí",30919,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.271763,12.878525
+1385,"Sadov, Podlesí",30919,2,555533,Sadov,Karlovy Vary,Karlovy Vary,50.271793,12.878405
+1386,"Sadov, Stráň",30920,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.270591,12.961981
+1387,"Sadov, škola",59470,1,555533,Sadov,Karlovy Vary,Karlovy Vary,50.271871,12.890091
+1388,"Sadov, škola",59470,2,555533,Sadov,Karlovy Vary,Karlovy Vary,50.271733,12.889693
+1389,Skalná,31633,1,554812,Skalná,Cheb,Cheb,50.171252,12.361316
+1390,Skalná,31633,2,554812,Skalná,Cheb,Cheb,50.171251,12.361528
+1391,"Skalná, rest.",31634,1,554812,Skalná,Cheb,Cheb,50.171827,12.367061
+1392,"Skalná, rest.",31634,2,554812,Skalná,Cheb,Cheb,50.171668,12.367251
+1393,"Skalná, Starý Rybník",31636,1,554812,Skalná,Cheb,Cheb,50.162331,12.350254
+1394,"Skalná, Starý Rybník",31636,2,554812,Skalná,Cheb,Cheb,50.162191,12.350398
+1395,"Skalná, zdrav. stř.",31635,1,554812,Skalná,Cheb,Cheb,50.168148,12.363989
+1396,"Skalná, zdrav. stř.",31635,2,554812,Skalná,Cheb,Cheb,50.168229,12.36433
+1397,"Sokolov, banka",32476,1,560286,Sokolov,Sokolov,Sokolov,50.176937,12.647747
+1398,"Sokolov, banka",32476,2,560286,Sokolov,Sokolov,Sokolov,50.176452,12.648599
+1399,"Sokolov, II. ZŠ",32480,1,560286,Sokolov,Sokolov,Sokolov,50.181328,12.642875
+1400,"Sokolov, Cheza",32479,1,560286,Sokolov,Sokolov,Sokolov,50.180796,12.667412
+1401,"Sokolov, Cheza",32479,2,560286,Sokolov,Sokolov,Sokolov,50.180214,12.667236
+1402,"Sokolov, Kraslická",32481,1,560286,Sokolov,Sokolov,Sokolov,50.186558,12.638072
+1403,"Sokolov, Kraslická",32481,2,560286,Sokolov,Sokolov,Sokolov,50.18694,12.638033
+1404,"Sokolov, Křižíkova",32492,1,560286,Sokolov,Sokolov,Sokolov,50.176398,12.664083
+1405,"Sokolov, Křižíkova",32492,2,560286,Sokolov,Sokolov,Sokolov,50.176169,12.664128
+1406,"Sokolov, městský úřad",32482,1,560286,Sokolov,Sokolov,Sokolov,50.179039,12.642648
+1407,"Sokolov, poliklinika",32489,1,560286,Sokolov,Sokolov,Sokolov,50.177554,12.642563
+1408,"Sokolov, poliklinika",32489,2,560286,Sokolov,Sokolov,Sokolov,50.176101,12.641451
+1409,"Sokolov, Sokolovské strojírny",32495,1,560286,Sokolov,Sokolov,Sokolov,50.172208,12.638244
+1410,"Sokolov, Sokolovské strojírny",32495,2,560286,Sokolov,Sokolov,Sokolov,50.172516,12.638498
+1411,"Sokolov, sport. hala",57604,1,560286,Sokolov,Sokolov,Sokolov,50.184037,12.645832
+1412,"Sokolov, sport. hala",57604,2,560286,Sokolov,Sokolov,Sokolov,50.182602,12.646093
+1413,"Sokolov, Stará ovčárna",32505,1,560286,Sokolov,Sokolov,Sokolov,50.166504,12.666282
+1414,"Sokolov, Stará ovčárna",32505,2,560286,Sokolov,Sokolov,Sokolov,50.166412,12.667082
+1415,"Sokolov, terminál",57606,1,560286,Sokolov,Sokolov,Sokolov,50.185373,12.64273
+1416,"Sokolov, terminál",57606,2,560286,Sokolov,Sokolov,Sokolov,50.185519,12.643083
+1417,"Sokolov, terminál",57606,3,560286,Sokolov,Sokolov,Sokolov,50.185444,12.642576
+1418,"Sokolov, terminál",57606,4,560286,Sokolov,Sokolov,Sokolov,50.185618,12.643359
+1419,"Sokolov, terminál",57606,5,560286,Sokolov,Sokolov,Sokolov,50.185606,12.643071
+1420,"Sokolov, terminál",57606,6,560286,Sokolov,Sokolov,Sokolov,50.185559,12.642829
+1421,"Sokolov, terminál",57606,7,560286,Sokolov,Sokolov,Sokolov,50.185518,12.642574
+1422,"Sokolov, terminál",57606,8,560286,Sokolov,Sokolov,Sokolov,50.185416,12.642237
+1423,"Sokolov, terminál",57606,9,560286,Sokolov,Sokolov,Sokolov,50.18538,12.642012
+1424,"Sokolov, terminál",57606,10,560286,Sokolov,Sokolov,Sokolov,50.185342,12.64175
+1425,"Sokolov, terminál",57606,11,560286,Sokolov,Sokolov,Sokolov,50.185307,12.641521
+1426,"Sokolov, terminál",57606,12,560286,Sokolov,Sokolov,Sokolov,50.185273,12.64124
+1427,"Sokolov, terminál",57606,13,560286,Sokolov,Sokolov,Sokolov,50.185525,12.642196
+1428,"Sokolov, terminál",57606,14,560286,Sokolov,Sokolov,Sokolov,50.185495,12.641973
+1429,"Sokolov, terminál",57606,15,560286,Sokolov,Sokolov,Sokolov,50.185461,12.641731
+1430,"Sokolov, terminál",57606,16,560286,Sokolov,Sokolov,Sokolov,50.185423,12.641491
+1431,"Sokolov, Těšovice",32506,1,560286,Sokolov,Sokolov,Sokolov,50.177203,12.669269
+1432,"Sokolov, Těšovice",32506,2,560286,Sokolov,Sokolov,Sokolov,50.176471,12.671138
+1433,"Sokolov, Tovární",32498,2,560286,Sokolov,Sokolov,Sokolov,50.180177,12.661668
+1434,"Sokolov, Tovární",32498,1,560286,Sokolov,Sokolov,Sokolov,50.18027,12.661806
+1435,"Sokolov, Účko",32494,1,560286,Sokolov,Sokolov,Sokolov,50.177281,12.665244
+1436,"Sokolov, Účko",32494,2,560286,Sokolov,Sokolov,Sokolov,50.177109,12.664358
+1437,"Sokolov, ul. Jednoty drogerie",55629,1,560286,Sokolov,Sokolov,Sokolov,50.180601,12.64668
+1438,"Sokolov, ul. Jednoty drogerie",55629,2,560286,Sokolov,Sokolov,Sokolov,50.180732,12.646363
+1439,"Sokolov, Závodu míru",32500,1,560286,Sokolov,Sokolov,Sokolov,50.172619,12.663506
+1440,"Sokolov, Závodu míru",32500,2,560286,Sokolov,Sokolov,Sokolov,50.171145,12.663273
+1441,"Sokolov, u Terminálu",58525,1,560286,Sokolov,Sokolov,Sokolov,50.185373,12.64273
+1442,"Sokolov, u Terminálu",58525,2,560286,Sokolov,Sokolov,Sokolov,50.185519,12.643083
+1443,"Sokolov, u Terminálu",58525,3,560286,Sokolov,Sokolov,Sokolov,50.185444,12.642576
+1444,Stanovice,47226,1,555550,Stanovice,Karlovy Vary,Karlovy Vary,50.16517,12.873413
+1445,Stanovice,47226,2,555550,Stanovice,Karlovy Vary,Karlovy Vary,50.165283,12.873368
+1446,"Stanovice, Dražov",47227,1,555550,Stanovice,Karlovy Vary,Karlovy Vary,50.144233,12.886127
+1447,"Stanovice, Dražov",47227,2,555550,Stanovice,Karlovy Vary,Karlovy Vary,50.144283,12.88641
+1448,"Stanovice, Hlinky",47228,1,555550,Stanovice,Karlovy Vary,Karlovy Vary,50.12886,12.888187
+1449,Stará Voda,32863,1,539112,Stará Voda,Mariánské Lázně,Cheb,49.992533,12.592454
+1450,Stará Voda,32863,2,539112,Stará Voda,Mariánské Lázně,Cheb,49.992086,12.59336
+1451,"Stará Voda, křiž.",32864,1,539112,Stará Voda,Mariánské Lázně,Cheb,49.991943,12.596036
+1452,"Stará Voda, křiž.",32864,2,539112,Stará Voda,Mariánské Lázně,Cheb,49.992093,12.595876
+1453,"Stará Voda, Sekerské Chalupy",32867,1,539112,Stará Voda,Mariánské Lázně,Cheb,49.976946,12.631631
+1454,"Stará Voda, Sekerské Chalupy",32867,2,539112,Stará Voda,Mariánské Lázně,Cheb,49.976296,12.632548
+1455,"Stará Voda, závod",32866,1,539112,Stará Voda,Mariánské Lázně,Cheb,49.992985,12.606495
+1456,"Stará Voda, závod",32866,2,539112,Stará Voda,Mariánské Lázně,Cheb,49.992995,12.6051
+1457,Staré Sedlo,32995,1,560642,Staré Sedlo,Sokolov,Sokolov,50.181869,12.720043
+1458,Staré Sedlo,32995,2,560642,Staré Sedlo,Sokolov,Sokolov,50.182315,12.721839
+1459,"Staré Sedlo, lanovka",32996,1,560642,Staré Sedlo,Sokolov,Sokolov,50.180401,12.712274
+1460,"Staré Sedlo, lanovka",32996,2,560642,Staré Sedlo,Sokolov,Sokolov,50.180434,12.713321
+1461,"Staré Sedlo, motel rozc.",32997,1,560642,Staré Sedlo,Sokolov,Sokolov,50.178739,12.699672
+1462,"Staré Sedlo, motel rozc.",32997,2,560642,Staré Sedlo,Sokolov,Sokolov,50.178797,12.70095
+1463,Stráž n. Ohří,33400,1,555584,Stráž nad Ohří,Ostrov,Karlovy Vary,50.339746,13.053638
+1464,Stráž n. Ohří,33400,2,555584,Stráž nad Ohří,Ostrov,Karlovy Vary,50.339817,13.053366
+1465,"Stráž n. Ohří, Boč",33402,1,555584,Stráž nad Ohří,Ostrov,Karlovy Vary,50.361284,13.081688
+1466,"Stráž n. Ohří, Boč",33402,2,555584,Stráž nad Ohří,Ostrov,Karlovy Vary,50.362267,13.083205
+1467,"Stráž n. Ohří, lom",33401,1,555584,Stráž nad Ohří,Ostrov,Karlovy Vary,50.334975,13.045457
+1468,"Stráž n. Ohří, lom",33401,2,555584,Stráž nad Ohří,Ostrov,Karlovy Vary,50.334817,13.045026
+1469,"Stráž n. Ohří, Smilov",33403,1,555584,Stráž nad Ohří,Ostrov,Karlovy Vary,50.374129,13.098939
+1470,"Stráž n. Ohří, Smilov",33403,2,555584,Stráž nad Ohří,Ostrov,Karlovy Vary,50.374275,13.099016
+1471,"Stráž n. Ohří, Srní, rozc.",33404,1,555584,Stráž nad Ohří,Ostrov,Karlovy Vary,50.372325,13.087144
+1472,"Stráž n. Ohří, Srní, rozc.",33404,2,555584,Stráž nad Ohří,Ostrov,Karlovy Vary,50.372311,13.08726
+1473,"Stružná, Horní Tašovice",33597,1,555592,Stružná,Karlovy Vary,Karlovy Vary,50.17148,13.014691
+1474,"Stružná, Horní Tašovice",33597,2,555592,Stružná,Karlovy Vary,Karlovy Vary,50.1716,13.014763
+1475,"Stružná, Nová Víska",33598,1,555592,Stružná,Karlovy Vary,Karlovy Vary,50.178622,12.984093
+1476,"Stružná, Nová Víska",33598,2,555592,Stružná,Karlovy Vary,Karlovy Vary,50.178635,12.983957
+1477,"Stružná, obec",33595,1,555592,Stružná,Karlovy Vary,Karlovy Vary,50.182264,13.005406
+1478,"Stružná, rozc.",33596,1,555592,Stružná,Karlovy Vary,Karlovy Vary,50.179447,13.001858
+1479,"Stružná, rozc.",33596,2,555592,Stružná,Karlovy Vary,Karlovy Vary,50.179527,13.001956
+1480,"Stružná, Žalmanov",33599,1,555592,Stružná,Karlovy Vary,Karlovy Vary,50.186871,12.987789
+1481,"Stružná, Žalmanov",33599,2,555592,Stružná,Karlovy Vary,Karlovy Vary,50.186971,12.98769
+1482,Stříbrná,33650,1,560651,Stříbrná,Kraslice,Sokolov,50.361671,12.52371
+1483,Stříbrná,33650,2,560651,Stříbrná,Kraslice,Sokolov,50.361548,12.523631
+1484,"Stříbrná, 1. čs. brigády",33651,1,560651,Stříbrná,Kraslice,Sokolov,50.348929,12.520509
+1485,"Stříbrná, 1. čs. brigády",33651,2,560651,Stříbrná,Kraslice,Sokolov,50.348871,12.52031
+1486,"Stříbrná, čistírna",33652,1,560651,Stříbrná,Kraslice,Sokolov,50.35246,12.525074
+1487,"Stříbrná, čistírna",33652,2,560651,Stříbrná,Kraslice,Sokolov,50.352392,12.525158
+1488,"Stříbrná, host. U kina",33653,1,560651,Stříbrná,Kraslice,Sokolov,50.35735,12.525968
+1489,"Stříbrná, host. U kina",33653,2,560651,Stříbrná,Kraslice,Sokolov,50.35727,12.525846
+1490,"Stříbrná, rozc. Nancy",33654,1,560651,Stříbrná,Kraslice,Sokolov,50.370277,12.522433
+1491,"Stříbrná, rozc. Nancy",33654,2,560651,Stříbrná,Kraslice,Sokolov,50.369964,12.521825
+1492,"Svatava, Na špici",34130,1,538434,Svatava,Sokolov,Sokolov,50.194592,12.605195
+1493,"Svatava, Na špici",34130,2,538434,Svatava,Sokolov,Sokolov,50.194527,12.605499
+1494,"Svatava, rozc.",34132,1,538434,Svatava,Sokolov,Sokolov,50.190672,12.633782
+1495,"Svatava, rozc.",34132,2,538434,Svatava,Sokolov,Sokolov,50.190463,12.633684
+1496,"Svatava, strojírny",34129,1,538434,Svatava,Sokolov,Sokolov,50.19304,12.616492
+1497,"Svatava, strojírny",34129,2,538434,Svatava,Sokolov,Sokolov,50.192806,12.616292
+1498,"Svatava, škola",34134,1,538434,Svatava,Sokolov,Sokolov,50.189695,12.626758
+1499,"Svatava, škola",34134,2,538434,Svatava,Sokolov,Sokolov,50.190213,12.626692
+1500,"Svatava, škola",34134,3,538434,Svatava,Sokolov,Sokolov,50.188611,12.625944
+1501,"Svatava, škola",34134,4,538434,Svatava,Sokolov,Sokolov,50.188694,12.62576
+1502,Šabina,34535,1,538396,Šabina,Sokolov,Sokolov,50.134273,12.580037
+1503,Šabina,34535,2,538396,Šabina,Sokolov,Sokolov,50.134854,12.581871
+1504,Šabina,34535,3,538396,Šabina,Sokolov,Sokolov,50.134833,12.581487
+1505,Šemnice,34684,1,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.239484,12.972339
+1506,Šemnice,34684,2,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.239544,12.972291
+1507,"Šemnice, Dubina",34687,1,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.243932,12.992016
+1508,"Šemnice, Dubina",34687,2,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.243784,12.991536
+1509,"Šemnice, Dubina, háj.",34688,1,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.236962,12.992318
+1510,"Šemnice, Dubina, háj.",34688,2,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.236874,12.992337
+1511,"Šemnice, most",34685,2,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.243874,12.969435
+1512,"Šemnice, most",34685,1,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.243871,12.969098
+1513,"Šemnice, Muzikov",34689,1,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.243419,12.94903
+1514,"Šemnice, Muzikov",34689,2,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.2434,12.94857
+1515,"Šemnice, Pulovice",53407,1,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.254284,12.96384
+1516,"Šemnice, rozc.",34686,1,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.243374,12.984308
+1517,"Šemnice, rozc.",34686,2,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.243317,12.984426
+1518,"Šemnice, Sedlečko",34690,1,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.236388,12.959117
+1519,"Šemnice, Sedlečko",34690,2,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.236518,12.958794
+1520,"Šemnice, Sedlečko, rozc.",34691,1,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.234851,12.943972
+1521,"Šemnice, Sedlečko, rozc.",34691,2,555614,Šemnice,Karlovy Vary,Karlovy Vary,50.234878,12.943752
+1522,Šindelová,34761,1,560677,Šindelová,Kraslice,Sokolov,50.317504,12.609514
+1523,Šindelová,34761,2,560677,Šindelová,Kraslice,Sokolov,50.317402,12.609553
+1524,"Šindelová, Krásná Lípa",34763,1,560677,Šindelová,Kraslice,Sokolov,50.325569,12.609582
+1525,"Šindelová, Krásná Lípa",34763,2,560677,Šindelová,Kraslice,Sokolov,50.325688,12.60944
+1526,"Šindelová, obchod",50635,1,560677,Šindelová,Kraslice,Sokolov,50.318552,12.603126
+1527,"Šindelová, obchod",50635,2,560677,Šindelová,Kraslice,Sokolov,50.318742,12.603188
+1528,"Šindelová, Obora",34762,1,560677,Šindelová,Kraslice,Sokolov,50.316886,12.598544
+1529,"Šindelová, Obora",34762,2,560677,Šindelová,Kraslice,Sokolov,50.316872,12.598775
+1530,"Šindelová, Údolí",30081,1,560677,Šindelová,Kraslice,Sokolov,50.311566,12.592369
+1531,"Šindelová, Údolí",30081,2,560677,Šindelová,Kraslice,Sokolov,50.311559,12.59221
+1532,Štědrá,34881,1,555622,Štědrá,Karlovy Vary,Karlovy Vary,50.058509,13.113687
+1533,"Štědrá, Brložec",34883,1,555622,Štědrá,Karlovy Vary,Karlovy Vary,50.059679,13.068427
+1534,"Štědrá, Brložec",34883,2,555622,Štědrá,Karlovy Vary,Karlovy Vary,50.059597,13.068231
+1535,"Štědrá, Domašín, rozc.",34884,1,555622,Štědrá,Karlovy Vary,Karlovy Vary,50.028454,13.182949
+1536,"Štědrá, Domašín, rozc.",34884,2,555622,Štědrá,Karlovy Vary,Karlovy Vary,50.028566,13.182948
+1537,"Štědrá, Lažany",34885,1,555622,Štědrá,Karlovy Vary,Karlovy Vary,50.062103,13.101679
+1538,"Štědrá, Lažany",34885,2,555622,Štědrá,Karlovy Vary,Karlovy Vary,50.061844,13.101776
+1539,"Štědrá, Prohoř",34886,1,555622,Štědrá,Karlovy Vary,Karlovy Vary,50.036289,13.104032
+1540,"Štědrá, Zbraslav",34888,1,555622,Štědrá,Karlovy Vary,Karlovy Vary,50.036196,13.140866
+1541,"Štědrá, žel. zast.",34882,1,555622,Štědrá,Karlovy Vary,Karlovy Vary,50.050439,13.121143
+1542,"Štědrá, žel. zast.",34882,2,555622,Štědrá,Karlovy Vary,Karlovy Vary,50.050384,13.121354
+1543,Tatrovice,40502,1,538663,Tatrovice,Sokolov,Sokolov,50.276808,12.696742
+1544,Tatrovice,40502,2,538663,Tatrovice,Sokolov,Sokolov,50.276676,12.696958
+1545,"Teplá, Beranov",35608,1,555631,Teplá,Mariánské Lázně,Cheb,49.999581,12.899973
+1546,"Teplá, Beranov",35608,2,555631,Teplá,Mariánské Lázně,Cheb,49.999691,12.899929
+1547,"Teplá, Beranovka",35609,1,555631,Teplá,Mariánské Lázně,Cheb,49.942199,12.845344
+1548,"Teplá, Beroun, rozc.",35610,1,555631,Teplá,Mariánské Lázně,Cheb,49.9555,12.920463
+1549,"Teplá, Číhaná, rozc.",35611,1,555631,Teplá,Mariánské Lázně,Cheb,50.015284,12.779339
+1550,"Teplá, Číhaná, rozc.",35611,2,555631,Teplá,Mariánské Lázně,Cheb,50.015819,12.779694
+1551,"Teplá, Heřmanov",35612,1,555631,Teplá,Mariánské Lázně,Cheb,49.956581,12.916754
+1552,"Teplá, Horní Kramolín",35613,1,555631,Teplá,Mariánské Lázně,Cheb,49.979281,12.803754
+1553,"Teplá, Horní Kramolín",35613,2,555631,Teplá,Mariánské Lázně,Cheb,49.978753,12.806503
+1554,"Teplá, Horní Kramolín",35613,3,555631,Teplá,Mariánské Lázně,Cheb,49.979597,12.803243
+1555,"Teplá, Horní Kramolín",35613,4,555631,Teplá,Mariánské Lázně,Cheb,49.979519,12.802967
+1556,"Teplá, Horní Poutnov",51270,1,555631,Teplá,Mariánské Lázně,Cheb,50.019111,12.834863
+1557,"Teplá, Hoštec",35614,1,555631,Teplá,Mariánské Lázně,Cheb,49.992608,12.826978
+1558,"Teplá, Hoštec",35614,2,555631,Teplá,Mariánské Lázně,Cheb,49.99259,12.826655
+1559,"Teplá, Jankovice, rozc.",35615,1,555631,Teplá,Mariánské Lázně,Cheb,49.974714,12.842993
+1560,"Teplá, Jankovice, rozc.",35615,2,555631,Teplá,Mariánské Lázně,Cheb,49.974678,12.843199
+1561,"Teplá, Jitona rozc.",35606,1,555631,Teplá,Mariánské Lázně,Cheb,49.968678,12.874131
+1562,"Teplá, Kladruby, rozc.",35617,1,555631,Teplá,Mariánské Lázně,Cheb,50.000815,12.919663
+1563,"Teplá, Kladruby, rozc.",35617,2,555631,Teplá,Mariánské Lázně,Cheb,50.000826,12.919404
+1564,"Teplá, Klášter",35618,1,555631,Teplá,Mariánské Lázně,Cheb,49.966429,12.876034
+1565,"Teplá, Klášterní",35605,1,555631,Teplá,Mariánské Lázně,Cheb,49.976616,12.870113
+1566,"Teplá, Křepkovice",35619,1,555631,Teplá,Mariánské Lázně,Cheb,49.9436,12.880722
+1567,"Teplá, Křepkovice, mlýn",35620,1,555631,Teplá,Mariánské Lázně,Cheb,49.950676,12.881009
+1568,"Teplá, Mrázov",65176,1,555631,Teplá,Mariánské Lázně,Cheb,49.961691,12.831837
+1569,"Teplá, Mrázov",65176,2,555631,Teplá,Mariánské Lázně,Cheb,49.960848,12.831288
+1570,"Teplá, Mrázov, rozc.",35621,1,555631,Teplá,Mariánské Lázně,Cheb,49.96995,12.836199
+1571,"Teplá, Mrázov, rozc.",35621,2,555631,Teplá,Mariánské Lázně,Cheb,49.970101,12.836259
+1572,"Teplá, nám.",35602,1,555631,Teplá,Mariánské Lázně,Cheb,49.981939,12.862973
+1573,"Teplá, Nová Farma",35626,1,555631,Teplá,Mariánské Lázně,Cheb,49.999306,12.848583
+1574,"Teplá, Ovčí Dvůr",35622,1,555631,Teplá,Mariánské Lázně,Cheb,49.960386,12.905871
+1575,"Teplá, Ovčí Dvůr",35622,2,555631,Teplá,Mariánské Lázně,Cheb,49.960191,12.905843
+1576,"Teplá, Pěkovice",35623,1,555631,Teplá,Mariánské Lázně,Cheb,49.942033,12.858294
+1577,"Teplá, Poutnov",35624,1,555631,Teplá,Mariánské Lázně,Cheb,50.016045,12.823742
+1578,"Teplá, Rankovice, rozc.",35625,1,555631,Teplá,Mariánské Lázně,Cheb,50.004184,12.847489
+1579,"Teplá, Rankovice, rozc.",35625,2,555631,Teplá,Mariánské Lázně,Cheb,50.004089,12.847466
+1580,"Teplá, Služetín",35627,1,555631,Teplá,Mariánské Lázně,Cheb,49.989161,12.800585
+1581,"Teplá, Služetín",35627,2,555631,Teplá,Mariánské Lázně,Cheb,49.988913,12.800613
+1582,"Teplá, Smrčí Dvůr, rozc.",35628,1,555631,Teplá,Mariánské Lázně,Cheb,49.963426,12.888185
+1583,"Teplá, Smrčí Dvůr, rozc.",35628,2,555631,Teplá,Mariánské Lázně,Cheb,49.963176,12.888463
+1584,"Teplá, Staré Sedlo",35629,1,555631,Teplá,Mariánské Lázně,Cheb,49.940391,12.942409
+1585,"Teplá, Staré Sedlo, rozc.",58619,1,555631,Teplá,Mariánské Lázně,Cheb,49.954641,12.936868
+1586,"Teplá, Staré Sedlo, rozc.",58619,2,555631,Teplá,Mariánské Lázně,Cheb,49.954583,12.936732
+1587,"Teplá, škola",35604,1,555631,Teplá,Mariánské Lázně,Cheb,49.98019,12.86687
+1588,"Teplá, Zahrádka",35630,1,555631,Teplá,Mariánské Lázně,Cheb,49.933769,12.919911
+1589,"Teplá, žel. st.",35607,1,555631,Teplá,Mariánské Lázně,Cheb,49.975949,12.859989
+1590,"Teplá, žel. st.",35607,2,555631,Teplá,Mariánské Lázně,Cheb,49.976067,12.860081
+1591,Teplička,35688,1,537845,Teplička,Karlovy Vary,Karlovy Vary,50.148656,12.854353
+1592,Teplička,35688,2,537845,Teplička,Karlovy Vary,Karlovy Vary,50.149662,12.854261
+1593,"Těšovice, obecní úřad",,1,579360,Těšovice,Sokolov,Sokolov,50.181188,12.674169
+1594,"Těšovice, obecní úřad",,2,579360,Těšovice,Sokolov,Sokolov,50.181138,12.674333
+1595,"Toužim, aut. st.",36054,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.055947,12.989485
+1596,"Toužim, aut. st.",36054,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.056051,12.98959
+1597,"Toužim, aut. st.",36054,3,555657,Toužim,Karlovy Vary,Karlovy Vary,50.056259,12.989806
+1598,"Toužim, aut. st.",36054,4,555657,Toužim,Karlovy Vary,Karlovy Vary,50.056252,12.989633
+1599,"Toužim, aut. st.",36054,5,555657,Toužim,Karlovy Vary,Karlovy Vary,50.05612,12.989496
+1600,"Toužim, aut. st.",36054,6,555657,Toužim,Karlovy Vary,Karlovy Vary,50.056017,12.989384
+1601,"Toužim, aut. st.",36054,7,555657,Toužim,Karlovy Vary,Karlovy Vary,50.056015,12.989203
+1602,"Toužim, aut. st.",36054,8,555657,Toužim,Karlovy Vary,Karlovy Vary,50.056118,12.989312
+1603,"Toužim, aut. st.",36054,9,555657,Toužim,Karlovy Vary,Karlovy Vary,50.056245,12.989453
+1604,"Toužim, aut. st.",36054,10,555657,Toužim,Karlovy Vary,Karlovy Vary,50.056287,12.990738
+1605,"Toužim, Bezděkov",36061,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.007068,12.975223
+1606,"Toužim, Dobrá Voda",36063,1,555657,Toužim,Karlovy Vary,Karlovy Vary,49.98917,12.962051
+1607,"Toužim, háj.",36055,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.046135,12.992578
+1608,"Toužim, háj.",36055,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.046882,12.993789
+1609,"Toužim, hřbitov",51168,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.044136,12.977962
+1610,"Toužim, Kojšovice",36064,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.082003,13.006913
+1611,"Toužim, Kojšovice",36064,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.081854,13.006786
+1612,"Toužim, Komárov",36065,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.041124,13.064698
+1613,"Toužim, Kosmová",36066,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.035236,12.973893
+1614,"Toužim, Kosmová",36066,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.035355,12.973808
+1615,"Toužim, Malé nám.",36056,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.060075,12.986415
+1616,"Toužim, Malé nám.",36056,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.06095,12.986824
+1617,"Toužim, nám.",36057,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.059613,12.984932
+1618,"Toužim, nám.",36057,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.059658,12.984492
+1619,"Toužim, OZAP",36058,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.049085,12.990216
+1620,"Toužim, Políkno",51269,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.042907,13.019278
+1621,"Toužim, Políkno, rozc.",36070,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.036956,12.998869
+1622,"Toužim, Políkno, rozc.",36070,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.036903,12.998945
+1623,"Toužim, Prachomety",36071,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.009864,12.948378
+1624,"Toužim, Prachomety",36071,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.010039,12.948599
+1625,"Toužim, Prachomety",36071,3,555657,Toužim,Karlovy Vary,Karlovy Vary,50.010193,12.949733
+1626,"Toužim, Prachomety",36071,4,555657,Toužim,Karlovy Vary,Karlovy Vary,50.010311,12.949728
+1627,"Toužim, Radyně",36072,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.06387,13.03675
+1628,"Toužim, Radyně",36072,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.063792,13.036833
+1629,"Toužim, Smilov",36073,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.05958,13.053444
+1630,"Toužim, Smilov",36073,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.059382,13.052944
+1631,"Toužim, Smilov",36073,3,555657,Toužim,Karlovy Vary,Karlovy Vary,50.05876,13.052595
+1632,"Toužim, Smilov",36073,4,555657,Toužim,Karlovy Vary,Karlovy Vary,50.058658,13.052476
+1633,"Toužim, Smilov, žel. zast.",36074,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.050081,13.050708
+1634,"Toužim, Smilov, žel. zast.",36074,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.050026,13.050605
+1635,"Toužim, STS",36059,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.061923,12.993109
+1636,"Toužim, STS",36059,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.061606,12.991956
+1637,"Toužim, škola",43934,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.057126,12.990702
+1638,"Toužim, škola",43934,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.056889,12.990683
+1639,"Toužim, Třebouň",36075,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.022935,13.013477
+1640,"Toužim, Třebouň",36075,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.02308,13.013442
+1641,"Toužim, žel. st.",36060,1,555657,Toužim,Karlovy Vary,Karlovy Vary,50.051353,12.992524
+1642,"Toužim, žel. st.",36060,2,555657,Toužim,Karlovy Vary,Karlovy Vary,50.051143,12.992381
+1643,Trstěnice,36504,1,554855,Trstěnice,Mariánské Lázně,Cheb,49.918608,12.674314
+1644,Trstěnice,36504,2,554855,Trstěnice,Mariánské Lázně,Cheb,49.918924,12.674787
+1645,"Trstěnice, Horní Ves",36506,1,554855,Trstěnice,Mariánské Lázně,Cheb,49.917595,12.654729
+1646,"Trstěnice, rozvodna",36505,1,554855,Trstěnice,Mariánské Lázně,Cheb,49.928922,12.67058
+1647,"Trstěnice, rozvodna",36505,2,554855,Trstěnice,Mariánské Lázně,Cheb,49.928913,12.67076
+1648,Třebeň,36628,2,539023,Třebeň,Cheb,Cheb,50.128665,12.39918
+1649,Třebeň,36628,1,539023,Třebeň,Cheb,Cheb,50.128616,12.3988
+1650,"Třebeň, Dvorek",36629,1,539023,Třebeň,Cheb,Cheb,50.13518,12.407806
+1651,"Třebeň, Horní Ves",36630,1,539023,Třebeň,Cheb,Cheb,50.12581,12.377133
+1652,"Třebeň, Horní Ves",36630,2,539023,Třebeň,Cheb,Cheb,50.126434,12.376338
+1653,"Třebeň, Lesinka",36631,1,539023,Třebeň,Cheb,Cheb,50.12521,12.415552
+1654,"Třebeň, Lesinka",36631,2,539023,Třebeň,Cheb,Cheb,50.125243,12.417326
+1655,"Třebeň, Lesinka, Lesina rozc.",36632,1,539023,Třebeň,Cheb,Cheb,50.125236,12.443566
+1656,"Třebeň, Lesinka, Lesina rozc.",36632,2,539023,Třebeň,Cheb,Cheb,50.124733,12.442399
+1657,"Třebeň, Lesinka, Povodí",36633,1,539023,Třebeň,Cheb,Cheb,50.137108,12.430558
+1658,"Třebeň, Lesinka, rozc.",36634,1,539023,Třebeň,Cheb,Cheb,50.124195,12.421865
+1659,"Třebeň, Lesinka, rozc.",36634,2,539023,Třebeň,Cheb,Cheb,50.124271,12.421939
+1660,"Třebeň, Nový Drahov",36635,1,539023,Třebeň,Cheb,Cheb,50.137345,12.391795
+1661,"Třebeň, Nový Drahov",36635,2,539023,Třebeň,Cheb,Cheb,50.137402,12.391791
+1662,Tři Sekery,36858,2,554880,Tři Sekery,Mariánské Lázně,Cheb,49.942215,12.616388
+1663,Tři Sekery,36858,1,554880,Tři Sekery,Mariánské Lázně,Cheb,49.943575,12.616673
+1664,"Tři Sekery, Chodovská Huť",36860,1,554880,Tři Sekery,Mariánské Lázně,Cheb,49.920364,12.608264
+1665,"Tři Sekery, Chodovská Huť",36860,2,554880,Tři Sekery,Mariánské Lázně,Cheb,49.920493,12.60836
+1666,"Tři Sekery, Jitona",36859,1,554880,Tři Sekery,Mariánské Lázně,Cheb,49.935706,12.620642
+1667,"Tři Sekery, Jitona",36859,2,554880,Tři Sekery,Mariánské Lázně,Cheb,49.936149,12.620215
+1668,"Tři Sekery, Jitona",36859,3,554880,Tři Sekery,Mariánské Lázně,Cheb,49.935538,12.620008
+1669,"Tři Sekery, Krásné",36863,1,554880,Tři Sekery,Mariánské Lázně,Cheb,49.955674,12.614273
+1670,"Tři Sekery, Krásné",36863,2,554880,Tři Sekery,Mariánské Lázně,Cheb,49.955691,12.614433
+1671,"Tři Sekery, Plánská Huť",36862,1,554880,Tři Sekery,Mariánské Lázně,Cheb,49.926789,12.605264
+1672,"Tři Sekery, Plánská Huť",36862,2,554880,Tři Sekery,Mariánské Lázně,Cheb,49.926819,12.605356
+1673,"Tři Sekery, Plánská Huť rozc.",36861,1,554880,Tři Sekery,Mariánské Lázně,Cheb,49.928445,12.614539
+1674,"Tři Sekery, Plánská Huť rozc.",36861,2,554880,Tři Sekery,Mariánské Lázně,Cheb,49.928452,12.614454
+1675,"Tři Sekery, střed",67787,1,554880,Tři Sekery,Mariánské Lázně,Cheb,49.941228,12.618578
+1676,"Tři Sekery, Tachovská Huť",36864,1,554880,Tři Sekery,Mariánské Lázně,Cheb,49.936012,12.597589
+1677,"Tři Sekery, Tachovská Huť, rozc.",36865,1,554880,Tři Sekery,Mariánské Lázně,Cheb,49.93755,12.618791
+1678,"Tři Sekery, Tachovská Huť, rozc.",36865,2,554880,Tři Sekery,Mariánské Lázně,Cheb,49.937569,12.619
+1679,Tuřany,37175,1,539619,Tuřany,Cheb,Cheb,50.083269,12.521812
+1680,Tuřany,37175,2,539619,Tuřany,Cheb,Cheb,50.083351,12.521771
+1681,"Tuřany, Lipoltov",37176,1,539619,Tuřany,Cheb,Cheb,50.087107,12.500015
+1682,"Tuřany, Lipoltov",37176,2,539619,Tuřany,Cheb,Cheb,50.086973,12.499597
+1683,"Tuřany, návrší",37177,1,539619,Tuřany,Cheb,Cheb,50.094674,12.519475
+1684,"Tuřany, návrší",37177,2,539619,Tuřany,Cheb,Cheb,50.094641,12.519329
+1685,Útvina,37913,3,555681,Útvina,Karlovy Vary,Karlovy Vary,50.068873,12.954907
+1686,Útvina,37913,1,555681,Útvina,Karlovy Vary,Karlovy Vary,50.069163,12.956255
+1687,Útvina,37913,2,555681,Útvina,Karlovy Vary,Karlovy Vary,50.069261,12.956026
+1688,Útvina,37913,4,555681,Útvina,Karlovy Vary,Karlovy Vary,50.068836,12.955114
+1689,"Útvina, Chylice",37915,1,555681,Útvina,Karlovy Vary,Karlovy Vary,50.090539,12.970211
+1690,"Útvina, Přílezy",37916,1,555681,Útvina,Karlovy Vary,Karlovy Vary,50.091906,12.941754
+1691,"Útvina, Přílezy",37916,2,555681,Útvina,Karlovy Vary,Karlovy Vary,50.091825,12.941022
+1692,"Útvina, Přílezy",37916,3,555681,Útvina,Karlovy Vary,Karlovy Vary,50.091846,12.940668
+1693,"Útvina, Sedlo",37917,1,555681,Útvina,Karlovy Vary,Karlovy Vary,50.05575,12.940838
+1694,Valeč,38190,1,555690,Valeč,Karlovy Vary,Karlovy Vary,50.174235,13.254676
+1695,"Valeč, Bělá",47264,1,555690,Valeč,Karlovy Vary,Karlovy Vary,50.166107,13.233584
+1696,"Valeč, Bělá",47264,2,555690,Valeč,Karlovy Vary,Karlovy Vary,50.166031,13.233618
+1697,"Valeč, Bělá, rozc.",40296,1,555690,Valeč,Karlovy Vary,Karlovy Vary,50.164911,13.239301
+1698,"Valeč, Bělá, rozc.",40296,2,555690,Valeč,Karlovy Vary,Karlovy Vary,50.164871,13.239696
+1699,"Valeč, Jeřeň",38191,1,555690,Valeč,Karlovy Vary,Karlovy Vary,50.166199,13.256564
+1700,"Valeč, Jeřeň",38191,2,555690,Valeč,Karlovy Vary,Karlovy Vary,50.166103,13.256689
+1701,"Valeč, Kostrčany",38192,1,555690,Valeč,Karlovy Vary,Karlovy Vary,50.150491,13.261793
+1702,"Valeč, Kostrčany",38192,2,555690,Valeč,Karlovy Vary,Karlovy Vary,50.150378,13.261946
+1703,"Valeč, Nahořečice, rozc.",38193,1,555690,Valeč,Karlovy Vary,Karlovy Vary,50.143226,13.273155
+1704,"Valeč, Nahořečice, rozc.",38193,2,555690,Valeč,Karlovy Vary,Karlovy Vary,50.143268,13.273228
+1705,"Valeč, Velký Hlavákov",38194,1,555690,Valeč,Karlovy Vary,Karlovy Vary,50.163049,13.2048
+1706,"Valeč, Velký Hlavákov",38194,2,555690,Valeč,Karlovy Vary,Karlovy Vary,50.16293,13.20497
+1707,Valy,38232,1,539481,Valy,Mariánské Lázně,Cheb,49.975465,12.658156
+1708,Valy,38232,2,539481,Valy,Mariánské Lázně,Cheb,49.975601,12.658112
+1709,Velichov,38466,1,555703,Velichov,Ostrov,Karlovy Vary,50.283321,13.008539
+1710,Velichov,38466,2,555703,Velichov,Ostrov,Karlovy Vary,50.28337,13.009095
+1711,"Velichov, osada",38467,1,555703,Velichov,Ostrov,Karlovy Vary,50.284967,13.002681
+1712,"Velichov, osada",38467,2,555703,Velichov,Ostrov,Karlovy Vary,50.285,13.00281
+1713,"Velichov, Vojenské lesy",38468,1,555703,Velichov,Ostrov,Karlovy Vary,50.281419,13.005364
+1714,"Velichov, Vojenské lesy",38468,2,555703,Velichov,Ostrov,Karlovy Vary,50.281414,13.005021
+1715,Velká Hleďsebe,38543,1,539279,Velká Hleďsebe,Mariánské Lázně,Cheb,49.961553,12.669131
+1716,Velká Hleďsebe,38543,2,539279,Velká Hleďsebe,Mariánské Lázně,Cheb,49.961731,12.669666
+1717,"Velká Hleďsebe, Klimentov",38545,1,539279,Velká Hleďsebe,Mariánské Lázně,Cheb,49.964447,12.665339
+1718,"Velká Hleďsebe, Klimentov",38545,2,539279,Velká Hleďsebe,Mariánské Lázně,Cheb,49.964377,12.665184
+1719,"Velká Hleďsebe, Malá Hleďsebe, rozc.",38546,1,539279,Velká Hleďsebe,Mariánské Lázně,Cheb,49.953735,12.666469
+1720,"Velká Hleďsebe, Malá Hleďsebe, rozc.",38546,2,539279,Velká Hleďsebe,Mariánské Lázně,Cheb,49.953957,12.666628
+1721,"Velká Hleďsebe, prádelna",38544,1,539279,Velká Hleďsebe,Mariánské Lázně,Cheb,49.962518,12.67702
+1722,"Velká Hleďsebe, prádelna",38544,2,539279,Velká Hleďsebe,Mariánské Lázně,Cheb,49.962493,12.678255
+1723,"Velká Hleďsebe, Riviéra",67791,1,539279,Velká Hleďsebe,Mariánské Lázně,Cheb,49.965048,12.658668
+1724,"Velká Hleďsebe, Riviéra",67791,2,539279,Velká Hleďsebe,Mariánské Lázně,Cheb,49.96532,12.658415
+1725,Velký Luh,39035,1,578002,Velký Luh,Cheb,Cheb,50.199024,12.372563
+1726,Velký Luh,39035,2,578002,Velký Luh,Cheb,Cheb,50.199131,12.372728
+1727,"Velký Luh, pískovna",39036,1,578002,Velký Luh,Cheb,Cheb,50.208743,12.367148
+1728,"Velký Luh, pískovna",39036,2,578002,Velký Luh,Cheb,Cheb,50.208923,12.367093
+1729,"Velký Luh, žel. st.",39037,1,578002,Velký Luh,Cheb,Cheb,50.203699,12.371583
+1730,"Velký Luh, žel. st.",39037,2,578002,Velký Luh,Cheb,Cheb,50.203434,12.371982
+1731,Verušičky,39175,1,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.141753,13.173346
+1732,Verušičky,39175,2,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.141617,13.173152
+1733,"Verušičky, Albeřice",10590,1,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.164765,13.165789
+1734,"Verušičky, Albeřice",10590,2,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.164779,13.165907
+1735,"Verušičky, Budov",49427,1,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.138617,13.148405
+1736,"Verušičky, Budov",49427,2,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.138661,13.148356
+1737,"Verušičky, Budov, rozc.",39177,1,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.136025,13.153711
+1738,"Verušičky, Budov, rozc.",39177,2,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.135762,13.150147
+1739,"Verušičky, Hvězda",39178,1,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.134933,13.119822
+1740,"Verušičky, Hvězda",39178,2,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.134635,13.119968
+1741,"Verušičky, Luka",39180,1,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.143929,13.132343
+1742,"Verušičky, Luka",39180,2,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.15612,13.151451
+1743,"Verušičky, rozc.",39176,1,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.136414,13.176197
+1744,"Verušičky, rozc.",39176,2,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.136494,13.178118
+1745,"Verušičky, Týniště",47618,1,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.146128,13.181798
+1746,"Verušičky, Týniště, rozc.",39181,1,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.149731,13.170357
+1747,"Verušičky, Týniště, rozc.",39181,2,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.149591,13.170205
+1748,"Verušičky, Týniště, rozc.",39181,3,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.149578,13.170704
+1749,"Verušičky, Týniště, rozc.",39181,4,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.149516,13.170687
+1750,"Verušičky, Vahaneč",47279,1,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.140283,13.125388
+1751,"Verušičky, Vahaneč, žel. st.",47280,1,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.143897,13.13223
+1752,"Verušičky, Vahaneč, žel. st.",47280,2,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.143929,13.132343
+1753,"Verušičky, Záhoří",42781,1,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.152368,13.136514
+1754,"Verušičky, Záhoří",42781,2,555711,Verušičky,Karlovy Vary,Karlovy Vary,50.151961,13.135739
+1755,Vintířov,39597,1,560685,Vintířov,Sokolov,Sokolov,50.233791,12.718114
+1756,Vintířov,39597,2,560685,Vintířov,Sokolov,Sokolov,50.233355,12.716102
+1757,"Vintířov, keramzitka",39598,1,560685,Vintířov,Sokolov,Sokolov,50.239491,12.712353
+1758,"Vintířov, keramzitka",39598,2,560685,Vintířov,Sokolov,Sokolov,50.239636,12.712687
+1759,"Vintířov, keramzitka",39598,3,560685,Vintířov,Sokolov,Sokolov,50.239013,12.712514
+1760,"Vintířov, Lipnice, montážní záv.",39600,1,560685,Vintířov,Sokolov,Sokolov,50.23132,12.693351
+1761,"Vintířov, Lipnice, montážní záv.",39600,2,560685,Vintířov,Sokolov,Sokolov,50.231533,12.693261
+1762,"Vintířov, Lipnice, rozvodna",39601,1,560685,Vintířov,Sokolov,Sokolov,50.229337,12.670679
+1763,"Vintířov, Lipnice, rozvodna",39601,2,560685,Vintířov,Sokolov,Sokolov,50.229441,12.670613
+1764,"Vintířov, velkolom Jiří",39599,1,560685,Vintířov,Sokolov,Sokolov,50.232444,12.703198
+1765,"Vintířov, velkolom Jiří",39599,2,560685,Vintířov,Sokolov,Sokolov,50.232314,12.703024
+1766,"Vintířov, velkolom Jiří",39599,3,560685,Vintířov,Sokolov,Sokolov,50.232158,12.702835
+1767,"Vintířov, velkolom Jiří",39599,4,560685,Vintířov,Sokolov,Sokolov,50.232018,12.702646
+1768,"Vintířov, velkolom Jiří",39599,5,560685,Vintířov,Sokolov,Sokolov,50.232471,12.702987
+1769,"Vintířov, velkolom Jiří",39599,6,560685,Vintířov,Sokolov,Sokolov,50.232378,12.702861
+1770,"Vintířov, velkolom Jiří",39599,7,560685,Vintířov,Sokolov,Sokolov,50.232207,12.702643
+1771,"Vintířov, velkolom Jiří",39599,8,560685,Vintířov,Sokolov,Sokolov,50.232067,12.702458
+1772,Vojkovice,39999,1,555738,Vojkovice,Ostrov,Karlovy Vary,50.303173,13.018901
+1773,Vojkovice,39999,2,555738,Vojkovice,Ostrov,Karlovy Vary,50.303268,13.018679
+1774,"Vojkovice, Jakšovy domy",40000,1,555738,Vojkovice,Ostrov,Karlovy Vary,50.299326,13.017989
+1775,"Vojkovice, Jakšovy domy",40000,2,555738,Vojkovice,Ostrov,Karlovy Vary,50.299222,13.017769
+1776,"Vojkovice, Jakubov, porcelánka",40001,1,555738,Vojkovice,Ostrov,Karlovy Vary,50.309724,13.032029
+1777,"Vojkovice, Jakubov, porcelánka",40001,2,555738,Vojkovice,Ostrov,Karlovy Vary,50.309649,13.032099
+1778,"Vojkovice, Jakubov, porcelánka",40001,3,555738,Vojkovice,Ostrov,Karlovy Vary,50.309058,13.029755
+1779,"Vojkovice, Jakubov, škola",40002,1,555738,Vojkovice,Ostrov,Karlovy Vary,50.309649,13.032099
+1780,"Vojtanov, Antonínova Výšina",40026,1,539074,Vojtanov,Cheb,Cheb,50.13831,12.31976
+1781,"Vojtanov, Antonínova Výšina",40026,2,539074,Vojtanov,Cheb,Cheb,50.137633,12.320185
+1782,"Vojtanov, obec",40023,1,539074,Vojtanov,Cheb,Cheb,50.166149,12.316768
+1783,"Vojtanov, obec",40023,2,539074,Vojtanov,Cheb,Cheb,50.16596,12.317886
+1784,"Vojtanov, tržnice",56724,1,539074,Vojtanov,Cheb,Cheb,50.165656,12.317176
+1785,"Vojtanov, tržnice",56724,2,539074,Vojtanov,Cheb,Cheb,50.16521,12.317328
+1786,"Vojtanov, žel. st.",40022,1,539074,Vojtanov,Cheb,Cheb,50.166977,12.327353
+1787,Vrbice,40294,1,566675,Vrbice,Karlovy Vary,Karlovy Vary,50.149385,13.234742
+1788,Vrbice,40294,2,566675,Vrbice,Karlovy Vary,Karlovy Vary,50.149294,13.234467
+1789,"Vrbice, Bošov",40297,1,566675,Vrbice,Karlovy Vary,Karlovy Vary,50.135456,13.235306
+1790,"Vrbice, Skřipová, rozc.",40298,1,566675,Vrbice,Karlovy Vary,Karlovy Vary,50.135581,13.201522
+1791,"Vrbice, Skřipová, rozc.",40298,2,566675,Vrbice,Karlovy Vary,Karlovy Vary,50.135803,13.19943
+1792,"Vřesová, kombinát",40500,1,560707,Vřesová,Sokolov,Sokolov,50.259469,12.69704
+1793,"Vřesová, kombinát",40500,2,560707,Vřesová,Sokolov,Sokolov,50.259507,12.697245
+1794,"Vřesová, kombinát",40500,3,560707,Vřesová,Sokolov,Sokolov,50.259556,12.697484
+1795,"Vřesová, kombinát",40500,4,560707,Vřesová,Sokolov,Sokolov,50.259588,12.697633
+1796,"Vřesová, kombinát",40500,5,560707,Vřesová,Sokolov,Sokolov,50.259534,12.697865
+1797,"Vřesová, kombinát",40500,6,560707,Vřesová,Sokolov,Sokolov,50.259465,12.697528
+1798,"Vřesová, kombinát",40500,7,560707,Vřesová,Sokolov,Sokolov,50.259416,12.697259
+1799,"Vřesová, kombinát",40500,8,560707,Vřesová,Sokolov,Sokolov,50.259341,12.696982
+1800,"Vřesová, ObÚ",52119,1,560707,Vřesová,Sokolov,Sokolov,50.258646,12.690592
+1801,"Vřesová, rozc.",40501,1,560707,Vřesová,Sokolov,Sokolov,50.260971,12.704031
+1802,"Vřesová, rozc.",40501,2,560707,Vřesová,Sokolov,Sokolov,50.260971,12.706259
+1803,"Vřesová, rozc.",40501,3,560707,Vřesová,Sokolov,Sokolov,50.261726,12.704521
+1804,"Vysoká Pec, hotel Sport",40843,1,578029,Vysoká Pec,Karlovy Vary,Karlovy Vary,50.346638,12.699491
+1805,"Vysoká Pec, hotel Sport",40843,2,578029,Vysoká Pec,Karlovy Vary,Karlovy Vary,50.346765,12.699196
+1806,"Vysoká Pec, Rudné",40846,1,578029,Vysoká Pec,Karlovy Vary,Karlovy Vary,50.349571,12.692773
+1807,"Vysoká Pec, Rudné",40846,2,578029,Vysoká Pec,Karlovy Vary,Karlovy Vary,50.349622,12.692868
+1808,"Vysoká Pec, Rudné, u kostela",40847,1,578029,Vysoká Pec,Karlovy Vary,Karlovy Vary,50.351828,12.685288
+1809,"Vysoká Pec, záv. rozc.",40845,1,578029,Vysoká Pec,Karlovy Vary,Karlovy Vary,50.344496,12.708805
+1810,"Vysoká Pec, záv. rozc.",40845,2,578029,Vysoká Pec,Karlovy Vary,Karlovy Vary,50.34417,12.708414
+1811,"Vysoká Pec, záv. rozc.",40845,3,578029,Vysoká Pec,Karlovy Vary,Karlovy Vary,50.34395,12.708582
+1812,"Vysoká Pec, záv. rozc.",40845,4,578029,Vysoká Pec,Karlovy Vary,Karlovy Vary,50.343541,12.709264
+1813,"Zádub, Závišín",41212,2,539431,Zádub-Závišín,Mariánské Lázně,Cheb,49.975765,12.744011
+1814,"Zádub, Závišín",41212,1,539431,Zádub-Závišín,Mariánské Lázně,Cheb,49.975712,12.743847
+1815,"Zádub, Závišín, škola",42113,1,539431,Zádub-Závišín,Mariánské Lázně,Cheb,49.97081,12.74378
+1816,"Zádub, Závišín, škola",42113,2,539431,Zádub-Závišín,Mariánské Lázně,Cheb,49.970868,12.74372
+1817,"Žlutice, host. Zlaté hrábě",42996,1,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.093818,13.160316
+1818,"Žlutice, host. Zlaté hrábě",42996,2,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.093653,13.160236
+1819,"Žlutice, Knínice",43000,1,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.122754,13.132049
+1820,"Žlutice, Knínice",43000,2,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.122931,13.131857
+1821,"Žlutice, Nádražní",42997,1,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.088741,13.163774
+1822,"Žlutice, Nádražní",42997,2,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.088844,13.164027
+1823,"Žlutice, Protivec",43004,1,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.099342,13.212146
+1824,"Žlutice, Protivec",43004,2,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.099313,13.212305
+1825,"Žlutice, Ratiboř, obec",43005,1,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.113161,13.115951
+1826,"Žlutice, Ratiboř, rozc.",43006,1,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.108304,13.143699
+1827,"Žlutice, Ratiboř, rozc.",43006,2,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.108294,13.143494
+1828,"Žlutice, Verušice",43008,1,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.096259,13.134104
+1829,"Žlutice, Verušice, rozc.",43009,1,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.099944,13.151312
+1830,"Žlutice, Verušice, rozc.",43009,2,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.09986,13.151278
+1831,"Žlutice, Veselov",43010,1,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.11993,13.137133
+1832,"Žlutice, Veselov",43010,2,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.119823,13.137011
+1833,"Žlutice, Záhořice, žel. zast.",43011,1,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.078615,13.194181
+1834,"Žlutice, Záhořice, žel. zast.",43011,2,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.078527,13.193851
+1835,"Žlutice, Záhořice, žel. zast.",43011,3,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.078556,13.19413
+1836,"Žlutice, zahradnictví",42998,1,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.084236,13.181971
+1837,"Žlutice, zahradnictví",42998,2,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.084198,13.181887
+1838,"Žlutice, žel. st.",42999,1,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.085447,13.158349
+1839,"Žlutice, žel. st.",42999,2,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.085404,13.158814
+1840,"Žlutice, žel. st.",42999,3,555762,Žlutice,Karlovy Vary,Karlovy Vary,50.086166,13.159031

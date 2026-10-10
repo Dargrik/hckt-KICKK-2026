@@ -1,15 +1,47 @@
-# Klíče a hesla
+# klíče a hesla do repozitáře nepatří – vzor je v .env.example
 .env
 .env.*
 !.env.example
 
-# Závislosti a build
-node_modules/
-__pycache__/
-.venv/
-dist/
-build/
+# Velká / stažená data (stahují se skripty v data/)
+data/raw/
+data/cache/
+*.zip
+!data/clean/gtfs_kk.zip
+!data/clean/balicek/jizdni_rady.zip
+*.pbf
+*.osm
+*.gtfs
+routing/graphs/
+*.obj
 
-# Systémové soubory
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+.next/
+
+# iOS / Xcode
+ios/**/xcuserdata/
+ios/**/DerivedData/
+*.xcuserstate
+ios/**/Pods/
+ios/**/build/
+
+# OS / editor
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+
+# Xcode (projekt generuje XcodeGen z ios/project.yml)
+ios/Dojedeme.xcodeproj/
+ios/build/
+xcuserdata/
+DerivedData/

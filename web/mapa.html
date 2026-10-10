@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data a mapy – Dojedeme</title>
+<meta name="description" content="Co jsme spočítali z otevřených dat Karlovarského kraje a jízdních řádů: jak dlouho jsou lidé bez auta na cestě k lékaři a zpátky. Mapa obcí, nemocnice, úřady, Senior Expres a pohotovost v sobotu.">
+<link rel="icon" href="/static/img/dojedeme-mark-light.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
+<meta name="theme-color" content="#14574A">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dojedeme">
+<meta property="og:title" content="Data a mapy – Dojedeme">
+<meta property="og:description" content="Jak dlouho jsou lidé bez auta v Karlovarském kraji na cestě k lékaři a zpátky. Mapa obcí, spádové oblasti nemocnic podle vzdálenosti a podle spojů, úřady.">
+<meta property="og:url" content="https://dojedeme.cz/mapa">
+<meta property="og:image" content="https://dojedeme.cz/static/img/sdileni.png">
+<meta property="og:locale" content="cs_CZ">
+<script src="/static/js/vzhled.js"></script>
+<link rel="stylesheet" href="/static/css/tokens.css">
+<link rel="stylesheet" href="/static/css/dojedeme.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/static/css/mapa.css">
+<!-- ikony: Phosphor (BRAND.md) -->
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css">
+</head>
+<body>
+<a class="preskocit" href="#obsah">Přeskočit na obsah</a>
+<header class="web-hlavicka">
+  <div class="obal">
+    <a class="znacka" href="/"><span class="tecka" aria-hidden="true"></span>Dojedeme</a>
+    <nav class="web-nav" aria-label="Hlavní navigace">
+      <a href="/aplikace">Najít spoj</a>
+      <a href="/pro-blizke">SMS pro blízké</a>
+      <a href="/pro-obce">Letáky pro obce</a>
+      <a href="/mapa" aria-current="page">Data a mapy</a>
+    </nav>
+  </div>
+</header>
+
+<main id="obsah">
+  <header class="stranka-hlava">
+    <div class="obal">
+      <h1>Data a mapy</h1>
+      <p class="lead">Z jízdních řádů a otevřených dat kraje jsme spočítali, jak dlouho je člověk bez auta na cestě k lékaři a zpátky. Nahoře jsou hlavní zjištění, pod nimi mapa pro vaši obec a podrobnosti.</p>
+    </div>
+  </header>
+
+  <!-- lepící obsah stránky: kde jsem a kam dál -->
+  <nav class="mapa-nav" id="mapa-nav" aria-label="Části stránky">
+    <div class="obal">
+      <ul>
+        <li><a href="#zjisteni">Přehled</a></li>
+        <li><a href="#obec-sekce">Vaše obec</a></li>
+        <li><a href="#blizko">Blízko, a přesto daleko</a></li>
+        <li><a href="#spady-sekce">Nemocnice</a></li>
+        <li><a href="#urady">Úřady</a></li>
+        <li><a href="#senior-expres">Senior Expres</a></li>
+        <li><a href="#pohotovost">Pohotovost</a></li>
+        <li><a href="#data">Data a postup</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 1. Přehled: šest zjištění, každé vede na svůj oddíl -->
+  <section class="oddil" id="zjisteni" aria-labelledby="zjisteni-nadpis">
+    <div class="obal">
+      <div class="oddil-hlava">
+        <h2 id="zjisteni-nadpis">Co jsme zjistili</h2>
+        <p id="kontext-kraje">Doba mimo domov = cesta tam, 45 minut u lékaře nebo na úřadě a cesta zpátky, v běžný pracovní den.</p>
+      </div>
+      <ul class="karty-zjisteni">
+        <li><a class="karta-zjisteni" id="karta-lekar" href="#obec-sekce" aria-busy="true">
+          <span class="karta-tema"><i class="ph-bold ph-stethoscope" aria-hidden="true"></i>K lékaři a zpátky</span>
+          <span class="karta-cislo"><span class="skeleton sk-cislo"></span></span>
+          <span class="karta-text"><span class="skeleton sk-radek"></span></span>
+          <span class="karta-dal">Najít svou obec na mapě<i class="ph-bold ph-arrow-down" aria-hidden="true"></i></span>
+        </a></li>
+        <li><a class="karta-zjisteni" id="karta-blizko" href="#blizko" aria-busy="true">
+          <span class="karta-tema"><i class="ph-bold ph-clock" aria-hidden="true"></i>Blízko, a přesto daleko</span>
+          <span class="karta-cislo"><span class="skeleton sk-cislo"></span></span>
+          <span class="karta-text"><span class="skeleton sk-radek"></span></span>
+          <span class="karta-dal">Graf obcí<i class="ph-bold ph-arrow-down" aria-hidden="true"></i></span>
+        </a></li>
+        <li><a class="karta-zjisteni" id="karta-nemocnice" href="#spady-sekce" aria-busy="true">
+          <span class="karta-tema"><i class="ph-bold ph-hospital" aria-hidden="true"></i>Nemocnice</span>
+          <span class="karta-cislo"><span class="skeleton sk-cislo"></span></span>
+          <span class="karta-text"><span class="skeleton sk-radek"></span></span>
+          <span class="karta-dal">Mapa spádových oblastí<i class="ph-bold ph-arrow-down" aria-hidden="true"></i></span>
+        </a></li>
+        <li><a class="karta-zjisteni" id="karta-urady" href="#urady" aria-busy="true">
+          <span class="karta-tema"><i class="ph-bold ph-bank" aria-hidden="true"></i>Úřady</span>
+          <span class="karta-cislo"><span class="skeleton sk-cislo"></span></span>
+          <span class="karta-text"><span class="skeleton sk-radek"></span></span>
+          <span class="karta-dal">Které obce to jsou<i class="ph-bold ph-arrow-down" aria-hidden="true"></i></span>
+        </a></li>
+        <li><a class="karta-zjisteni" id="karta-se" href="#senior-expres" aria-busy="true">
+          <span class="karta-tema"><i class="ph-bold ph-taxi" aria-hidden="true"></i>Senior Expres</span>
+          <span class="karta-cislo"><span class="skeleton sk-cislo"></span></span>
+          <span class="karta-text"><span class="skeleton sk-radek"></span></span>
+          <span class="karta-dal">Kde chybí<i class="ph-bold ph-arrow-down" aria-hidden="true"></i></span>
+        </a></li>
+        <li><a class="karta-zjisteni" id="karta-pohotovost" href="#pohotovost" aria-busy="true">
+          <span class="karta-tema"><i class="ph-bold ph-first-aid" aria-hidden="true"></i>Pohotovost v sobotu</span>
+          <span class="karta-cislo"><span class="skeleton sk-cislo"></span></span>
+          <span class="karta-text"><span class="skeleton sk-radek"></span></span>
+          <span class="karta-dal">Odkud se tam nedostanete<i class="ph-bold ph-arrow-down" aria-hidden="true"></i></span>
+        </a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 2. Vaše obec -->
+  <section class="oddil" id="obec-sekce" aria-labelledby="obec-nadpis">
+    <div class="obal">
+      <div class="oddil-hlava">
+        <h2 id="obec-nadpis">Jak je na tom vaše obec</h2>
+        <p>Napište název obce. Mapa ji přiblíží a pod hledáním uvidíte, jak dlouho jste bez auta na cestě k lékaři, do nemocnice a na úřad.</p>
+      </div>
+
+      <div class="hledani naseptavac" id="nas-obec">
+        <label for="obec-hledat">Obec</label>
+        <input id="obec-hledat" type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="obec-seznam"
+               aria-describedby="obec-stav" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"
+               placeholder="například Kyselka" disabled>
+        <ul id="obec-seznam" role="listbox" aria-label="Nalezené obce" hidden></ul>
+        <p class="naseptavac-stav" id="obec-stav" aria-live="polite">Načítám seznam obcí…</p>
+      </div>
+
+      <div id="obec-shrnuti" class="obec-shrnuti" aria-live="polite" tabindex="-1"></div>
+
+      <div class="ovladani">
+        <div class="prepinac" role="group" aria-label="Cíl cesty na mapě">
+          <button type="button" data-kategorie="praktik" aria-pressed="true">Praktický lékař</button>
+          <button type="button" data-kategorie="zubar" aria-pressed="false">Zubař</button>
+          <button type="button" data-kategorie="nemocnice" aria-pressed="false">Nemocnice</button>
+        </div>
+        <div class="prepinac" role="group" aria-label="Den v týdnu">
+          <button type="button" data-den="pd" aria-pressed="true">Pracovní den</button>
+          <button type="button" data-den="so" aria-pressed="false">Sobota</button>
+          <button type="button" data-den="ne" aria-pressed="false">Neděle</button>
+        </div>
+      </div>
+      <p id="den-popis" class="den-popis" aria-live="polite"></p>
+
+      <div class="mapa-ram">
+        <div id="mapa-obce" class="mapa" role="region" aria-label="Mapa dostupnosti lékařů veřejnou dopravou v Karlovarském kraji" aria-describedby="legenda-obce-nadpis"></div>
+        <div id="mapa-obce-stav" class="mapa-stav" role="status">Načítám mapu…</div>
+      </div>
+      <div class="mapa-pod">
+        <p class="legenda-nadpis" id="legenda-obce-nadpis">Doba mimo domov <span class="male">(cesta tam, 45 min u lékaře, cesta zpět)</span></p>
+        <ul id="legenda-obce" class="legenda" aria-labelledby="legenda-obce-nadpis"></ul>
+        <p class="male">Každý šestiúhelník je místo, kde lidé bydlí. Šrafovaná místa nemají spoj tam a zpět v jeden den. Klepnutím na šestiúhelník zobrazíte podrobnosti.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Blízko, a přesto daleko -->
+  <section class="oddil" id="blizko" aria-labelledby="blizko-nadpis">
+    <div class="obal">
+      <div class="oddil-hlava">
+        <h2 id="blizko-nadpis">Blízko, a přesto daleko</h2>
+        <p>Lékař je kousek vzdušnou čarou, bez auta je to ale půl dne. Proto spádovost nejde kreslit podle kilometrů.</p>
+      </div>
+      <div class="prepinac" role="group" aria-label="Kam se jede">
+        <button type="button" data-blizko="praktik" aria-pressed="true">Praktický lékař</button>
+        <button type="button" data-blizko="zubar" aria-pressed="false">Zubař</button>
+        <button type="button" data-blizko="nemocnice" aria-pressed="false">Nemocnice</button>
+      </div>
+      <div id="blizko-cisla" aria-live="polite" aria-busy="true">
+        <div class="klicove"><div class="skeleton sk-cislo"></div><div class="skeleton sk-radek"></div></div>
+      </div>
+      <figure class="graf-blizko">
+        <div id="graf-blizko" class="graf"></div>
+        <figcaption class="male">Každá tečka je jedna obec. Vodorovně je vzdálenost k nejbližšímu místu vzdušnou čarou, svisle doba mimo domov v pracovní den. Větší zvýrazněné tečky jsou obce blízko, a přesto 3&nbsp;hodiny a víc pryč z domova.</figcaption>
+      </figure>
+      <div id="blizko-tabulka"></div>
+    </div>
+  </section>
+
+  <!-- 4. Spádové oblasti nemocnic -->
+  <section class="oddil" id="spady-sekce" aria-labelledby="spady-nadpis">
+    <div class="obal">
+      <div class="oddil-hlava">
+        <h2 id="spady-nadpis">Spádové oblasti nemocnic</h2>
+        <p>Kraj má pět nemocnic. Bez auta se často dostanete rychleji do jiné než té nejbližší. Přepněte mapu a porovnejte.</p>
+      </div>
+
+      <div class="spady-mrizka">
+        <div class="spady-mapa">
+          <div class="ovladani">
+            <div class="prepinac" role="group" aria-label="Jak určit spádovou oblast">
+              <button type="button" data-varianta="km" aria-pressed="true">Podle vzdálenosti</button>
+              <button type="button" data-varianta="cas" aria-pressed="false">Podle spojů</button>
+            </div>
+            <button type="button" class="prepinac-rozdil" id="ukaz-rozdil" aria-pressed="false" disabled>
+              <i class="ph-bold ph-square ikona-vypnuto" aria-hidden="true"></i><i class="ph-bold ph-check-square ikona-zapnuto" aria-hidden="true"></i>
+              Ukázat, kde se liší
+            </button>
+          </div>
+          <div class="mapa-ram">
+            <div id="mapa-spady" class="mapa" role="region" aria-label="Mapa spádových oblastí nemocnic v Karlovarském kraji" aria-describedby="spady-popis"></div>
+            <div id="mapa-spady-stav" class="mapa-stav" role="status">Načítám mapu…</div>
+          </div>
+          <div class="mapa-pod">
+            <p id="spady-popis" class="spady-popis" aria-live="polite"></p>
+            <p class="legenda-nadpis" id="legenda-spady-nadpis">Nemocnice</p>
+            <ul id="legenda-spady" class="legenda legenda-spady" aria-labelledby="legenda-spady-nadpis"></ul>
+          </div>
+        </div>
+
+        <div class="spady-bok">
+          <div class="spady-cisla" id="spady-cisla" aria-busy="true">
+            <div class="klicove"><div class="skeleton sk-cislo"></div><div class="skeleton sk-radek"></div></div>
+            <div class="klicove"><div class="skeleton sk-cislo"></div><div class="skeleton sk-radek"></div></div>
+          </div>
+          <div class="km-klame" id="km-klame" hidden></div>
+        </div>
+      </div>
+
+      <div id="spady-nemocnice"></div>
+    </div>
+  </section>
+
+  <!-- 5. Úřady -->
+  <section class="oddil" id="urady" aria-labelledby="urady-nadpis">
+    <div class="obal">
+      <div class="oddil-hlava">
+        <h2 id="urady-nadpis">Úřady</h2>
+        <p>Na úřad (občanský průkaz, pas, dávky) se jezdí do města, pod které obec patří, ne do nejbližšího. Počítáme proto cestu na ten vlastní.</p>
+      </div>
+      <div id="urady-obsah" aria-busy="true">
+        <div class="klicove"><div class="skeleton sk-cislo"></div><div class="skeleton sk-radek"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Kde chybí Senior Expres -->
+  <section class="oddil" id="senior-expres" aria-labelledby="se-nadpis">
+    <div class="obal">
+      <div class="oddil-hlava">
+        <h2 id="se-nadpis">Kde chybí Senior Expres</h2>
+        <p>Senior Expres je odvoz autem pro seniory, který provozuje obec. Kde nejede autobus, bývá jedinou cestou k lékaři.</p>
+      </div>
+      <div id="se-obsah" aria-busy="true">
+        <div class="klicove"><div class="skeleton sk-cislo"></div><div class="skeleton sk-radek"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Pohotovost v sobotu -->
+  <section class="oddil" id="pohotovost" aria-labelledby="poh-nadpis">
+    <div class="obal">
+      <div class="oddil-hlava">
+        <h2 id="poh-nadpis">Pohotovost v sobotu</h2>
+        <p>V sobotu má praktický lékař zavřeno. S horečkou nebo bolestí se jezdí na pohotovost do nemocnice. Spočítali jsme, kdo se tam v sobotu dopoledne dostane veřejnou dopravou a zpátky.</p>
+      </div>
+      <div id="poh-obsah" aria-busy="true">
+        <div class="klicove"><div class="skeleton sk-cislo"></div><div class="skeleton sk-radek"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Data a postup -->
+  <section class="oddil" id="data" aria-labelledby="data-nadpis">
+    <div class="obal">
+      <div class="oddil-hlava">
+        <h2 id="data-nadpis">Data a postup</h2>
+        <p>Stavíme jen na otevřených datech. Výsledky si můžete stáhnout a každý krok výpočtu zopakovat.</p>
+      </div>
+
+      <h3 id="stahnout-nadpis">Ke stažení</h3>
+      <ul class="stahnout" aria-labelledby="stahnout-nadpis">
+        <li><a href="/mapa/h3.csv"><i class="ph-bold ph-download-simple" aria-hidden="true"></i>Dostupnost po šestiúhelnících (CSV pro Excel)</a></li>
+        <li><a href="/mapa/spady" download="dojedeme-spadove-oblasti.geojson"><i class="ph-bold ph-download-simple" aria-hidden="true"></i>Spádové oblasti nemocnic (GeoJSON)</a></li>
+        <li><a href="/mapa/senior-expres.csv"><i class="ph-bold ph-download-simple" aria-hidden="true"></i>Kde chybí Senior Expres (CSV)</a></li>
+        <li><a href="/mapa/senior-expres-obce.csv"><i class="ph-bold ph-download-simple" aria-hidden="true"></i>Senior Expres ve všech obcích, ověřený seznam (CSV)</a></li>
+        <li><a href="/mapa/pohotovost.csv"><i class="ph-bold ph-download-simple" aria-hidden="true"></i>Pohotovost v sobotu (CSV)</a></li>
+      </ul>
+
+      <h3 id="zdroje-nadpis">Zdroje</h3>
+      <dl class="zdroje" aria-labelledby="zdroje-nadpis">
+        <div><dt>Otevřená data Karlovarského kraje (DATA ZÁPAD)</dt><dd>Zastávky, nemocnice, obce a jejich hranice, úřady obcí s rozšířenou působností.</dd><dd class="licence">Licence CC BY 4.0 a CC0</dd></div>
+        <div><dt>Jízdní řády CIS&nbsp;JŘ (Ministerstvo dopravy)</dt><dd>Všechny autobusy a vlaky v kraji, převedené do formátu GTFS, stav 8.&nbsp;10.&nbsp;2026.</dd><dd class="licence">Volné užití</dd></div>
+        <div><dt>Registr poskytovatelů zdravotních služeb (ÚZIS)</dt><dd>Ordinace lékařů v kraji, verze z 1.&nbsp;10.&nbsp;2026.</dd><dd class="licence">Licence CC BY 4.0</dd></div>
+        <div><dt>Lékaři, kteří přijímají (Karlovarský kraj)</dt><dd>Seznam volných kapacit z 11.&nbsp;4.&nbsp;2022 zveřejněný na webu kraje.</dd><dd class="licence">Licence neuvedena</dd></div>
+        <div><dt>Český statistický úřad</dt><dd>Obyvatelé a lidé nad 65 let v každé obci k&nbsp;31.&nbsp;12.&nbsp;2025.</dd><dd class="licence">Volné užití</dd></div>
+        <div><dt>RÚIAN (ČÚZK)</dt><dd>Adresy domů, stav k&nbsp;30.&nbsp;9.&nbsp;2026. Podle nich víme, kde lidé bydlí a jak daleko mají na zastávku.</dd><dd class="licence">Licence CC BY 4.0</dd></div>
+        <div><dt>Senior Expres v obcích</dt><dd>Všech 134 obcí jsme 10.&nbsp;10.&nbsp;2026 prošli na webech obcí, v pravidlech, zpravodajích a na plakátech. Senior Expres jezdí ve 47&nbsp;obcích. U každého údaje je zdroj a stav ověření.</dd><dd class="licence">Veřejné údaje z webů obcí</dd></div>
+        <div><dt>Podkladová mapa</dt><dd>© přispěvatelé OpenStreetMap.</dd><dd class="licence">Licence ODbL</dd></div>
+      </dl>
+
+      <details class="rozbalit" id="metoda">
+        <summary><i class="ph-bold ph-caret-right" aria-hidden="true"></i><span>Jak jsme počítali</span></summary>
+        <div class="rozbalit-obsah sloupec-textu">
+          <p>Pro každé obydlené místo v kraji (šestiúhelník o ploše asi 0,7&nbsp;km², podle adres domů z RÚIAN) jsme z jízdních řádů spočítali, jak dlouho je člověk mimo domov, když jede k lékaři, do nemocnice nebo na úřad: pěšky na zastávku (nejvýš 1&nbsp;km), spojem tam i s přestupy, 45 minut na místě a prvním spojem zpět. Spoje hledá náš vyhledávač (algoritmus Connection Scan) nad jízdními řády všech autobusů a vlaků v kraji.</p>
+          <p>Aby se obce daly porovnat stejným metrem, počítali jsme běžný pracovní den, úterý 13.&nbsp;10.&nbsp;2026, s odjezdem z domova mezi 6. a 9. hodinou. Mapu obcí můžete přepnout i na sobotu 17. a neděli 18.&nbsp;10.&nbsp;2026. O víkendu jezdí méně spojů, proto tam počítáme s odjezdem mezi 6. a 12. hodinou. Hledání spoje na webu, v aplikaci i v SMS počítá vždy s jízdními řády pro den a čas, který si vyberete.</p>
+          <p>Spádová oblast podle spojů je nemocnice, u které strávíte nejméně času mimo domov. Spádová oblast podle vzdálenosti je nejbližší nemocnice vzdušnou čarou. U úřadů počítáme cestu na úřad obce s rozšířenou působností, pod který obec patří.</p>
+          <p class="male">Omezení: nepočítáme se spoji na zavolání ani se Senior Expresem. Cestu pěšky na zastávku odhadujeme ze vzdušné čáry. Nemocnice nemají všechna oddělení stejná, takže pro konkrétní vyšetření může být spádová nemocnice jiná. Obyvatele rozdělujeme na adresy v obci rovnoměrně.</p>
+        </div>
+      </details>
+      <p class="manual">Celý postup je v datovém manuálu projektu.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="web-paticka">
+  <div class="obal">
+    <div>
+      <h2>Dojedeme</h2>
+      <p>K lékaři a zase domů. Spoje veřejné dopravy pro lidi bez auta v Karlovarském kraji.</p>
+    </div>
+    <div>
+      <h2>Stránky</h2>
+      <ul><li><a href="/aplikace">Najít spoj</a></li><li><a href="/pro-blizke">SMS služba pro blízké</a></li><li><a href="/pro-obce">Letáky pro obce</a></li><li><a href="/mapa">Data a mapy</a></li></ul>
+    </div>
+    <div>
+      <h2>Data</h2>
+      <p>Otevřená data Karlovarského kraje (DATA ZÁPAD), jízdní řády CIS JŘ, registr poskytovatelů zdravotních služeb (ÚZIS), ČSÚ, RÚIAN.</p>
+    </div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin="anonymous"></script>
+<script src="/static/js/dojedeme.js"></script>
+<script src="/static/js/mapa.js"></script>
+</body>
+</html>

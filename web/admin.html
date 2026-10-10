@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Administrace – Dojedeme</title>
+<meta name="description" content="Administrace Dojedeme pro Karlovarský kraj: mapa dostupnosti veřejnou dopravou, přehled obcí, letáky a provoz SMS služby.">
+<link rel="icon" href="/static/img/dojedeme-mark-light.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
+<meta name="theme-color" content="#14574A">
+<script src="/static/js/vzhled.js"></script>
+<link rel="stylesheet" href="/static/css/tokens.css">
+<link rel="stylesheet" href="/static/css/dojedeme.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="/static/css/admin.css">
+<!-- ikony: Phosphor (BRAND.md) – <i class="ph-bold ph-bus" aria-hidden="true"></i> -->
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css">
+</head>
+<body class="admin-stranka">
+<a class="preskocit" href="#obsah">Přeskočit na obsah</a>
+<header class="web-hlavicka">
+  <div class="obal">
+    <a class="znacka" href="/"><span class="tecka" aria-hidden="true"></span>Dojedeme</a>
+    <span class="admin-stitek">Administrace</span>
+    <nav class="web-nav" aria-label="Hlavní navigace">
+      <a href="/aplikace">Najít spoj</a>
+      <a href="/pro-blizke">SMS pro blízké</a>
+      <a href="/pro-obce">Letáky pro obce</a>
+      <a href="/mapa">Data a mapy</a>
+    </nav>
+  </div>
+</header>
+
+<!-- šrafování pro „bez spojení“ na mapě (barva z tokenu, funguje i v tmavém režimu) -->
+<svg class="vzory" aria-hidden="true" focusable="false" width="0" height="0">
+  <defs>
+    <pattern id="admin-srafa" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+      <rect width="8" height="8" style="fill: var(--color-map-none); fill-opacity: .22"/>
+      <line x1="2" y1="0" x2="2" y2="8" style="stroke: var(--color-map-none); stroke-width: 3"/>
+    </pattern>
+  </defs>
+</svg>
+
+<main id="obsah">
+  <div class="obal admin-uvod">
+    <div class="admin-uvod-text">
+      <h1 id="nadpis-stranky">Administrace</h1>
+      <p class="lead">Dostupnost lékařů a úřadů veřejnou dopravou v obcích Karlovarského kraje, letáky pro obce a provoz SMS služby.</p>
+      <nav class="admin-kotvy" aria-label="Části administrace">
+        <a href="#prehled">Přehled</a>
+        <a href="#mapa-sekce">Mapa</a>
+        <a href="#obce">Obce</a>
+        <a href="#export">Export</a>
+        <a href="#sms">SMS služba</a>
+      </nav>
+    </div>
+
+    <section class="prihlaseni" id="prihlaseni" aria-labelledby="prihlaseni-nadpis">
+      <h2 class="mensi-nadpis" id="prihlaseni-nadpis" tabindex="-1">Přístup správce</h2>
+      <form id="prihlaseni-form" novalidate>
+        <p class="male">Log SMS služby uvidíte po přihlášení. Mapa a obce jsou vidět i bez něj.</p>
+        <input type="text" name="username" autocomplete="username" value="spravce" hidden>
+        <label for="klic">Přístupový klíč správce</label>
+        <input id="klic" name="klic" type="password" autocomplete="current-password" spellcheck="false" aria-describedby="klic-napoveda">
+        <p id="klic-napoveda" class="napoveda-pole">Klíč zůstane uložený jen v tomto okně prohlížeče. Po jeho zavření se smaže.</p>
+        <div id="prihlaseni-chyba" role="alert"></div>
+        <button class="tlacitko" type="submit" id="prihlasit"><span>Přihlásit se</span></button>
+      </form>
+      <div id="prihlaseno" hidden>
+        <div class="blok uspech">
+          <i class="ph-bold ph-check-circle ikona" aria-hidden="true"></i>
+          <span><strong>Jste přihlášeni jako správce.</strong>Klíč platí do zavření tohoto okna.</span>
+        </div>
+        <div class="akce-radek">
+          <button class="tlacitko vedlejsi" type="button" id="odhlasit">Odhlásit</button>
+          <a class="textovy-odkaz" href="#sms">Přejít na SMS službu</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- PŘEHLED -->
+  <section class="obal sekce" id="prehled" aria-labelledby="prehled-nadpis">
+    <h2 id="prehled-nadpis">Přehled kraje</h2>
+    <div id="prehled-chyba"></div>
+    <dl class="cisla-radek" id="dlazdice" aria-busy="true">
+      <div class="cislo-polozka"><dt><span class="skeleton kostra-popis"></span></dt><dd class="hodnota"><span class="skeleton kostra-cislo"></span></dd></div>
+      <div class="cislo-polozka"><dt><span class="skeleton kostra-popis"></span></dt><dd class="hodnota"><span class="skeleton kostra-cislo"></span></dd></div>
+      <div class="cislo-polozka"><dt><span class="skeleton kostra-popis"></span></dt><dd class="hodnota"><span class="skeleton kostra-cislo"></span></dd></div>
+      <div class="cislo-polozka"><dt><span class="skeleton kostra-popis"></span></dt><dd class="hodnota"><span class="skeleton kostra-cislo"></span></dd></div>
+      <div class="cislo-polozka"><dt><span class="skeleton kostra-popis"></span></dt><dd class="hodnota"><span class="skeleton kostra-cislo"></span></dd></div>
+    </dl>
+    <div class="hodnoceni-blok">
+      <h3 class="mensi-nadpis">Obce podle hodnocení dostupnosti</h3>
+      <p class="male">Průměrná doba mimo domov při cestě k praktickému lékaři, zubaři a do nemocnice a zpět: dobrá do 2 h, střední 2–3 h, špatná 3–4 h, kritická 4 h a víc.</p>
+      <div id="hodnoceni-obsah"><div class="skeleton" style="height: 32px"></div></div>
+    </div>
+    <p class="zdroj">Zdroj: jízdní řády CIS JŘ, adresy RÚIAN, obyvatelé ČSÚ, lékaři NRPZS. Výpočet Dojedeme pro úterý 13. 10. 2026, odjezd z domova mezi 6:00 a 9:00, 45 min u lékaře.</p>
+  </section>
+
+  <!-- MAPA -->
+  <section class="obal sekce" id="mapa-sekce" aria-labelledby="mapa-nadpis">
+    <div class="sekce-hlava">
+      <h2 id="mapa-nadpis">Mapa dostupnosti</h2>
+      <p class="male">Každý šestiúhelník je obydlená plocha asi 0,74 km². Barva ukazuje, jak dlouho jsou lidé odtud mimo domov, když jedou veřejnou dopravou k nejbližšímu cíli podle spojení a zase zpátky (včetně 45 min na místě).</p>
+    </div>
+
+    <div class="mapa-ovladani">
+      <div>
+        <p class="ovladani-nadpis" id="metrika-nadpis">Cíl cesty</p>
+        <div class="segmenty" role="group" aria-labelledby="metrika-nadpis" id="metriky"></div>
+      </div>
+      <div class="prepinace">
+        <label class="zaskrtavatko"><input type="checkbox" id="prepinac-hranice"> Zobrazit hranice obcí</label>
+        <label class="zaskrtavatko"><input type="checkbox" id="prepinac-spatne"> Zvýraznit obce s hodnocením špatná a horší</label>
+      </div>
+    </div>
+
+    <div class="mapa-mrizka">
+      <div class="mapa-sloupec">
+        <div class="mapa-ram">
+          <div id="mapa" class="mapa" role="region" aria-label="Mapa dostupnosti veřejnou dopravou. Stejné údaje najdete v tabulce obcí pod mapou."></div>
+          <div class="mapa-stav" id="mapa-stav"><span class="mapa-nacitani">Načítám mapu…</span></div>
+        </div>
+        <div class="legenda-obal">
+          <p class="legenda-nadpis" id="legenda-nadpis">Doba mimo domov – Praktický lékař</p>
+          <ul class="legenda" id="legenda" aria-labelledby="legenda-nadpis"></ul>
+          <p class="male" id="median"></p>
+          <p class="male" id="spatne-seznam" hidden></p>
+        </div>
+      </div>
+
+      <section class="detail" id="detail" aria-labelledby="detail-titulek">
+        <h3 class="sr" id="detail-titulek">Detail obce</h3>
+        <label for="vyber-obce">Obec</label>
+        <select id="vyber-obce"><option value="">Vyberte obec…</option></select>
+        <div id="detail-obsah">
+          <p class="detail-prazdny">Vyberte obec v seznamu, klikněte na mapu nebo na řádek v tabulce obcí. Ukážeme souhrn, leták a lékaře v dosahu.</p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- OBCE -->
+  <section class="obal sekce" id="obce" aria-labelledby="obce-nadpis">
+    <div class="sekce-hlava">
+      <h2 id="obce-nadpis">Obce kraje</h2>
+      <p class="male">Doba mimo domov se počítá z hlavní zastávky obce: od odjezdu po návrat, včetně 45 min u lékaře a čekání na spoj zpět. Výchozí řazení: nejhorší dostupnost nahoře, obce bez spojení úplně první.</p>
+    </div>
+    <div class="filtry">
+      <div class="filtr">
+        <label for="filtr-orp">Obec s rozšířenou působností (ORP)</label>
+        <select id="filtr-orp"><option value="">Všechny ORP</option></select>
+      </div>
+      <div class="filtr">
+        <label for="filtr-text">Hledat obec</label>
+        <input id="filtr-text" type="search" autocomplete="off" spellcheck="false" placeholder="např. Krásný Les">
+      </div>
+      <p class="filtr-pocet" id="pocet-obci" aria-live="polite"></p>
+    </div>
+    <div id="obce-chyba"></div>
+    <div class="tabulka-obal tabulka-obce" role="region" aria-labelledby="obce-popis" tabindex="0">
+      <table class="tabulka" id="tabulka-obci">
+        <caption id="obce-popis" class="sr">Obce Karlovarského kraje a jejich dostupnost veřejnou dopravou. Řazení změníte tlačítky v záhlaví sloupců, detail obce otevřete tlačítkem s názvem obce.</caption>
+        <thead>
+          <tr>
+            <th scope="col" data-sloupec="obec"><button type="button">Obec</button></th>
+            <th scope="col" data-sloupec="orp"><button type="button">ORP</button></th>
+            <th scope="col" class="num" data-sloupec="obyvatel_65plus"><button type="button">Senioři 65+</button></th>
+            <th scope="col" class="num" data-sloupec="podil_65plus"><button type="button">Podíl 65+</button></th>
+            <th scope="col" class="num" data-sloupec="odjezdu_za_den"><button type="button">Odjezdů za den</button></th>
+            <th scope="col" class="num" data-sloupec="mimo_domov_praktik_min"><button type="button">Praktik<span class="sr"> – doba mimo domov</span></button></th>
+            <th scope="col" class="num" data-sloupec="mimo_domov_zubar_min"><button type="button">Zubař<span class="sr"> – doba mimo domov</span></button></th>
+            <th scope="col" class="num" data-sloupec="mimo_domov_nemocnice_min"><button type="button">Nemocnice<span class="sr"> – doba mimo domov</span></button></th>
+            <th scope="col" class="num" data-sloupec="prumer_mimo_domov_h"><button type="button">Průměr<span class="sr"> doby mimo domov</span></button></th>
+            <th scope="col" data-sloupec="hodnoceni"><button type="button">Hodnocení</button></th>
+            <th scope="col" data-sloupec="senior_expres"><button type="button">Senior Expres</button></th>
+          </tr>
+        </thead>
+        <tbody id="obce-telo">
+          <tr><td colspan="11"><div class="skeleton" style="height: 28px"></div></td></tr>
+          <tr><td colspan="11"><div class="skeleton" style="height: 28px"></div></td></tr>
+          <tr><td colspan="11"><div class="skeleton" style="height: 28px"></div></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- EXPORT -->
+  <section class="obal sekce" id="export" aria-labelledby="export-nadpis">
+    <h2 id="export-nadpis">Export pro kraj</h2>
+    <div class="export-mrizka">
+      <div class="export-blok">
+        <h3 class="mensi-nadpis">Tabulka obcí</h3>
+        <p class="male">Soubor CSV pro Excel (oddělovač středník, kódování UTF-8). Obsahuje obce, které jsou právě v tabulce, ve stejném pořadí. Doby jsou v minutách, průměr v hodinách. Prázdná doba znamená bez spojení.</p>
+        <div class="akce-radek">
+          <button class="tlacitko vedlejsi" type="button" id="stahnout-csv" disabled><i class="ph-bold ph-download-simple" aria-hidden="true"></i><span>Stáhnout tabulku (CSV)</span></button>
+          <span class="male" id="csv-pocet"></span>
+        </div>
+      </div>
+      <div class="export-blok">
+        <h3 class="mensi-nadpis">Letáky pro obce</h3>
+        <p class="male">Leták A4 na nástěnku pro každou obec: lékaři v dosahu, kteří přijímají nové pacienty, spoje a Senior Expres. Všechny letáky stáhnete najednou v jednom souboru ZIP.</p>
+        <div class="akce-radek">
+          <a class="tlacitko" id="letaky-zip" href="/letaky/vsechny.zip" download="dojedeme-letaky-obci.zip"><i class="ph-bold ph-file-zip" aria-hidden="true"></i><span>Stáhnout všechny letáky (ZIP)</span></a>
+        </div>
+        <div id="letaky-zip-stav" class="export-stav" role="status" aria-live="polite"></div>
+        <details class="letaky" id="letaky">
+          <summary><i class="ph-bold ph-caret-right" aria-hidden="true"></i><span id="letaky-souhrn">Letáky jednotlivých obcí</span></summary>
+          <div id="letaky-seznam" class="letaky-seznam"></div>
+        </details>
+      </div>
+      <div class="export-blok">
+        <h3 class="mensi-nadpis">Mapa dostupnosti (hexagony)</h3>
+        <p class="male">Jeden řádek je jeden šestiúhelník asi 0,74 km², kde lidé bydlí: počet obyvatel a seniorů 65+ (odhad), doba mimo domov k jednotlivým cílům a doba chůze k zastávce.</p>
+        <div class="akce-radek">
+          <a class="tlacitko vedlejsi" href="/mapa/h3.csv" download="dojedeme-hexagony.csv"><i class="ph-bold ph-download-simple" aria-hidden="true"></i><span>Stáhnout hexagony (CSV)</span></a>
+          <a class="tlacitko vedlejsi" href="/mapa/h3" download="dojedeme-hexagony.geojson"><i class="ph-bold ph-download-simple" aria-hidden="true"></i><span>Stáhnout hexagony (GeoJSON)</span></a>
+        </div>
+        <p class="zdroj"><span id="hexagonu-pocet">Asi 1 800</span> řádků. CSV má oddělovač čárku a desetinnou tečku (pro GIS a datové nástroje, do Excelu přes Data → Z textu/CSV). GeoJSON má souřadnice WGS84. Prázdná doba znamená bez spojení, chůze 99 min znamená, že do 1 km není zastávka se spojem.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SMS -->
+  <section class="obal sekce" id="sms" aria-labelledby="sms-nadpis">
+    <h2 id="sms-nadpis">SMS služba</h2>
+    <div id="sms-zamceno" class="blok info">
+      <i class="ph-bold ph-lock-key ikona" aria-hidden="true"></i>
+      <span><strong>Jen pro správce.</strong>Log přijatých a odeslaných SMS uvidíte po přihlášení klíčem správce. <a href="#klic" id="odkaz-prihlaseni">Přihlásit se</a></span>
+    </div>
+    <div id="sms-obsah" hidden>
+      <dl class="cisla-radek mensi" id="sms-info"></dl>
+      <div class="sms-ovladani">
+        <button class="tlacitko vedlejsi" type="button" id="sms-obnovit"><i class="ph-bold ph-arrow-clockwise" aria-hidden="true"></i><span>Obnovit log</span></button>
+        <label class="zaskrtavatko"><input type="checkbox" id="sms-auto" checked> Obnovovat automaticky každých 30 s</label>
+        <p class="male" id="sms-stav"></p>
+      </div>
+      <div id="sms-chyba"></div>
+      <div class="tabulka-obal" role="region" aria-labelledby="sms-popis" tabindex="0">
+        <table class="tabulka sms-tabulka">
+          <caption id="sms-popis" class="tabulka-popis">Posledních 50 SMS, nejnovější nahoře</caption>
+          <thead>
+            <tr><th scope="col">Čas</th><th scope="col">Směr</th><th scope="col">Telefon</th><th scope="col">Text</th><th scope="col">Brána</th><th scope="col">Stav</th></tr>
+          </thead>
+          <tbody id="sms-telo"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <p class="sr" id="hlaseni" role="status" aria-live="polite"></p>
+</main>
+
+<footer class="web-paticka">
+  <div class="obal">
+    <div>
+      <h2>Dojedeme</h2>
+      <p>K lékaři a zase domů. Spoje veřejné dopravy pro lidi bez auta v Karlovarském kraji.</p>
+    </div>
+    <div>
+      <h2>Stránky</h2>
+      <ul><li><a href="/aplikace">Najít spoj</a></li><li><a href="/pro-blizke">SMS služba pro blízké</a></li><li><a href="/pro-obce">Letáky pro obce</a></li><li><a href="/mapa">Data a mapy</a></li></ul>
+    </div>
+    <div>
+      <h2>Data</h2>
+      <p>Otevřená data Karlovarského kraje (DATA ZÁPAD), jízdní řády CIS JŘ, registr poskytovatelů zdravotních služeb (ÚZIS), ČSÚ, RÚIAN.</p>
+    </div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="/static/js/dojedeme.js"></script>
+<script src="/static/js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+poradi,priorita,obec,kod_obce,orp,obyvatel,obyvatel_65plus,podil_65plus,hodnoceni,prumer_mimo_domov_h,mimo_domov_praktik_min,mimo_domov_nemocnice_min,odjezdu_za_den,ma_senior_expres,senior_expres_stav,senioru_nad_3h_h3,poznamka
+1,1,Smolné Pece,538027,Karlovy Vary,242,35,14.46,bez spojení,,,,0,ne,,11,Obec nemá v jízdních řádech žádnou zastávku.
+2,1,Krajková,560456,Sokolov,920,149,16.2,kritická,4.33,260,260,24,ne,,148,
+3,1,Krásný Les,578045,Ostrov,361,57,15.79,kritická,4.92,295,295,13,ne,,56,
+4,1,Stráž nad Ohří,555584,Ostrov,565,145,25.66,špatná,3.12,228,229,22,ne,,147,
+5,1,Pšov,555525,Karlovy Vary,595,135,22.69,špatná,3.48,216,325,18,ne,,137,
+6,1,Chyše,555207,Karlovy Vary,586,135,23.04,špatná,3.23,249,249,27,ne,,125,"Kraj dotoval vůz v roce 2025, provoz služby jsme na webu obce nenašli. Ověřit."
+7,1,Vojkovice,555738,Ostrov,640,117,18.28,špatná,3.25,195,195,21,ne,,56,
+8,1,Otročín,555444,Karlovy Vary,438,111,25.34,špatná,3.27,92,248,10,ne,,110,
+9,1,Nový Kostel,554707,Cheb,530,99,18.68,špatná,3.72,206,257,33,ne,,101,
+10,1,Vysoká Pec,578029,Karlovy Vary,340,88,25.88,špatná,3.14,155,255,8,ne,,89,
+11,1,Šindelová,560677,Kraslice,296,75,25.34,špatná,3.1,186,186,32,ne,,73,
+12,1,Trstěnice,554855,Mariánské Lázně,407,74,18.18,špatná,3.0,180,180,16,ne,,73,"Sousedí s obcí Mariánské Lázně, jejíž Senior Expres podle pravidel bere i přilehlé obce. Ověřit, zda i tuto obec."
+13,1,Horní Blatná,555169,Ostrov,350,70,20.0,špatná,3.13,163,238,16,ne,,70,
+14,1,Potůčky,555479,Ostrov,405,69,17.04,špatná,3.67,120,250,16,ne,,67,
+15,1,Pomezí nad Ohří,538868,Cheb,378,40,10.58,špatná,3.0,180,180,16,ne,,29,
+16,1,Chodov (u Bečova),578011,Karlovy Vary,129,28,21.71,špatná,3.12,76,250,6,ne,,30,
+17,1,Doupovské Hradiště,500127,Ostrov,172,28,16.28,špatná,3.83,230,230,6,ne,,26,
+18,1,Prameny,539538,Mariánské Lázně,89,25,28.09,špatná,3.67,220,220,8,ne,,26,"Sousedí s obcí Mariánské Lázně, jejíž Senior Expres podle pravidel bere i přilehlé obce. Ověřit, zda i tuto obec."
+19,1,Přebuz,560596,Kraslice,67,17,25.37,špatná,3.17,190,190,7,ne,,18,
+20,2,Bukovany,560316,Sokolov,1476,290,19.65,střední,2.0,120,120,49,ano,ČÁSTEČNĚ,2,"Senior Expres je, ale ověřený jen částečně (pravidla, 2026-05-13)."
+21,2,Dasnice,560332,Sokolov,249,45,18.07,střední,2.27,120,168,15,ano,ČÁSTEČNĚ,2,"Senior Expres je, ale ověřený jen částečně (pravidla, 2023-11)."
+22,2,Podhradí,538817,Aš,219,44,20.09,střední,2.05,81,207,35,ano,ČÁSTEČNĚ,38,"Senior Expres je, ale ověřený jen částečně (web obce)."
+23,3,Abertamy,554979,Ostrov,817,188,23.01,střední,2.73,83,204,21,ne,,97,"Kraj dotoval vůz v roce 2025, provoz služby jsme na webu obce nenašli. Ověřit. Obec má jako celek střední dostupnost, ale 97 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+24,3,Pernink,555452,Ostrov,581,155,26.68,střední,2.48,51,195,29,ne,,12,
+25,3,Lipová,554626,Cheb,752,153,20.35,střední,2.69,145,170,15,ne,,36,"Kraj dotoval vůz v roce 2024, provoz služby jsme na webu obce nenašli. Ověřit."
+26,3,Štědrá,555622,Karlovy Vary,543,130,23.94,střední,2.97,81,267,16,ne,,81,"Obec má jako celek střední dostupnost, ale 81 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+27,3,Útvina,555681,Karlovy Vary,590,120,20.34,střední,2.2,73,172,52,ne,,24,
+28,3,Stanovice,555550,Karlovy Vary,652,116,17.79,střední,2.33,170,170,24,ne,,13,
+29,3,Krásná,538795,Aš,632,115,18.2,střední,2.01,81,199,60,ne,,83,"Kraj dotoval vůz v roce 2024, provoz služby jsme na webu obce nenašli. Ověřit. Sousedí s obcí Aš, jejíž Senior Expres podle pravidel bere i spádových obcích. Ověřit, zda i tuto obec. Obec má jako celek střední dostupnost, ale 83 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+30,3,Velichov,555703,Ostrov,499,103,20.64,střední,2.3,138,138,33,ne,,0,
+31,3,Nové Hamry,506494,Karlovy Vary,354,102,28.81,střední,2.07,102,169,12,ne,,27,
+32,3,Třebeň,539023,Cheb,484,92,19.01,střední,2.21,111,175,19,ne,,22,
+33,3,Kaceřov,560421,Sokolov,404,84,20.79,střední,2.25,100,205,19,ne,,0,
+34,3,Mnichov,554677,Mariánské Lázně,409,73,17.85,střední,2.53,166,145,14,ne,,2,"Sousedí s obcí Mariánské Lázně, jejíž Senior Expres podle pravidel bere i přilehlé obce. Ověřit, zda i tuto obec."
+35,3,Černava,538019,Karlovy Vary,308,69,22.4,střední,2.92,158,210,20,ne,,69,"Kraj dotoval komunitní vozidlo v roce 2026, provoz služby jsme na webu obce nenašli. Ověřit. Obec má jako celek střední dostupnost, ale 69 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+36,3,Milíkov,538906,Cheb,293,60,20.48,střední,2.02,121,121,18,ne,,57,"Obec má jako celek střední dostupnost, ale 57 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+37,3,Nebanice,554693,Cheb,320,60,18.75,střední,2.56,132,196,15,ne,,2,
+38,3,Okrouhlá,538922,Cheb,266,53,19.92,střední,2.15,129,129,21,ne,,12,
+39,3,Odrava,539554,Cheb,238,47,19.75,střední,2.27,136,136,31,ne,,26,
+40,3,Boží Dar,506486,Ostrov,250,42,16.8,střední,2.62,154,163,22,ne,,14,
+41,3,Milhostov,554651,Cheb,311,41,13.18,střední,2.62,136,200,15,ne,,21,
+42,3,Bražec,500101,Karlovy Vary,264,41,15.53,střední,2.18,80,233,18,ne,,2,
+43,3,Nová Ves,560561,Sokolov,229,39,17.03,střední,2.48,137,173,18,ne,,39,
+44,3,Tuřany,539619,Cheb,137,35,25.55,střední,2.28,137,137,20,ne,,31,
+45,3,Tatrovice,538663,Sokolov,166,33,19.88,střední,2.23,135,169,24,ne,,4,
+46,3,Vrbice,566675,Karlovy Vary,202,30,14.85,střední,2.34,99,223,37,ne,,21,"Kraj dotoval komunitní vozidlo v roce 2026, provoz služby jsme na webu obce nenašli. Ověřit."
+47,3,Teplička,537845,Karlovy Vary,103,19,18.45,střední,2.0,112,132,28,ne,,0,
+48,3,Františkovy Lázně,554529,Cheb,5648,1266,22.42,dobrá,1.24,57,113,218,ne,,167,"Obec má jako celek dobrou dostupnost, ale 167 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+49,3,Kynšperk nad Ohří,560499,Sokolov,4537,1034,22.79,dobrá,1.42,57,135,55,ne,,122,"Obec má jako celek dobrou dostupnost, ale 122 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+50,3,Teplá,555631,Mariánské Lázně,2909,656,22.55,dobrá,1.72,58,182,32,ne,,235,"Obec má jako celek dobrou dostupnost, ale 235 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+51,3,Sadov,555533,Karlovy Vary,1298,259,19.95,dobrá,1.28,71,88,85,ne,,124,"Obec má jako celek dobrou dostupnost, ale 124 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+52,3,Dolní Žandov,554502,Cheb,1186,235,19.81,dobrá,1.27,61,107,29,ne,,76,"Sousedí s obcí Mariánské Lázně, jejíž Senior Expres podle pravidel bere i přilehlé obce. Ověřit, zda i tuto obec. Obec má jako celek dobrou dostupnost, ale 76 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+53,3,Jindřichovice,560413,Kraslice,543,126,23.2,dobrá,1.66,51,138,32,ne,,54,"Senior Expres pozastaven od 2/2024. Obec má jako celek dobrou dostupnost, ale 54 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+54,4,Luby,554634,Cheb,2147,531,24.73,špatná,3.72,206,258,35,ano,OVĚŘENO,534,
+55,4,Valeč,555690,Karlovy Vary,320,93,29.06,špatná,3.63,218,218,16,ano,OVĚŘENO,97,
+56,4,Rovná,560618,Sokolov,338,62,18.34,špatná,3.23,194,194,12,ano,OVĚŘENO,16,
+57,4,Čichalov,506621,Karlovy Vary,158,25,15.82,špatná,3.04,146,255,9,ano,OVĚŘENO,25,
+58,4,Toužim,555657,Karlovy Vary,3458,821,23.74,střední,2.06,60,180,73,ano,OVĚŘENO,211,"Obec má jako celek střední dostupnost, ale 211 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+59,4,Rotava,560600,Kraslice,2753,563,20.45,střední,2.01,76,186,66,ano,OVĚŘENO,58,"Obec má jako celek střední dostupnost, ale 58 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+60,4,Hranice,554553,Aš,2070,420,20.29,střední,2.08,81,212,37,ano,OVĚŘENO,124,"Obec má jako celek střední dostupnost, ale 124 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+61,4,Kolová,555258,Karlovy Vary,952,185,19.43,střední,2.39,180,125,19,ano,OVĚŘENO,5,
+62,4,Stříbrná,560651,Kraslice,449,119,26.5,střední,2.42,89,258,15,ano,OVĚŘENO,13,
+63,4,Bublava,560308,Kraslice,409,105,25.67,střední,2.71,120,248,12,ano,OVĚŘENO,37,
+64,4,Chlum Svaté Maří,560375,Sokolov,314,62,19.75,střední,2.2,132,132,39,ano,OVĚŘENO,7,
+65,4,Hradiště,555177,,0,0,,střední,2.57,96,270,8,ne,,0,Vojenský újezd bez obyvatel 65+.
+66,4,Karlovy Vary,554961,Karlovy Vary,48788,12240,25.09,dobrá,1.0,59,61,701,ano,OVĚŘENO,14,
+67,4,Cheb,554481,Cheb,32892,6522,19.83,dobrá,1.11,59,81,289,ano,ČÁSTEČNĚ,551,"Senior Expres je, ale ověřený jen částečně (pravidla, 2022-11-16). Obec má jako celek dobrou dostupnost, ale 551 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+68,4,Sokolov,560286,Sokolov,21908,4815,21.98,dobrá,0.94,53,58,297,ano,OVĚŘENO,97,"Senior Expres jezdí jen po obci. Obec má jako celek dobrou dostupnost, ale 97 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+69,4,Ostrov,555428,Ostrov,15615,3662,23.45,dobrá,1.11,53,98,201,ano,OVĚŘENO,262,"Obec má jako celek dobrou dostupnost, ale 262 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+70,4,Mariánské Lázně,554642,Mariánské Lázně,13921,3515,25.25,dobrá,0.88,49,61,118,ano,OVĚŘENO,150,"Senior Expres jezdí jen po obci. Obec má jako celek dobrou dostupnost, ale 150 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+71,4,Chodov (u Sokolova),560383,Sokolov,12451,2769,22.24,dobrá,1.24,51,122,261,ano,OVĚŘENO,9,
+72,4,Aš,554499,Aš,12683,2474,19.51,dobrá,1.65,57,189,102,ano,OVĚŘENO,249,"Obec má jako celek dobrou dostupnost, ale 249 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+73,4,Nejdek,555380,Karlovy Vary,7647,1663,21.75,dobrá,1.43,47,150,61,ano,OVĚŘENO,484,"Obec má jako celek dobrou dostupnost, ale 484 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+74,4,Kraslice,560472,Kraslice,6369,1546,24.27,dobrá,1.8,57,210,79,ano,OVĚŘENO,283,"Obec má jako celek dobrou dostupnost, ale 283 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+75,4,Horní Slavkov,560367,Sokolov,5071,1103,21.75,dobrá,1.42,65,126,86,ano,OVĚŘENO,35,
+76,4,Nová Role,555398,Karlovy Vary,4298,982,22.85,dobrá,1.44,65,130,94,ano,OVĚŘENO,62,"Senior Expres jezdí jen po obci. Obec má jako celek dobrou dostupnost, ale 62 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+77,4,Habartov,560359,Sokolov,4614,932,20.2,dobrá,1.73,61,125,55,ano,OVĚŘENO,22,
+78,4,Březová (u Sokolova),560294,Sokolov,2640,553,20.95,dobrá,1.54,82,113,50,ano,OVĚŘENO,155,"Obec má jako celek dobrou dostupnost, ale 155 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+79,4,Loket,560537,Sokolov,2990,546,18.26,dobrá,1.22,66,88,73,ano,OVĚŘENO,44,
+80,4,Žlutice,555762,Karlovy Vary,2153,521,24.2,dobrá,1.76,110,152,57,ano,OVĚŘENO,85,"Obec má jako celek dobrou dostupnost, ale 85 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+81,4,Velká Hleďsebe,539279,Mariánské Lázně,2483,498,20.06,dobrá,1.16,59,90,88,ano,OVĚŘENO,9,
+82,4,Jáchymov,555215,Ostrov,2248,496,22.06,dobrá,1.46,55,131,70,ano,OVĚŘENO,100,"Obec má jako celek dobrou dostupnost, ale 100 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+83,4,Nové Sedlo,560570,Sokolov,2527,467,18.48,dobrá,1.64,86,124,66,ano,OVĚŘENO,0,
+84,4,Hroznětín,555185,Ostrov,2179,435,19.96,dobrá,1.34,57,127,56,ano,OVĚŘENO,1,
+85,4,Dalovice,537918,Karlovy Vary,1992,408,20.48,dobrá,1.01,55,66,80,ne,,0,
+86,4,Plesná,554740,Cheb,1890,398,21.06,dobrá,1.89,47,191,43,ne,,6,
+87,4,Bochov,555029,Karlovy Vary,1876,391,20.84,dobrá,1.42,59,137,105,ano,OVĚŘENO,127,"Obec má jako celek dobrou dostupnost, ale 127 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+88,4,Skalná,554812,Cheb,1875,379,20.21,dobrá,1.59,71,155,41,ne,,32,
+89,4,Lázně Kynžvart,554600,Mariánské Lázně,1403,368,26.23,dobrá,1.65,79,109,33,ne,,17,"Sousedí s obcí Mariánské Lázně, jejíž Senior Expres podle pravidel bere i přilehlé obce. Ověřit, zda i tuto obec."
+90,4,Oloví,560588,Kraslice,1618,348,21.51,dobrá,1.83,69,160,18,ano,OVĚŘENO,136,"Obec má jako celek dobrou dostupnost, ale 136 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+91,4,Hazlov,554545,Aš,1507,312,20.7,dobrá,1.32,59,119,48,ne,,20,"Sousedí s obcí Aš, jejíž Senior Expres podle pravidel bere i spádových obcích. Ověřit, zda i tuto obec."
+92,4,Svatava,538434,Sokolov,1593,305,19.15,dobrá,1.28,75,80,146,ano,OVĚŘENO,1,
+93,4,Dolní Rychnov,538591,Sokolov,1280,237,18.52,dobrá,1.32,59,119,35,ano,OVĚŘENO,2,
+94,4,Lomnice,560545,Sokolov,1344,229,17.04,dobrá,1.43,57,100,47,ne,,0,
+95,4,Bečov nad Teplou,554995,Karlovy Vary,911,225,24.7,dobrá,1.99,117,138,50,ano,OVĚŘENO,9,Senior Expres jezdí jen po obci.
+96,4,Drmoul,554511,Mariánské Lázně,1046,214,20.46,dobrá,1.32,70,84,33,ano,OVĚŘENO,0,
+97,4,Merklín,555363,Ostrov,888,211,23.76,dobrá,1.59,55,153,34,ne,,28,
+98,4,Březová (u KV),537870,Karlovy Vary,714,204,28.57,dobrá,1.26,71,91,53,ano,OVĚŘENO,1,
+99,4,Tři Sekery,554880,Mariánské Lázně,1072,200,18.66,dobrá,1.65,61,153,21,ano,OVĚŘENO,53,"Obec má jako celek dobrou dostupnost, ale 53 seniorů bydlí v částech s dobou mimo domov přes 3 h nebo bez spojení."
+100,4,Jenišov,537926,Karlovy Vary,1116,191,17.11,dobrá,1.59,89,109,59,ne,,0,
+101,4,Otovice,537969,Karlovy Vary,1061,184,17.34,dobrá,1.19,59,88,50,ne,,2,
+102,4,Staré Sedlo,560642,Sokolov,785,184,23.44,dobrá,1.28,70,86,72,ne,,2,
+103,4,Kyselka,555347,Karlovy Vary,820,163,19.88,dobrá,1.33,58,124,30,ne,,0,
+104,4,Citice,560324,Sokolov,838,158,18.85,dobrá,1.26,61,92,105,ne,,0,
+105,4,Vintířov,560685,Sokolov,1245,153,12.29,dobrá,1.58,51,160,66,ne,,4,
+106,4,Libá,554618,Cheb,817,149,18.24,dobrá,1.79,62,145,18,ne,,0,
+107,4,Krásno,538337,Sokolov,712,131,18.4,dobrá,1.88,87,164,39,ne,,9,
+108,4,Královské Poříčí,560464,Sokolov,768,131,17.06,dobrá,1.36,65,90,31,ano,OVĚŘENO,0,
+109,4,Pila,556947,Karlovy Vary,573,118,20.59,dobrá,1.56,51,115,22,ne,,0,
+110,4,Šemnice,555614,Karlovy Vary,659,117,17.75,dobrá,1.31,63,109,28,ne,,13,
+111,4,Libavské Údolí,560502,Sokolov,513,114,22.22,dobrá,1.41,49,130,37,ne,,20,
+112,4,Hájek,538159,Ostrov,643,113,17.57,dobrá,1.27,67,94,67,ne,,7,
+113,4,Božičany,555045,Karlovy Vary,589,113,19.19,dobrá,1.53,63,149,63,ne,,0,
+114,4,Stará Voda,539112,Mariánské Lázně,494,104,21.05,dobrá,1.24,64,95,34,ne,,23,
+115,4,Valy,539481,Mariánské Lázně,468,102,21.79,dobrá,1.51,68,136,27,ano,OVĚŘENO,0,
+116,4,Stružná,555592,Karlovy Vary,633,97,15.32,dobrá,1.41,62,130,61,ne,,18,
+117,4,Andělská Hora,538001,Karlovy Vary,408,95,23.28,dobrá,1.32,77,83,46,ano,ČÁSTEČNĚ,0,"Senior Expres je, ale ověřený jen částečně (web obce, 2025-02-26)."
+118,4,Děpoltovice,538116,Karlovy Vary,466,94,20.17,dobrá,1.59,79,128,60,ne,,16,
+119,4,Verušičky,555711,Karlovy Vary,456,87,19.08,dobrá,1.99,91,176,40,ne,,48,"Kraj dotoval vůz v roce 2023, provoz služby jsme na webu obce nenašli. Ověřit."
+120,4,Zádub-Závišín,539431,Mariánské Lázně,430,82,19.07,dobrá,1.56,73,135,21,ano,OVĚŘENO,0,
+121,4,Krásné Údolí,555304,Karlovy Vary,389,79,20.31,dobrá,1.97,79,154,48,ne,,0,
+122,4,Šabina,538396,Sokolov,394,68,17.26,dobrá,1.48,64,122,35,ne,,1,"Kraj dotoval komunitní vozidlo v roce 2026, provoz služby jsme na webu obce nenašli. Ověřit."
+123,4,Hory,551651,Karlovy Vary,502,66,13.15,dobrá,1.62,93,105,59,ne,,6,
+124,4,Josefov,511587,Sokolov,442,65,14.71,dobrá,1.68,70,116,46,ano,OVĚŘENO,43,
+125,4,Mírová,537934,Karlovy Vary,382,60,15.71,dobrá,1.36,65,115,137,ne,,0,
+126,4,Křižovatka,554596,Cheb,261,59,22.61,dobrá,1.85,73,172,45,ne,,10,
+127,4,Dolní Nivy,560341,Sokolov,368,48,13.04,dobrá,1.59,77,117,40,ne,,27,
+128,4,Těšovice,579360,Sokolov,265,43,16.23,dobrá,1.11,59,81,26,ano,ČÁSTEČNĚ,0,"Senior Expres je, ale ověřený jen částečně (uredni deska, 2025-12-15)."
+129,4,Vojtanov,539074,Cheb,248,41,16.53,dobrá,1.64,77,141,33,ne,,14,
+130,4,Vřesová,560707,Sokolov,430,34,7.91,dobrá,1.55,69,141,97,ne,,0,Senior Expres pozastaven od 8/2026.
+131,4,Ovesné Kladruby,539473,Mariánské Lázně,149,33,22.15,dobrá,1.55,93,93,9,ne,,3,
+132,4,Velký Luh,578002,Cheb,180,33,18.33,dobrá,1.88,69,178,42,ne,,1,
+133,4,Poustka,577979,Cheb,170,29,17.06,dobrá,1.8,73,178,34,ne,,29,"Kraj dotoval vůz v roce 2025, provoz služby jsme na webu obce nenašli. Ověřit."
+134,4,Vlkovice,539376,Mariánské Lázně,120,24,20.0,dobrá,1.35,81,81,18,ne,,6,"Sousedí s obcí Mariánské Lázně, jejíž Senior Expres podle pravidel bere i přilehlé obce. Ověřit, zda i tuto obec."
