@@ -1,0 +1,15 @@
+# Klíče a hesla
+.env
+.env.*
+!.env.example
+
+# Závislosti a build
+node_modules/
+__pycache__/
+.venv/
+dist/
+build/
+
+# Systémové soubory
+.DS_Store
+Thumbs.db
